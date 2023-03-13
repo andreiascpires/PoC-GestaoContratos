@@ -12,7 +12,7 @@
         Fill: =RGBA(230, 230, 230, 1)
         Height: =406
         Items: |
-            =SortByColumns(Search('POC_GESTAOCONTRATOS.contratos_clientes',Text_busca_4.Text, "nome_cliente"),"nome_cliente",SortOrder.Ascending)
+            =SortByColumns(Search("POC_GESTAOCONTRATOS.cliente","12","nome_empresa"))
         Layout: =Layout.Vertical
         ShowScrollbar: =false
         TemplatePadding: =0
