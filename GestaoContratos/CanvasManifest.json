@@ -120,6 +120,7 @@
   "ScreenOrder": [
     "tela_home",
     "form_edita_cliente",
+    "tela_edita_contrato_gabriel",
     "tela_cliente",
     "tela_contratos",
     "tela_contratos_Daniel",
