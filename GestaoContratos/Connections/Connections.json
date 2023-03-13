@@ -1,0 +1,33 @@
+{
+  "a5003758-43b4-4648-9544-ef35d7890bb6": {
+    "connectionParameters": {
+      "database": "db-fab-projetos",
+      "server": "srv-fab-projetos.database.windows.net",
+      "sku": "Enterprise"
+    },
+    "connectionRef": {
+      "apiTier": "Premium",
+      "displayName": "SQL Server",
+      "iconUri": "https://connectoricons-prod.azureedge.net/releases/v1.0.1617/1.0.1617.3171/sql/icon.png",
+      "id": "/providers/microsoft.powerapps/apis/shared_sql",
+      "parameterHints": {},
+      "parameterHintsV2": {},
+      "sharedConnectionId": "/providers/microsoft.powerapps/apis/shared_sql/connections/4a0fbb15-4134-4889-a28f-9e07ff427011"
+    },
+    "datasets": {
+      "srv-fab-projetos.database.windows.net,db-fab-projetos": {
+        "dataSources": {
+          "POC_GESTAOCONTRATOS.contratos_clientes": {
+            "tableName": "[POC_GESTAOCONTRATOS].[contratos_clientes]"
+          }
+        }
+      }
+    },
+    "dataSources": [
+      "POC_GESTAOCONTRATOS.contratos_clientes"
+    ],
+    "dependencies": {},
+    "dependents": [],
+    "id": "a5003758-43b4-4648-9544-ef35d7890bb6"
+  }
+}
