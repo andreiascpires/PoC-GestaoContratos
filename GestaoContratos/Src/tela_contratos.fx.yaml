@@ -125,8 +125,7 @@
             FocusedBorderThickness: =0
             Height: =40
             Icon: =Icon.View
-            OnSelect: |-
-                =UpdateContext({var_cliente_excluir: true})
+            OnSelect: =
             Width: =40
             X: =840
             Y: =29
