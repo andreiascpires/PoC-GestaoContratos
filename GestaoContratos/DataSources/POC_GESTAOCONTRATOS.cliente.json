@@ -1,0 +1,24 @@
+[
+  {
+    "ApiId": "/providers/microsoft.powerapps/apis/shared_sql",
+    "CdpRevision": {
+      "BaseUrl": "/v2",
+      "LastChangedTimeString": "2023-02-06T19:48:15.2210000Z",
+      "RevisionNumber": 2
+    },
+    "ConnectedDataSourceInfoNameMapping": {
+      "ass_nome_responsavel": "ass_nome_responsavel",
+      "cliente_com_alocacao": "cliente_com_alocacao",
+      "cliente_com_projeto_ativo": "cliente_com_projeto_ativo",
+      "email_cliente": "email_cliente",
+      "id_cliente": "id_cliente",
+      "nome_empresa": "nome_empresa"
+    },
+    "DatasetName": "srv-fab-projetos.database.windows.net,db-fab-projetos",
+    "EncodeDataset": false,
+    "IsSampleData": false,
+    "IsWritable": true,
+    "Name": "POC_GESTAOCONTRATOS.cliente",
+    "Type": "ConnectedDataSourceInfo"
+  }
+]
