@@ -4514,36 +4514,6 @@
           },
           "ruleId": "app-UnusedMediaResources",
           "ruleIndex": 10
-        },
-        {
-          "locations": [
-            {
-              "logicalLocations": [
-                {
-                  "fullyQualifiedName": "tela_cliente.Form_tela_cliente.Item"
-                }
-              ],
-              "physicalLocation": {
-                "address": {
-                  "fullyQualifiedName": "tela_cliente.Form_tela_cliente.Item",
-                  "relativeAddress": 0
-                }
-              },
-              "properties": {
-                "member": "Item",
-                "module": "tela_cliente",
-                "type": "tela_cliente.Form_tela_cliente"
-              }
-            }
-          ],
-          "message": {
-            "id": "issue"
-          },
-          "properties": {
-            "level": "Medium"
-          },
-          "ruleId": "app-InefficientDelayLoading",
-          "ruleIndex": 11
         }
       ],
       "tool": {
@@ -4724,23 +4694,6 @@
                 "level": "Medium",
                 "primaryCategory": "performance",
                 "whyFix": "Este arquivo de mídia não é referenciado por nenhuma fórmula de controle, portanto não é necessário. Sua remoção melhorará o desempenho."
-              }
-            },
-            {
-              "id": "app-InefficientDelayLoading",
-              "messageStrings": {
-                "issue": {
-                  "text": "Carregamento de atraso ineficiente"
-                }
-              },
-              "properties": {
-                "componentType": "app",
-                "howToFix": [
-                  "Ao invés disso, use variáveis, coleções e contexto de navegação para compartilhar o estado nas telas."
-                ],
-                "level": "Medium",
-                "primaryCategory": "performance",
-                "whyFix": "Os controles que referenciam controles em outras telas podem deixar o carregamento do aplicativo e a navegação mais lentos. Isso força o aplicativo a carregar as outras telas imediatamente, em vez de aguardar até que o usuário navegue para elas."
               }
             }
           ],

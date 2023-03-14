@@ -397,7 +397,7 @@
         DataSource: ='POC_GESTAOCONTRATOS.contratos_clientes'
         DefaultMode: =FormMode.New
         Height: =636
-        Item: =Gallery_clientes.Selected
+        Item: =Gallery_clientes_1.Selected
         OnSuccess: =Notify("Cliente salvo com sucesso!",NotificationType.Success)
         Visible: =var_cliente_editar
         Width: =1020
