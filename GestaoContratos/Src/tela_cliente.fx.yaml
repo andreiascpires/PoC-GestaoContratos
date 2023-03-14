@@ -113,7 +113,8 @@
             FocusedBorderThickness: =0
             Height: =40
             Icon: =Icon.View
-            OnSelect: =
+            OnSelect: |-
+                =UpdateContext({var_cliente_exibir: true});Select(Parent);EditForm(Form_tela_cliente)
             Tooltip: ="Exibir detalhes do cliente"
             Width: =40
             X: =825
@@ -333,7 +334,7 @@
         RadiusTopRight: =20
         Size: =24
         Text: =""
-        Visible: =var_cliente_editar
+        Visible: =var_cliente_editar || var_cliente_exibir
         Width: =1053
         X: =36
         Y: =70
@@ -723,7 +724,7 @@
         Height: =57
         Icon: =Icon.BackArrow
         OnSelect: |-
-            =UpdateContext({var_cliente_editar: false})
+            =UpdateContext({var_cliente_editar: false};{var_cliente_exibir: false})
         Tooltip: ="Voltar a tela de clientes"
         Visible: =var_cliente_editar
         Width: =61
