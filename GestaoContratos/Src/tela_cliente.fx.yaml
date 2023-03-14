@@ -323,7 +323,7 @@
         DisabledBorderColor: =RGBA(70, 83, 92, 1)
         DisabledColor: =RGBA(166, 166, 166, 1)
         DisabledFill: =RGBA(244, 244, 244, 1)
-        Fill: =RGBA(28, 84, 108, 1)
+        Fill: =RGBA(28, 84, 108, 0.95)
         FontWeight: =FontWeight.Semibold
         Height: =660
         HoverColor: =RGBA(255, 255, 255, 1)
