@@ -73,7 +73,8 @@
             Height: =65
             Icon: =Icon.Edit
             OnSelect: |-
-                =Select(Parent);EditForm(Form_tela_cliente);UpdateContext({var_cliente_editar: true})
+                =UpdateContext({var_cliente_editar: true});Select(Parent);EditForm(Form_tela_cliente)
+                
                  
             PaddingBottom: =10
             PaddingLeft: =10
