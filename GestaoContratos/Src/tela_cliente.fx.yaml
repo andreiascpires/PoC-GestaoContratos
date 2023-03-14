@@ -81,7 +81,7 @@
             PaddingRight: =10
             PaddingTop: =10
             TabIndex: =0
-            Tooltip: ="Exibir detalhes do item"
+            Tooltip: ="Editar cliente"
             Width: =60
             X: =891
             Y: =16
@@ -98,6 +98,7 @@
             Icon: =Icon.Trash
             OnSelect: |-
                 =UpdateContext({var_cliente_excluir: true})
+            Tooltip: ="Excluir cliente"
             Width: =40
             X: =980
             Y: =29
@@ -113,6 +114,7 @@
             Height: =40
             Icon: =Icon.View
             OnSelect: =
+            Tooltip: ="Exibir detalhes do cliente"
             Width: =40
             X: =825
             Y: =29
