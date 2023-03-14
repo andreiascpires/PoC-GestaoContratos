@@ -774,6 +774,7 @@
         Icon: =Icon.ChevronLeft
         OnSelect: |-
             =UpdateContext({var_cliente_editar: false})
+        Visible: =var_cliente_editar
         X: =943
         Y: =576
         ZIndex: =42
