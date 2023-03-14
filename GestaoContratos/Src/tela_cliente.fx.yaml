@@ -201,7 +201,7 @@
         Text: ="Alocação vigente"
         Width: =254
         X: =789
-        Y: =76
+        Y: =74
         ZIndex: =30
 
     Toggle1_15 As toggleSwitch:
