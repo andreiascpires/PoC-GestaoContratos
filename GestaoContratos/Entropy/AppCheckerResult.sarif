@@ -1610,19 +1610,19 @@
             {
               "logicalLocations": [
                 {
-                  "fullyQualifiedName": "form_edita_cliente.Form1.nome_cliente_DataCard2.DataCardValue8.AccessibleLabel"
+                  "fullyQualifiedName": "form_edita_cliente.Form_cliente.nome_cliente_DataCard2.DataCardValue8.AccessibleLabel"
                 }
               ],
               "physicalLocation": {
                 "address": {
-                  "fullyQualifiedName": "form_edita_cliente.Form1.nome_cliente_DataCard2.DataCardValue8.AccessibleLabel",
+                  "fullyQualifiedName": "form_edita_cliente.Form_cliente.nome_cliente_DataCard2.DataCardValue8.AccessibleLabel",
                   "relativeAddress": 0
                 }
               },
               "properties": {
                 "member": "AccessibleLabel",
                 "module": "form_edita_cliente",
-                "type": "form_edita_cliente.Form1.nome_cliente_DataCard2.DataCardValue8"
+                "type": "form_edita_cliente.Form_cliente.nome_cliente_DataCard2.DataCardValue8"
               }
             }
           ],
@@ -1640,19 +1640,19 @@
             {
               "logicalLocations": [
                 {
-                  "fullyQualifiedName": "form_edita_cliente.Form1.nome_contratado_DataCard1.DataCardValue9.AccessibleLabel"
+                  "fullyQualifiedName": "form_edita_cliente.Form_cliente.nome_contratado_DataCard1.DataCardValue9.AccessibleLabel"
                 }
               ],
               "physicalLocation": {
                 "address": {
-                  "fullyQualifiedName": "form_edita_cliente.Form1.nome_contratado_DataCard1.DataCardValue9.AccessibleLabel",
+                  "fullyQualifiedName": "form_edita_cliente.Form_cliente.nome_contratado_DataCard1.DataCardValue9.AccessibleLabel",
                   "relativeAddress": 0
                 }
               },
               "properties": {
                 "member": "AccessibleLabel",
                 "module": "form_edita_cliente",
-                "type": "form_edita_cliente.Form1.nome_contratado_DataCard1.DataCardValue9"
+                "type": "form_edita_cliente.Form_cliente.nome_contratado_DataCard1.DataCardValue9"
               }
             }
           ],
@@ -1670,19 +1670,19 @@
             {
               "logicalLocations": [
                 {
-                  "fullyQualifiedName": "form_edita_cliente.Form1.nome_contratante_sign_DataCard1.DataCardValue11.AccessibleLabel"
+                  "fullyQualifiedName": "form_edita_cliente.Form_cliente.nome_contratante_sign_DataCard1.DataCardValue11.AccessibleLabel"
                 }
               ],
               "physicalLocation": {
                 "address": {
-                  "fullyQualifiedName": "form_edita_cliente.Form1.nome_contratante_sign_DataCard1.DataCardValue11.AccessibleLabel",
+                  "fullyQualifiedName": "form_edita_cliente.Form_cliente.nome_contratante_sign_DataCard1.DataCardValue11.AccessibleLabel",
                   "relativeAddress": 0
                 }
               },
               "properties": {
                 "member": "AccessibleLabel",
                 "module": "form_edita_cliente",
-                "type": "form_edita_cliente.Form1.nome_contratante_sign_DataCard1.DataCardValue11"
+                "type": "form_edita_cliente.Form_cliente.nome_contratante_sign_DataCard1.DataCardValue11"
               }
             }
           ],
@@ -1700,19 +1700,19 @@
             {
               "logicalLocations": [
                 {
-                  "fullyQualifiedName": "form_edita_cliente.Form1.numero_contratado_DataCard1.DataCardValue10.AccessibleLabel"
+                  "fullyQualifiedName": "form_edita_cliente.Form_cliente.numero_contratado_DataCard1.DataCardValue10.AccessibleLabel"
                 }
               ],
               "physicalLocation": {
                 "address": {
-                  "fullyQualifiedName": "form_edita_cliente.Form1.numero_contratado_DataCard1.DataCardValue10.AccessibleLabel",
+                  "fullyQualifiedName": "form_edita_cliente.Form_cliente.numero_contratado_DataCard1.DataCardValue10.AccessibleLabel",
                   "relativeAddress": 0
                 }
               },
               "properties": {
                 "member": "AccessibleLabel",
                 "module": "form_edita_cliente",
-                "type": "form_edita_cliente.Form1.numero_contratado_DataCard1.DataCardValue10"
+                "type": "form_edita_cliente.Form_cliente.numero_contratado_DataCard1.DataCardValue10"
               }
             }
           ],
@@ -4310,6 +4310,126 @@
             {
               "logicalLocations": [
                 {
+                  "fullyQualifiedName": "tela_cliente.Form_tela_cliente.nome_cliente_DataCard2_2.DataCardValue8_2.AccessibleLabel"
+                }
+              ],
+              "physicalLocation": {
+                "address": {
+                  "fullyQualifiedName": "tela_cliente.Form_tela_cliente.nome_cliente_DataCard2_2.DataCardValue8_2.AccessibleLabel",
+                  "relativeAddress": 0
+                }
+              },
+              "properties": {
+                "member": "AccessibleLabel",
+                "module": "tela_cliente",
+                "type": "tela_cliente.Form_tela_cliente.nome_cliente_DataCard2_2.DataCardValue8_2"
+              }
+            }
+          ],
+          "message": {
+            "id": "issue"
+          },
+          "properties": {
+            "level": "Medium"
+          },
+          "ruleId": "acc-AccessibleLabelNeeded",
+          "ruleIndex": 7
+        },
+        {
+          "locations": [
+            {
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "tela_cliente.Form_tela_cliente.nome_contratado_DataCard1_2.DataCardValue9_2.AccessibleLabel"
+                }
+              ],
+              "physicalLocation": {
+                "address": {
+                  "fullyQualifiedName": "tela_cliente.Form_tela_cliente.nome_contratado_DataCard1_2.DataCardValue9_2.AccessibleLabel",
+                  "relativeAddress": 0
+                }
+              },
+              "properties": {
+                "member": "AccessibleLabel",
+                "module": "tela_cliente",
+                "type": "tela_cliente.Form_tela_cliente.nome_contratado_DataCard1_2.DataCardValue9_2"
+              }
+            }
+          ],
+          "message": {
+            "id": "issue"
+          },
+          "properties": {
+            "level": "Medium"
+          },
+          "ruleId": "acc-AccessibleLabelNeeded",
+          "ruleIndex": 7
+        },
+        {
+          "locations": [
+            {
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "tela_cliente.Form_tela_cliente.nome_contratante_sign_DataCard1_2.DataCardValue11_2.AccessibleLabel"
+                }
+              ],
+              "physicalLocation": {
+                "address": {
+                  "fullyQualifiedName": "tela_cliente.Form_tela_cliente.nome_contratante_sign_DataCard1_2.DataCardValue11_2.AccessibleLabel",
+                  "relativeAddress": 0
+                }
+              },
+              "properties": {
+                "member": "AccessibleLabel",
+                "module": "tela_cliente",
+                "type": "tela_cliente.Form_tela_cliente.nome_contratante_sign_DataCard1_2.DataCardValue11_2"
+              }
+            }
+          ],
+          "message": {
+            "id": "issue"
+          },
+          "properties": {
+            "level": "Medium"
+          },
+          "ruleId": "acc-AccessibleLabelNeeded",
+          "ruleIndex": 7
+        },
+        {
+          "locations": [
+            {
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "tela_cliente.Form_tela_cliente.numero_contratado_DataCard1_2.DataCardValue10_2.AccessibleLabel"
+                }
+              ],
+              "physicalLocation": {
+                "address": {
+                  "fullyQualifiedName": "tela_cliente.Form_tela_cliente.numero_contratado_DataCard1_2.DataCardValue10_2.AccessibleLabel",
+                  "relativeAddress": 0
+                }
+              },
+              "properties": {
+                "member": "AccessibleLabel",
+                "module": "tela_cliente",
+                "type": "tela_cliente.Form_tela_cliente.numero_contratado_DataCard1_2.DataCardValue10_2"
+              }
+            }
+          ],
+          "message": {
+            "id": "issue"
+          },
+          "properties": {
+            "level": "Medium"
+          },
+          "ruleId": "acc-AccessibleLabelNeeded",
+          "ruleIndex": 7
+        },
+        {
+          "locations": [
+            {
+              "logicalLocations": [
+                {
                   "fullyQualifiedName": "App.layout_capa"
                 }
               ],
@@ -4334,6 +4454,36 @@
           },
           "ruleId": "app-UnusedMediaResources",
           "ruleIndex": 10
+        },
+        {
+          "locations": [
+            {
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "tela_cliente.Form_tela_cliente.Item"
+                }
+              ],
+              "physicalLocation": {
+                "address": {
+                  "fullyQualifiedName": "tela_cliente.Form_tela_cliente.Item",
+                  "relativeAddress": 0
+                }
+              },
+              "properties": {
+                "member": "Item",
+                "module": "tela_cliente",
+                "type": "tela_cliente.Form_tela_cliente"
+              }
+            }
+          ],
+          "message": {
+            "id": "issue"
+          },
+          "properties": {
+            "level": "Medium"
+          },
+          "ruleId": "app-InefficientDelayLoading",
+          "ruleIndex": 11
         }
       ],
       "tool": {
@@ -4514,6 +4664,23 @@
                 "level": "Medium",
                 "primaryCategory": "performance",
                 "whyFix": "Este arquivo de mídia não é referenciado por nenhuma fórmula de controle, portanto não é necessário. Sua remoção melhorará o desempenho."
+              }
+            },
+            {
+              "id": "app-InefficientDelayLoading",
+              "messageStrings": {
+                "issue": {
+                  "text": "Carregamento de atraso ineficiente"
+                }
+              },
+              "properties": {
+                "componentType": "app",
+                "howToFix": [
+                  "Ao invés disso, use variáveis, coleções e contexto de navegação para compartilhar o estado nas telas."
+                ],
+                "level": "Medium",
+                "primaryCategory": "performance",
+                "whyFix": "Os controles que referenciam controles em outras telas podem deixar o carregamento do aplicativo e a navegação mais lentos. Isso força o aplicativo a carregar as outras telas imediatamente, em vez de aguardar até que o usuário navegue para elas."
               }
             }
           ],
