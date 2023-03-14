@@ -78,7 +78,7 @@
             PaddingRight: =10
             PaddingTop: =10
             TabIndex: =0
-            Tooltip: ="Exibir detalhes do item"
+            Tooltip: ="Editar contratos"
             Width: =60
             X: =891
             Y: =16
@@ -95,6 +95,7 @@
             Icon: =Icon.Trash
             OnSelect: |-
                 =UpdateContext({var_cliente_excluir: true})
+            Tooltip: ="Excluir contrato"
             Width: =40
             X: =980
             Y: =29
@@ -111,6 +112,7 @@
             Icon: =Icon.AddDocument
             OnSelect: |-
                 =UpdateContext({var_cliente_excluir: true})
+            Tooltip: ="Anexar novo documento"
             Width: =40
             X: =771
             Y: =29
@@ -126,6 +128,7 @@
             Height: =40
             Icon: =Icon.View
             OnSelect: =
+            Tooltip: ="Exibir contratos"
             Width: =40
             X: =840
             Y: =29
@@ -169,7 +172,7 @@
         Icon: =Icon.BackArrow
         OnSelect: =Navigate( tela_home, ScreenTransition.Fade )
         X: =950
-        Y: =730
+        Y: =725
         ZIndex: =22
 
     Toggle1_21 As toggleSwitch:
