@@ -26,6 +26,7 @@
     "Button2_4": 103,
     "Button2_5": 84,
     "Button3": 190,
+    "Button4": 238,
     "cadastro_cliente": 19,
     "ComboBox3": 13,
     "consulta_cliente": 3,
@@ -75,6 +76,8 @@
     "form_edita_cliente": 120,
     "Form_tela_cliente": 192,
     "Form1_1": 59,
+    "Form2": 241,
+    "FormViewer1": 240,
     "Gallery_clientes": 153,
     "Gallery_clientes_1": 221,
     "Gallery_clientes_2": 172,
@@ -241,7 +244,7 @@
   },
   "FunctionParamsInvariantScripts": {},
   "FunctionParamsInvariantScriptsOnInstances": {},
-  "HeaderLastSavedDateTimeUTC": "03/14/2023 18:20:19",
+  "HeaderLastSavedDateTimeUTC": "03/14/2023 18:42:54",
   "IsLegacyComponentAllowGlobalScopeCase": false,
   "LocalConnectionIDReferences": {
     "a5003758-43b4-4648-9544-ef35d7890bb6": "\"/providers/microsoft.powerapps/apis/shared_sql/connections/4a0fbb15-4134-4889-a28f-9e07ff427011\""
@@ -277,13 +280,14 @@
     "button": 3,
     "combobox": 2,
     "dropdown": 6,
-    "form": 8,
-    "gallery": 9,
-    "groupContainer": 10,
+    "form": 9,
+    "formViewer": 8,
+    "gallery": 10,
+    "groupContainer": 11,
     "icon": 4,
     "image": 7,
     "label": 0,
-    "powerbi": 11,
+    "powerbi": 12,
     "text": 5,
     "toggleSwitch": 1
   },
@@ -312,6 +316,7 @@
     "Button2_4": {},
     "Button2_5": {},
     "Button3": {},
+    "Button4": {},
     "cadastro_cliente": {},
     "ComboBox3": {},
     "consulta_cliente": {},
@@ -361,6 +366,8 @@
     "form_edita_cliente": {},
     "Form_tela_cliente": {},
     "Form1_1": {},
+    "Form2": {},
+    "FormViewer1": {},
     "Gallery_clientes": {},
     "Gallery_clientes_1": {},
     "Gallery_clientes_2": {},
@@ -551,6 +558,7 @@
     "Button2_4": 177,
     "Button2_5": 141,
     "Button3": 12,
+    "Button4": 0,
     "cadastro_cliente": 0,
     "ComboBox3": 217,
     "consulta_cliente": 0,
@@ -600,6 +608,8 @@
     "form_edita_cliente": 0,
     "Form_tela_cliente": 14,
     "Form1_1": 116,
+    "Form2": 0,
+    "FormViewer1": 0,
     "Gallery_clientes": 92,
     "Gallery_clientes_1": 43,
     "Gallery_clientes_2": 157,
@@ -792,7 +802,7 @@
       "typedDataCard": 12
     },
     "DeserializationLoadTime": 3.9282117,
-    "ErrorCount": 7
+    "ErrorCount": 12
   },
   "WasLocalDatabaseReferencesEmpty": true
 }
