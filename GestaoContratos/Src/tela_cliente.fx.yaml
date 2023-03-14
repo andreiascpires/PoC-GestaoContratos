@@ -725,7 +725,7 @@
         Icon: =Icon.BackArrow
         OnSelect: |-
             =UpdateContext({var_cliente_editar: false,var_cliente_exibir: false})
-        Tooltip: ="Voltar a tela de clientes"
+        Tooltip: ="Voltar para tela de clientes"
         Visible: =var_cliente_editar || var_cliente_exibir
         Width: =61
         X: =951
