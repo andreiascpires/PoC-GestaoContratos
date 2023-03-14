@@ -1,0 +1,28 @@
+[
+  {
+    "ApiId": "/providers/microsoft.powerapps/apis/shared_sql",
+    "CdpRevision": {
+      "BaseUrl": "/v2",
+      "LastChangedTimeString": "2023-02-06T19:48:15.2210000Z",
+      "RevisionNumber": 2
+    },
+    "ConnectedDataSourceInfoNameMapping": {
+      "data_fim": "data_fim",
+      "data_inicio": "data_inicio",
+      "data_proposta": "data_proposta",
+      "estado_doc": "estado_doc",
+      "id_documento": "id_documento",
+      "nome_docs": "nome_docs",
+      "numero_contrato": "numero_contrato",
+      "objeto": "objeto",
+      "prazo_contrato": "prazo_contrato",
+      "valor_contrato": "valor_contrato"
+    },
+    "DatasetName": "srv-fab-projetos.database.windows.net,db-fab-projetos",
+    "EncodeDataset": false,
+    "IsSampleData": false,
+    "IsWritable": true,
+    "Name": "POC_GESTAOCONTRATOS.contrato",
+    "Type": "ConnectedDataSourceInfo"
+  }
+]

@@ -2210,19 +2210,19 @@
             {
               "logicalLocations": [
                 {
-                  "fullyQualifiedName": "tela_cliente.Container2_1.Icon5_2.TabIndex"
+                  "fullyQualifiedName": "tela_cliente.Toggle1_13.ShowLabel"
                 }
               ],
               "physicalLocation": {
                 "address": {
-                  "fullyQualifiedName": "tela_cliente.Container2_1.Icon5_2.TabIndex",
+                  "fullyQualifiedName": "tela_cliente.Toggle1_13.ShowLabel",
                   "relativeAddress": 0
                 }
               },
               "properties": {
-                "member": "TabIndex",
+                "member": "ShowLabel",
                 "module": "tela_cliente",
-                "type": "tela_cliente.Container2_1.Icon5_2"
+                "type": "tela_cliente.Toggle1_13"
               }
             }
           ],
@@ -2232,27 +2232,87 @@
           "properties": {
             "level": "Medium"
           },
-          "ruleId": "acc-TabIndexShouldBeDefinedForInteractiveControl",
-          "ruleIndex": 8
+          "ruleId": "acc-HelpfulControlSettingNeeded",
+          "ruleIndex": 6
         },
         {
           "locations": [
             {
               "logicalLocations": [
                 {
-                  "fullyQualifiedName": "tela_cliente.Container2_1.Icon5_2.AccessibleLabel"
+                  "fullyQualifiedName": "tela_cliente.Toggle1_13.AccessibleLabel"
                 }
               ],
               "physicalLocation": {
                 "address": {
-                  "fullyQualifiedName": "tela_cliente.Container2_1.Icon5_2.AccessibleLabel",
+                  "fullyQualifiedName": "tela_cliente.Toggle1_13.AccessibleLabel",
                   "relativeAddress": 0
                 }
               },
               "properties": {
                 "member": "AccessibleLabel",
                 "module": "tela_cliente",
-                "type": "tela_cliente.Container2_1.Icon5_2"
+                "type": "tela_cliente.Toggle1_13"
+              }
+            }
+          ],
+          "message": {
+            "id": "issue"
+          },
+          "properties": {
+            "level": "Medium"
+          },
+          "ruleId": "acc-AccessibleLabelNeeded",
+          "ruleIndex": 7
+        },
+        {
+          "locations": [
+            {
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "tela_cliente.Toggle1_14.ShowLabel"
+                }
+              ],
+              "physicalLocation": {
+                "address": {
+                  "fullyQualifiedName": "tela_cliente.Toggle1_14.ShowLabel",
+                  "relativeAddress": 0
+                }
+              },
+              "properties": {
+                "member": "ShowLabel",
+                "module": "tela_cliente",
+                "type": "tela_cliente.Toggle1_14"
+              }
+            }
+          ],
+          "message": {
+            "id": "issue"
+          },
+          "properties": {
+            "level": "Medium"
+          },
+          "ruleId": "acc-HelpfulControlSettingNeeded",
+          "ruleIndex": 6
+        },
+        {
+          "locations": [
+            {
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "tela_cliente.Toggle1_14.AccessibleLabel"
+                }
+              ],
+              "physicalLocation": {
+                "address": {
+                  "fullyQualifiedName": "tela_cliente.Toggle1_14.AccessibleLabel",
+                  "relativeAddress": 0
+                }
+              },
+              "properties": {
+                "member": "AccessibleLabel",
+                "module": "tela_cliente",
+                "type": "tela_cliente.Toggle1_14"
               }
             }
           ],
