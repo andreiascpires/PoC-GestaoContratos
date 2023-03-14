@@ -319,8 +319,8 @@
             Y: =40
             ZIndex: =4
 
-    Button3 As button:
-        DisabledBorderColor: =RGBA(166, 166, 166, 1)
+    Button_fundo As button:
+        DisabledBorderColor: =RGBA(70, 83, 92, 1)
         DisabledColor: =RGBA(166, 166, 166, 1)
         DisabledFill: =RGBA(244, 244, 244, 1)
         Fill: =RGBA(100, 118, 132, 1)
@@ -732,7 +732,7 @@
         Y: =575
         ZIndex: =42
 
-    Button1_9 As button:
+    Button1_novo_cliente As button:
         Color: =RGBA(0, 121, 187, 1)
         DisabledBorderColor: =RGBA(166, 166, 166, 1)
         DisabledColor: =RGBA(166, 166, 166, 1)
@@ -756,7 +756,7 @@
         Y: =577
         ZIndex: =43
 
-    Button1_10 As button:
+    Button_salva_cliente As button:
         Color: =RGBA(0, 121, 187, 1)
         DisabledBorderColor: =RGBA(166, 166, 166, 1)
         DisabledColor: =RGBA(166, 166, 166, 1)
