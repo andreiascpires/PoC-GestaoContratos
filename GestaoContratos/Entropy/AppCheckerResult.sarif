@@ -4667,6 +4667,126 @@
             {
               "logicalLocations": [
                 {
+                  "fullyQualifiedName": "tela_contratos.Toggle1_13.ShowLabel"
+                }
+              ],
+              "physicalLocation": {
+                "address": {
+                  "fullyQualifiedName": "tela_contratos.Toggle1_13.ShowLabel",
+                  "relativeAddress": 0
+                }
+              },
+              "properties": {
+                "member": "ShowLabel",
+                "module": "tela_contratos",
+                "type": "tela_contratos.Toggle1_13"
+              }
+            }
+          ],
+          "message": {
+            "id": "issue"
+          },
+          "properties": {
+            "level": "Medium"
+          },
+          "ruleId": "acc-HelpfulControlSettingNeeded",
+          "ruleIndex": 7
+        },
+        {
+          "locations": [
+            {
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "tela_contratos.Toggle1_13.AccessibleLabel"
+                }
+              ],
+              "physicalLocation": {
+                "address": {
+                  "fullyQualifiedName": "tela_contratos.Toggle1_13.AccessibleLabel",
+                  "relativeAddress": 0
+                }
+              },
+              "properties": {
+                "member": "AccessibleLabel",
+                "module": "tela_contratos",
+                "type": "tela_contratos.Toggle1_13"
+              }
+            }
+          ],
+          "message": {
+            "id": "issue"
+          },
+          "properties": {
+            "level": "Medium"
+          },
+          "ruleId": "acc-AccessibleLabelNeeded",
+          "ruleIndex": 8
+        },
+        {
+          "locations": [
+            {
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "tela_contratos.Toggle1_14.ShowLabel"
+                }
+              ],
+              "physicalLocation": {
+                "address": {
+                  "fullyQualifiedName": "tela_contratos.Toggle1_14.ShowLabel",
+                  "relativeAddress": 0
+                }
+              },
+              "properties": {
+                "member": "ShowLabel",
+                "module": "tela_contratos",
+                "type": "tela_contratos.Toggle1_14"
+              }
+            }
+          ],
+          "message": {
+            "id": "issue"
+          },
+          "properties": {
+            "level": "Medium"
+          },
+          "ruleId": "acc-HelpfulControlSettingNeeded",
+          "ruleIndex": 7
+        },
+        {
+          "locations": [
+            {
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "tela_contratos.Toggle1_14.AccessibleLabel"
+                }
+              ],
+              "physicalLocation": {
+                "address": {
+                  "fullyQualifiedName": "tela_contratos.Toggle1_14.AccessibleLabel",
+                  "relativeAddress": 0
+                }
+              },
+              "properties": {
+                "member": "AccessibleLabel",
+                "module": "tela_contratos",
+                "type": "tela_contratos.Toggle1_14"
+              }
+            }
+          ],
+          "message": {
+            "id": "issue"
+          },
+          "properties": {
+            "level": "Medium"
+          },
+          "ruleId": "acc-AccessibleLabelNeeded",
+          "ruleIndex": 8
+        },
+        {
+          "locations": [
+            {
+              "logicalLocations": [
+                {
                   "fullyQualifiedName": "App.layout_capa"
                 }
               ],

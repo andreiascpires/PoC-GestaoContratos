@@ -10,7 +10,7 @@
         BorderColor: =RGBA(100, 118, 132, 1)
         BorderThickness: =5
         Fill: =RGBA(230, 230, 230, 1)
-        Height: =514
+        Height: =485
         Items: |
             =SortByColumns(Search('POC_GESTAOCONTRATOS.contratos_clientes',Text_busca_2.Text, "nome_cliente"),"nome_cliente",SortOrder.Ascending)
         Layout: =Layout.Vertical
@@ -19,7 +19,7 @@
         TemplateSize: =89
         Width: =1045
         X: =38
-        Y: =200
+        Y: =228
         ZIndex: =1
 
         Button2_3 As button:
@@ -209,7 +209,7 @@
         Size: =20
         Width: =1047
         X: =38
-        Y: =125
+        Y: =161
         ZIndex: =37
 
     Icon1_2 As icon.ZoomIn:
@@ -222,7 +222,7 @@
         OnSelect: =Set(VarBusca,!VarBusca)
         Width: =50
         X: =1033
-        Y: =127
+        Y: =163
         ZIndex: =38
 
     Container2_2 As groupContainer.manualLayoutContainer:
@@ -270,4 +270,60 @@
             Width: =500
             Y: =40
             ZIndex: =4
+
+    Label3_8 As label:
+        BorderColor: =RGBA(32, 54, 71, 1)
+        Color: =RGBA(253, 207, 111, 1)
+        DisabledColor: =RGBA(166, 166, 166, 1)
+        Font: =Font.'Segoe UI'
+        FontWeight: =FontWeight.Bold
+        Height: =70
+        Size: =21
+        Text: ="Proposta assinada"
+        Width: =560
+        X: =177
+        Y: =67
+        ZIndex: =40
+
+    Label3_9 As label:
+        BorderColor: =RGBA(32, 54, 71, 1)
+        Color: =RGBA(253, 207, 111, 1)
+        DisabledColor: =RGBA(166, 166, 166, 1)
+        Font: =Font.'Segoe UI'
+        FontWeight: =FontWeight.Bold
+        Height: =70
+        Size: =21
+        Text: ="Contrato assinado"
+        Width: =279
+        X: =804
+        Y: =70
+        ZIndex: =41
+
+    Toggle1_13 As toggleSwitch:
+        BorderColor: =RGBA(32, 54, 71, 1)
+        Color: =RGBA(0, 0, 0, 1)
+        FalseFill: =RGBA(100, 118, 132, 1)
+        HandleFill: =RGBA(255, 255, 255, 1)
+        Height: =46
+        ShowLabel: =false
+        Size: =21
+        TrueFill: =RGBA(253, 207, 111, 1)
+        Width: =225
+        X: =83
+        Y: =79
+        ZIndex: =42
+
+    Toggle1_14 As toggleSwitch:
+        BorderColor: =RGBA(32, 54, 71, 1)
+        Color: =RGBA(0, 0, 0, 1)
+        FalseFill: =RGBA(100, 118, 132, 1)
+        HandleFill: =RGBA(255, 255, 255, 1)
+        Height: =46
+        ShowLabel: =false
+        Size: =21
+        TrueFill: =RGBA(253, 207, 111, 1)
+        Width: =225
+        X: =712
+        Y: =83
+        ZIndex: =43
 
