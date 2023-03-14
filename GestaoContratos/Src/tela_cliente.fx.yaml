@@ -769,16 +769,65 @@
 
     Icon6 As icon.Add:
         BorderColor: =RGBA(32, 54, 71, 1)
-        BorderThickness: =3
         Color: =RGBA(253, 207, 111, 1)
         DisabledBorderColor: =RGBA(166, 166, 166, 1)
         DisabledColor: =RGBA(244, 244, 244, 1)
-        Height: =60
-        Icon: =Icon.ChevronLeft
+        Height: =57
+        Icon: =Icon.BackArrow
         OnSelect: |-
             =UpdateContext({var_cliente_editar: false})
+        Tooltip: ="Voltar a tela de clientes"
         Visible: =var_cliente_editar
-        X: =943
-        Y: =576
+        Width: =61
+        X: =951
+        Y: =575
         ZIndex: =42
+
+    Button1_9 As button:
+        Color: =RGBA(0, 121, 187, 1)
+        DisabledBorderColor: =RGBA(166, 166, 166, 1)
+        DisabledColor: =RGBA(166, 166, 166, 1)
+        DisabledFill: =RGBA(244, 244, 244, 1)
+        Fill: =RGBA(253, 207, 111, 1)
+        Font: =Font.'Segoe UI'
+        FontWeight: =FontWeight.Bold
+        Height: =53
+        HoverColor: =RGBA(255, 255, 255, 1)
+        HoverFill: =ColorFade(RGBA(100, 118, 132, 1), -20%)
+        OnSelect: =NewForm(Form_cliente)
+        RadiusBottomLeft: =100
+        RadiusBottomRight: =100
+        RadiusTopLeft: =100
+        RadiusTopRight: =100
+        Size: =19
+        Text: ="Novo"
+        Visible: =var_cliente_editar
+        Width: =135
+        X: =898
+        Y: =587
+        ZIndex: =43
+
+    Button1_10 As button:
+        Color: =RGBA(0, 121, 187, 1)
+        DisabledBorderColor: =RGBA(166, 166, 166, 1)
+        DisabledColor: =RGBA(166, 166, 166, 1)
+        DisabledFill: =RGBA(244, 244, 244, 1)
+        Fill: =RGBA(253, 207, 111, 1)
+        Font: =Font.'Segoe UI'
+        FontWeight: =FontWeight.Bold
+        Height: =53
+        HoverColor: =RGBA(255, 255, 255, 1)
+        HoverFill: =ColorFade(RGBA(100, 118, 132, 1), -20%)
+        OnSelect: =SubmitForm(Form_cliente);NewForm(Form_cliente)
+        RadiusBottomLeft: =100
+        RadiusBottomRight: =100
+        RadiusTopLeft: =100
+        RadiusTopRight: =100
+        Size: =19
+        Text: ="Salvar"
+        Visible: =var_cliente_editar
+        Width: =135
+        X: =737
+        Y: =587
+        ZIndex: =44
 
