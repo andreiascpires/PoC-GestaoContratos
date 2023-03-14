@@ -80,7 +80,7 @@
             TabIndex: =0
             Tooltip: ="Editar contratos"
             Width: =60
-            X: =891
+            X: =900
             Y: =16
             ZIndex: =3
 
@@ -128,7 +128,7 @@
             Height: =40
             Icon: =Icon.View
             OnSelect: =
-            Tooltip: ="Exibir contratos"
+            Tooltip: ="Exibir detalhes do contrato"
             Width: =40
             X: =840
             Y: =29
