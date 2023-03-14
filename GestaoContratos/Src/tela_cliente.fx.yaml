@@ -153,6 +153,7 @@
         Height: =56
         Icon: =Icon.BackArrow
         OnSelect: =Navigate( tela_home, ScreenTransition.Fade )
+        Tooltip: ="Voltar para tela inicial"
         X: =950
         Y: =734
         ZIndex: =22
@@ -396,7 +397,7 @@
         Height: =636
         Item: =Gallery_clientes.Selected
         OnSuccess: =Notify("Cliente salvo com sucesso!",NotificationType.Success)
-        Visible: =
+        Visible: =var_cliente_editar
         Width: =1020
         X: =61
         Y: =79
