@@ -155,6 +155,7 @@
 
         anexos_docs As addMedia:
             BorderColor: =RGBA(32, 54, 71, 1)
+            ChangePictureText: =""
             Color: =RGBA(0, 0, 0, 1)
             Fill: =RGBA(255, 255, 255, 1)
             Height: =40
@@ -165,7 +166,7 @@
                     anexos_docs.Media
                 );
             Size: =25
-            Text: =
+            Text: =""
             Width: =56
             X: =736
             Y: =31
