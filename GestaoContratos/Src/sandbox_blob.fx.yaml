@@ -1,4 +1,4 @@
-Screen3 As screen:
+sandbox_blob As screen:
     LoadingSpinnerColor: =RGBA(100, 118, 132, 1)
 
     "Gallery1 As gallery.'BrowseLayout_Vertical_TwoTextOneImageVariant_ver4.0'":
@@ -89,7 +89,7 @@ Screen3 As screen:
 
     "Gallery2 As gallery.'BrowseLayout_Vertical_TwoTextOneImageVariant_ver4.0'":
         BorderColor: =RGBA(32, 54, 71, 1)
-        Items: =ArmazenamentodeBlobdoAzure.ListFolderV2("JTJmY2RjLXZhY2luYWNhbw==").value
+        Items: =ArmazenamentodeBlobdoAzure.ListFolderV2("poc-gestaocontratos").value
         Layout: =Layout.Vertical
         TemplatePadding: =0
         TemplateSize: =Min(160, Self.Height - 60)
