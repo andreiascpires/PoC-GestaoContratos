@@ -81,7 +81,7 @@
             PaddingRight: =10
             PaddingTop: =10
             TabIndex: =0
-            Tooltip: ="Editar cliente"
+            Tooltip: ="Editar e criar novo cliente"
             Width: =60
             X: =891
             Y: =16
@@ -377,7 +377,7 @@
                 FontWeight: =FontWeight.Bold
                 Height: =48
                 Size: =17
-                Text: =Parent.DisplayName
+                Text: ="Nome"
                 Width: =Parent.Width - 60
                 Wrap: =false
                 X: =30
@@ -447,7 +447,7 @@
         ass_nome_responsavel_DataCard2 As typedDataCard.textualEditCard:
             BorderColor: =RGBA(32, 54, 71, 1)
             BorderStyle: =BorderStyle.Solid
-            DataField: ="ass_nome_responsavel"
+            DataField: ="Comercial"
             Default: =ThisItem.ass_nome_responsavel
             DisplayMode: =Parent.DisplayMode
             DisplayName: =DataSourceInfo([@'POC_GESTAOCONTRATOS.cliente'],DataSourceInfo.DisplayName,"ass_nome_responsavel")
@@ -468,7 +468,7 @@
                 FontWeight: =FontWeight.Bold
                 Height: =48
                 Size: =17
-                Text: =Parent.DisplayName
+                Text: ="Comercial"
                 Width: =Parent.Width - 60
                 Wrap: =false
                 X: =30
@@ -559,7 +559,7 @@
                 FontWeight: =FontWeight.Bold
                 Height: =48
                 Size: =17
-                Text: =Parent.DisplayName
+                Text: ="E-mail"
                 Width: =Parent.Width - 60
                 Wrap: =false
                 X: =30
@@ -650,7 +650,7 @@
                 FontWeight: =FontWeight.Bold
                 Height: =48
                 Size: =17
-                Text: =Parent.DisplayName
+                Text: ="Projeto ativo"
                 Width: =327
                 Wrap: =false
                 X: =30
@@ -739,7 +739,7 @@
                 FontWeight: =FontWeight.Bold
                 Height: =27
                 Size: =17
-                Text: =Parent.DisplayName
+                Text: ="Com Alocação"
                 Width: =276
                 Wrap: =false
                 X: =30
