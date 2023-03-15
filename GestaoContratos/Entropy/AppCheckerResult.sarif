@@ -1427,19 +1427,19 @@
             {
               "logicalLocations": [
                 {
-                  "fullyQualifiedName": "tela_cliente.Form_tela_cliente.nome_cliente_DataCard2_2.DataCardValue8_2.AccessibleLabel"
+                  "fullyQualifiedName": "tela_cliente.Form_tela_cliente.ass_nome_responsavel_DataCard2.DataCardValue3.AccessibleLabel"
                 }
               ],
               "physicalLocation": {
                 "address": {
-                  "fullyQualifiedName": "tela_cliente.Form_tela_cliente.nome_cliente_DataCard2_2.DataCardValue8_2.AccessibleLabel",
+                  "fullyQualifiedName": "tela_cliente.Form_tela_cliente.ass_nome_responsavel_DataCard2.DataCardValue3.AccessibleLabel",
                   "relativeAddress": 0
                 }
               },
               "properties": {
                 "member": "AccessibleLabel",
                 "module": "tela_cliente",
-                "type": "tela_cliente.Form_tela_cliente.nome_cliente_DataCard2_2.DataCardValue8_2"
+                "type": "tela_cliente.Form_tela_cliente.ass_nome_responsavel_DataCard2.DataCardValue3"
               }
             }
           ],
@@ -1457,19 +1457,19 @@
             {
               "logicalLocations": [
                 {
-                  "fullyQualifiedName": "tela_cliente.Form_tela_cliente.nome_contratado_DataCard1_2.DataCardValue9_2.AccessibleLabel"
+                  "fullyQualifiedName": "tela_cliente.Form_tela_cliente.nome_empresa_DataCard1.DataCardValue2.AccessibleLabel"
                 }
               ],
               "physicalLocation": {
                 "address": {
-                  "fullyQualifiedName": "tela_cliente.Form_tela_cliente.nome_contratado_DataCard1_2.DataCardValue9_2.AccessibleLabel",
+                  "fullyQualifiedName": "tela_cliente.Form_tela_cliente.nome_empresa_DataCard1.DataCardValue2.AccessibleLabel",
                   "relativeAddress": 0
                 }
               },
               "properties": {
                 "member": "AccessibleLabel",
                 "module": "tela_cliente",
-                "type": "tela_cliente.Form_tela_cliente.nome_contratado_DataCard1_2.DataCardValue9_2"
+                "type": "tela_cliente.Form_tela_cliente.nome_empresa_DataCard1.DataCardValue2"
               }
             }
           ],
@@ -1487,19 +1487,19 @@
             {
               "logicalLocations": [
                 {
-                  "fullyQualifiedName": "tela_cliente.Form_tela_cliente.nome_contratante_sign_DataCard1_2.DataCardValue11_2.AccessibleLabel"
+                  "fullyQualifiedName": "tela_cliente.Form_tela_cliente.cliente_com_alocacao_DataCard1.DataCardValue4.AccessibleLabel"
                 }
               ],
               "physicalLocation": {
                 "address": {
-                  "fullyQualifiedName": "tela_cliente.Form_tela_cliente.nome_contratante_sign_DataCard1_2.DataCardValue11_2.AccessibleLabel",
+                  "fullyQualifiedName": "tela_cliente.Form_tela_cliente.cliente_com_alocacao_DataCard1.DataCardValue4.AccessibleLabel",
                   "relativeAddress": 0
                 }
               },
               "properties": {
                 "member": "AccessibleLabel",
                 "module": "tela_cliente",
-                "type": "tela_cliente.Form_tela_cliente.nome_contratante_sign_DataCard1_2.DataCardValue11_2"
+                "type": "tela_cliente.Form_tela_cliente.cliente_com_alocacao_DataCard1.DataCardValue4"
               }
             }
           ],
@@ -1517,19 +1517,19 @@
             {
               "logicalLocations": [
                 {
-                  "fullyQualifiedName": "tela_cliente.Form_tela_cliente.numero_contratado_DataCard1_2.DataCardValue10_2.AccessibleLabel"
+                  "fullyQualifiedName": "tela_cliente.Form_tela_cliente.cliente_com_projeto_ativo_DataCard1.DataCardValue5.AccessibleLabel"
                 }
               ],
               "physicalLocation": {
                 "address": {
-                  "fullyQualifiedName": "tela_cliente.Form_tela_cliente.numero_contratado_DataCard1_2.DataCardValue10_2.AccessibleLabel",
+                  "fullyQualifiedName": "tela_cliente.Form_tela_cliente.cliente_com_projeto_ativo_DataCard1.DataCardValue5.AccessibleLabel",
                   "relativeAddress": 0
                 }
               },
               "properties": {
                 "member": "AccessibleLabel",
                 "module": "tela_cliente",
-                "type": "tela_cliente.Form_tela_cliente.numero_contratado_DataCard1_2.DataCardValue10_2"
+                "type": "tela_cliente.Form_tela_cliente.cliente_com_projeto_ativo_DataCard1.DataCardValue5"
               }
             }
           ],
@@ -2387,6 +2387,36 @@
             {
               "logicalLocations": [
                 {
+                  "fullyQualifiedName": "tela_contratos.Form_tela_contrato.data_inicio_DataCard1.DataCardValue16.AccessibleLabel"
+                }
+              ],
+              "physicalLocation": {
+                "address": {
+                  "fullyQualifiedName": "tela_contratos.Form_tela_contrato.data_inicio_DataCard1.DataCardValue16.AccessibleLabel",
+                  "relativeAddress": 0
+                }
+              },
+              "properties": {
+                "member": "AccessibleLabel",
+                "module": "tela_contratos",
+                "type": "tela_contratos.Form_tela_contrato.data_inicio_DataCard1.DataCardValue16"
+              }
+            }
+          ],
+          "message": {
+            "id": "issue"
+          },
+          "properties": {
+            "level": "Medium"
+          },
+          "ruleId": "acc-AccessibleLabelNeeded",
+          "ruleIndex": 8
+        },
+        {
+          "locations": [
+            {
+              "logicalLocations": [
+                {
                   "fullyQualifiedName": "tela_contratos.Toggle1_25.AccessibleLabel"
                 }
               ],
@@ -2507,19 +2537,19 @@
             {
               "logicalLocations": [
                 {
-                  "fullyQualifiedName": "tela_contratos.Form_tela_cliente_2.numero_contratado_DataCard1_4.DataCardValue10_4.AccessibleLabel"
+                  "fullyQualifiedName": "tela_contratos.Form_tela_contrato.numero_contratado_DataCard2.DataCardValue7.AccessibleLabel"
                 }
               ],
               "physicalLocation": {
                 "address": {
-                  "fullyQualifiedName": "tela_contratos.Form_tela_cliente_2.numero_contratado_DataCard1_4.DataCardValue10_4.AccessibleLabel",
+                  "fullyQualifiedName": "tela_contratos.Form_tela_contrato.numero_contratado_DataCard2.DataCardValue7.AccessibleLabel",
                   "relativeAddress": 0
                 }
               },
               "properties": {
                 "member": "AccessibleLabel",
                 "module": "tela_contratos",
-                "type": "tela_contratos.Form_tela_cliente_2.numero_contratado_DataCard1_4.DataCardValue10_4"
+                "type": "tela_contratos.Form_tela_contrato.numero_contratado_DataCard2.DataCardValue7"
               }
             }
           ],
@@ -2537,19 +2567,19 @@
             {
               "logicalLocations": [
                 {
-                  "fullyQualifiedName": "tela_contratos.Form_tela_cliente_2.nome_contratante_sign_DataCard1_4.DataCardValue11_4.AccessibleLabel"
+                  "fullyQualifiedName": "tela_contratos.Form_tela_contrato.objeto_DataCard1.DataCardValue12.AccessibleLabel"
                 }
               ],
               "physicalLocation": {
                 "address": {
-                  "fullyQualifiedName": "tela_contratos.Form_tela_cliente_2.nome_contratante_sign_DataCard1_4.DataCardValue11_4.AccessibleLabel",
+                  "fullyQualifiedName": "tela_contratos.Form_tela_contrato.objeto_DataCard1.DataCardValue12.AccessibleLabel",
                   "relativeAddress": 0
                 }
               },
               "properties": {
                 "member": "AccessibleLabel",
                 "module": "tela_contratos",
-                "type": "tela_contratos.Form_tela_cliente_2.nome_contratante_sign_DataCard1_4.DataCardValue11_4"
+                "type": "tela_contratos.Form_tela_contrato.objeto_DataCard1.DataCardValue12"
               }
             }
           ],
@@ -2567,19 +2597,19 @@
             {
               "logicalLocations": [
                 {
-                  "fullyQualifiedName": "tela_contratos.Form_tela_cliente_2.nome_contratado_DataCard1_4.DataCardValue9_4.AccessibleLabel"
+                  "fullyQualifiedName": "tela_contratos.Form_tela_contrato.prazo_contrato_DataCard1.DataCardValue13.AccessibleLabel"
                 }
               ],
               "physicalLocation": {
                 "address": {
-                  "fullyQualifiedName": "tela_contratos.Form_tela_cliente_2.nome_contratado_DataCard1_4.DataCardValue9_4.AccessibleLabel",
+                  "fullyQualifiedName": "tela_contratos.Form_tela_contrato.prazo_contrato_DataCard1.DataCardValue13.AccessibleLabel",
                   "relativeAddress": 0
                 }
               },
               "properties": {
                 "member": "AccessibleLabel",
                 "module": "tela_contratos",
-                "type": "tela_contratos.Form_tela_cliente_2.nome_contratado_DataCard1_4.DataCardValue9_4"
+                "type": "tela_contratos.Form_tela_contrato.prazo_contrato_DataCard1.DataCardValue13"
               }
             }
           ],
@@ -2597,19 +2627,19 @@
             {
               "logicalLocations": [
                 {
-                  "fullyQualifiedName": "tela_contratos.Form_tela_cliente_2.nome_cliente_DataCard2_4.DataCardValue8_4.AccessibleLabel"
+                  "fullyQualifiedName": "tela_contratos.Form_tela_contrato.valor_contrato_DataCard1.DataCardValue14.AccessibleLabel"
                 }
               ],
               "physicalLocation": {
                 "address": {
-                  "fullyQualifiedName": "tela_contratos.Form_tela_cliente_2.nome_cliente_DataCard2_4.DataCardValue8_4.AccessibleLabel",
+                  "fullyQualifiedName": "tela_contratos.Form_tela_contrato.valor_contrato_DataCard1.DataCardValue14.AccessibleLabel",
                   "relativeAddress": 0
                 }
               },
               "properties": {
                 "member": "AccessibleLabel",
                 "module": "tela_contratos",
-                "type": "tela_contratos.Form_tela_cliente_2.nome_cliente_DataCard2_4.DataCardValue8_4"
+                "type": "tela_contratos.Form_tela_contrato.valor_contrato_DataCard1.DataCardValue14"
               }
             }
           ],
@@ -3521,6 +3551,66 @@
           },
           "ruleId": "acc-TabIndexShouldBeDefinedForInteractiveControl",
           "ruleIndex": 9
+        },
+        {
+          "locations": [
+            {
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "tela_cliente.Form_tela_cliente.email_cliente_DataCard1.DataCardValue6.AccessibleLabel"
+                }
+              ],
+              "physicalLocation": {
+                "address": {
+                  "fullyQualifiedName": "tela_cliente.Form_tela_cliente.email_cliente_DataCard1.DataCardValue6.AccessibleLabel",
+                  "relativeAddress": 0
+                }
+              },
+              "properties": {
+                "member": "AccessibleLabel",
+                "module": "tela_cliente",
+                "type": "tela_cliente.Form_tela_cliente.email_cliente_DataCard1.DataCardValue6"
+              }
+            }
+          ],
+          "message": {
+            "id": "issue"
+          },
+          "properties": {
+            "level": "Medium"
+          },
+          "ruleId": "acc-AccessibleLabelNeeded",
+          "ruleIndex": 8
+        },
+        {
+          "locations": [
+            {
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "tela_contratos.Form_tela_contrato.data_fim_DataCard1.DataCardValue15.AccessibleLabel"
+                }
+              ],
+              "physicalLocation": {
+                "address": {
+                  "fullyQualifiedName": "tela_contratos.Form_tela_contrato.data_fim_DataCard1.DataCardValue15.AccessibleLabel",
+                  "relativeAddress": 0
+                }
+              },
+              "properties": {
+                "member": "AccessibleLabel",
+                "module": "tela_contratos",
+                "type": "tela_contratos.Form_tela_contrato.data_fim_DataCard1.DataCardValue15"
+              }
+            }
+          ],
+          "message": {
+            "id": "issue"
+          },
+          "properties": {
+            "level": "Medium"
+          },
+          "ruleId": "acc-AccessibleLabelNeeded",
+          "ruleIndex": 8
         },
         {
           "locations": [
