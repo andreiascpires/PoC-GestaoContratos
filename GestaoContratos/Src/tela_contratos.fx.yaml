@@ -203,7 +203,7 @@
         Width: =560
         X: =464
         Y: =-9
-        ZIndex: =3
+        ZIndex: =2
 
     Label2_21 As label:
         BorderColor: =RGBA(32, 54, 71, 1)
@@ -217,7 +217,7 @@
         Width: =174
         X: =563
         Y: =320
-        ZIndex: =20
+        ZIndex: =3
 
     Icon4_7 As icon.ChevronRight:
         BorderColor: =RGBA(32, 54, 71, 1)
@@ -230,7 +230,7 @@
         Tooltip: ="Voltar para tela inicial"
         X: =950
         Y: =734
-        ZIndex: =22
+        ZIndex: =4
 
     Toggle1_14 As toggleSwitch:
         BorderColor: =RGBA(32, 54, 71, 1)
@@ -244,7 +244,7 @@
         Width: =175
         X: =408
         Y: =490
-        ZIndex: =27
+        ZIndex: =5
 
     Label3_19 As label:
         BorderColor: =RGBA(32, 54, 71, 1)
@@ -258,7 +258,7 @@
         Width: =250
         X: =177
         Y: =84
-        ZIndex: =29
+        ZIndex: =6
 
     Toggle1_25 As toggleSwitch:
         BorderColor: =RGBA(32, 54, 71, 1)
@@ -272,7 +272,7 @@
         Width: =225
         X: =83
         Y: =91
-        ZIndex: =33
+        ZIndex: =7
 
     Text_busca_5 As text:
         BorderColor: =RGBA(32, 54, 71, 1)
@@ -298,7 +298,7 @@
         Width: =1047
         X: =38
         Y: =162
-        ZIndex: =37
+        ZIndex: =8
 
     Icon1_5 As icon.ZoomIn:
         BorderColor: =RGBA(32, 54, 71, 1)
@@ -311,7 +311,7 @@
         Width: =50
         X: =1024
         Y: =164
-        ZIndex: =38
+        ZIndex: =9
 
     Container2_5 As groupContainer.manualLayoutContainer:
         BorderColor: =RGBA(253, 207, 111, 1)
@@ -321,7 +321,7 @@
         Visible: =var_cliente_excluir
         X: =330
         Y: =350
-        ZIndex: =39
+        ZIndex: =10
 
         Icon5_11 As icon.CancelBadge:
             BorderColor: =RGBA(32, 54, 71, 1)
@@ -379,7 +379,7 @@
         Width: =1053
         X: =36
         Y: =70
-        ZIndex: =40
+        ZIndex: =11
 
     Form_tela_contrato As form:
         BorderColor: =RGBA(32, 54, 71, 1)
@@ -392,7 +392,7 @@
         Width: =1020
         X: =61
         Y: =79
-        ZIndex: =41
+        ZIndex: =12
 
         objeto_DataCard1 As typedDataCard.textualEditCard:
             BorderColor: =RGBA(32, 54, 71, 1)
@@ -854,7 +854,7 @@
         Width: =61
         X: =951
         Y: =629
-        ZIndex: =42
+        ZIndex: =13
 
     Button1_novo_cliente_2 As button:
         Color: =RGBA(0, 121, 187, 1)
@@ -878,7 +878,7 @@
         Width: =135
         X: =798
         Y: =631
-        ZIndex: =43
+        ZIndex: =14
 
     Button_salva_cliente_2 As button:
         Color: =RGBA(0, 121, 187, 1)
@@ -902,24 +902,24 @@
         Width: =135
         X: =647
         Y: =631
-        ZIndex: =44
+        ZIndex: =15
 
-    "Gallery_anexos As gallery.'BrowseLayout_Vertical_OneTextVariant_ver4.0'":
+    "Gallery_anexo As gallery.'BrowseLayout_Vertical_ThreeTextVariant_ver4.0'":
         BorderColor: =RGBA(100, 118, 132, 1)
         BorderThickness: =5
         Fill: =RGBA(230, 230, 230, 1)
-        Height: =527
+        Height: =545
         Items: |
-            =SortByColumns(Search('POC_GESTAOCONTRATOS.anexo',Text_busca_5.Text, "nome_anexo"),"nome_anexo",SortOrder.Ascending)
+            ='POC_GESTAOCONTRATOS.anexo'
         Layout: =Layout.Vertical
         ShowScrollbar: =false
         TemplatePadding: =0
-        TemplateSize: =89
+        TemplateSize: =150
         Visible: =var_ver_anexo
-        Width: =1013
-        X: =61
-        Y: =86
-        ZIndex: =45
+        Width: =1033
+        X: =48
+        Y: =74
+        ZIndex: =16
 
         Button2_7 As button:
             BorderColor: =ColorFade(Self.Fill, 17%)
@@ -931,7 +931,7 @@
             DisplayMode: =DisplayMode.View
             Fill: =RGBA(204, 204, 204, 1)
             FontWeight: =FontWeight.Semibold
-            Height: =80
+            Height: =135
             HoverBorderColor: =ColorFade(Self.BorderColor, 70%)
             HoverColor: =RGBA(255, 255, 255, 1)
             HoverFill: =ColorFade(RGBA(100, 118, 132, 1), -80%)
@@ -941,59 +941,83 @@
             RadiusTopRight: =15
             Size: =24
             Text: =""
-            Width: =992
-            X: =10
-            Y: =9
+            Width: =1014
+            X: =9
+            Y: =15
             ZIndex: =1
 
-        Title2_6 As label:
+        Title5 As label:
             Color: =RGBA(0, 0, 0, 1)
             DisabledColor: =RGBA(166, 166, 166, 1)
             FontWeight: =FontWeight.Semibold
-            Height: =45
+            Height: =Self.Size * 1.8
             OnSelect: =Select(Parent)
             PaddingBottom: =0
             PaddingLeft: =0
             PaddingRight: =0
             PaddingTop: =0
+            Size: =20
             Text: =ThisItem.nome_anexo
             VerticalAlign: =VerticalAlign.Top
-            Width: =370
-            X: =21
+            Width: =Parent.TemplateWidth - 104
+            X: =32
             Y: =40
             ZIndex: =2
 
-        Icon2_14 As icon.Add:
-            BorderColor: =RGBA(32, 54, 71, 1)
-            Color: =RGBA(255, 0, 0, 1)
-            DisabledBorderColor: =RGBA(166, 166, 166, 1)
-            DisabledColor: =RGBA(244, 244, 244, 1)
-            Fill: =RGBA(204, 204, 204, 1)
-            FocusedBorderThickness: =0
-            Height: =40
-            Icon: =Icon.Trash
-            OnSelect: |-
-                =UpdateContext({var_cliente_excluir: true})
-            Tooltip: ="Excluir contrato"
-            Width: =40
-            X: =950
-            Y: =29
-            ZIndex: =5
+        Subtitle4 As label:
+            Color: =RGBA(0, 0, 0, 1)
+            DisabledColor: =RGBA(166, 166, 166, 1)
+            Height: =Self.Size * 1.8
+            OnSelect: =Select(Parent)
+            PaddingBottom: =0
+            PaddingLeft: =0
+            PaddingRight: =0
+            PaddingTop: =0
+            Size: =15
+            Text: =ThisItem.data_insercao
+            VerticalAlign: =VerticalAlign.Top
+            Width: =Parent.TemplateWidth - 104
+            X: =32
+            Y: =113
+            ZIndex: =3
 
-        Icon2_6 As icon.Add:
+        Body2 As label:
+            Color: =RGBA(0, 0, 0, 1)
+            DisabledColor: =RGBA(166, 166, 166, 1)
+            Font: =Font.'Segoe UI'
+            Height: =44
+            OnSelect: =Select(Parent)
+            PaddingBottom: =0
+            PaddingLeft: =0
+            PaddingRight: =0
+            PaddingTop: =0
+            Size: =15
+            Text: =ThisItem.tipo_arquivo
+            VerticalAlign: =VerticalAlign.Top
+            Width: =Parent.TemplateWidth - 104
+            X: =32
+            Y: =76
+            ZIndex: =4
+
+        NextArrow5 As icon.ChevronRight:
+            AccessibleLabel: =Self.Tooltip
             BorderColor: =RGBA(32, 54, 71, 1)
-            Color: =RGBA(100, 118, 132, 1)
+            Color: =RGBA(90, 106, 119, 1)
             DisabledBorderColor: =RGBA(166, 166, 166, 1)
             DisabledColor: =RGBA(244, 244, 244, 1)
-            Fill: =RGBA(204, 204, 204, 1)
-            FocusedBorderThickness: =0
-            Height: =40
-            Icon: =Icon.View
+            Height: =65
+            Icon: =Icon.Document
             OnSelect: |-
-                =UpdateContext({var_anexo_exibir: true});Select(Parent);EditForm(Form_tela_contrato)
-            Tooltip: ="Exibir detalhes do contrato"
-            Width: =40
-            X: =895
-            Y: =29
-            ZIndex: =6
+                =
+                 
+            PaddingBottom: =10
+            PaddingLeft: =10
+            PaddingRight: =10
+            PaddingTop: =10
+            TabIndex: =0
+            Tooltip: ="Detalhes do anexo"
+            Width: =60
+            X: =963
+            Y: =65
+            ZIndex: =5
 
