@@ -167,10 +167,28 @@
                 );
             Size: =25
             Text: =""
+            Tooltip: ="Adicionar anexos"
             Width: =56
             X: =736
             Y: =31
             ZIndex: =11
+
+        Icon2_13 As icon.Add:
+            BorderColor: =RGBA(32, 54, 71, 1)
+            Color: =RGBA(100, 118, 132, 1)
+            DisabledBorderColor: =RGBA(166, 166, 166, 1)
+            DisabledColor: =RGBA(244, 244, 244, 1)
+            Fill: =RGBA(204, 204, 204, 1)
+            FocusedBorderThickness: =0
+            Height: =40
+            Icon: =Icon.Document
+            OnSelect: |-
+                =UpdateContext({var_ver_anexo: true})
+            Tooltip: ="Visualizar anexos"
+            Width: =40
+            X: =600
+            Y: =32
+            ZIndex: =12
 
     Label1_9 As label:
         Align: =Align.Center
@@ -357,7 +375,7 @@
         RadiusTopRight: =20
         Size: =24
         Text: =""
-        Visible: =var_cliente_editar || var_cliente_exibir
+        Visible: =var_cliente_editar || var_cliente_exibir || var_ver_anexo
         Width: =1053
         X: =36
         Y: =70
@@ -491,7 +509,7 @@
                 FontWeight: =FontWeight.Bold
                 Height: =48
                 Size: =17
-                Text: =Parent.DisplayName
+                Text: ="Prazo contratado"
                 Width: =Parent.Width - 60
                 Wrap: =false
                 X: =30
@@ -581,7 +599,7 @@
                 FontWeight: =FontWeight.Bold
                 Height: =48
                 Size: =17
-                Text: =Parent.DisplayName
+                Text: ="Valor contratado"
                 Width: =Parent.Width - 60
                 Wrap: =false
                 X: =30
@@ -671,7 +689,7 @@
                 FontWeight: =FontWeight.Bold
                 Height: =48
                 Size: =17
-                Text: =Parent.DisplayName
+                Text: ="Data início"
                 Width: =Parent.Width - 60
                 Wrap: =false
                 X: =30
@@ -830,9 +848,9 @@
         Height: =57
         Icon: =Icon.BackArrow
         OnSelect: |-
-            =UpdateContext({var_cliente_editar: false,var_cliente_exibir: false})
+            =UpdateContext({var_cliente_editar: false,var_cliente_exibir: false,var_ver_anexo: false})
         Tooltip: ="Voltar para tela de contratos"
-        Visible: =var_cliente_editar || var_cliente_exibir
+        Visible: =var_cliente_editar || var_cliente_exibir || var_ver_anexo
         Width: =61
         X: =951
         Y: =629
@@ -885,4 +903,97 @@
         X: =647
         Y: =631
         ZIndex: =44
+
+    "Gallery_anexos As gallery.'BrowseLayout_Vertical_OneTextVariant_ver4.0'":
+        BorderColor: =RGBA(100, 118, 132, 1)
+        BorderThickness: =5
+        Fill: =RGBA(230, 230, 230, 1)
+        Height: =527
+        Items: |
+            =SortByColumns(Search('POC_GESTAOCONTRATOS.anexo',Text_busca_5.Text, "nome_anexo"),"nome_anexo",SortOrder.Ascending)
+        Layout: =Layout.Vertical
+        ShowScrollbar: =false
+        TemplatePadding: =0
+        TemplateSize: =89
+        Visible: =var_ver_anexo
+        Width: =1013
+        X: =61
+        Y: =86
+        ZIndex: =45
+
+        Button2_7 As button:
+            BorderColor: =ColorFade(Self.Fill, 17%)
+            BorderThickness: =5
+            Color: =RGBA(28, 84, 108, 1)
+            DisabledBorderColor: =RGBA(166, 166, 166, 0)
+            DisabledColor: =RGBA(166, 166, 166, 1)
+            DisabledFill: =RGBA(244, 244, 244, 1)
+            DisplayMode: =DisplayMode.View
+            Fill: =RGBA(204, 204, 204, 1)
+            FontWeight: =FontWeight.Semibold
+            Height: =80
+            HoverBorderColor: =ColorFade(Self.BorderColor, 70%)
+            HoverColor: =RGBA(255, 255, 255, 1)
+            HoverFill: =ColorFade(RGBA(100, 118, 132, 1), -80%)
+            RadiusBottomLeft: =15
+            RadiusBottomRight: =15
+            RadiusTopLeft: =15
+            RadiusTopRight: =15
+            Size: =24
+            Text: =""
+            Width: =992
+            X: =10
+            Y: =9
+            ZIndex: =1
+
+        Title2_6 As label:
+            Color: =RGBA(0, 0, 0, 1)
+            DisabledColor: =RGBA(166, 166, 166, 1)
+            FontWeight: =FontWeight.Semibold
+            Height: =45
+            OnSelect: =Select(Parent)
+            PaddingBottom: =0
+            PaddingLeft: =0
+            PaddingRight: =0
+            PaddingTop: =0
+            Text: =ThisItem.nome_anexo
+            VerticalAlign: =VerticalAlign.Top
+            Width: =370
+            X: =21
+            Y: =40
+            ZIndex: =2
+
+        Icon2_14 As icon.Add:
+            BorderColor: =RGBA(32, 54, 71, 1)
+            Color: =RGBA(255, 0, 0, 1)
+            DisabledBorderColor: =RGBA(166, 166, 166, 1)
+            DisabledColor: =RGBA(244, 244, 244, 1)
+            Fill: =RGBA(204, 204, 204, 1)
+            FocusedBorderThickness: =0
+            Height: =40
+            Icon: =Icon.Trash
+            OnSelect: |-
+                =UpdateContext({var_cliente_excluir: true})
+            Tooltip: ="Excluir contrato"
+            Width: =40
+            X: =950
+            Y: =29
+            ZIndex: =5
+
+        Icon2_6 As icon.Add:
+            BorderColor: =RGBA(32, 54, 71, 1)
+            Color: =RGBA(100, 118, 132, 1)
+            DisabledBorderColor: =RGBA(166, 166, 166, 1)
+            DisabledColor: =RGBA(244, 244, 244, 1)
+            Fill: =RGBA(204, 204, 204, 1)
+            FocusedBorderThickness: =0
+            Height: =40
+            Icon: =Icon.View
+            OnSelect: |-
+                =UpdateContext({var_anexo_exibir: true});Select(Parent);EditForm(Form_tela_contrato)
+            Tooltip: ="Exibir detalhes do contrato"
+            Width: =40
+            X: =895
+            Y: =29
+            ZIndex: =6
 

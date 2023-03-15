@@ -17,6 +17,9 @@
     "datasets": {
       "srv-fab-projetos.database.windows.net,db-fab-projetos": {
         "dataSources": {
+          "POC_GESTAOCONTRATOS.anexo": {
+            "tableName": "[POC_GESTAOCONTRATOS].[anexo]"
+          },
           "POC_GESTAOCONTRATOS.cliente": {
             "tableName": "[POC_GESTAOCONTRATOS].[cliente]"
           },
@@ -36,7 +39,8 @@
       "POC_GESTAOCONTRATOS.contratos_clientes",
       "POC_GESTAOCONTRATOS.cliente",
       "POC_GESTAOCONTRATOS.contrato",
-      "POC_GESTAOCONTRATOS.contratado"
+      "POC_GESTAOCONTRATOS.contratado",
+      "POC_GESTAOCONTRATOS.anexo"
     ],
     "dependencies": {},
     "dependents": [],

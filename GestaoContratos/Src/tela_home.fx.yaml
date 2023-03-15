@@ -152,6 +152,7 @@
         Height: =50
         HoverColor: =RGBA(255, 255, 255, 1)
         HoverFill: =ColorFade(RGBA(100, 118, 132, 1), -20%)
+        OnSelect: =
         RadiusBottomLeft: =100
         RadiusBottomRight: =100
         RadiusTopLeft: =100
@@ -159,8 +160,8 @@
         Size: =17
         Text: ="Controle Clientes"
         Width: =280
-        X: =75
-        Y: =510
+        X: =70
+        Y: =509
         ZIndex: =7
 
     Button1_19 As button:
@@ -169,7 +170,8 @@
         DisabledBorderColor: =RGBA(166, 166, 166, 1)
         DisabledColor: =RGBA(166, 166, 166, 1)
         DisabledFill: =RGBA(244, 244, 244, 1)
-        Fill: =RGBA(253, 207, 111, 1)
+        DisplayMode: =DisplayMode.View
+        Fill: =RGBA(153, 153, 153, 1)
         Font: =Font.'Segoe UI'
         FontWeight: =FontWeight.Bold
         Height: =50
@@ -213,4 +215,28 @@
         X: =991
         Y: =3
         ZIndex: =11
+
+    PowerBI2 As powerbi:
+        BorderColor: =RGBA(253, 207, 111, 1)
+        DashboardId: ="4566448b-5e3d-4162-81dc-87bd2731013a"
+        Height: =4
+        TileUrl: |-
+            ="https://app.powerbi.com/embed?dashboardId=4566448b-5e3d-4162-81dc-87bd2731013a&tileId=9cc9aa30-ad64-4b2e-885a-ea2dc25f2b8a&config=eyJjbHVzdGVyVXJsIjoiaHR0cHM6Ly9XQUJJLUJSQVpJTC1TT1VUSC1yZWRpcmVjdC5hbmFseXNpcy53aW5kb3dzLm5ldCIsImVtYmVkRmVhdHVyZXMiOnsibW9kZXJuRW1iZWQiOmZhbHNlfX0%3d"
+        Width: =200
+        WorkspaceId: ="f428b581-9d6e-4692-b01a-e949e7f6934b"
+        X: =113
+        Y: =545
+        ZIndex: =12
+
+    PowerBI2_1 As powerbi:
+        BorderColor: =RGBA(253, 207, 111, 1)
+        DashboardId: ="4566448b-5e3d-4162-81dc-87bd2731013a"
+        Height: =4
+        TileUrl: |-
+            ="https://app.powerbi.com/embed?dashboardId=4566448b-5e3d-4162-81dc-87bd2731013a&tileId=9cc9aa30-ad64-4b2e-885a-ea2dc25f2b8a&config=eyJjbHVzdGVyVXJsIjoiaHR0cHM6Ly9XQUJJLUJSQVpJTC1TT1VUSC1yZWRpcmVjdC5hbmFseXNpcy53aW5kb3dzLm5ldCIsImVtYmVkRmVhdHVyZXMiOnsibW9kZXJuRW1iZWQiOmZhbHNlfX0%3d"
+        Width: =220
+        WorkspaceId: ="f428b581-9d6e-4692-b01a-e949e7f6934b"
+        X: =106
+        Y: =611
+        ZIndex: =13
 
