@@ -130,13 +130,28 @@
             FocusedBorderThickness: =0
             Height: =40
             Icon: =Icon.AddDocument
-            OnSelect: |-
-                =UpdateContext({var_cliente_exibir: true});Select(Parent);EditForm(Form_tela_contrato)
+            OnSelect: =
             Tooltip: ="Anexar documento"
             Width: =40
             X: =744
             Y: =31
             ZIndex: =7
+
+        Icon2_12 As icon.Add:
+            BorderColor: =RGBA(32, 54, 71, 1)
+            Color: =RGBA(100, 118, 132, 1)
+            DisabledBorderColor: =RGBA(166, 166, 166, 1)
+            DisabledColor: =RGBA(244, 244, 244, 1)
+            Fill: =RGBA(204, 204, 204, 1)
+            FocusedBorderThickness: =0
+            Height: =40
+            Icon: =Icon.Download
+            OnSelect: =
+            Tooltip: ="Baixar anexos"
+            Width: =40
+            X: =665
+            Y: =31
+            ZIndex: =8
 
     Label1_9 As label:
         Align: =Align.Center
@@ -331,7 +346,7 @@
 
     Form_tela_contrato As form:
         BorderColor: =RGBA(32, 54, 71, 1)
-        DataSource: ='POC_GESTAOCONTRATOS.contratos_clientes'
+        DataSource: ='POC_GESTAOCONTRATOS.contrato'
         DefaultMode: =FormMode.New
         Height: =636
         Item: =Gallery_clientes_5.Selected
@@ -346,7 +361,7 @@
             BorderColor: =RGBA(32, 54, 71, 1)
             BorderStyle: =BorderStyle.Solid
             DataField: ="numero_contratado"
-            Default: =ThisItem.numero_contratado
+            Default: =ThisItem.numero_contrato
             DisplayMode: =Parent.DisplayMode
             DisplayName: =DataSourceInfo([@'POC_GESTAOCONTRATOS.contratos_clientes'],DataSourceInfo.DisplayName,"numero_contratado")
             Fill: =RGBA(0, 0, 0, 0)
@@ -365,7 +380,8 @@
                 FontWeight: =FontWeight.Bold
                 Height: =48
                 Size: =17
-                Text: =Parent.DisplayName
+                Text: |-
+                    ="# Contrato"
                 Width: =Parent.Width - 60
                 Wrap: =false
                 X: =30

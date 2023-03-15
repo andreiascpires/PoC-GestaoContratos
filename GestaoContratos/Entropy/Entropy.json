@@ -144,6 +144,7 @@
     "Icon2_1": 312,
     "Icon2_10": 255,
     "Icon2_11": 256,
+    "Icon2_12": 380,
     "Icon2_2": 311,
     "Icon2_3": 151,
     "Icon2_4": 152,
@@ -308,7 +309,7 @@
   },
   "FunctionParamsInvariantScripts": {},
   "FunctionParamsInvariantScriptsOnInstances": {},
-  "HeaderLastSavedDateTimeUTC": "03/15/2023 14:22:45",
+  "HeaderLastSavedDateTimeUTC": "03/15/2023 14:52:50",
   "IsLegacyComponentAllowGlobalScopeCase": false,
   "LocalConnectionIDReferences": {
     "a5003758-43b4-4648-9544-ef35d7890bb6": "\"/providers/microsoft.powerapps/apis/shared_sql/connections/4a0fbb15-4134-4889-a28f-9e07ff427011\""
@@ -499,6 +500,7 @@
     "Icon2_1": {},
     "Icon2_10": {},
     "Icon2_11": {},
+    "Icon2_12": {},
     "Icon2_2": {},
     "Icon2_3": {},
     "Icon2_4": {},
@@ -805,6 +807,7 @@
     "Icon2_1": 49,
     "Icon2_10": 103,
     "Icon2_11": 104,
+    "Icon2_12": 104,
     "Icon2_2": 48,
     "Icon2_3": 147,
     "Icon2_4": 148,
@@ -987,7 +990,7 @@
       "gallery": 7,
       "galleryTemplate": 7,
       "groupContainer": 7,
-      "icon": 56,
+      "icon": 57,
       "image": 1,
       "label": 145,
       "powerbi": 1,
@@ -997,7 +1000,7 @@
       "typedDataCard": 29
     },
     "DeserializationLoadTime": 3.5256034,
-    "ErrorCount": 14
+    "ErrorCount": 13
   },
   "WasLocalDatabaseReferencesEmpty": true
 }
