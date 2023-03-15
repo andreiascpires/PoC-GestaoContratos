@@ -311,7 +311,7 @@
   },
   "FunctionParamsInvariantScripts": {},
   "FunctionParamsInvariantScriptsOnInstances": {},
-  "HeaderLastSavedDateTimeUTC": "03/15/2023 12:03:04",
+  "HeaderLastSavedDateTimeUTC": "03/15/2023 12:31:14",
   "IsLegacyComponentAllowGlobalScopeCase": false,
   "LocalConnectionIDReferences": {
     "a5003758-43b4-4648-9544-ef35d7890bb6": "\"/providers/microsoft.powerapps/apis/shared_sql/connections/4a0fbb15-4134-4889-a28f-9e07ff427011\""
@@ -335,9 +335,9 @@
     "CustomGallerySample": 1,
     "DropDownSample": 2,
     "ListboxSample": 3,
-    "POC_GESTAOCONTRATOS.cliente": 4,
-    "POC_GESTAOCONTRATOS.contratado": 5,
-    "POC_GESTAOCONTRATOS.contrato": 6,
+    "POC_GESTAOCONTRATOS.cliente": 6,
+    "POC_GESTAOCONTRATOS.contratado": 4,
+    "POC_GESTAOCONTRATOS.contrato": 5,
     "POC_GESTAOCONTRATOS.contratos_clientes": 7
   },
   "OrderGroupControls": {},
