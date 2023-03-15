@@ -146,7 +146,7 @@
             FocusedBorderThickness: =0
             Height: =40
             Icon: =Icon.Download
-            OnSelect: =
+            OnSelect: =Launch(ArmazenamentodeBlobdoAzure.CreateShareLinkByPath())
             Tooltip: ="Baixar anexos"
             Width: =40
             X: =665
@@ -957,4 +957,33 @@
         X: =647
         Y: =631
         ZIndex: =44
+
+    anexar_doc As addMedia:
+        BorderColor: =RGBA(32, 54, 71, 1)
+        ChangePictureText: ="Anexar documento"
+        Color: =RGBA(0, 0, 0, 1)
+        Fill: =RGBA(255, 255, 255, 1)
+        Height: =44
+        OnSelect: |-
+            =Set(
+                varNomeAnexo,
+                anexar_doc.FileName
+            );
+            
+            Set(
+                varNomeBlob, Gallery_clientes_5.Selected.nome_docs
+            );
+            
+            ArmazenamentodeBlobdoAzure.CreateFile(
+                "poc-gestaocontratos", 
+                varNomeBlob, 
+                anexar_doc.Media
+            );
+        Size: =25
+        Text: =""
+        Tooltip: ="Anexar documento"
+        Width: =52
+        X: =777
+        Y: =260
+        ZIndex: =47
 
