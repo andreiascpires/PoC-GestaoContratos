@@ -81,7 +81,7 @@
             PaddingRight: =10
             PaddingTop: =10
             TabIndex: =0
-            Tooltip: ="Editar cliente"
+            Tooltip: ="Editar contrato"
             Width: =60
             X: =891
             Y: =16
@@ -98,7 +98,7 @@
             Icon: =Icon.Trash
             OnSelect: |-
                 =UpdateContext({var_cliente_excluir: true})
-            Tooltip: ="Excluir cliente"
+            Tooltip: ="Excluir contrato"
             Width: =40
             X: =980
             Y: =29
@@ -115,11 +115,28 @@
             Icon: =Icon.View
             OnSelect: |-
                 =UpdateContext({var_cliente_exibir: true});Select(Parent);EditForm(Form_tela_contrato)
-            Tooltip: ="Exibir detalhes do cliente"
+            Tooltip: ="Exibir detalhes do contrato"
             Width: =40
             X: =825
             Y: =29
             ZIndex: =6
+
+        Icon2_11 As icon.Add:
+            BorderColor: =RGBA(32, 54, 71, 1)
+            Color: =RGBA(100, 118, 132, 1)
+            DisabledBorderColor: =RGBA(166, 166, 166, 1)
+            DisabledColor: =RGBA(244, 244, 244, 1)
+            Fill: =RGBA(204, 204, 204, 1)
+            FocusedBorderThickness: =0
+            Height: =40
+            Icon: =Icon.AddDocument
+            OnSelect: |-
+                =UpdateContext({var_cliente_exibir: true});Select(Parent);EditForm(Form_tela_contrato)
+            Tooltip: ="Anexar documento"
+            Width: =40
+            X: =744
+            Y: =31
+            ZIndex: =7
 
     Label1_9 As label:
         Align: =Align.Center
@@ -687,93 +704,6 @@
                 Y: =DataCardKey14.Y
                 ZIndex: =4
 
-        data_fim_DataCard1 As typedDataCard.dateEditCard:
-            BorderColor: =RGBA(32, 54, 71, 1)
-            BorderStyle: =BorderStyle.Solid
-            DataField: ="data_fim"
-            Default: =ThisItem.data_fim
-            DisplayMode: =Parent.DisplayMode
-            DisplayName: =DataSourceInfo([@'POC_GESTAOCONTRATOS.contratos_clientes'],DataSourceInfo.DisplayName,"data_fim")
-            Fill: =RGBA(0, 0, 0, 0)
-            Height: =50
-            Required: =false
-            Update: =DataCardValue15.SelectedDate
-            Width: =1020
-            X: =0
-            Y: =3
-            ZIndex: =1
-
-            DataCardKey15 As label:
-                AutoHeight: =true
-                Color: =RGBA(253, 207, 111, 1)
-                DisabledColor: =RGBA(166, 166, 166, 1)
-                FontWeight: =FontWeight.Bold
-                Height: =48
-                Size: =17
-                Text: =Parent.DisplayName
-                Width: =Parent.Width - 60
-                Wrap: =false
-                X: =30
-                Y: =10
-                ZIndex: =1
-
-            DataCardValue15 As datepicker:
-                BorderColor: =If(IsBlank(Parent.Error), Parent.BorderColor, Color.Red)
-                CalendarHeaderFill: =RGBA(100, 118, 132, 1)
-                Color: =RGBA(0, 0, 0, 1)
-                DefaultDate: =Parent.Default
-                DisabledBorderColor: =RGBA(166, 166, 166, 1)
-                DisabledColor: =RGBA(166, 166, 166, 1)
-                DisabledFill: =RGBA(244, 244, 244, 1)
-                DisplayMode: =Parent.DisplayMode
-                EndYear: =Year(Today())+100
-                Height: =55
-                HoverDateFill: =RGBA(205, 209, 213, 1)
-                IconBackground: =RGBA(100, 118, 132, 1)
-                IsEditable: =true
-                PaddingBottom: =0
-                PaddingLeft: =If(Self.DisplayMode = DisplayMode.Edit, 5, 0)
-                SelectedDateFill: =RGBA(100, 118, 132, 1)
-                Size: =17
-                StartYear: =1899
-                Tooltip: =Parent.DisplayName
-                Width: =315
-                X: =30
-                Y: =58
-                ZIndex: =2
-
-            ErrorMessage15 As label:
-                AutoHeight: =true
-                Color: =RGBA(168, 0, 0, 1)
-                DisabledColor: =RGBA(166, 166, 166, 1)
-                FontWeight: =FontWeight.Semibold
-                Height: =10
-                Live: =Live.Assertive
-                PaddingBottom: =0
-                PaddingLeft: =0
-                PaddingRight: =0
-                PaddingTop: =0
-                Size: =24
-                Text: =Parent.Error
-                Visible: =Parent.DisplayMode=DisplayMode.Edit
-                Width: =Parent.Width - 60
-                X: =30
-                Y: =DataCardValue15.Y + DataCardValue15.Height
-                ZIndex: =3
-
-            StarVisible15 As label:
-                Align: =Align.Center
-                Color: =RGBA(32, 54, 71, 1)
-                DisabledColor: =RGBA(166, 166, 166, 1)
-                Height: =DataCardKey15.Height
-                Size: =21
-                Text: ="*"
-                Visible: =And(Parent.Required, Parent.DisplayMode=DisplayMode.Edit)
-                Width: =30
-                Wrap: =false
-                Y: =DataCardKey15.Y
-                ZIndex: =4
-
         data_inicio_DataCard1 As typedDataCard.dateEditCard:
             BorderColor: =RGBA(32, 54, 71, 1)
             BorderStyle: =BorderStyle.Solid
@@ -787,7 +717,7 @@
             Update: =DataCardValue16.SelectedDate
             Width: =1020
             X: =0
-            Y: =4
+            Y: =3
             ZIndex: =1
 
             DataCardKey16 As label:
@@ -861,6 +791,93 @@
                 Y: =DataCardKey16.Y
                 ZIndex: =4
 
+        data_fim_DataCard1 As typedDataCard.dateEditCard:
+            BorderColor: =RGBA(32, 54, 71, 1)
+            BorderStyle: =BorderStyle.Solid
+            DataField: ="data_fim"
+            Default: =ThisItem.data_fim
+            DisplayMode: =Parent.DisplayMode
+            DisplayName: =DataSourceInfo([@'POC_GESTAOCONTRATOS.contratos_clientes'],DataSourceInfo.DisplayName,"data_fim")
+            Fill: =RGBA(0, 0, 0, 0)
+            Height: =50
+            Required: =false
+            Update: =DataCardValue15.SelectedDate
+            Width: =1020
+            X: =0
+            Y: =4
+            ZIndex: =1
+
+            DataCardKey15 As label:
+                AutoHeight: =true
+                Color: =RGBA(253, 207, 111, 1)
+                DisabledColor: =RGBA(166, 166, 166, 1)
+                FontWeight: =FontWeight.Bold
+                Height: =48
+                Size: =17
+                Text: =Parent.DisplayName
+                Width: =Parent.Width - 60
+                Wrap: =false
+                X: =30
+                Y: =10
+                ZIndex: =1
+
+            DataCardValue15 As datepicker:
+                BorderColor: =If(IsBlank(Parent.Error), Parent.BorderColor, Color.Red)
+                CalendarHeaderFill: =RGBA(100, 118, 132, 1)
+                Color: =RGBA(0, 0, 0, 1)
+                DefaultDate: =Parent.Default
+                DisabledBorderColor: =RGBA(166, 166, 166, 1)
+                DisabledColor: =RGBA(166, 166, 166, 1)
+                DisabledFill: =RGBA(244, 244, 244, 1)
+                DisplayMode: =Parent.DisplayMode
+                EndYear: =Year(Today())+100
+                Height: =55
+                HoverDateFill: =RGBA(205, 209, 213, 1)
+                IconBackground: =RGBA(100, 118, 132, 1)
+                IsEditable: =true
+                PaddingBottom: =0
+                PaddingLeft: =If(Self.DisplayMode = DisplayMode.Edit, 5, 0)
+                SelectedDateFill: =RGBA(100, 118, 132, 1)
+                Size: =17
+                StartYear: =1899
+                Tooltip: =Parent.DisplayName
+                Width: =315
+                X: =30
+                Y: =58
+                ZIndex: =2
+
+            ErrorMessage15 As label:
+                AutoHeight: =true
+                Color: =RGBA(168, 0, 0, 1)
+                DisabledColor: =RGBA(166, 166, 166, 1)
+                FontWeight: =FontWeight.Semibold
+                Height: =10
+                Live: =Live.Assertive
+                PaddingBottom: =0
+                PaddingLeft: =0
+                PaddingRight: =0
+                PaddingTop: =0
+                Size: =24
+                Text: =Parent.Error
+                Visible: =Parent.DisplayMode=DisplayMode.Edit
+                Width: =Parent.Width - 60
+                X: =30
+                Y: =DataCardValue15.Y + DataCardValue15.Height
+                ZIndex: =3
+
+            StarVisible15 As label:
+                Align: =Align.Center
+                Color: =RGBA(32, 54, 71, 1)
+                DisabledColor: =RGBA(166, 166, 166, 1)
+                Height: =DataCardKey15.Height
+                Size: =21
+                Text: ="*"
+                Visible: =And(Parent.Required, Parent.DisplayMode=DisplayMode.Edit)
+                Width: =30
+                Wrap: =false
+                Y: =DataCardKey15.Y
+                ZIndex: =4
+
     Icon6_2 As icon.Add:
         BorderColor: =RGBA(32, 54, 71, 1)
         Color: =RGBA(253, 207, 111, 1)
@@ -898,7 +915,7 @@
         Visible: =var_cliente_editar
         Width: =135
         X: =798
-        Y: =577
+        Y: =631
         ZIndex: =43
 
     Button_salva_cliente_2 As button:
@@ -922,6 +939,6 @@
         Visible: =var_cliente_editar
         Width: =135
         X: =647
-        Y: =577
+        Y: =631
         ZIndex: =44
 
