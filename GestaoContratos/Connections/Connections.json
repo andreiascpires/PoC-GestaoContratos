@@ -41,26 +41,5 @@
     "dependencies": {},
     "dependents": [],
     "id": "a5003758-43b4-4648-9544-ef35d7890bb6"
-  },
-  "fe28a680-0bbc-40bd-ba4d-081a8da9a218": {
-    "connectionParameters": {
-      "accountName": "dlsg2case05",
-      "authType": "basic",
-      "privacySetting": "None"
-    },
-    "connectionRef": {
-      "authenticationType": "keyBasedAuth",
-      "displayName": "Armazenamento de Blob do Azure",
-      "iconUri": "https://connectoricons-prod.azureedge.net/releases/v1.0.1617/1.0.1617.3171/azureblob/icon.png",
-      "id": "/providers/microsoft.powerapps/apis/shared_azureblob",
-      "sharedConnectionId": "/providers/microsoft.powerapps/apis/shared_azureblob/connections/f003c7d745e242518c5b48006f4e7866"
-    },
-    "datasets": {},
-    "dataSources": [
-      "ArmazenamentodeBlobdoAzure"
-    ],
-    "dependencies": {},
-    "dependents": [],
-    "id": "fe28a680-0bbc-40bd-ba4d-081a8da9a218"
   }
 }
