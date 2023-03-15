@@ -303,7 +303,7 @@
             FontWeight: =FontWeight.Bold
             Height: =70
             Size: =21
-            Text: ="Deseja excluir o cliente selecionado?"
+            Text: ="Deseja excluir o contrato selecionado?"
             Width: =500
             Y: =40
             ZIndex: =4
