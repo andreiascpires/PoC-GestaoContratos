@@ -10,7 +10,7 @@
         BorderColor: =RGBA(100, 118, 132, 1)
         BorderThickness: =5
         Fill: =RGBA(230, 230, 230, 1)
-        Height: =484
+        Height: =430
         Items: |
             =SortByColumns(Search('POC_GESTAOCONTRATOS.contrato',Text_busca_5.Text, "nome_docs"),"nome_docs",SortOrder.Ascending)
         Layout: =Layout.Vertical
@@ -19,7 +19,7 @@
         TemplateSize: =89
         Width: =1045
         X: =38
-        Y: =231
+        Y: =285
         ZIndex: =1
 
         Button2_6 As button:
@@ -297,7 +297,7 @@
         Size: =20
         Width: =1047
         X: =38
-        Y: =162
+        Y: =222
         ZIndex: =8
 
     Icon1_5 As icon.ZoomIn:
@@ -310,7 +310,7 @@
         OnSelect: =Set(VarBusca,!VarBusca)
         Width: =50
         X: =1024
-        Y: =164
+        Y: =224
         ZIndex: =9
 
     Container2_5 As groupContainer.manualLayoutContainer:
@@ -1020,4 +1020,118 @@
             X: =963
             Y: =65
             ZIndex: =5
+
+    ComboBox7 As combobox:
+        BorderColor: =RGBA(32, 54, 71, 1)
+        ChevronBackground: =RGBA(100, 118, 132, 1)
+        ChevronDisabledBackground: =RGBA(166, 166, 166, 1)
+        ChevronDisabledFill: =RGBA(244, 244, 244, 1)
+        ChevronHoverBackground: =ColorFade(RGBA(100, 118, 132, 1), -20%)
+        ChevronHoverFill: =RGBA(255, 255, 255, 1)
+        DisabledBorderColor: =RGBA(166, 166, 166, 1)
+        DisabledColor: =RGBA(166, 166, 166, 1)
+        DisabledFill: =RGBA(244, 244, 244, 1)
+        Height: =58
+        HoverColor: =RGBA(0, 0, 0, 1)
+        HoverFill: =RGBA(205, 209, 213, 1)
+        Items: =ComboBoxSample
+        PressedColor: =RGBA(255, 255, 255, 1)
+        PressedFill: =RGBA(32, 54, 71, 1)
+        SearchItems: =Search(ComboBoxSample,ComboBox7.SearchText,"Value1")
+        SelectionFill: =RGBA(100, 118, 132, 1)
+        Size: =21
+        Width: =331
+        X: =739
+        Y: =91
+        ZIndex: =17
+
+    Label3_20 As label:
+        BorderColor: =RGBA(32, 54, 71, 1)
+        Color: =RGBA(253, 207, 111, 1)
+        DisabledColor: =RGBA(166, 166, 166, 1)
+        Font: =Font.'Segoe UI'
+        FontWeight: =FontWeight.Bold
+        Height: =51
+        Size: =21
+        Text: ="Vigência "
+        Width: =160
+        X: =607
+        Y: =91
+        ZIndex: =18
+
+    Label3_21 As label:
+        BorderColor: =RGBA(32, 54, 71, 1)
+        Color: =RGBA(253, 207, 111, 1)
+        DisabledColor: =RGBA(166, 166, 166, 1)
+        Font: =Font.'Segoe UI'
+        FontWeight: =FontWeight.Bold
+        Height: =51
+        Size: =21
+        Text: ="Objeto"
+        Width: =160
+        X: =73
+        Y: =155
+        ZIndex: =19
+
+    Label3_22 As label:
+        BorderColor: =RGBA(32, 54, 71, 1)
+        Color: =RGBA(253, 207, 111, 1)
+        DisabledColor: =RGBA(166, 166, 166, 1)
+        Font: =Font.'Segoe UI'
+        FontWeight: =FontWeight.Bold
+        Height: =51
+        Size: =21
+        Text: ="Status"
+        Width: =160
+        X: =607
+        Y: =154
+        ZIndex: =20
+
+    ComboBox7_1 As combobox:
+        BorderColor: =RGBA(32, 54, 71, 1)
+        ChevronBackground: =RGBA(100, 118, 132, 1)
+        ChevronDisabledBackground: =RGBA(166, 166, 166, 1)
+        ChevronDisabledFill: =RGBA(244, 244, 244, 1)
+        ChevronHoverBackground: =ColorFade(RGBA(100, 118, 132, 1), -20%)
+        ChevronHoverFill: =RGBA(255, 255, 255, 1)
+        DisabledBorderColor: =RGBA(166, 166, 166, 1)
+        DisabledColor: =RGBA(166, 166, 166, 1)
+        DisabledFill: =RGBA(244, 244, 244, 1)
+        Height: =58
+        HoverColor: =RGBA(0, 0, 0, 1)
+        HoverFill: =RGBA(205, 209, 213, 1)
+        Items: =ComboBoxSample
+        PressedColor: =RGBA(255, 255, 255, 1)
+        PressedFill: =RGBA(32, 54, 71, 1)
+        SearchItems: =Search(ComboBoxSample,ComboBox7_1.SearchText,"Value1")
+        SelectionFill: =RGBA(100, 118, 132, 1)
+        Size: =21
+        Width: =331
+        X: =739
+        Y: =156
+        ZIndex: =21
+
+    ComboBox7_2 As combobox:
+        BorderColor: =RGBA(32, 54, 71, 1)
+        ChevronBackground: =RGBA(100, 118, 132, 1)
+        ChevronDisabledBackground: =RGBA(166, 166, 166, 1)
+        ChevronDisabledFill: =RGBA(244, 244, 244, 1)
+        ChevronHoverBackground: =ColorFade(RGBA(100, 118, 132, 1), -20%)
+        ChevronHoverFill: =RGBA(255, 255, 255, 1)
+        DisabledBorderColor: =RGBA(166, 166, 166, 1)
+        DisabledColor: =RGBA(166, 166, 166, 1)
+        DisabledFill: =RGBA(244, 244, 244, 1)
+        Height: =58
+        HoverColor: =RGBA(0, 0, 0, 1)
+        HoverFill: =RGBA(205, 209, 213, 1)
+        Items: =ComboBoxSample
+        PressedColor: =RGBA(255, 255, 255, 1)
+        PressedFill: =RGBA(32, 54, 71, 1)
+        SearchItems: =Search(ComboBoxSample,ComboBox7_2.SearchText,"Value1")
+        SelectionFill: =RGBA(100, 118, 132, 1)
+        Size: =21
+        Width: =331
+        X: =189
+        Y: =154
+        ZIndex: =22
 

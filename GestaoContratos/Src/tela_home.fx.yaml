@@ -42,7 +42,7 @@
         Text: ="Gestão de Contratos"
         Width: =560
         X: =70
-        Y: =174
+        Y: =184
         ZIndex: =2
 
     Button1_18 As button:
@@ -65,7 +65,7 @@
         Text: ="Controle Financeiro"
         Width: =280
         X: =75
-        Y: =574
+        Y: =535
         ZIndex: =3
 
     Button1_14 As button:
@@ -89,7 +89,7 @@
         Text: ="Contratos"
         Width: =280
         X: =75
-        Y: =315
+        Y: =352
         ZIndex: =4
 
     Button1_13 As button:
@@ -113,32 +113,8 @@
         Text: ="Clientes"
         Width: =280
         X: =75
-        Y: =250
+        Y: =290
         ZIndex: =5
-
-    Button1_15 As button:
-        BorderThickness: =3
-        Color: =RGBA(0, 121, 187, 1)
-        DisabledBorderColor: =RGBA(166, 166, 166, 1)
-        DisabledColor: =RGBA(166, 166, 166, 1)
-        DisabledFill: =RGBA(244, 244, 244, 1)
-        Fill: =RGBA(253, 207, 111, 1)
-        Font: =Font.'Segoe UI'
-        FontWeight: =FontWeight.Bold
-        Height: =50
-        HoverColor: =RGBA(255, 255, 255, 1)
-        HoverFill: =ColorFade(RGBA(100, 118, 132, 1), -20%)
-        OnSelect: =Navigate(tela_propostas, ScreenTransition.Fade )
-        RadiusBottomLeft: =100
-        RadiusBottomRight: =100
-        RadiusTopLeft: =100
-        RadiusTopRight: =100
-        Size: =17
-        Text: ="Proposta"
-        Width: =280
-        X: =75
-        Y: =380
-        ZIndex: =6
 
     Button1_16 As button:
         BorderThickness: =3
@@ -160,8 +136,8 @@
         Size: =17
         Text: ="Controle Clientes"
         Width: =280
-        X: =70
-        Y: =509
+        X: =75
+        Y: =474
         ZIndex: =7
 
     Button1_19 As button:
@@ -171,7 +147,7 @@
         DisabledColor: =RGBA(166, 166, 166, 1)
         DisabledFill: =RGBA(244, 244, 244, 1)
         DisplayMode: =DisplayMode.View
-        Fill: =RGBA(153, 153, 153, 1)
+        Fill: =RGBA(253, 207, 111, 1)
         Font: =Font.'Segoe UI'
         FontWeight: =FontWeight.Bold
         Height: =50
@@ -185,7 +161,7 @@
         Text: ="Tabelas"
         Width: =280
         X: =75
-        Y: =445
+        Y: =413
         ZIndex: =9
 
     Label4 As label:
@@ -225,7 +201,7 @@
         Width: =200
         WorkspaceId: ="f428b581-9d6e-4692-b01a-e949e7f6934b"
         X: =113
-        Y: =545
+        Y: =515
         ZIndex: =12
 
     PowerBI2_1 As powerbi:
@@ -237,6 +213,6 @@
         Width: =220
         WorkspaceId: ="f428b581-9d6e-4692-b01a-e949e7f6934b"
         X: =106
-        Y: =611
+        Y: =571
         ZIndex: =13
 
