@@ -119,6 +119,7 @@
   },
   "ScreenOrder": [
     "tela_home",
+    "tela_menu",
     "tela_cliente",
     "tela_contratos",
     "tela_propostas",

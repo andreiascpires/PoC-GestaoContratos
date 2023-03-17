@@ -612,7 +612,7 @@
       "LayoutName": "",
       "MetaDataIDKey": "",
       "Name": "Button_fundo_2",
-      "ParentIndex": 4,
+      "ParentIndex": 1,
       "PersistMetaDataIDKey": false,
       "Properties": [
         {
@@ -2279,7 +2279,7 @@
       "LayoutName": "",
       "MetaDataIDKey": "",
       "Name": "ComboBox7",
-      "ParentIndex": 0,
+      "ParentIndex": 7,
       "PersistMetaDataIDKey": false,
       "Properties": [
         {
@@ -2559,7 +2559,7 @@
       "LayoutName": "",
       "MetaDataIDKey": "",
       "Name": "ComboBox7_1",
-      "ParentIndex": 1,
+      "ParentIndex": 11,
       "PersistMetaDataIDKey": false,
       "Properties": [
         {
@@ -2839,7 +2839,7 @@
       "LayoutName": "",
       "MetaDataIDKey": "",
       "Name": "ComboBox7_2",
-      "ParentIndex": 2,
+      "ParentIndex": 8,
       "PersistMetaDataIDKey": false,
       "Properties": [
         {
@@ -8158,7 +8158,7 @@
       "LayoutName": "vertical",
       "MetaDataIDKey": "",
       "Name": "Form_tela_contrato",
-      "ParentIndex": 6,
+      "ParentIndex": 3,
       "PersistMetaDataIDKey": false,
       "Properties": [
         {
@@ -8341,7 +8341,7 @@
       "LayoutName": "",
       "MetaDataIDKey": "",
       "Name": "Gallery_anexo",
-      "ParentIndex": 5,
+      "ParentIndex": 2,
       "PersistMetaDataIDKey": false,
       "Properties": [
         {
@@ -11135,7 +11135,7 @@
       "LayoutName": "",
       "MetaDataIDKey": "",
       "Name": "Label1_9",
-      "ParentIndex": 3,
+      "ParentIndex": 0,
       "PersistMetaDataIDKey": false,
       "Properties": [
         {
@@ -11715,7 +11715,7 @@
       "LayoutName": "",
       "MetaDataIDKey": "",
       "Name": "Label3_19",
-      "ParentIndex": 7,
+      "ParentIndex": 4,
       "PersistMetaDataIDKey": false,
       "Properties": [
         {
@@ -12005,7 +12005,7 @@
       "LayoutName": "",
       "MetaDataIDKey": "",
       "Name": "Label3_20",
-      "ParentIndex": 8,
+      "ParentIndex": 6,
       "PersistMetaDataIDKey": false,
       "Properties": [
         {
@@ -12295,7 +12295,7 @@
       "LayoutName": "",
       "MetaDataIDKey": "",
       "Name": "Label3_21",
-      "ParentIndex": 9,
+      "ParentIndex": 10,
       "PersistMetaDataIDKey": false,
       "Properties": [
         {
@@ -12585,7 +12585,7 @@
       "LayoutName": "",
       "MetaDataIDKey": "",
       "Name": "Label3_22",
-      "ParentIndex": 10,
+      "ParentIndex": 9,
       "PersistMetaDataIDKey": false,
       "Properties": [
         {
@@ -16788,7 +16788,7 @@
       "LayoutName": "",
       "MetaDataIDKey": "",
       "Name": "Toggle1_25",
-      "ParentIndex": 11,
+      "ParentIndex": 5,
       "PersistMetaDataIDKey": false,
       "Properties": [
         {
