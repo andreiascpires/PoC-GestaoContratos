@@ -6,6 +6,36 @@
     LoadingSpinnerColor: =RGBA(100, 118, 132, 1)
     Width: =1123
 
+    HtmlText2_3 As htmlViewer:
+        Height: =67
+        HtmlText: |-
+            ="<div style='
+            background: yellow;
+            height:120px;
+            border-radius:6px;
+            margin:10px;
+            box-shadow: rgba(255,255, 0, 0.24) 0px 30px 8px;
+            ></div>"
+        Width: =225
+        X: =446
+        Y: =240
+        ZIndex: =2
+
+    HtmlText3 As htmlViewer:
+        Height: =747
+        HtmlText: |-
+            ="<div style='
+            background: #ffffff;
+            height:120px;
+            border-radius:6px;
+            margin:5px;
+            box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+            ></div>"
+        Width: =74
+        X: =337
+        Y: =22
+        ZIndex: =3
+
     Label4_1 As label:
         BorderColor: =RGBA(32, 54, 71, 1)
         Color: =RGBA(253, 207, 111, 1)
@@ -16,7 +46,7 @@
         Width: =304
         X: =719
         Y: =5
-        ZIndex: =1
+        ZIndex: =4
 
     Image1_1 As image:
         BorderColor: =RGBA(253, 207, 111, 1)
@@ -32,13 +62,28 @@
         Width: =50
         X: =991
         Y: =3
-        ZIndex: =2
+        ZIndex: =5
 
     Container1 As groupContainer:
         Height: =624
         Width: =If(VarMenuEstica=false, 0,  250)
         Y: =92
-        ZIndex: =3
+        ZIndex: =6
+
+        HtmlText2_1 As htmlViewer:
+            Height: =506
+            HtmlText: |-
+                ="<div style='
+                background: #ffffff;
+                height:120px;
+                border-radius:6px;
+                margin:5px;
+                box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+                ></div>"
+            Width: =196
+            X: =54
+            Y: =60
+            ZIndex: =1
 
         HtmlText2 As htmlViewer:
             Height: =506
@@ -53,7 +98,7 @@
             Width: =196
             X: =51
             Y: =49
-            ZIndex: =1
+            ZIndex: =2
 
         Rectangle1 As rectangle:
             BorderColor: =RGBA(32, 54, 71, 1)
@@ -62,7 +107,7 @@
             Width: =210
             X: =40
             Y: =49
-            ZIndex: =2
+            ZIndex: =3
 
         "Gallery4 As gallery.'BrowseLayout_Vertical_TwoTextOneImageVariant_ver4.0'":
             BorderColor: =RGBA(32, 54, 71, 1)
@@ -76,7 +121,7 @@
             Width: =230
             X: =40
             Y: =116
-            ZIndex: =3
+            ZIndex: =4
 
             Title4 As label:
                 Color: =RGBA(0, 0, 0, 1)
@@ -148,21 +193,6 @@
                 Y: =45
                 ZIndex: =7
 
-        HtmlText2_1 As htmlViewer:
-            Height: =506
-            HtmlText: |-
-                ="<div style='
-                background: #ffffff;
-                height:120px;
-                border-radius:6px;
-                margin:5px;
-                box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
-                ></div>"
-            Width: =196
-            X: =54
-            Y: =60
-            ZIndex: =4
-
     Icon7 As icon.History:
         BorderColor: =RGBA(32, 54, 71, 1)
         Color: =RGBA(255, 255, 255, 1)
@@ -173,5 +203,5 @@
         Width: =55
         X: =54
         Y: =132
-        ZIndex: =4
+        ZIndex: =7
 
