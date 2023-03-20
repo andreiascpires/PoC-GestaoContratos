@@ -74,8 +74,8 @@
                 Size: =20
                 Text: =ThisItem.icone
                 VerticalAlign: =VerticalAlign.Top
-                Width: =Parent.TemplateWidth - Image4.Width - 104
-                X: =Image4.X + Image4.Width + 24
+                Width: =
+                X: =
                 Y: =44
                 ZIndex: =2
 
@@ -136,6 +136,20 @@
                 Y: =40
                 ZIndex: =6
 
+        HtmlText2 As htmlViewer:
+            Height: =70
+            HtmlText: |-
+                ="<div style='
+                background: #ffffff;
+                height:120px;
+                border-radius:6px;
+                margin:5px;
+                box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+                ></div>"
+            Width: =250
+            Y: =46
+            ZIndex: =3
+
     Icon7 As icon.History:
         BorderColor: =RGBA(32, 54, 71, 1)
         Color: =RGBA(255, 255, 255, 1)
@@ -143,6 +157,7 @@
         DisabledColor: =RGBA(244, 244, 244, 1)
         Icon: =Icon.Hamburger
         OnSelect: =Set(VarMenuEstica, !VarMenuEstica)
+        Width: =55
         X: =54
         Y: =132
         ZIndex: =4
