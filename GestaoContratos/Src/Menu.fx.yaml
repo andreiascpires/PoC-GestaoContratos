@@ -59,9 +59,9 @@
             BorderColor: =RGBA(32, 54, 71, 1)
             Fill: =RGBA(100, 118, 132, 1)
             Height: =544
-            Width: =300
-            X: =42
-            Y: =40
+            Width: =210
+            X: =40
+            Y: =49
             ZIndex: =2
 
         "Gallery4 As gallery.'BrowseLayout_Vertical_TwoTextOneImageVariant_ver4.0'":
@@ -70,6 +70,7 @@
             Height: =466
             Items: =colNavegacao
             Layout: =Layout.Vertical
+            OnSelect: =Navigate(ThisItem.tela,ScreenTransition.Fade)
             TemplatePadding: =0
             TemplateSize: =115
             Width: =230
@@ -146,6 +147,21 @@
                 X: =60
                 Y: =45
                 ZIndex: =7
+
+        HtmlText2_1 As htmlViewer:
+            Height: =506
+            HtmlText: |-
+                ="<div style='
+                background: #ffffff;
+                height:120px;
+                border-radius:6px;
+                margin:5px;
+                box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+                ></div>"
+            Width: =196
+            X: =54
+            Y: =60
+            ZIndex: =4
 
     Icon7 As icon.History:
         BorderColor: =RGBA(32, 54, 71, 1)
