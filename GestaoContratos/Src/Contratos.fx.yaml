@@ -1,4 +1,4 @@
-"tela_contratos As screen.'printableLayout_A4Landscape_ver1.0'":
+"Contratos As screen.'printableLayout_A4Landscape_ver1.0'":
     BackgroundImage: ='MicrosoftTeams-image (2)'
     Fill: =RGBA(255, 255, 255, 1)  
     Height: =794
@@ -226,7 +226,7 @@
         DisabledColor: =RGBA(244, 244, 244, 1)
         Height: =56
         Icon: =Icon.BackArrow
-        OnSelect: =Navigate( tela_home, ScreenTransition.Fade )
+        OnSelect: =Navigate( Home, ScreenTransition.Fade )
         Tooltip: ="Voltar para tela inicial"
         X: =950
         Y: =734

@@ -1,4 +1,4 @@
-"tela_home As screen.'printableLayout_A4Landscape_ver1.0'":
+"Home As screen.'printableLayout_A4Landscape_ver1.0'":
     BackgroundImage: ='MicrosoftTeams-image (1)'
     Fill: =RGBA(255, 255, 255, 0)
     Height: =794
@@ -80,7 +80,7 @@
         Height: =50
         HoverColor: =RGBA(255, 255, 255, 1)
         HoverFill: =ColorFade(RGBA(100, 118, 132, 1), -20%)
-        OnSelect: =Navigate(tela_contratos, ScreenTransition.Fade )
+        OnSelect: =Navigate(Contratos, ScreenTransition.Fade )
         RadiusBottomLeft: =100
         RadiusBottomRight: =100
         RadiusTopLeft: =100
@@ -104,7 +104,7 @@
         Height: =50
         HoverColor: =RGBA(255, 255, 255, 1)
         HoverFill: =ColorFade(RGBA(100, 118, 132, 1), -20%)
-        OnSelect: =Navigate(tela_cliente, ScreenTransition.Fade )
+        OnSelect: =Navigate(Clientes, ScreenTransition.Fade )
         RadiusBottomLeft: =100
         RadiusBottomRight: =100
         RadiusTopLeft: =100

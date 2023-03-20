@@ -118,11 +118,11 @@
     "UserLocale": "pt-BR"
   },
   "ScreenOrder": [
-    "tela_home",
-    "tela_menu",
-    "tela_cliente",
-    "tela_contratos",
-    "tela_propostas",
+    "Home",
+    "Menu",
+    "Clientes",
+    "Contratos",
+    "Tabelas",
     "form_edita_cliente",
     "tela_edita_contrato_gabriel",
     "cadastro_cliente",

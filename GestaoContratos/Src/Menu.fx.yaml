@@ -1,4 +1,4 @@
-"tela_menu As screen.'printableLayout_A4Landscape_ver1.0'":
+"Menu As screen.'printableLayout_A4Landscape_ver1.0'":
     BackgroundImage: ='MicrosoftTeams-image (1)'
     Fill: =RGBA(255, 255, 255, 0)
     Height: =794
@@ -52,25 +52,14 @@
         "Gallery4 As gallery.'BrowseLayout_Vertical_TwoTextOneImageVariant_ver4.0'":
             BorderColor: =RGBA(32, 54, 71, 1)
             Height: =466
-            Items: =CustomGallerySample
+            Items: =colNavegacao
             Layout: =Layout.Vertical
             TemplatePadding: =0
-            TemplateSize: =Min(160, Self.Height - 60)
+            TemplateSize: =115
             Width: =230
             X: =40
             Y: =116
             ZIndex: =2
-
-            Image4 As image:
-                BorderColor: =RGBA(32, 54, 71, 1)
-                DisabledBorderColor: =RGBA(166, 166, 166, 1)
-                DisabledFill: =RGBA(244, 244, 244, 1)
-                Height: =128
-                OnSelect: =Select(Parent)
-                Width: =128
-                X: =16
-                Y: =(Parent.TemplateHeight / 2) - (Self.Height / 2)
-                ZIndex: =1
 
             Title4 As label:
                 Color: =RGBA(0, 0, 0, 1)
@@ -83,7 +72,7 @@
                 PaddingRight: =0
                 PaddingTop: =0
                 Size: =20
-                Text: =ThisItem.SampleHeading
+                Text: =ThisItem.icone
                 VerticalAlign: =VerticalAlign.Top
                 Width: =Parent.TemplateWidth - Image4.Width - 104
                 X: =Image4.X + Image4.Width + 24
@@ -100,7 +89,7 @@
                 PaddingRight: =0
                 PaddingTop: =0
                 Size: =18
-                Text: =ThisItem.SampleText
+                Text: =ThisItem.id
                 VerticalAlign: =VerticalAlign.Top
                 Width: =Title4.Width
                 X: =Title4.X
@@ -135,6 +124,17 @@
                 Width: =Parent.TemplateWidth
                 Y: =Parent.TemplateHeight - 1
                 ZIndex: =5
+
+            Icon8 As icon.History:
+                BorderColor: =RGBA(32, 54, 71, 1)
+                Color: =RGBA(32, 54, 71, 1)
+                DisabledBorderColor: =RGBA(166, 166, 166, 1)
+                DisabledColor: =RGBA(244, 244, 244, 1)
+                Icon: =ThisItem.icone
+                OnSelect: =Select(Parent)
+                X: =13
+                Y: =40
+                ZIndex: =6
 
     Icon7 As icon.History:
         BorderColor: =RGBA(32, 54, 71, 1)

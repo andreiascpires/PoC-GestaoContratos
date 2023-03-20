@@ -158,7 +158,7 @@
         DisabledColor: =RGBA(244, 244, 244, 1)
         Height: =61
         Icon: =Icon.BackArrow
-        OnSelect: =Navigate( tela_home, ScreenTransition.Fade )
+        OnSelect: =Navigate( Home, ScreenTransition.Fade )
         X: =950
         Y: =730
         ZIndex: =22
