@@ -130,7 +130,7 @@
         FontWeight: =FontWeight.Bold
         Height: =70
         Size: =32
-        Text: ="Propostas"
+        Text: ="Tabelas"
         Width: =560
         X: =464
         Y: =-9
@@ -157,7 +157,7 @@
         DisabledColor: =RGBA(244, 244, 244, 1)
         Height: =56
         Icon: =Icon.BackArrow
-        OnSelect: =Navigate( Home, ScreenTransition.Fade )
+        OnSelect: =Navigate( Menu, ScreenTransition.Fade )
         Tooltip: ="Voltar para tela inicial"
         X: =950
         Y: =734

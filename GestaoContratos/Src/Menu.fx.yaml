@@ -81,15 +81,15 @@
 
         "Gallery4 As gallery.'BrowseLayout_Vertical_TwoTextOneImageVariant_ver4.0'":
             BorderColor: =RGBA(32, 54, 71, 1)
-            Height: =572
+            Height: =650
             Items: =colNavegacao
             Layout: =Layout.Vertical
             OnSelect: =Navigate(ThisItem.tela,ScreenTransition.Fade)
             TemplatePadding: =0
             TemplateSize: =90
-            Width: =200
-            X: =40
-            Y: =78
+            Width: =168
+            X: =61
+            Y: =75
             ZIndex: =3
 
             Title4 As label:
@@ -146,8 +146,8 @@
                 Icon: =ThisItem.icone
                 OnSelect: =Select(Parent)
                 Width: =60
-                X: =22
-                Y: =26
+                X: =4
+                Y: =17
                 ZIndex: =6
 
             Label5 As label:
@@ -161,8 +161,8 @@
                 Size: =13
                 Text: =ThisItem.id
                 Width: =110
-                X: =73
-                Y: =20
+                X: =50
+                Y: =11
                 ZIndex: =7
 
     Icon7 As icon.History:
@@ -175,6 +175,6 @@
         OnSelect: =Set(VarMenuEstica, !VarMenuEstica)
         Width: =50
         X: =54
-        Y: =87
+        Y: =60
         ZIndex: =5
 

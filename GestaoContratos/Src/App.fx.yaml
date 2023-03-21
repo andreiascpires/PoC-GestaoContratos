@@ -3,7 +3,7 @@ App As appinfo:
     OnStart: |-
         =Set(varUsuario,User());
         ClearCollect(colNavegacao,
-        {id: Home.Name, tela:Home, icone: Icon.Home},
+        {id: Menu.Name, tela:Menu, icone: Icon.Home},
         {id: Clientes.Name, tela:Clientes, icone: Icon.Person},
         {id: Contratos.Name, tela:Contratos, icone: Icon.Document},
         {id: Tabelas.Name, tela:Tabelas, icone: Icon.Tablet},
