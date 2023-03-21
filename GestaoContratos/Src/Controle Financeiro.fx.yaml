@@ -6,7 +6,7 @@
     Width: =1123
 
     Label1_7 As label:
-        Align: =Align.Justify
+        Align: =Align.Center
         BorderColor: =RGBA(32, 54, 71, 1)
         Color: =RGBA(253, 207, 111, 1)
         DisabledColor: =RGBA(166, 166, 166, 1)
@@ -14,8 +14,8 @@
         FontWeight: =FontWeight.Bold
         Height: =70
         Size: =32
-        Text: ="Relatório Controle Financeiro"
-        Width: =610
+        Text: =App.ActiveScreen.Name
+        Width: =435
         X: =432
         ZIndex: =3
 

@@ -130,7 +130,7 @@
         FontWeight: =FontWeight.Bold
         Height: =70
         Size: =32
-        Text: ="Clientes"
+        Text: =App.ActiveScreen.Name
         Width: =560
         X: =464
         Y: =-9

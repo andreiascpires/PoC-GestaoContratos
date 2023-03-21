@@ -120,6 +120,7 @@
   "ScreenOrder": [
     "Home",
     "Menu",
+    "Menu_1",
     "Clientes",
     "Contratos",
     "Controle Clientes",
