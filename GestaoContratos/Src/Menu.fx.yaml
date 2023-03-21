@@ -19,22 +19,7 @@
         Width: =225
         X: =446
         Y: =240
-        ZIndex: =2
-
-    HtmlText3 As htmlViewer:
-        Height: =747
-        HtmlText: |-
-            ="<div style='
-            background: #ffffff;
-            height:120px;
-            border-radius:6px;
-            margin:5px;
-            box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
-            ></div>"
-        Width: =74
-        X: =337
-        Y: =22
-        ZIndex: =3
+        ZIndex: =1
 
     Label4_1 As label:
         BorderColor: =RGBA(32, 54, 71, 1)
@@ -46,7 +31,7 @@
         Width: =304
         X: =719
         Y: =5
-        ZIndex: =4
+        ZIndex: =2
 
     Image1_1 As image:
         BorderColor: =RGBA(253, 207, 111, 1)
@@ -62,56 +47,40 @@
         Width: =50
         X: =991
         Y: =3
-        ZIndex: =5
+        ZIndex: =3
 
     Container1 As groupContainer:
         Height: =624
         Width: =If(VarMenuEstica=false, 0,  250)
         Y: =92
-        ZIndex: =6
-
-        HtmlText2_1 As htmlViewer:
-            Height: =506
-            HtmlText: |-
-                ="<div style='
-                background: #ffffff;
-                height:120px;
-                border-radius:6px;
-                margin:5px;
-                box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
-                ></div>"
-            Width: =196
-            X: =54
-            Y: =60
-            ZIndex: =1
-
-        HtmlText2 As htmlViewer:
-            Height: =506
-            HtmlText: |-
-                ="<div style='
-                background: #ffffff;
-                height:120px;
-                border-radius:6px;
-                margin:5px;
-                box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
-                ></div>"
-            Width: =196
-            X: =51
-            Y: =49
-            ZIndex: =2
+        ZIndex: =4
 
         Rectangle1 As rectangle:
             BorderColor: =RGBA(32, 54, 71, 1)
-            Fill: =RGBA(100, 118, 132, 1)
+            Fill: =RGBA(230, 230, 230, 1)
             Height: =544
             Width: =210
             X: =40
             Y: =49
-            ZIndex: =3
+            ZIndex: =1
+
+        HtmlText2_1 As htmlViewer:
+            Height: =506
+            HtmlText: |
+                ="<div style='
+                background: #ffffff;
+                height:480px;
+                border-radius:6px;
+                margin:5px;
+                box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px';
+                ></div>"
+            Width: =196
+            X: =47
+            Y: =96
+            ZIndex: =2
 
         "Gallery4 As gallery.'BrowseLayout_Vertical_TwoTextOneImageVariant_ver4.0'":
             BorderColor: =RGBA(32, 54, 71, 1)
-            Fill: =RGBA(100, 118, 132, 1)
             Height: =466
             Items: =colNavegacao
             Layout: =Layout.Vertical
@@ -121,7 +90,7 @@
             Width: =230
             X: =40
             Y: =116
-            ZIndex: =4
+            ZIndex: =3
 
             Title4 As label:
                 Color: =RGBA(0, 0, 0, 1)
@@ -169,12 +138,13 @@
 
             Icon8 As icon.History:
                 BorderColor: =RGBA(32, 54, 71, 1)
-                Color: =RGBA(255, 255, 255, 1)
+                Color: =RGBA(100, 118, 132, 1)
                 DisabledBorderColor: =RGBA(166, 166, 166, 1)
                 DisabledColor: =RGBA(244, 244, 244, 1)
+                Fill: =RGBA(255, 255, 255, 1)
                 Icon: =ThisItem.icone
                 OnSelect: =Select(Parent)
-                X: =13
+                X: =22
                 Y: =40
                 ZIndex: =6
 
@@ -195,13 +165,13 @@
 
     Icon7 As icon.History:
         BorderColor: =RGBA(32, 54, 71, 1)
-        Color: =RGBA(255, 255, 255, 1)
+        Color: =RGBA(100, 118, 132, 1)
         DisabledBorderColor: =RGBA(166, 166, 166, 1)
         DisabledColor: =RGBA(244, 244, 244, 1)
         Icon: =Icon.Hamburger
         OnSelect: =Set(VarMenuEstica, !VarMenuEstica)
         Width: =55
         X: =54
-        Y: =132
-        ZIndex: =7
+        Y: =141
+        ZIndex: =5
 
