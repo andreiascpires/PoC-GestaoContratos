@@ -1,0 +1,45 @@
+"'Controle Financeiro' As screen.'printableLayout_A4Landscape_ver1.0'":
+    BackgroundImage: ='MicrosoftTeams-image (2)'
+    Height: =794
+    ImagePosition: =ImagePosition.Stretch
+    LoadingSpinnerColor: =RGBA(100, 118, 132, 1)
+    Width: =1123
+
+    Label1_7 As label:
+        Align: =Align.Justify
+        BorderColor: =RGBA(32, 54, 71, 1)
+        Color: =RGBA(253, 207, 111, 1)
+        DisabledColor: =RGBA(166, 166, 166, 1)
+        Font: =Font.'Segoe UI'
+        FontWeight: =FontWeight.Bold
+        Height: =70
+        Size: =32
+        Text: ="Relatório Controle Financeiro"
+        Width: =610
+        X: =432
+        ZIndex: =3
+
+    Toggle1_22 As toggleSwitch:
+        BorderColor: =RGBA(32, 54, 71, 1)
+        Color: =RGBA(0, 0, 0, 1)
+        FalseFill: =RGBA(253, 207, 111, 1)
+        HandleFill: =RGBA(255, 255, 255, 1)
+        Height: =0
+        ShowLabel: =false
+        Size: =21
+        TrueFill: =RGBA(100, 118, 132, 1)
+        Width: =175
+        X: =388
+        Y: =481
+        ZIndex: =22
+
+    PowerBI1_1 As powerbi:
+        BorderColor: =RGBA(32, 54, 71, 1)
+        DashboardId: =""
+        Height: =300
+        Width: =300
+        WorkspaceId: ="f428b581-9d6e-4692-b01a-e949e7f6934b"
+        X: =38
+        Y: =70
+        ZIndex: =23
+

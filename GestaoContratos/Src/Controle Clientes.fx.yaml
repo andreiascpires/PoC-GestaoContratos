@@ -1,4 +1,4 @@
-"PowerBI As screen.'printableLayout_A4Landscape_ver1.0'":
+"'Controle Clientes' As screen.'printableLayout_A4Landscape_ver1.0'":
     BackgroundImage: ='MicrosoftTeams-image (2)'
     Height: =794
     ImagePosition: =ImagePosition.Stretch
@@ -14,7 +14,7 @@
         FontWeight: =FontWeight.Bold
         Height: =70
         Size: =32
-        Text: ="Relatório"
+        Text: ="Relatório Controle Clientes"
         Width: =560
         X: =464
         ZIndex: =3

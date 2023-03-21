@@ -122,13 +122,14 @@
     "Menu",
     "Clientes",
     "Contratos",
+    "Controle Clientes",
+    "Controle Financeiro",
     "Contratos_david",
     "Tabelas",
     "form_edita_cliente",
     "tela_edita_contrato_gabriel",
     "cadastro_cliente",
     "consulta_cliente",
-    "sandbox_blob",
-    "PowerBI"
+    "sandbox_blob"
   ]
 }

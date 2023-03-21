@@ -50,46 +50,45 @@
         ZIndex: =3
 
     Container1 As groupContainer:
-        Height: =624
+        Height: =728
         Width: =If(VarMenuEstica=false, 0,  250)
-        Y: =92
+        Y: =88
         ZIndex: =4
 
         Rectangle1 As rectangle:
             BorderColor: =RGBA(32, 54, 71, 1)
             Fill: =RGBA(230, 230, 230, 1)
-            Height: =544
+            Height: =650
             Width: =210
             X: =40
-            Y: =49
             ZIndex: =1
 
         HtmlText2_1 As htmlViewer:
-            Height: =506
+            Height: =606
             HtmlText: |
                 ="<div style='
                 background: #ffffff;
-                height:480px;
+                height:570px;
                 border-radius:6px;
                 margin:5px;
                 box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px';
                 ></div>"
             Width: =196
             X: =47
-            Y: =96
+            Y: =44
             ZIndex: =2
 
         "Gallery4 As gallery.'BrowseLayout_Vertical_TwoTextOneImageVariant_ver4.0'":
             BorderColor: =RGBA(32, 54, 71, 1)
-            Height: =466
+            Height: =572
             Items: =colNavegacao
             Layout: =Layout.Vertical
             OnSelect: =Navigate(ThisItem.tela,ScreenTransition.Fade)
             TemplatePadding: =0
-            TemplateSize: =115
-            Width: =230
+            TemplateSize: =90
+            Width: =200
             X: =40
-            Y: =116
+            Y: =78
             ZIndex: =3
 
             Title4 As label:
@@ -142,10 +141,12 @@
                 DisabledBorderColor: =RGBA(166, 166, 166, 1)
                 DisabledColor: =RGBA(244, 244, 244, 1)
                 Fill: =RGBA(255, 255, 255, 1)
+                Height: =55
                 Icon: =ThisItem.icone
                 OnSelect: =Select(Parent)
+                Width: =60
                 X: =22
-                Y: =40
+                Y: =26
                 ZIndex: =6
 
             Label5 As label:
@@ -156,11 +157,11 @@
                 Font: =Font.'Segoe UI'
                 FontWeight: =FontWeight.Bold
                 Height: =70
-                Size: =16
+                Size: =13
                 Text: =ThisItem.id
-                Width: =147
-                X: =60
-                Y: =45
+                Width: =110
+                X: =73
+                Y: =20
                 ZIndex: =7
 
     Icon7 As icon.History:
@@ -168,10 +169,11 @@
         Color: =RGBA(100, 118, 132, 1)
         DisabledBorderColor: =RGBA(166, 166, 166, 1)
         DisabledColor: =RGBA(244, 244, 244, 1)
+        Height: =60
         Icon: =Icon.Hamburger
         OnSelect: =Set(VarMenuEstica, !VarMenuEstica)
-        Width: =55
+        Width: =50
         X: =54
-        Y: =141
+        Y: =87
         ZIndex: =5
 

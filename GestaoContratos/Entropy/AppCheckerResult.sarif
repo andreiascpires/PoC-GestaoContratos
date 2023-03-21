@@ -628,19 +628,19 @@
             {
               "logicalLocations": [
                 {
-                  "fullyQualifiedName": "PowerBI.Toggle1_3.ShowLabel"
+                  "fullyQualifiedName": "'Controle Clientes'.Toggle1_3.ShowLabel"
                 }
               ],
               "physicalLocation": {
                 "address": {
-                  "fullyQualifiedName": "PowerBI.Toggle1_3.ShowLabel",
+                  "fullyQualifiedName": "'Controle Clientes'.Toggle1_3.ShowLabel",
                   "relativeAddress": 0
                 }
               },
               "properties": {
                 "member": "ShowLabel",
-                "module": "PowerBI",
-                "type": "PowerBI.Toggle1_3"
+                "module": "Controle Clientes",
+                "type": "'Controle Clientes'.Toggle1_3"
               }
             }
           ],
@@ -658,19 +658,19 @@
             {
               "logicalLocations": [
                 {
-                  "fullyQualifiedName": "PowerBI.Toggle1_3.AccessibleLabel"
+                  "fullyQualifiedName": "'Controle Clientes'.Toggle1_3.AccessibleLabel"
                 }
               ],
               "physicalLocation": {
                 "address": {
-                  "fullyQualifiedName": "PowerBI.Toggle1_3.AccessibleLabel",
+                  "fullyQualifiedName": "'Controle Clientes'.Toggle1_3.AccessibleLabel",
                   "relativeAddress": 0
                 }
               },
               "properties": {
                 "member": "AccessibleLabel",
-                "module": "PowerBI",
-                "type": "PowerBI.Toggle1_3"
+                "module": "Controle Clientes",
+                "type": "'Controle Clientes'.Toggle1_3"
               }
             }
           ],
@@ -7072,6 +7072,66 @@
           },
           "ruleId": "acc-TabIndexShouldBeDefinedForInteractiveControl",
           "ruleIndex": 8
+        },
+        {
+          "locations": [
+            {
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "'Controle Financeiro'.Toggle1_22.ShowLabel"
+                }
+              ],
+              "physicalLocation": {
+                "address": {
+                  "fullyQualifiedName": "'Controle Financeiro'.Toggle1_22.ShowLabel",
+                  "relativeAddress": 0
+                }
+              },
+              "properties": {
+                "member": "ShowLabel",
+                "module": "Controle Financeiro",
+                "type": "'Controle Financeiro'.Toggle1_22"
+              }
+            }
+          ],
+          "message": {
+            "id": "issue"
+          },
+          "properties": {
+            "level": "Medium"
+          },
+          "ruleId": "acc-HelpfulControlSettingNeeded",
+          "ruleIndex": 9
+        },
+        {
+          "locations": [
+            {
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "'Controle Financeiro'.Toggle1_22.AccessibleLabel"
+                }
+              ],
+              "physicalLocation": {
+                "address": {
+                  "fullyQualifiedName": "'Controle Financeiro'.Toggle1_22.AccessibleLabel",
+                  "relativeAddress": 0
+                }
+              },
+              "properties": {
+                "member": "AccessibleLabel",
+                "module": "Controle Financeiro",
+                "type": "'Controle Financeiro'.Toggle1_22"
+              }
+            }
+          ],
+          "message": {
+            "id": "issue"
+          },
+          "properties": {
+            "level": "Medium"
+          },
+          "ruleId": "acc-AccessibleLabelNeeded",
+          "ruleIndex": 7
         },
         {
           "locations": [

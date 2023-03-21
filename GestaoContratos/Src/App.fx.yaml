@@ -6,5 +6,7 @@ App As appinfo:
         {id: Home.Name, tela:Home, icone: Icon.Home},
         {id: Clientes.Name, tela:Clientes, icone: Icon.Person},
         {id: Contratos.Name, tela:Contratos, icone: Icon.Document},
-        {id: Tabelas.Name, tela:Tabelas, icone: Icon.Tablet})
+        {id: Tabelas.Name, tela:Tabelas, icone: Icon.Tablet},
+        {id: 'Controle Clientes'.Name, tela:'Controle Clientes', icone: Icon.Journal},
+        {id: 'Controle Financeiro'.Name, tela:'Controle Financeiro', icone: Icon.Money})
 
