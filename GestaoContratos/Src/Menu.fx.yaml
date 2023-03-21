@@ -61,6 +61,7 @@
             Height: =650
             Width: =210
             X: =40
+            Y: =-5
             ZIndex: =1
 
         HtmlText2_1 As htmlViewer:
