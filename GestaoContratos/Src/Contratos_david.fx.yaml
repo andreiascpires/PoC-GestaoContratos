@@ -6,190 +6,6 @@
     LoadingSpinnerColor: =RGBA(100, 118, 132, 1)
     Width: =1123
 
-    "Gallery_clientes_6 As gallery.'BrowseLayout_Vertical_OneTextVariant_ver4.0'":
-        BorderColor: =RGBA(100, 118, 132, 1)
-        BorderThickness: =5
-        Fill: =RGBA(230, 230, 230, 1)
-        Height: =430
-        Items: |
-            =SortByColumns(Search('POC_GESTAOCONTRATOS.contrato',Text_busca_6.Text, "nome_docs"),"nome_docs",SortOrder.Ascending)
-        Layout: =Layout.Vertical
-        ShowScrollbar: =false
-        TemplatePadding: =0
-        TemplateSize: =89
-        Width: =1045
-        X: =38
-        Y: =285
-        ZIndex: =1
-
-        Button2_9 As button:
-            BorderColor: =ColorFade(Self.Fill, 17%)
-            BorderThickness: =5
-            Color: =RGBA(28, 84, 108, 1)
-            DisabledBorderColor: =RGBA(166, 166, 166, 0)
-            DisabledColor: =RGBA(166, 166, 166, 1)
-            DisabledFill: =RGBA(244, 244, 244, 1)
-            DisplayMode: =DisplayMode.View
-            Fill: =RGBA(204, 204, 204, 1)
-            FontWeight: =FontWeight.Semibold
-            Height: =80
-            HoverBorderColor: =ColorFade(Self.BorderColor, 70%)
-            HoverColor: =RGBA(255, 255, 255, 1)
-            HoverFill: =ColorFade(RGBA(100, 118, 132, 1), -80%)
-            RadiusBottomLeft: =15
-            RadiusBottomRight: =15
-            RadiusTopLeft: =15
-            RadiusTopRight: =15
-            Size: =24
-            Text: =""
-            Width: =1024
-            X: =12
-            Y: =9
-            ZIndex: =1
-
-        Title2_6 As label:
-            Color: =RGBA(0, 0, 0, 1)
-            DisabledColor: =RGBA(166, 166, 166, 1)
-            FontWeight: =FontWeight.Semibold
-            Height: =45
-            OnSelect: =Select(Parent)
-            PaddingBottom: =0
-            PaddingLeft: =0
-            PaddingRight: =0
-            PaddingTop: =0
-            Text: =ThisItem.nome_docs
-            VerticalAlign: =VerticalAlign.Top
-            Width: =370
-            X: =21
-            Y: =40
-            ZIndex: =2
-
-        NextArrow2_6 As icon.ChevronRight:
-            AccessibleLabel: =Self.Tooltip
-            BorderColor: =RGBA(32, 54, 71, 1)
-            Color: =RGBA(90, 106, 119, 1)
-            DisabledBorderColor: =RGBA(166, 166, 166, 1)
-            DisabledColor: =RGBA(244, 244, 244, 1)
-            Height: =65
-            Icon: =Icon.Edit
-            OnSelect: |-
-                =UpdateContext({var_cliente_editar: true});Select(Parent);EditForm(Form_tela_contrato_1)
-                
-                 
-            PaddingBottom: =10
-            PaddingLeft: =10
-            PaddingRight: =10
-            PaddingTop: =10
-            TabIndex: =0
-            Tooltip: ="Editar contrato"
-            Width: =60
-            X: =891
-            Y: =16
-            ZIndex: =3
-
-        Icon2_14 As icon.Add:
-            BorderColor: =RGBA(32, 54, 71, 1)
-            Color: =RGBA(255, 0, 0, 1)
-            DisabledBorderColor: =RGBA(166, 166, 166, 1)
-            DisabledColor: =RGBA(244, 244, 244, 1)
-            Fill: =RGBA(204, 204, 204, 1)
-            FocusedBorderThickness: =0
-            Height: =40
-            Icon: =Icon.Trash
-            OnSelect: |-
-                =UpdateContext({var_cliente_excluir: true})
-            Tooltip: ="Excluir contrato"
-            Width: =40
-            X: =980
-            Y: =29
-            ZIndex: =5
-
-        Icon2_6 As icon.Add:
-            BorderColor: =RGBA(32, 54, 71, 1)
-            Color: =RGBA(100, 118, 132, 1)
-            DisabledBorderColor: =RGBA(166, 166, 166, 1)
-            DisabledColor: =RGBA(244, 244, 244, 1)
-            Fill: =RGBA(204, 204, 204, 1)
-            FocusedBorderThickness: =0
-            Height: =40
-            Icon: =Icon.View
-            OnSelect: |-
-                =UpdateContext({var_cliente_exibir: true});Select(Parent);EditForm(Form_tela_contrato_1)
-            Tooltip: ="Exibir detalhes do contrato"
-            Width: =40
-            X: =825
-            Y: =29
-            ZIndex: =6
-
-        Icon2_16 As icon.Add:
-            BorderColor: =RGBA(32, 54, 71, 1)
-            Color: =RGBA(100, 118, 132, 1)
-            DisabledBorderColor: =RGBA(166, 166, 166, 1)
-            DisabledColor: =RGBA(244, 244, 244, 1)
-            Fill: =RGBA(204, 204, 204, 1)
-            FocusedBorderThickness: =0
-            Height: =40
-            Icon: =Icon.AddDocument
-            OnSelect: =
-            Tooltip: ="Anexar documento"
-            Width: =40
-            X: =744
-            Y: =31
-            ZIndex: =7
-
-        Icon2_15 As icon.Add:
-            BorderColor: =RGBA(32, 54, 71, 1)
-            Color: =RGBA(100, 118, 132, 1)
-            DisabledBorderColor: =RGBA(166, 166, 166, 1)
-            DisabledColor: =RGBA(244, 244, 244, 1)
-            Fill: =RGBA(204, 204, 204, 1)
-            FocusedBorderThickness: =0
-            Height: =40
-            Icon: =Icon.Download
-            OnSelect: =
-            Tooltip: ="Baixar anexos"
-            Width: =40
-            X: =665
-            Y: =31
-            ZIndex: =8
-
-        anexos_docs_1 As addMedia:
-            BorderColor: =RGBA(32, 54, 71, 1)
-            ChangePictureText: =""
-            Color: =RGBA(0, 0, 0, 1)
-            Fill: =RGBA(255, 255, 255, 1)
-            Height: =40
-            OnSelect: |
-                =ArmazenamentodeBlobdoAzure.CreateFile(
-                    "poc-gestaocontratos",
-                    Gallery_clientes_6.Selected.nome_docs & "_" & anexos_docs_1.FileName,
-                    anexos_docs_1.Media
-                );
-            Size: =25
-            Text: =""
-            Tooltip: ="Adicionar anexos"
-            Width: =56
-            X: =736
-            Y: =31
-            ZIndex: =11
-
-        Icon2_17 As icon.Add:
-            BorderColor: =RGBA(32, 54, 71, 1)
-            Color: =RGBA(100, 118, 132, 1)
-            DisabledBorderColor: =RGBA(166, 166, 166, 1)
-            DisabledColor: =RGBA(244, 244, 244, 1)
-            Fill: =RGBA(204, 204, 204, 1)
-            FocusedBorderThickness: =0
-            Height: =40
-            Icon: =Icon.Document
-            OnSelect: |-
-                =UpdateContext({var_ver_anexo: true})
-            Tooltip: ="Visualizar anexos"
-            Width: =40
-            X: =600
-            Y: =32
-            ZIndex: =12
-
     Label1_10 As label:
         Align: =Align.Center
         BorderColor: =RGBA(32, 54, 71, 1)
@@ -340,8 +156,7 @@
             DisabledBorderColor: =RGBA(166, 166, 166, 1)
             DisabledColor: =RGBA(244, 244, 244, 1)
             Icon: =Icon.CheckBadge
-            OnSelect: |-
-                =Remove('POC_GESTAOCONTRATOS.contrato',Gallery_clientes_6.Selected);NewForm(Form_tela_contrato_1);UpdateContext({var_cliente_excluir: false})
+            OnSelect: =
             X: =154
             Y: =138
             ZIndex: =2
@@ -385,7 +200,6 @@
         DataSource: ='POC_GESTAOCONTRATOS.contrato'
         DefaultMode: =FormMode.New
         Height: =636
-        Item: =Gallery_clientes_6.Selected
         OnSuccess: =Notify("Cliente salvo com sucesso!",NotificationType.Success)
         Visible: =var_cliente_editar || var_cliente_exibir
         Width: =1020
@@ -1030,13 +844,15 @@
         DisabledBorderColor: =RGBA(166, 166, 166, 1)
         DisabledColor: =RGBA(166, 166, 166, 1)
         DisabledFill: =RGBA(244, 244, 244, 1)
+        DisplayFields: =["objeto"]
         Height: =58
         HoverColor: =RGBA(0, 0, 0, 1)
         HoverFill: =RGBA(205, 209, 213, 1)
-        Items: =ComboBoxSample
+        Items: ='POC_GESTAOCONTRATOS.contrato'
         PressedColor: =RGBA(255, 255, 255, 1)
         PressedFill: =RGBA(32, 54, 71, 1)
-        SearchItems: =Search(ComboBoxSample,ComboBox7_3.SearchText,"Value1")
+        SearchFields: =["nome_docs"]
+        SearchItems: =Search('POC_GESTAOCONTRATOS.contrato',ComboBox7_3.SearchText,"nome_docs")
         SelectionFill: =RGBA(100, 118, 132, 1)
         Size: =21
         Width: =331
@@ -1133,4 +949,31 @@
         X: =189
         Y: =154
         ZIndex: =22
+
+    Gallery7 As gallery.variableTemplateHeightGallery:
+        BorderColor: =RGBA(32, 54, 71, 1)
+        DelayItemLoading: =true
+        Height: =417
+        Items: ='POC_GESTAOCONTRATOS.contrato'
+        Layout: =Layout.Vertical
+        LoadingSpinner: =LoadingSpinner.Data
+        TemplateSize: =395
+        Width: =1043
+        X: =38
+        Y: =297
+        ZIndex: =23
+
+        Label7 As label:
+            BorderColor: =RGBA(32, 54, 71, 1)
+            Color: =RGBA(0, 0, 0, 1)
+            DisabledColor: =RGBA(166, 166, 166, 1)
+            Height: =70
+            OnSelect: =Select(Parent)
+            Size: =21
+            Text: =ThisItem.nome_docs
+            Visible: =ThisItem.objeto in ShowColumns(ComboBox7_3.SelectedItems, "objeto")
+            Width: =560
+            X: =40
+            Y: =6
+            ZIndex: =1
 
