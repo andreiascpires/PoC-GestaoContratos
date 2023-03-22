@@ -35,11 +35,13 @@
 
     PowerBI1_1 As powerbi:
         BorderColor: =RGBA(32, 54, 71, 1)
-        DashboardId: =""
-        Height: =300
-        Width: =300
+        DashboardId: ="4566448b-5e3d-4162-81dc-87bd2731013a"
+        Height: =466
+        TileUrl: |-
+            ="https://app.powerbi.com/embed?dashboardId=4566448b-5e3d-4162-81dc-87bd2731013a&tileId=9cc9aa30-ad64-4b2e-885a-ea2dc25f2b8a&config=eyJjbHVzdGVyVXJsIjoiaHR0cHM6Ly9XQUJJLUJSQVpJTC1TT1VUSC1yZWRpcmVjdC5hbmFseXNpcy53aW5kb3dzLm5ldCIsImVtYmVkRmVhdHVyZXMiOnsibW9kZXJuRW1iZWQiOmZhbHNlfX0%3d"
+        Width: =736
         WorkspaceId: ="f428b581-9d6e-4692-b01a-e949e7f6934b"
-        X: =38
-        Y: =70
+        X: =216
+        Y: =144
         ZIndex: =23
 
