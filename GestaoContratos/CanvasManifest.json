@@ -119,10 +119,12 @@
   },
   "ScreenOrder": [
     "Home",
-    "Menu",
     "Menu_1",
+    "Menu",
     "Clientes",
     "Contratos",
+    "Objeto",
+    "Status",
     "Controle Clientes",
     "Controle Financeiro",
     "Contratos_david",

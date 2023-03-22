@@ -28,9 +28,33 @@ cMenu As CanvasComponent:
         Items: =colNavegacao
         Layout: =Layout.Vertical
         LoadingSpinner: =LoadingSpinner.Data
+        OnSelect: =If(varModulo = ThisItem.id, Set(VarModulo,0), Set(varModulo, ThisItem.id))
         TemplateSize: =100 
         Width: =100
         ZIndex: =2
+
+        SubGaleria As gallery.galleryVertical:
+            BorderColor: =RGBA(32, 54, 71, 1)
+            DelayItemLoading: =true
+            Height: =CountRows(Self.AllItems)*40
+            Items: =Filter(colSubNavegacao, id = ThisItem.id)
+            Layout: =Layout.Vertical
+            LoadingSpinner: =LoadingSpinner.Data
+            TemplateSize: =If(Self.Layout = Layout.Horizontal, Min(280, Self.Width - 60), Min(280, Self.Height - 60))
+            Visible: =ThisItem.id = varModulo
+            Width: =90
+            ZIndex: =1
+
+            Label9 As label:
+                BorderColor: =RGBA(32, 54, 71, 1)
+                Color: =RGBA(0, 0, 0, 1)
+                DisabledColor: =RGBA(166, 166, 166, 1)
+                OnSelect: =Select(Parent)
+                Size: =21
+                Text: ="Teste"
+                Width: =80
+                Y: =40
+                ZIndex: =1
 
         Icon9 As icon.History:
             BorderColor: =RGBA(32, 54, 71, 1)
