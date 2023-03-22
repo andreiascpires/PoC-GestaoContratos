@@ -3,7 +3,7 @@ sandbox_blob As screen:
 
     "Gallery1 As gallery.'BrowseLayout_Vertical_TwoTextOneImageVariant_ver4.0'":
         BorderColor: =RGBA(32, 54, 71, 1)
-        Items: =Case05.ListRootFolderV2().value
+        Items: =Blob.ListRootFolderV4("stgfabprojetos")
         Layout: =Layout.Vertical
         TemplatePadding: =0
         TemplateSize: =Min(160, Self.Height - 60)
@@ -34,7 +34,7 @@ sandbox_blob As screen:
             PaddingRight: =0
             PaddingTop: =0
             Size: =20
-            Text: =ThisItem.DisplayName
+            Text: =ThisItem.nextLink
             VerticalAlign: =VerticalAlign.Top
             Width: =Parent.TemplateWidth - Image2.Width - 104
             X: =Image2.X + Image2.Width + 24
@@ -51,7 +51,7 @@ sandbox_blob As screen:
             PaddingRight: =0
             PaddingTop: =0
             Size: =18
-            Text: =ThisItem.Id
+            Text: =ThisItem.nextPageMarker
             VerticalAlign: =VerticalAlign.Top
             Width: =Title1.Width
             X: =Title1.X
