@@ -175,6 +175,6 @@
         OnSelect: =Set(VarMenuEstica, !VarMenuEstica)
         Width: =50
         X: =54
-        Y: =60
+        Y: =87
         ZIndex: =5
 
