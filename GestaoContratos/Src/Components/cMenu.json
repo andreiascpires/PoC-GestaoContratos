@@ -870,7 +870,7 @@
         "Rules": [
           {
             "Category": "Data",
-            "InvariantScript": "\"<div style='\r\nbackground: #ffffff;\r\nheight:730px;\r\nborder-radius:6px;\r\nmargin:5px;\r\nbox-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;'\r\n></div>\"",
+            "InvariantScript": "\"<div style='\nbackground: #ffffff;\nheight:730px;\nborder-radius:6px;\nmargin:5px;\nbox-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;'\n></div>\"",
             "Property": "HtmlText",
             "RuleProviderType": "Unknown"
           },
@@ -1004,7 +1004,7 @@
       "Y",
       "ZIndex"
     ],
-    "LastModifiedTimestamp": "638150889220479499",
+    "LastModifiedTimestamp": "638150918979754398",
     "Name": "cMenu",
     "Rules": [
       {
@@ -1063,7 +1063,7 @@
   "IsPcfControl": false,
   "IsPremiumPcfControl": false,
   "IsWidgetTemplate": false,
-  "LastModifiedTimestamp": "638150889220479499",
+  "LastModifiedTimestamp": "638150918979754398",
   "Name": "964d073499ab4e2e9bea804ff10f2223",
   "OverridableProperties": {},
   "Version": "638149213934694891"
