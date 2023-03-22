@@ -568,19 +568,19 @@
             {
               "logicalLocations": [
                 {
-                  "fullyQualifiedName": "cMenu.Gallery6.AccessibleLabel"
+                  "fullyQualifiedName": "cMenu.MenuPrincipal.AccessibleLabel"
                 }
               ],
               "physicalLocation": {
                 "address": {
-                  "fullyQualifiedName": "cMenu.Gallery6.AccessibleLabel",
+                  "fullyQualifiedName": "cMenu.MenuPrincipal.AccessibleLabel",
                   "relativeAddress": 0
                 }
               },
               "properties": {
                 "member": "AccessibleLabel",
                 "module": "cMenu",
-                "type": "cMenu.Gallery6"
+                "type": "cMenu.MenuPrincipal"
               }
             }
           ],
@@ -598,19 +598,19 @@
             {
               "logicalLocations": [
                 {
-                  "fullyQualifiedName": "cMenu.Gallery6.TabIndex"
+                  "fullyQualifiedName": "cMenu.MenuPrincipal.TabIndex"
                 }
               ],
               "physicalLocation": {
                 "address": {
-                  "fullyQualifiedName": "cMenu.Gallery6.TabIndex",
+                  "fullyQualifiedName": "cMenu.MenuPrincipal.TabIndex",
                   "relativeAddress": 0
                 }
               },
               "properties": {
                 "member": "TabIndex",
                 "module": "cMenu",
-                "type": "cMenu.Gallery6"
+                "type": "cMenu.MenuPrincipal"
               }
             }
           ],
@@ -628,19 +628,19 @@
             {
               "logicalLocations": [
                 {
-                  "fullyQualifiedName": "cMenu.Gallery6.Icon9.AccessibleLabel"
+                  "fullyQualifiedName": "cMenu.MenuPrincipal.Icon9.AccessibleLabel"
                 }
               ],
               "physicalLocation": {
                 "address": {
-                  "fullyQualifiedName": "cMenu.Gallery6.Icon9.AccessibleLabel",
+                  "fullyQualifiedName": "cMenu.MenuPrincipal.Icon9.AccessibleLabel",
                   "relativeAddress": 0
                 }
               },
               "properties": {
                 "member": "AccessibleLabel",
                 "module": "cMenu",
-                "type": "cMenu.Gallery6.Icon9"
+                "type": "cMenu.MenuPrincipal.Icon9"
               }
             }
           ],
@@ -658,19 +658,19 @@
             {
               "logicalLocations": [
                 {
-                  "fullyQualifiedName": "cMenu.Gallery6.Icon9.TabIndex"
+                  "fullyQualifiedName": "cMenu.MenuPrincipal.Icon9.TabIndex"
                 }
               ],
               "physicalLocation": {
                 "address": {
-                  "fullyQualifiedName": "cMenu.Gallery6.Icon9.TabIndex",
+                  "fullyQualifiedName": "cMenu.MenuPrincipal.Icon9.TabIndex",
                   "relativeAddress": 0
                 }
               },
               "properties": {
                 "member": "TabIndex",
                 "module": "cMenu",
-                "type": "cMenu.Gallery6.Icon9"
+                "type": "cMenu.MenuPrincipal.Icon9"
               }
             }
           ],
@@ -6838,49 +6838,19 @@
             {
               "logicalLocations": [
                 {
-                  "fullyQualifiedName": "cMenu.Gallery6.SubGaleria.TabIndex"
+                  "fullyQualifiedName": "cMenu.MenuPrincipal.subMenu.AccessibleLabel"
                 }
               ],
               "physicalLocation": {
                 "address": {
-                  "fullyQualifiedName": "cMenu.Gallery6.SubGaleria.TabIndex",
-                  "relativeAddress": 0
-                }
-              },
-              "properties": {
-                "member": "TabIndex",
-                "module": "cMenu",
-                "type": "cMenu.Gallery6.SubGaleria"
-              }
-            }
-          ],
-          "message": {
-            "id": "issue"
-          },
-          "properties": {
-            "level": "Medium"
-          },
-          "ruleId": "acc-TabIndexShouldBeDefinedForInteractiveControl",
-          "ruleIndex": 8
-        },
-        {
-          "locations": [
-            {
-              "logicalLocations": [
-                {
-                  "fullyQualifiedName": "cMenu.Gallery6.SubGaleria.AccessibleLabel"
-                }
-              ],
-              "physicalLocation": {
-                "address": {
-                  "fullyQualifiedName": "cMenu.Gallery6.SubGaleria.AccessibleLabel",
+                  "fullyQualifiedName": "cMenu.MenuPrincipal.subMenu.AccessibleLabel",
                   "relativeAddress": 0
                 }
               },
               "properties": {
                 "member": "AccessibleLabel",
                 "module": "cMenu",
-                "type": "cMenu.Gallery6.SubGaleria"
+                "type": "cMenu.MenuPrincipal.subMenu"
               }
             }
           ],
@@ -6892,6 +6862,36 @@
           },
           "ruleId": "acc-AccessibleLabelNeeded",
           "ruleIndex": 7
+        },
+        {
+          "locations": [
+            {
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "cMenu.MenuPrincipal.subMenu.TabIndex"
+                }
+              ],
+              "physicalLocation": {
+                "address": {
+                  "fullyQualifiedName": "cMenu.MenuPrincipal.subMenu.TabIndex",
+                  "relativeAddress": 0
+                }
+              },
+              "properties": {
+                "member": "TabIndex",
+                "module": "cMenu",
+                "type": "cMenu.MenuPrincipal.subMenu"
+              }
+            }
+          ],
+          "message": {
+            "id": "issue"
+          },
+          "properties": {
+            "level": "Medium"
+          },
+          "ruleId": "acc-TabIndexShouldBeDefinedForInteractiveControl",
+          "ruleIndex": 8
         },
         {
           "locations": [

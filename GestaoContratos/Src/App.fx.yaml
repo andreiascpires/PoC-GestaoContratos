@@ -3,15 +3,15 @@ App As appinfo:
     OnStart: |-
         =Set(varUsuario,User());
         ClearCollect(colNavegacao,
-        {id: Menu_1.Name, tela:Menu, icone: Icon.Home},
-        {id: Clientes.Name, tela:Clientes, icone: Icon.Person},
-        {id: Contratos.Name, tela:Contratos, icone: Icon.Document},
-        {id: Tabelas.Name,  icone: Icon.Database},
-        {id: 'Controle Clientes'.Name, tela:'Controle Clientes', icone: Icon.Journal},
-        {id: 'Controle Financeiro'.Name, tela:'Controle Financeiro', icone: Icon.Money});
+        {id: Menu_1.Name, MenuId:1,  tela:Menu, icone: Icon.Home},
+        {id: Clientes.Name,  MenuId:2, tela:Clientes, icone: Icon.Person},
+        {id: Contratos.Name, MenuId:3, tela:Contratos, icone: Icon.Document},
+        {id: Tabelas.Name,  MenuId:4, icone: Icon.Database},
+        {id: 'Controle Clientes'.Name,  MenuId:5, tela:'Controle Clientes', icone: Icon.Journal},
+        {id: 'Controle Financeiro'.Name, MenuId: 6, tela:'Controle Financeiro', icone: Icon.Money});
         
         
         ClearCollect(colSubNavegacao,
-        {id: Tabelas.Name, SubId:1, Subtela:Objeto, icone: Icon.Database},
-        {id: Tabelas.Name, SubId:2, Subtela:Status, icone: Icon.Database})
+        {id: Tabelas.Name,  MenuId:4, SubId:1, Subtela:Objeto, icone: Icon.Database},
+        {id: Tabelas.Name,  MenuId:4, SubId:2, Subtela:Status, icone: Icon.Database})
 
