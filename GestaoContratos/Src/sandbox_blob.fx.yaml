@@ -3,13 +3,13 @@ sandbox_blob As screen:
 
     "Gallery1 As gallery.'BrowseLayout_Vertical_TwoTextOneImageVariant_ver4.0'":
         BorderColor: =RGBA(32, 54, 71, 1)
-        Items: =ArmazenamentodeBlobdoAzure.ListRootFolderV2().value
+        Items: =Case05.ListRootFolderV2().value
         Layout: =Layout.Vertical
         TemplatePadding: =0
         TemplateSize: =Min(160, Self.Height - 60)
         Width: =538
-        X: =40
-        Y: =40
+        X: =36
+        Y: =21
         ZIndex: =1
 
         Image2 As image:
@@ -89,7 +89,7 @@ sandbox_blob As screen:
 
     "Gallery2 As gallery.'BrowseLayout_Vertical_TwoTextOneImageVariant_ver4.0'":
         BorderColor: =RGBA(32, 54, 71, 1)
-        Items: =ArmazenamentodeBlobdoAzure.ListFolderV2("poc-gestaocontratos").value
+        Items: =Blob.ListFolderV2("poc-gestaocontratos").value
         Layout: =Layout.Vertical
         TemplatePadding: =0
         TemplateSize: =Min(160, Self.Height - 60)
@@ -152,7 +152,7 @@ sandbox_blob As screen:
             DisabledColor: =RGBA(244, 244, 244, 1)
             Height: =60
             Icon: =Icon.ChevronRight
-            OnSelect: =Launch(ArmazenamentodeBlobdoAzure.CreateShareLinkByPath(Text(ThisItem.DisplayName)))
+            OnSelect: =Launch(Blob.CreateShareLinkByPath(Text(ThisItem.DisplayName)))
             PaddingBottom: =10
             PaddingLeft: =10
             PaddingRight: =10
