@@ -426,7 +426,7 @@
               },
               {
                 "Category": "Design",
-                "InvariantScript": "\r\nColorFade(RGBA(44,171,224, 1), -0.5%)\r\n\r\n",
+                "InvariantScript": "ColorFade(RGBA(44,171,224, 0.6), 0.3%)\r\n\r\n",
                 "Property": "HoverFill",
                 "RuleProviderType": "Unknown"
               },
@@ -1053,7 +1053,7 @@
       "Y",
       "ZIndex"
     ],
-    "LastModifiedTimestamp": "638151920869713039",
+    "LastModifiedTimestamp": "638152046230177668",
     "Name": "cMenu",
     "Rules": [
       {
@@ -1112,7 +1112,7 @@
   "IsPcfControl": false,
   "IsPremiumPcfControl": false,
   "IsWidgetTemplate": false,
-  "LastModifiedTimestamp": "638151920869713039",
+  "LastModifiedTimestamp": "638152046230177668",
   "Name": "964d073499ab4e2e9bea804ff10f2223",
   "OverridableProperties": {},
   "Version": "638149213934694891"
