@@ -24,7 +24,7 @@
         PressedColor: =RGBA(255, 255, 255, 1)
         PressedFill: =RGBA(32, 54, 71, 1)
         SearchItems: =Search(ComboBoxSample,ComboBox6.SearchText,"Value1")
-        SelectionFill: =RGBA(100, 118, 132, 1)
+        SelectionFill: =RGBA(44, 171, 224, 1)
         Size: =17
         Width: =290
         X: =782
@@ -123,7 +123,7 @@
             TabIndex: =0
             Tooltip: ="Editar e criar novo cliente"
             Width: =60
-            X: =877
+            X: =796
             Y: =16
             ZIndex: =3
 
@@ -132,7 +132,6 @@
             Color: =RGBA(255, 0, 0, 1)
             DisabledBorderColor: =RGBA(166, 166, 166, 1)
             DisabledColor: =RGBA(244, 244, 244, 1)
-            Fill: =RGBA(204, 204, 204, 1)
             FocusedBorderThickness: =0
             Height: =40
             Icon: =Icon.Trash
@@ -140,7 +139,7 @@
                 =UpdateContext({var_cliente_excluir: true})
             Tooltip: ="Excluir cliente"
             Width: =40
-            X: =980
+            X: =868
             Y: =29
             ZIndex: =5
 
@@ -156,7 +155,7 @@
                 =UpdateContext({var_cliente_exibir: true});Select(Parent);EditForm(Form_tela_cliente)
             Tooltip: ="Exibir detalhes do cliente"
             Width: =40
-            X: =825
+            X: =735
             Y: =29
             ZIndex: =6
 
@@ -881,7 +880,7 @@
         PressedFill: =RGBA(44, 171, 224, 1)
         SearchFields: =["tipo"]
         SearchItems: =Search('POC_GESTAOCONTRATOS.status',ComboBox6_3.SearchText,"tipo")
-        SelectionFill: =RGBA(100, 118, 132, 1)
+        SelectionFill: =RGBA(44, 171, 224, 1)
         Size: =17
         Width: =290
         X: =318
