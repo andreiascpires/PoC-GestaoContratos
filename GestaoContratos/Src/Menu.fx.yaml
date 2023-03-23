@@ -1,5 +1,5 @@
 "Menu As screen.'printableLayout_A4Landscape_ver1.0'":
-    BackgroundImage: ='MicrosoftTeams-image (1)'
+    BackgroundImage: =novo_layout_menu
     Fill: =RGBA(255, 255, 255, 0)
     Height: =794
     ImagePosition: =ImagePosition.Stretch
@@ -8,18 +8,19 @@
 
     Label4_2 As label:
         BorderColor: =RGBA(32, 54, 71, 1)
-        Color: =RGBA(253, 207, 111, 1)
+        Color: =RGBA(21, 43, 58, 1)
         DisabledColor: =RGBA(166, 166, 166, 1)
         Font: =Font.'Segoe UI'
+        FontWeight: =FontWeight.Bold
         Height: =51
+        Size: =13
         Text: = "Olá, " & varUsuario.FullName 
         Width: =304
         X: =719
-        Y: =5
         ZIndex: =2
 
     Image1_2 As image:
-        BorderColor: =RGBA(253, 207, 111, 1)
+        BorderColor: =RGBA(21, 43, 58, 1)
         BorderThickness: =2
         DisabledBorderColor: =RGBA(166, 166, 166, 1)
         DisabledFill: =RGBA(244, 244, 244, 1)
@@ -35,7 +36,9 @@
         ZIndex: =3
 
     cMenu_1 As cMenu:
-        Height: =758
-        Y: =18
+        Height: =704
+        Width: =98
+        X: =10
+        Y: =90
         ZIndex: =4
 

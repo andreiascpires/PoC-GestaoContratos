@@ -11,7 +11,7 @@ cMenu As CanvasComponent:
         HtmlText: |-
             ="<div style='
             background: #ffffff;
-            height:730px;
+            height:680px;
             border-radius:6px;
             margin:5px;
             box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;'
@@ -24,7 +24,7 @@ cMenu As CanvasComponent:
         BorderColor: =RGBA(32, 54, 71, 1)
         Default: =LookUp(colNavegacao, id = App.ActiveScreen.Name)
         DelayItemLoading: =true
-        Height: =758
+        Height: =750
         Items: =colNavegacao
         Layout: =Layout.Vertical
         LoadingSpinner: =LoadingSpinner.Data
@@ -69,11 +69,15 @@ cMenu As CanvasComponent:
 
         Icon9 As icon.History:
             BorderColor: =RGBA(32, 54, 71, 1)
-            Color: =RGBA(32, 54, 71, 1)
-            DisabledBorderColor: =RGBA(166, 166, 166, 1)
+            Color: =RGBA(18, 69, 89, 1)
+            DisabledBorderColor: =RGBA(44, 171, 224, 1)
             DisabledColor: =RGBA(244, 244, 244, 1)
             Fill: =RGBA(255, 255, 255, 1)
             Height: =81
+            HoverFill: |+
+                =
+                ColorFade(RGBA(44,171,224, 1), -0.5%)
+                
             Icon: =ThisItem.icone
             OnSelect: =Navigate(ThisItem.tela,ScreenTransition.Fade)
             PaddingBottom: =10
@@ -87,8 +91,8 @@ cMenu As CanvasComponent:
             ZIndex: =2
 
         Rectangle5 As rectangle:
-            BorderColor: =RGBA(32, 54, 71, 1)
-            Fill: =RGBA(28, 84, 108, 1)
+            BorderColor: =RGBA(44, 171, 224, 1)
+            Fill: =RGBA(18, 69, 89, 1)
             OnSelect: =Select(Parent)
             Visible: =ThisItem.IsSelected
             Width: =7
