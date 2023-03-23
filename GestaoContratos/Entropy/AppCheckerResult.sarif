@@ -6898,6 +6898,36 @@
             {
               "logicalLocations": [
                 {
+                  "fullyQualifiedName": "Clientes.ComboBox6_3.AccessibleLabel"
+                }
+              ],
+              "physicalLocation": {
+                "address": {
+                  "fullyQualifiedName": "Clientes.ComboBox6_3.AccessibleLabel",
+                  "relativeAddress": 0
+                }
+              },
+              "properties": {
+                "member": "AccessibleLabel",
+                "module": "Clientes",
+                "type": "Clientes.ComboBox6_3"
+              }
+            }
+          ],
+          "message": {
+            "id": "issue"
+          },
+          "properties": {
+            "level": "Medium"
+          },
+          "ruleId": "acc-AccessibleLabelNeeded",
+          "ruleIndex": 7
+        },
+        {
+          "locations": [
+            {
+              "logicalLocations": [
+                {
                   "fullyQualifiedName": "Clientes.Text_busca_1.AccessibleLabel"
                 }
               ],
