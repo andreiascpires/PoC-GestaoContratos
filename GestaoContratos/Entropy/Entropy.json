@@ -1,7 +1,8 @@
 {
   "ComponentIndexes": {
     "cMenu": 16,
-    "cMenu_1": 14
+    "cMenu_1": 14,
+    "cMenu_2": 16
   },
   "ControlUniqueGuids": {},
   "ControlUniqueIds": {
@@ -64,6 +65,7 @@
     "Clientes": 378,
     "cMenu": 3,
     "cMenu_1": 463,
+    "cMenu_2": 525,
     "ComboBox3": 368,
     "ComboBox6": 407,
     "ComboBox6_1": 267,
@@ -340,7 +342,6 @@
     "Label2_5": 119,
     "Label3": 360,
     "Label3_1": 361,
-    "Label3_11": 408,
     "Label3_12": 55,
     "Label3_13": 56,
     "Label3_14": 61,
@@ -497,7 +498,6 @@
     "Toggle1_12": 128,
     "Toggle1_13": 48,
     "Toggle1_14": 233,
-    "Toggle1_15": 410,
     "Toggle1_16": 518,
     "Toggle1_17": 57,
     "Toggle1_18": 59,
@@ -525,7 +525,7 @@
   },
   "FunctionParamsInvariantScripts": {},
   "FunctionParamsInvariantScriptsOnInstances": {},
-  "HeaderLastSavedDateTimeUTC": "03/23/2023 18:39:14",
+  "HeaderLastSavedDateTimeUTC": "03/23/2023 20:55:29",
   "IsLegacyComponentAllowGlobalScopeCase": false,
   "LocalConnectionIDReferences": {
     "a5003758-43b4-4648-9544-ef35d7890bb6": "\"/providers/microsoft.powerapps/apis/shared_sql/connections/4a0fbb15-4134-4889-a28f-9e07ff427011\"",
@@ -537,13 +537,15 @@
     "layout_capa": "0001.png",
     "MicrosoftTeams-image (1)": "0002.png",
     "MicrosoftTeams-image (2)": "7bc7174e-c1d3-48e1-88a0-949ae49b5045.png",
-    "novo_layout_menu": "d1308fcc-1d1a-49cf-a595-0d322bcac466.png"
+    "novo_layout_menu": "d1308fcc-1d1a-49cf-a595-0d322bcac466.png",
+    "telas": "0945526e-006d-4d11-bc29-8d69c9d21a44.png"
   },
   "LocalResourceRootPaths": {
     "layout_capa": "https://docserverpwaprodwus.blob.core.windows.net/29a8962a-86b5-42ee-ab04-55bb94fb1771-1/resource/Assets0Images00001.png?sv=2018-03-28&sr=b&sig=vqrgWVR2JLWriuWaw4dTB0BSeeK8K7EbjUcFkzbPpog%3D&spr=https&se=2023-03-24T15%3A46%3A01Z&sp=r",
     "MicrosoftTeams-image (1)": "https://docserverpwaprodwus.blob.core.windows.net/29a8962a-86b5-42ee-ab04-55bb94fb1771-1/resource/Assets0Images00002.png?sv=2018-03-28&sr=b&sig=cLE4%2F6zC5TKDp%2B%2FHYQXfi8Fe4zUUA%2F90w5CVIrmuiEE%3D&spr=https&se=2023-03-24T15%3A46%3A01Z&sp=r",
     "MicrosoftTeams-image (2)": "https://docserverpwaprodwus.blob.core.windows.net/29a8962a-86b5-42ee-ab04-55bb94fb1771-1/resource/0199821d-55ff-463b-b000-5cf498712d9b.png?sv=2018-03-28&sr=b&sig=x9PhJhjFvM5P39Qz7%2F0Cmy8ui4XjocWZWZxGmUnwpiI%3D&spr=https&se=2023-03-24T15%3A48%3A20Z&sp=r",
-    "novo_layout_menu": "https://docserverpwaprodwus.blob.core.windows.net/29a8962a-86b5-42ee-ab04-55bb94fb1771-1/resource/e2c234b1-c783-4f39-a4c4-c13db813f312.png?sv=2018-03-28&sr=b&sig=1ndg2n0iYvEjdIOqIm4o7hYQKO9kDedh9CmN8US0YEg%3D&spr=https&se=2023-03-24T16%3A57%3A27Z&sp=r"
+    "novo_layout_menu": "https://docserverpwaprodwus.blob.core.windows.net/29a8962a-86b5-42ee-ab04-55bb94fb1771-1/resource/e2c234b1-c783-4f39-a4c4-c13db813f312.png?sv=2018-03-28&sr=b&sig=1ndg2n0iYvEjdIOqIm4o7hYQKO9kDedh9CmN8US0YEg%3D&spr=https&se=2023-03-24T16%3A57%3A27Z&sp=r",
+    "telas": "https://docserverpwaprodwus.blob.core.windows.net/29a8962a-86b5-42ee-ab04-55bb94fb1771-1/resource/2ec3318a-db2e-49f4-b77d-95709636da3b.png?sv=2018-03-28&sr=b&sig=z%2FbrNv9UiDfNVyf47qVWPyxcI2fuG6lqvyejJuYlY0M%3D&spr=https&se=2023-03-24T20%3A50%3A40Z&sp=r"
   },
   "OldLogoFileName": "logo.jpg",
   "OrderComponentMetadata": {
@@ -579,12 +581,12 @@
     "formViewer": 8,
     "gallery": 6,
     "groupContainer": 7,
-    "htmlViewer": 16,
+    "htmlViewer": 15,
     "icon": 5,
     "image": 13,
     "label": 0,
     "powerbi": 14,
-    "rectangle": 15,
+    "rectangle": 16,
     "text": 3,
     "toggleSwitch": 4
   },
@@ -648,6 +650,7 @@
     "Clientes": {},
     "cMenu": {},
     "cMenu_1": {},
+    "cMenu_2": {},
     "ComboBox3": {},
     "ComboBox6": {},
     "ComboBox6_1": {},
@@ -924,7 +927,6 @@
     "Label2_5": {},
     "Label3": {},
     "Label3_1": {},
-    "Label3_11": {},
     "Label3_12": {},
     "Label3_13": {},
     "Label3_14": {},
@@ -1081,7 +1083,6 @@
     "Toggle1_12": {},
     "Toggle1_13": {},
     "Toggle1_14": {},
-    "Toggle1_15": {},
     "Toggle1_16": {},
     "Toggle1_17": {},
     "Toggle1_18": {},
@@ -1168,6 +1169,7 @@
     "Clientes": 89,
     "cMenu": 0,
     "cMenu_1": 27,
+    "cMenu_2": 0,
     "ComboBox3": 474,
     "ComboBox6": 56,
     "ComboBox6_1": 173,
@@ -1444,7 +1446,6 @@
     "Label2_5": 461,
     "Label3": 466,
     "Label3_1": 467,
-    "Label3_11": 57,
     "Label3_12": 398,
     "Label3_13": 399,
     "Label3_14": 404,
@@ -1601,7 +1602,6 @@
     "Toggle1_12": 354,
     "Toggle1_13": 345,
     "Toggle1_14": 140,
-    "Toggle1_15": 59,
     "Toggle1_16": 306,
     "Toggle1_17": 400,
     "Toggle1_18": 402,
@@ -1631,18 +1631,19 @@
     "Image-layout_capa": 1,
     "Image-MicrosoftTeams-image (1)": 2,
     "Image-MicrosoftTeams-image (2)": 3,
-    "Image-novo_layout_menu": 4,
-    "Image-SampleImage": 0
+    "Image-novo_layout_menu": 5,
+    "Image-SampleImage": 0,
+    "Image-telas": 4
   },
   "RuleScreenIdWithoutScreen": {},
   "TemplateVersions": {},
   "VolatileProperties": {
     "AnalysisLoadTime": 2.284564,
     "ControlCount": {
-      "964d073499ab4e2e9bea804ff10f2223": 2,
+      "964d073499ab4e2e9bea804ff10f2223": 3,
       "addMedia": 1,
       "button": 42,
-      "combobox": 10,
+      "combobox": 11,
       "datepicker": 4,
       "dropdown": 1,
       "form": 9,
@@ -1653,7 +1654,7 @@
       "htmlViewer": 3,
       "icon": 70,
       "image": 5,
-      "label": 197,
+      "label": 198,
       "powerbi": 4,
       "rectangle": 5,
       "screen": 16,
