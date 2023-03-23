@@ -20,7 +20,7 @@
         ZIndex: =2
 
     Image1_2 As image:
-        BorderColor: =RGBA(21, 43, 58, 1)
+        BorderColor: =RGBA(44, 171, 224, 1)
         BorderThickness: =2
         DisabledBorderColor: =RGBA(166, 166, 166, 1)
         DisabledFill: =RGBA(244, 244, 244, 1)

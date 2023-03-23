@@ -29,43 +29,10 @@ cMenu As CanvasComponent:
         Layout: =Layout.Vertical
         LoadingSpinner: =LoadingSpinner.Data
         OnSelect: =If(varModulo = ThisItem.MenuId, Set(VarModulo,0), Set(varModulo, ThisItem.MenuId))
-        TemplateSize: =100 
+        TemplateSize: =70
         Width: =100
         Y: =10
         ZIndex: =2
-
-        subMenu As gallery.galleryVertical:
-            BorderColor: =RGBA(32, 54, 71, 1)
-            DelayItemLoading: =true
-            Height: =CountRows(Self.AllItems)*100
-            Items: =Filter(colSubNavegacao, MenuId = ThisItem.MenuId)
-            Layout: =Layout.Vertical
-            LoadingSpinner: =LoadingSpinner.Data
-            TemplateSize: =80
-            Width: =90
-            Y: =19
-            ZIndex: =1
-
-            Label9 As label:
-                BorderColor: =RGBA(32, 54, 71, 1)
-                Color: =RGBA(0, 0, 0, 1)
-                DisabledColor: =RGBA(166, 166, 166, 1)
-                OnSelect: =Select(Parent)
-                Size: =21
-                Text: ="Teste"
-                Width: =80
-                ZIndex: =1
-
-            Icon10 As icon.Add:
-                BorderColor: =RGBA(32, 54, 71, 1)
-                Color: =RGBA(32, 54, 71, 1)
-                DisabledBorderColor: =RGBA(166, 166, 166, 1)
-                DisabledColor: =RGBA(244, 244, 244, 1)
-                Icon: =Icon.Add
-                OnSelect: =Navigate(ThisItem.Subtela,ScreenTransition.Fade)
-                X: =16
-                Y: =16
-                ZIndex: =2
 
         Icon9 As icon.History:
             BorderColor: =RGBA(32, 54, 71, 1)
@@ -73,30 +40,31 @@ cMenu As CanvasComponent:
             DisabledBorderColor: =RGBA(44, 171, 224, 1)
             DisabledColor: =RGBA(244, 244, 244, 1)
             Fill: =RGBA(255, 255, 255, 1)
-            Height: =81
+            Height: =60
             HoverFill: |+
                 =
                 ColorFade(RGBA(44,171,224, 1), -0.5%)
                 
             Icon: =ThisItem.icone
             OnSelect: =Navigate(ThisItem.tela,ScreenTransition.Fade)
-            PaddingBottom: =10
-            PaddingLeft: =10
-            PaddingRight: =10
-            PaddingTop: =10
+            PaddingBottom: =7
+            PaddingLeft: =7
+            PaddingRight: =7
+            PaddingTop: =7
             Tooltip: =ThisItem.id
-            Width: =65
-            X: =12
-            Y: =18
+            Width: =73
+            X: =6
+            Y: =22
             ZIndex: =2
 
         Rectangle5 As rectangle:
             BorderColor: =RGBA(44, 171, 224, 1)
             Fill: =RGBA(18, 69, 89, 1)
+            Height: =50
             OnSelect: =Select(Parent)
             Visible: =ThisItem.IsSelected
             Width: =7
             X: =6
-            Y: =12
+            Y: =27
             ZIndex: =3
 

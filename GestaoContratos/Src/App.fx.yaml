@@ -1,17 +1,53 @@
 App As appinfo:
     BackEnabled: =false
-    OnStart: |-
-        =Set(varUsuario,User());
-        ClearCollect(colNavegacao,
-        {id: Menu_1.Name, MenuId:1,  tela:Menu, icone: Icon.Home},
-        {id: Clientes.Name,  MenuId:2, tela:Clientes, icone: Icon.Person},
-        {id: Contratos.Name, MenuId:3, tela:Contratos, icone: Icon.Document},
-        {id: Tabelas.Name,  MenuId:4, icone: Icon.Database},
-        {id: 'Controle Clientes'.Name,  MenuId:5, tela:'Controle Clientes', icone: Icon.Journal},
-        {id: 'Controle Financeiro'.Name, MenuId: 6, tela:'Controle Financeiro', icone: Icon.Money});
-        
-        
-        ClearCollect(colSubNavegacao,
-        {id: Tabelas.Name,  MenuId:4, SubId:1, Subtela:Objeto, icone: Icon.Database},
-        {id: Tabelas.Name,  MenuId:4, SubId:2, Subtela:Status, icone: Icon.Database})
+    OnStart: |
+        =Set(
+            varUsuario,
+            User()
+        );
+        ClearCollect(
+            colNavegacao,
+            {
+                id: Menu.Name,
+                MenuId: 1,
+                tela: Menu,
+                icone: Icon.Home
+            },
+            {
+                id: Clientes.Name,
+                MenuId: 2,
+                tela: Clientes,
+                icone: Icon.People
+            },
+            {
+                id: Contratos.Name,
+                MenuId: 3,
+                tela: Contratos,
+                icone: Icon.Document
+            },
+            {
+                id: 'Tabela Objeto'.Name,
+                MenuId: 4,
+                tela: 'Tabela Objeto',
+                icone: Icon.Folder
+            },
+            {
+                id: 'Tabela Status'.Name,
+                MenuId: 5,
+                tela: 'Tabela Status',
+                icone: Icon.Tag
+            },
+            {
+                id: 'Controle Clientes'.Name,
+                MenuId: 6,
+                tela: 'Controle Clientes',
+                icone: Icon.LogJournal
+            },
+            {
+                id: 'Controle Financeiro'.Name,
+                MenuId: 7,
+                tela: 'Controle Financeiro',
+                icone: Icon.Money
+            }
+        );
 
