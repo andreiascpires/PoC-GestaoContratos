@@ -37,25 +37,35 @@ cMenu As CanvasComponent:
         subMenu As gallery.galleryVertical:
             BorderColor: =RGBA(32, 54, 71, 1)
             DelayItemLoading: =true
-            Height: =CountRows(Self.AllItems)*40
+            Height: =CountRows(Self.AllItems)*100
             Items: =Filter(colSubNavegacao, MenuId = ThisItem.MenuId)
             Layout: =Layout.Vertical
             LoadingSpinner: =LoadingSpinner.Data
-            TemplateSize: =100
-            Visible: =ThisItem.MenuId = varModulo
+            TemplateSize: =80
             Width: =90
-            Y: =100
+            Y: =19
             ZIndex: =1
 
-            Label14 As label:
+            Label9 As label:
                 BorderColor: =RGBA(32, 54, 71, 1)
                 Color: =RGBA(0, 0, 0, 1)
                 DisabledColor: =RGBA(166, 166, 166, 1)
                 OnSelect: =Select(Parent)
-                Size: =12
+                Size: =21
                 Text: ="Teste"
                 Width: =80
                 ZIndex: =1
+
+            Icon10 As icon.Add:
+                BorderColor: =RGBA(32, 54, 71, 1)
+                Color: =RGBA(32, 54, 71, 1)
+                DisabledBorderColor: =RGBA(166, 166, 166, 1)
+                DisabledColor: =RGBA(244, 244, 244, 1)
+                Icon: =Icon.Add
+                OnSelect: =Navigate(ThisItem.Subtela,ScreenTransition.Fade)
+                X: =16
+                Y: =16
+                ZIndex: =2
 
         Icon9 As icon.History:
             BorderColor: =RGBA(32, 54, 71, 1)
