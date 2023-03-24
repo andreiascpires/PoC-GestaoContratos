@@ -799,7 +799,7 @@
         FontWeight: =FontWeight.Bold
         Height: =53
         HoverColor: =RGBA(255, 255, 255, 1)
-        HoverFill: =ColorFade(RGBA(44,171,224, 0.9), -20%)
+        HoverFill: =
         OnSelect: =SubmitForm(Form_tela_cliente);NewForm(Form_tela_cliente)
         RadiusBottomLeft: =100
         RadiusBottomRight: =100
