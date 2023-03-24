@@ -157,7 +157,7 @@
             Height: =65
             Icon: =Icon.Edit
             OnSelect: |-
-                =UpdateContext({var_cliente_editar: true});Select(Parent);EditForm(Form_tela_status)
+                =UpdateContext({var_status_editar: true});Select(Parent);EditForm(Form_tela_status)
                 
                  
             PaddingBottom: =10
@@ -180,7 +180,7 @@
             Height: =40
             Icon: =Icon.Trash
             OnSelect: |-
-                =UpdateContext({var_cliente_excluir: true})
+                =UpdateContext({var_status_excluir: true})
             Tooltip: ="Excluir cliente"
             Width: =40
             X: =868
@@ -196,7 +196,7 @@
             Height: =40
             Icon: =Icon.View
             OnSelect: |-
-                =UpdateContext({var_cliente_exibir: true});Select(Parent);EditForm(Form_tela_status)
+                =UpdateContext({var_status_exibir: true});Select(Parent);EditForm(Form_tela_status)
             Tooltip: ="Exibir detalhes do cliente"
             Width: =40
             X: =735
@@ -304,7 +304,7 @@
         BorderThickness: =5
         Fill: =RGBA(18, 69, 89, 1)
         Height: =225
-        Visible: =var_cliente_excluir
+        Visible: =var_status_excluir
         X: =330
         Y: =350
         ZIndex: =12
@@ -316,7 +316,7 @@
             DisabledColor: =RGBA(244, 244, 244, 1)
             Icon: =Icon.CancelBadge
             OnSelect: |-
-                =UpdateContext({var_cliente_excluir: false})
+                =UpdateContext({var_status_excluir: false})
             X: =293
             Y: =138
             ZIndex: =1
@@ -342,7 +342,7 @@
             FontWeight: =FontWeight.Bold
             Height: =70
             Size: =19
-            Text: ="Deseja excluir o cliente selecionado?"
+            Text: ="Deseja excluir o status selecionado?"
             Width: =500
             Y: =40
             ZIndex: =4
@@ -362,7 +362,7 @@
         RadiusTopRight: =20
         Size: =24
         Text: =""
-        Visible: =var_cliente_editar || var_cliente_exibir
+        Visible: =var_status_editar || var_status_exibir
         Width: =956
         X: =132
         Y: =70
@@ -378,7 +378,7 @@
         OnSelect: |-
             =UpdateContext({var_status_editar: false,var_status_exibir: false})
         Tooltip: ="Voltar para tela de clientes"
-        Visible: =var_cliente_editar || var_cliente_exibir
+        Visible: =var_status_editar || var_status_exibir
         Width: =61
         X: =951
         Y: =629
@@ -402,7 +402,7 @@
         RadiusTopRight: =100
         Size: =19
         Text: ="Novo"
-        Visible: =var_cliente_editar
+        Visible: =var_status_editar
         Width: =135
         X: =798
         Y: =631
@@ -426,7 +426,7 @@
         RadiusTopRight: =100
         Size: =19
         Text: ="Salvar"
-        Visible: =var_cliente_editar
+        Visible: =var_status_editar
         Width: =135
         X: =647
         Y: =631
@@ -435,7 +435,7 @@
     cMenu_3 As cMenu:
         Height: =715
         X: =10
-        Y: =79
+        Y: =86
         ZIndex: =17
 
     Form_tela_status As form:
