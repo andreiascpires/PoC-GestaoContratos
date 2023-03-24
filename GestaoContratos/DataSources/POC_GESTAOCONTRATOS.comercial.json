@@ -9,13 +9,13 @@
     "ConnectedDataSourceInfoNameMapping": {
       "57dfb1b5-7d79-4046-a4da-fd831d5befe1-KeyId": "KeyId",
       "id": "id",
-      "tipo": "tipo"
+      "nome_comercial": "nome_comercial"
     },
     "DatasetName": "srv-fab-projetos.database.windows.net,db-fab-projetos",
     "EncodeDataset": false,
     "IsSampleData": false,
     "IsWritable": false,
-    "Name": "POC_GESTAOCONTRATOS.objeto",
+    "Name": "POC_GESTAOCONTRATOS.comercial",
     "Type": "ConnectedDataSourceInfo"
   }
 ]

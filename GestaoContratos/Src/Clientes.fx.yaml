@@ -60,13 +60,15 @@
         DisabledBorderColor: =RGBA(166, 166, 166, 1)
         DisabledColor: =RGBA(166, 166, 166, 1)
         DisabledFill: =RGBA(244, 244, 244, 1)
+        DisplayFields: =["nome_comercial"]
         Height: =50
         HoverColor: =RGBA(0, 0, 0, 1)
         HoverFill: =RGBA(44,171,224, 0.3)
-        Items: =ComboBoxSample
+        Items: ='POC_GESTAOCONTRATOS.comercial'
         PressedColor: =RGBA(255, 255, 255, 1)
         PressedFill: =RGBA(32, 54, 71, 1)
-        SearchItems: =Search(ComboBoxSample,ComboBox6.SearchText,"Value1")
+        SearchFields: =["nome_comercial"]
+        SearchItems: =Search('POC_GESTAOCONTRATOS.comercial',ComboBox6.SearchText,"nome_comercial")
         SelectionFill: =RGBA(44, 171, 224, 1)
         Size: =17
         Width: =290

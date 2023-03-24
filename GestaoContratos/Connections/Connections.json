@@ -23,6 +23,9 @@
           "POC_GESTAOCONTRATOS.cliente": {
             "tableName": "[POC_GESTAOCONTRATOS].[cliente]"
           },
+          "POC_GESTAOCONTRATOS.comercial": {
+            "tableName": "[POC_GESTAOCONTRATOS].[comercial]"
+          },
           "POC_GESTAOCONTRATOS.contratado": {
             "tableName": "[POC_GESTAOCONTRATOS].[contratado]"
           },
@@ -48,7 +51,8 @@
       "POC_GESTAOCONTRATOS.contratado",
       "POC_GESTAOCONTRATOS.anexo",
       "POC_GESTAOCONTRATOS.status",
-      "POC_GESTAOCONTRATOS.objeto"
+      "POC_GESTAOCONTRATOS.objeto",
+      "POC_GESTAOCONTRATOS.comercial"
     ],
     "dependencies": {},
     "dependents": [],
