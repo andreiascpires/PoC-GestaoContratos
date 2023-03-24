@@ -399,20 +399,6 @@
                 Y: =DataCardKey18.Y
                 ZIndex: =2
 
-            DataCardKey18 As label:
-                AutoHeight: =true
-                Color: =RGBA(247, 248, 250, 1)
-                DisabledColor: =RGBA(166, 166, 166, 1)
-                Font: =Font.'Segoe UI'
-                Height: =48
-                Size: =17
-                Text: ="Tipo"
-                Width: =Parent.Width - 60
-                Wrap: =false
-                X: =30
-                Y: =10
-                ZIndex: =3
-
             DataCardValue18 As text:
                 BorderColor: =If(IsBlank(Parent.Error), Parent.BorderColor, Color.Red)
                 BorderThickness: =2
@@ -440,6 +426,20 @@
                 Width: =Parent.Width - 60
                 X: =30
                 Y: =DataCardKey18.Y + DataCardKey18.Height + 5
+                ZIndex: =3
+
+            DataCardKey18 As label:
+                AutoHeight: =true
+                Color: =RGBA(247, 248, 250, 1)
+                DisabledColor: =RGBA(166, 166, 166, 1)
+                Font: =Font.'Segoe UI'
+                Height: =48
+                Size: =17
+                Text: ="Tipo"
+                Width: =Parent.Width - 60
+                Wrap: =false
+                X: =30
+                Y: =10
                 ZIndex: =4
 
     Icon6_6 As icon.Add:
