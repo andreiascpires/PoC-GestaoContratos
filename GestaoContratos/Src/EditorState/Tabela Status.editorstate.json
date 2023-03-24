@@ -5457,7 +5457,7 @@
       "LayoutName": "",
       "MetaDataIDKey": "",
       "Name": "id_DataCard2",
-      "ParentIndex": 0,
+      "ParentIndex": 1,
       "PersistMetaDataIDKey": false,
       "Properties": [
         {
@@ -7850,7 +7850,7 @@
       "LayoutName": "",
       "MetaDataIDKey": "",
       "Name": "tipo_DataCard1",
-      "ParentIndex": 1,
+      "ParentIndex": 0,
       "PersistMetaDataIDKey": false,
       "Properties": [
         {
