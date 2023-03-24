@@ -89,13 +89,13 @@
         Y: =80
         ZIndex: =4
 
-    "Gallery_clientes_7 As gallery.'BrowseLayout_Vertical_OneTextVariant_ver4.0'":
+    "Gallery_status As gallery.'BrowseLayout_Vertical_OneTextVariant_ver4.0'":
         BorderColor: =RGBA(18, 69, 89, 1)
         BorderThickness: =5
         Fill: =RGBA(18, 69, 89, 0.08)
         Height: =484
         Items: |
-            =SortByColumns(Search('POC_GESTAOCONTRATOS.cliente',Text_busca_8.Text, "nome_empresa"),"nome_empresa",SortOrder.Ascending)
+            =SortByColumns(Search('POC_GESTAOCONTRATOS.status',Text_busca_8.Text, "tipo"),"tipo",SortOrder.Ascending)
         Layout: =Layout.Vertical
         ShowScrollbar: =false
         TemplatePadding: =0
@@ -133,6 +133,7 @@
         Title2_7 As label:
             Color: =RGBA(18, 69, 89, 1)
             DisabledColor: =RGBA(166, 166, 166, 1)
+            Font: =Font.'Segoe UI'
             FontWeight: =FontWeight.Semibold
             Height: =45
             OnSelect: =Select(Parent)
@@ -140,7 +141,7 @@
             PaddingLeft: =0
             PaddingRight: =0
             PaddingTop: =0
-            Text: =ThisItem.nome_empresa   
+            Text: =ThisItem.tipo
             VerticalAlign: =VerticalAlign.Top
             Width: =370
             X: =21
@@ -156,7 +157,7 @@
             Height: =65
             Icon: =Icon.Edit
             OnSelect: |-
-                =UpdateContext({var_cliente_editar: true});Select(Parent);EditForm(Form_tela_cliente_4)
+                =UpdateContext({var_cliente_editar: true});Select(Parent);EditForm(Form_tela_status)
                 
                  
             PaddingBottom: =10
@@ -195,7 +196,7 @@
             Height: =40
             Icon: =Icon.View
             OnSelect: |-
-                =UpdateContext({var_cliente_exibir: true});Select(Parent);EditForm(Form_tela_cliente_4)
+                =UpdateContext({var_cliente_exibir: true});Select(Parent);EditForm(Form_tela_status)
             Tooltip: ="Exibir detalhes do cliente"
             Width: =40
             X: =735
@@ -327,7 +328,7 @@
             DisabledColor: =RGBA(244, 244, 244, 1)
             Icon: =Icon.CheckBadge
             OnSelect: |-
-                =Remove('POC_GESTAOCONTRATOS.cliente',Gallery_clientes_7.Selected);NewForm(Form_tela_cliente_4);UpdateContext({var_cliente_excluir: false})
+                =Remove('POC_GESTAOCONTRATOS.status',Gallery_status.Selected);NewForm(Form_tela_status);UpdateContext({var_status_excluir: false})
             X: =154
             Y: =138
             ZIndex: =2
@@ -367,472 +368,6 @@
         Y: =70
         ZIndex: =13
 
-    Form_tela_cliente_4 As form:
-        BorderColor: =RGBA(32, 54, 71, 1)
-        DataSource: ='POC_GESTAOCONTRATOS.cliente'   
-        DefaultMode: =FormMode.New
-        Height: =636
-        Item: =Gallery_clientes_7.Selected
-        OnSuccess: =Notify("Cliente salvo com sucesso!",NotificationType.Success)
-        Visible: =var_cliente_editar || var_cliente_exibir
-        Width: =917
-        X: =164
-        Y: =79
-        ZIndex: =14
-
-        nome_empresa_DataCard1_3 As typedDataCard.textualEditCard:
-            BorderColor: =RGBA(32, 54, 71, 1)
-            BorderStyle: =BorderStyle.Solid
-            DataField: ="nome_empresa"
-            Default: =ThisItem.nome_empresa
-            DisplayMode: =Parent.DisplayMode
-            DisplayName: =DataSourceInfo([@'POC_GESTAOCONTRATOS.cliente'],DataSourceInfo.DisplayName,"nome_empresa")
-            Fill: =RGBA(0, 0, 0, 0)
-            Height: =100
-            MaxLength: =DataSourceInfo([@'POC_GESTAOCONTRATOS.cliente'], DataSourceInfo.MaxLength, "nome_empresa")
-            Required: =false
-            Update: =DataCardValue2_3.Text
-            Width: =917
-            X: =0
-            Y: =0
-            ZIndex: =1
-
-            DataCardKey2_3 As label:
-                AutoHeight: =true
-                Color: =RGBA(247, 248, 250, 1)
-                DisabledColor: =RGBA(166, 166, 166, 1)
-                FontWeight: =FontWeight.Bold
-                Height: =48
-                Size: =17
-                Text: ="Nome"
-                Width: =Parent.Width - 60
-                Wrap: =false
-                X: =30
-                Y: =10
-                ZIndex: =1
-
-            ErrorMessage2_3 As label:
-                AutoHeight: =true
-                Color: =RGBA(168, 0, 0, 1)
-                DisabledColor: =RGBA(166, 166, 166, 1)
-                FontWeight: =FontWeight.Semibold
-                Height: =10
-                Live: =Live.Assertive
-                PaddingBottom: =0
-                PaddingLeft: =0
-                PaddingRight: =0
-                PaddingTop: =0
-                Size: =24
-                Text: =Parent.Error
-                Visible: =Parent.DisplayMode=DisplayMode.Edit
-                Width: =Parent.Width - 60
-                X: =30
-                Y: =DataCardValue2_3.Y + DataCardValue2_3.Height
-                ZIndex: =2
-
-            StarVisible2_3 As label:
-                Align: =Align.Center
-                Color: =RGBA(32, 54, 71, 1)
-                DisabledColor: =RGBA(166, 166, 166, 1)
-                Height: =DataCardKey2_3.Height
-                Size: =21
-                Text: ="*"
-                Visible: =And(Parent.Required, Parent.DisplayMode=DisplayMode.Edit)
-                Width: =30
-                Wrap: =false
-                Y: =DataCardKey2_3.Y
-                ZIndex: =3
-
-            DataCardValue2_3 As text:
-                BorderColor: =If(IsBlank(Parent.Error), Parent.BorderColor, Color.Red)
-                BorderThickness: =2
-                Color: =RGBA(0, 0, 0, 1)
-                Default: =Parent.Default
-                DelayOutput: =true
-                DisabledBorderColor: =RGBA(166, 166, 166, 1)
-                DisabledColor: =RGBA(166, 166, 166, 1)
-                DisabledFill: =RGBA(244, 244, 244, 1)
-                DisplayMode: =Parent.DisplayMode
-                FocusedBorderThickness: =4
-                Height: =50
-                HoverBorderColor: =RGBA(44, 171, 224, 1)
-                HoverColor: =RGBA(0, 0, 0, 1)
-                HoverFill: =RGBA(247,248,250, 0.95)
-                MaxLength: =Parent.MaxLength
-                PaddingLeft: =5
-                RadiusBottomLeft: =0
-                RadiusBottomRight: =0
-                RadiusTopLeft: =0
-                RadiusTopRight: =0
-                Size: =17
-                Tooltip: =Parent.DisplayName
-                Width: =Parent.Width - 60
-                X: =30
-                Y: =DataCardKey2_3.Y + DataCardKey2_3.Height + 5
-                ZIndex: =4
-
-        ass_nome_responsavel_DataCard2_3 As typedDataCard.textualEditCard:
-            BorderColor: =RGBA(32, 54, 71, 1)
-            BorderStyle: =BorderStyle.Solid
-            DataField: ="Comercial"
-            Default: =ThisItem.ass_nome_responsavel
-            DisplayMode: =Parent.DisplayMode
-            DisplayName: =DataSourceInfo([@'POC_GESTAOCONTRATOS.cliente'],DataSourceInfo.DisplayName,"ass_nome_responsavel")
-            Fill: =RGBA(0, 0, 0, 0)
-            Height: =100
-            MaxLength: =DataSourceInfo([@'POC_GESTAOCONTRATOS.cliente'], DataSourceInfo.MaxLength, "ass_nome_responsavel")
-            Required: =false
-            Update: =DataCardValue3_3.Text
-            Width: =917
-            X: =0
-            Y: =1
-            ZIndex: =1
-
-            DataCardKey3_3 As label:
-                AutoHeight: =true
-                Color: =RGBA(247, 248, 250, 1)
-                DisabledColor: =RGBA(247, 248, 250, 1)
-                FontWeight: =FontWeight.Bold
-                Height: =48
-                Size: =17
-                Text: ="Comercial"
-                Width: =Parent.Width - 60
-                Wrap: =false
-                X: =30
-                Y: =10
-                ZIndex: =1
-
-            DataCardValue3_3 As text:
-                BorderColor: =If(IsBlank(Parent.Error), Parent.BorderColor, Color.Red)
-                BorderThickness: =2
-                Color: =RGBA(0, 0, 0, 1)
-                Default: =Parent.Default
-                DelayOutput: =true
-                DisabledBorderColor: =RGBA(166, 166, 166, 1)
-                DisabledColor: =RGBA(166, 166, 166, 1)
-                DisabledFill: =RGBA(244, 244, 244, 1)
-                DisplayMode: =Parent.DisplayMode
-                FocusedBorderThickness: =4
-                Height: =50
-                HoverBorderColor: =RGBA(44, 171, 224, 1)
-                HoverColor: =RGBA(0, 0, 0, 1)
-                HoverFill: =RGBA(247,248,250, 0.95)
-                MaxLength: =Parent.MaxLength
-                PaddingLeft: =5
-                RadiusBottomLeft: =0
-                RadiusBottomRight: =0
-                RadiusTopLeft: =0
-                RadiusTopRight: =0
-                Size: =17
-                Tooltip: =Parent.DisplayName
-                Width: =Parent.Width - 60
-                X: =30
-                Y: =DataCardKey3_3.Y + DataCardKey3_3.Height + 5
-                ZIndex: =2
-
-            ErrorMessage3_3 As label:
-                AutoHeight: =true
-                Color: =RGBA(168, 0, 0, 1)
-                DisabledColor: =RGBA(166, 166, 166, 1)
-                FontWeight: =FontWeight.Semibold
-                Height: =10
-                Live: =Live.Assertive
-                PaddingBottom: =0
-                PaddingLeft: =0
-                PaddingRight: =0
-                PaddingTop: =0
-                Size: =24
-                Text: =Parent.Error
-                Visible: =Parent.DisplayMode=DisplayMode.Edit
-                Width: =Parent.Width - 60
-                X: =30
-                Y: =DataCardValue3_3.Y + DataCardValue3_3.Height
-                ZIndex: =3
-
-            StarVisible3_3 As label:
-                Align: =Align.Center
-                Color: =RGBA(32, 54, 71, 1)
-                DisabledColor: =RGBA(166, 166, 166, 1)
-                Height: =DataCardKey3_3.Height
-                Size: =21
-                Text: ="*"
-                Visible: =And(Parent.Required, Parent.DisplayMode=DisplayMode.Edit)
-                Width: =30
-                Wrap: =false
-                Y: =DataCardKey3_3.Y
-                ZIndex: =4
-
-        email_cliente_DataCard1_3 As typedDataCard.textualEditCard:
-            BorderColor: =RGBA(32, 54, 71, 1)
-            BorderStyle: =BorderStyle.Solid
-            DataField: ="email_cliente"
-            Default: =ThisItem.email_cliente
-            DisplayMode: =Parent.DisplayMode
-            DisplayName: =DataSourceInfo([@'POC_GESTAOCONTRATOS.cliente'],DataSourceInfo.DisplayName,"email_cliente")
-            Fill: =RGBA(0, 0, 0, 0)
-            Height: =50
-            MaxLength: =DataSourceInfo([@'POC_GESTAOCONTRATOS.cliente'], DataSourceInfo.MaxLength, "email_cliente")
-            Required: =false
-            Update: =DataCardValue6_3.Text
-            Width: =917
-            X: =0
-            Y: =2
-            ZIndex: =1
-
-            DataCardKey6_3 As label:
-                AutoHeight: =true
-                Color: =RGBA(247, 248, 250, 1)
-                DisabledColor: =RGBA(166, 166, 166, 1)
-                FontWeight: =FontWeight.Bold
-                Height: =48
-                Size: =17
-                Text: ="E-mail"
-                Width: =Parent.Width - 60
-                Wrap: =false
-                X: =30
-                Y: =10
-                ZIndex: =1
-
-            DataCardValue6_3 As text:
-                BorderColor: =If(IsBlank(Parent.Error), Parent.BorderColor, Color.Red)
-                BorderThickness: =2
-                Color: =RGBA(0, 0, 0, 1)
-                Default: =Parent.Default
-                DelayOutput: =true
-                DisabledBorderColor: =RGBA(166, 166, 166, 1)
-                DisabledColor: =RGBA(166, 166, 166, 1)
-                DisabledFill: =RGBA(244, 244, 244, 1)
-                DisplayMode: =Parent.DisplayMode
-                FocusedBorderThickness: =4
-                Height: =50
-                HoverBorderColor: =RGBA(44, 171, 224, 1)
-                HoverColor: =RGBA(0, 0, 0, 1)
-                HoverFill: =RGBA(247,248,250, 0.95)
-                MaxLength: =Parent.MaxLength
-                PaddingLeft: =5
-                RadiusBottomLeft: =0
-                RadiusBottomRight: =0
-                RadiusTopLeft: =0
-                RadiusTopRight: =0
-                Size: =17
-                Tooltip: =Parent.DisplayName
-                Width: =Parent.Width - 60
-                X: =30
-                Y: =DataCardKey6_3.Y + DataCardKey6_3.Height + 5
-                ZIndex: =2
-
-            ErrorMessage6_3 As label:
-                AutoHeight: =true
-                Color: =RGBA(168, 0, 0, 1)
-                DisabledColor: =RGBA(166, 166, 166, 1)
-                FontWeight: =FontWeight.Semibold
-                Height: =10
-                Live: =Live.Assertive
-                PaddingBottom: =0
-                PaddingLeft: =0
-                PaddingRight: =0
-                PaddingTop: =0
-                Size: =24
-                Text: =Parent.Error
-                Visible: =Parent.DisplayMode=DisplayMode.Edit
-                Width: =Parent.Width - 60
-                X: =30
-                Y: =DataCardValue6_3.Y + DataCardValue6_3.Height
-                ZIndex: =3
-
-            StarVisible6_3 As label:
-                Align: =Align.Center
-                Color: =RGBA(32, 54, 71, 1)
-                DisabledColor: =RGBA(166, 166, 166, 1)
-                Height: =DataCardKey6_3.Height
-                Size: =21
-                Text: ="*"
-                Visible: =And(Parent.Required, Parent.DisplayMode=DisplayMode.Edit)
-                Width: =30
-                Wrap: =false
-                Y: =DataCardKey6_3.Y
-                ZIndex: =4
-
-        cliente_com_projeto_ativo_DataCard1_3 As typedDataCard.textualEditCard:
-            BorderColor: =RGBA(32, 54, 71, 1)
-            BorderStyle: =BorderStyle.Solid
-            DataField: ="cliente_com_projeto_ativo"
-            Default: =ThisItem.cliente_com_projeto_ativo
-            DisplayMode: =Parent.DisplayMode
-            DisplayName: =DataSourceInfo([@'POC_GESTAOCONTRATOS.cliente'],DataSourceInfo.DisplayName,"cliente_com_projeto_ativo")
-            Fill: =RGBA(0, 0, 0, 0)
-            Height: =50
-            MaxLength: =DataSourceInfo([@'POC_GESTAOCONTRATOS.cliente'], DataSourceInfo.MaxLength, "cliente_com_projeto_ativo")
-            Required: =false
-            Update: =DataCardValue5_3.Text
-            Width: =917
-            X: =0
-            Y: =3
-            ZIndex: =1
-
-            DataCardKey5_3 As label:
-                AutoHeight: =true
-                Color: =RGBA(247, 248, 250, 1)
-                DisabledColor: =RGBA(166, 166, 166, 1)
-                FontWeight: =FontWeight.Bold
-                Height: =48
-                Size: =17
-                Text: ="Projeto ativo"
-                Width: =327
-                Wrap: =false
-                X: =30
-                ZIndex: =1
-
-            DataCardValue5_3 As text:
-                BorderColor: =If(IsBlank(Parent.Error), Parent.BorderColor, Color.Red)
-                BorderThickness: =2
-                Color: =RGBA(0, 0, 0, 1)
-                Default: =Parent.Default
-                DelayOutput: =true
-                DisabledBorderColor: =RGBA(166, 166, 166, 1)
-                DisabledColor: =RGBA(166, 166, 166, 1)
-                DisabledFill: =RGBA(244, 244, 244, 1)
-                DisplayMode: =Parent.DisplayMode
-                FocusedBorderThickness: =4
-                Height: =50
-                HoverBorderColor: =RGBA(44, 171, 224, 1)
-                HoverColor: =RGBA(0, 0, 0, 1)
-                HoverFill: =RGBA(247,248,250, 0.95)
-                MaxLength: =Parent.MaxLength
-                PaddingLeft: =5
-                RadiusBottomLeft: =0
-                RadiusBottomRight: =0
-                RadiusTopLeft: =0
-                RadiusTopRight: =0
-                Size: =17
-                Tooltip: =Parent.DisplayName
-                Width: =Parent.Width - 60
-                X: =30
-                Y: =DataCardKey5_3.Y + DataCardKey5_3.Height + 5
-                ZIndex: =2
-
-            ErrorMessage5_3 As label:
-                AutoHeight: =true
-                Color: =RGBA(168, 0, 0, 1)
-                DisabledColor: =RGBA(166, 166, 166, 1)
-                FontWeight: =FontWeight.Semibold
-                Height: =10
-                Live: =Live.Assertive
-                PaddingBottom: =0
-                PaddingLeft: =0
-                PaddingRight: =0
-                PaddingTop: =0
-                Size: =24
-                Text: =Parent.Error
-                Visible: =Parent.DisplayMode=DisplayMode.Edit
-                Width: =Parent.Width - 60
-                X: =30
-                Y: =DataCardValue5_3.Y + DataCardValue5_3.Height
-                ZIndex: =3
-
-            StarVisible5_3 As label:
-                Align: =Align.Center
-                Color: =RGBA(32, 54, 71, 1)
-                DisabledColor: =RGBA(166, 166, 166, 1)
-                Height: =DataCardKey5_3.Height
-                Size: =21
-                Text: ="*"
-                Visible: =And(Parent.Required, Parent.DisplayMode=DisplayMode.Edit)
-                Width: =30
-                Wrap: =false
-                Y: =DataCardKey5_3.Y
-                ZIndex: =4
-
-        cliente_com_alocacao_DataCard1_3 As typedDataCard.textualEditCard:
-            BorderColor: =RGBA(32, 54, 71, 1)
-            BorderStyle: =BorderStyle.Solid
-            DataField: ="cliente_com_alocacao"
-            Default: =ThisItem.cliente_com_alocacao
-            DisplayMode: =Parent.DisplayMode
-            DisplayName: =DataSourceInfo([@'POC_GESTAOCONTRATOS.cliente'],DataSourceInfo.DisplayName,"cliente_com_alocacao")
-            Fill: =RGBA(0, 0, 0, 0)
-            Height: =50
-            MaxLength: =DataSourceInfo([@'POC_GESTAOCONTRATOS.cliente'], DataSourceInfo.MaxLength, "cliente_com_alocacao")
-            Required: =false
-            Update: =DataCardValue4_3.Text
-            Width: =917
-            X: =0
-            Y: =4
-            ZIndex: =1
-
-            DataCardKey4_3 As label:
-                Color: =RGBA(247, 248, 250, 1)
-                DisabledColor: =RGBA(166, 166, 166, 1)
-                FontWeight: =FontWeight.Bold
-                Height: =27
-                Size: =17
-                Text: ="Com Alocação"
-                Width: =276
-                Wrap: =false
-                X: =30
-                Y: =15
-                ZIndex: =1
-
-            DataCardValue4_3 As text:
-                BorderColor: =If(IsBlank(Parent.Error), Parent.BorderColor, Color.Red)
-                BorderThickness: =2
-                Color: =RGBA(0, 0, 0, 1)
-                Default: =Parent.Default
-                DelayOutput: =true
-                DisabledBorderColor: =RGBA(166, 166, 166, 1)
-                DisabledColor: =RGBA(166, 166, 166, 1)
-                DisabledFill: =RGBA(244, 244, 244, 1)
-                DisplayMode: =Parent.DisplayMode
-                FocusedBorderThickness: =4
-                Height: =50
-                HoverBorderColor: =RGBA(44, 171, 224, 1)
-                HoverColor: =RGBA(0, 0, 0, 1)
-                HoverFill: =RGBA(247,248,250, 0.95)
-                MaxLength: =Parent.MaxLength
-                PaddingLeft: =5
-                RadiusBottomLeft: =0
-                RadiusBottomRight: =0
-                RadiusTopLeft: =0
-                RadiusTopRight: =0
-                Size: =17
-                Tooltip: =Parent.DisplayName
-                Width: =293
-                X: =30
-                Y: =51
-                ZIndex: =2
-
-            ErrorMessage4_3 As label:
-                AutoHeight: =true
-                Color: =RGBA(168, 0, 0, 1)
-                DisabledColor: =RGBA(166, 166, 166, 1)
-                FontWeight: =FontWeight.Semibold
-                Height: =10
-                Live: =Live.Assertive
-                PaddingBottom: =0
-                PaddingLeft: =0
-                PaddingRight: =0
-                PaddingTop: =0
-                Size: =24
-                Text: =Parent.Error
-                Visible: =Parent.DisplayMode=DisplayMode.Edit
-                Width: =Parent.Width - 60
-                X: =30
-                Y: =DataCardValue4_3.Y + DataCardValue4_3.Height
-                ZIndex: =3
-
-            StarVisible4_3 As label:
-                Align: =Align.Center
-                Color: =RGBA(32, 54, 71, 1)
-                DisabledColor: =RGBA(166, 166, 166, 1)
-                Height: =DataCardKey4_3.Height
-                Size: =21
-                Text: ="*"
-                Visible: =And(Parent.Required, Parent.DisplayMode=DisplayMode.Edit)
-                Width: =30
-                Wrap: =false
-                Y: =DataCardKey4_3.Y
-                ZIndex: =4
-
     Icon6_6 As icon.Add:
         BorderColor: =RGBA(32, 54, 71, 1)
         Color: =RGBA(44, 171, 224, 1)
@@ -841,13 +376,13 @@
         Height: =57
         Icon: =Icon.BackArrow
         OnSelect: |-
-            =UpdateContext({var_cliente_editar: false,var_cliente_exibir: false})
+            =UpdateContext({var_status_editar: false,var_status_exibir: false})
         Tooltip: ="Voltar para tela de clientes"
         Visible: =var_cliente_editar || var_cliente_exibir
         Width: =61
         X: =951
         Y: =629
-        ZIndex: =15
+        ZIndex: =14
 
     Button1_novo_cliente_6 As button:
         Color: =RGBA(247, 248, 250, 1)
@@ -860,7 +395,7 @@
         Height: =53
         HoverColor: =RGBA(255, 255, 255, 1)
         HoverFill: =ColorFade(RGBA(100, 118, 132, 1), -20%)
-        OnSelect: =NewForm(Form_tela_cliente_4)
+        OnSelect: =NewForm(Form_tela_status)
         RadiusBottomLeft: =100
         RadiusBottomRight: =100
         RadiusTopLeft: =100
@@ -871,7 +406,7 @@
         Width: =135
         X: =798
         Y: =631
-        ZIndex: =16
+        ZIndex: =15
 
     Button_salva_cliente_6 As button:
         Color: =RGBA(247, 248, 250, 1)
@@ -884,7 +419,7 @@
         Height: =53
         HoverColor: =RGBA(255, 255, 255, 1)
         HoverFill: =ColorFade(RGBA(100, 118, 132, 1), -20%)
-        OnSelect: =SubmitForm(Form_tela_cliente_4);NewForm(Form_tela_cliente_4)
+        OnSelect: =SubmitForm(Form_tela_status);NewForm(Form_tela_status)
         RadiusBottomLeft: =100
         RadiusBottomRight: =100
         RadiusTopLeft: =100
@@ -895,11 +430,112 @@
         Width: =135
         X: =647
         Y: =631
-        ZIndex: =17
+        ZIndex: =16
 
     cMenu_3 As cMenu:
         Height: =715
         X: =10
         Y: =79
+        ZIndex: =17
+
+    Form_tela_status As form:
+        BorderColor: =RGBA(32, 54, 71, 1)
+        DataSource: ='POC_GESTAOCONTRATOS.status'
+        DefaultMode: =FormMode.New
+        Height: =636
+        Item: =Gallery_status.Selected
+        OnSuccess: =Notify("Status salvo com sucesso!",NotificationType.Success)
+        Visible: =var_status_editar || var_status_exibir
+        Width: =917
+        X: =164
+        Y: =79
         ZIndex: =18
+
+        id_DataCard2 As typedDataCard.textualViewCard:
+            BorderColor: =RGBA(32, 54, 71, 1)
+            BorderStyle: =BorderStyle.Solid
+            DataField: ="id"
+            Default: =ThisItem.id
+            DisplayMode: =DisplayMode.View
+            DisplayName: =DataSourceInfo([@'POC_GESTAOCONTRATOS.status'],DataSourceInfo.DisplayName,"id")
+            Fill: =RGBA(0, 0, 0, 0)
+            Height: =40
+            Required: =false
+            Width: =640
+            X: =0
+            Y: =0
+            ZIndex: =1
+
+            DataCardKey18 As label:
+                AutoHeight: =true
+                Color: =RGBA(32, 54, 71, 1)
+                DisabledColor: =RGBA(166, 166, 166, 1)
+                Height: =48
+                Size: =21
+                Text: =Parent.DisplayName
+                Width: =Parent.Width - 60
+                Wrap: =false
+                X: =30
+                Y: =10
+                ZIndex: =1
+
+            DataCardValue18 As label:
+                AutoHeight: =true
+                BorderColor: =RGBA(32, 54, 71, 1)
+                Color: =RGBA(0, 0, 0, 1)
+                DisabledColor: =RGBA(166, 166, 166, 1)
+                DisplayMode: =Parent.DisplayMode
+                PaddingLeft: =0
+                PaddingRight: =0
+                PaddingTop: =0
+                Size: =21
+                Text: =Parent.Default
+                Width: =Parent.Width - 60
+                X: =30
+                Y: =DataCardKey18.Y + DataCardKey18.Height + 5
+                ZIndex: =2
+
+        tipo_DataCard1 As typedDataCard.textualViewCard:
+            BorderColor: =RGBA(32, 54, 71, 1)
+            BorderStyle: =BorderStyle.Solid
+            DataField: ="tipo"
+            Default: =ThisItem.tipo
+            DisplayMode: =DisplayMode.Edit
+            DisplayName: =DataSourceInfo([@'POC_GESTAOCONTRATOS.status'],DataSourceInfo.DisplayName,"tipo")
+            Fill: =RGBA(0, 0, 0, 0)
+            Height: =40
+            Required: =false
+            Width: =640
+            X: =0
+            Y: =0
+            ZIndex: =1
+
+            DataCardKey1 As label:
+                AutoHeight: =true
+                Color: =RGBA(32, 54, 71, 1)
+                DisabledColor: =RGBA(166, 166, 166, 1)
+                Height: =48
+                Size: =21
+                Text: =Parent.DisplayName
+                Width: =Parent.Width - 60
+                Wrap: =false
+                X: =30
+                Y: =10
+                ZIndex: =1
+
+            DataCardValue1 As label:
+                AutoHeight: =true
+                BorderColor: =RGBA(32, 54, 71, 1)
+                Color: =RGBA(0, 0, 0, 1)
+                DisabledColor: =RGBA(166, 166, 166, 1)
+                DisplayMode: =Parent.DisplayMode
+                PaddingLeft: =0
+                PaddingRight: =0
+                PaddingTop: =0
+                Size: =21
+                Text: =Parent.Default
+                Width: =Parent.Width - 60
+                X: =30
+                Y: =DataCardKey1.Y + DataCardKey1.Height + 5
+                ZIndex: =2
 
