@@ -6,89 +6,6 @@
     LoadingSpinnerColor: =RGBA(100, 118, 132, 1)
     Width: =1123
 
-    ComboBox6_5 As combobox:
-        BorderColor: =RGBA(18, 69, 89, 1)
-        ChevronBackground: =RGBA(44, 171, 224, 1)
-        ChevronDisabledBackground: =RGBA(166, 166, 166, 1)
-        ChevronDisabledFill: =RGBA(244, 244, 244, 1)
-        ChevronHoverBackground: =ColorFade(RGBA(100, 118, 132, 1), -20%)
-        ChevronHoverFill: =RGBA(255, 255, 255, 1)
-        Color: =RGBA(18, 69, 89, 1)
-        DisabledBorderColor: =RGBA(166, 166, 166, 1)
-        DisabledColor: =RGBA(166, 166, 166, 1)
-        DisabledFill: =RGBA(244, 244, 244, 1)
-        DisplayFields: =["tipo"]
-        Font: =Font.'Segoe UI'
-        Height: =50
-        HoverColor: =RGBA(0, 0, 0, 1)
-        HoverFill: =RGBA(44,171,224, 0.3)
-        Items: ='POC_GESTAOCONTRATOS.status'
-        PressedColor: =RGBA(44, 171, 224, 1)
-        PressedFill: =RGBA(44, 171, 224, 1)
-        SearchFields: =["tipo"]
-        SearchItems: =Search('POC_GESTAOCONTRATOS.status',ComboBox6_5.SearchText,"tipo")
-        SelectionFill: =RGBA(44, 171, 224, 1)
-        Size: =17
-        Width: =290
-        X: =318
-        Y: =79
-        ZIndex: =1
-
-    Label3_32 As label:
-        Align: =Align.Center
-        BorderColor: =RGBA(32, 54, 71, 1)
-        Color: =RGBA(18, 69, 89, 1)
-        DisabledColor: =RGBA(166, 166, 166, 1)
-        Font: =Font.'Segoe UI'
-        FontWeight: =FontWeight.Bold
-        Height: =58
-        Size: =15
-        Text: ="Status do projeto"
-        Width: =250
-        X: =103
-        Y: =80
-        ZIndex: =2
-
-    ComboBox6_4 As combobox:
-        BorderColor: =RGBA(18, 69, 89, 1)
-        ChevronBackground: =RGBA(44, 171, 224, 1)
-        ChevronDisabledBackground: =RGBA(166, 166, 166, 1)
-        ChevronDisabledFill: =RGBA(244, 244, 244, 1)
-        ChevronHoverBackground: =ColorFade(RGBA(100, 118, 132, 1), -20%)
-        ChevronHoverFill: =RGBA(255, 255, 255, 1)
-        Color: =RGBA(18, 69, 89, 1)
-        DisabledBorderColor: =RGBA(166, 166, 166, 1)
-        DisabledColor: =RGBA(166, 166, 166, 1)
-        DisabledFill: =RGBA(244, 244, 244, 1)
-        Height: =50
-        HoverColor: =RGBA(0, 0, 0, 1)
-        HoverFill: =RGBA(44,171,224, 0.3)
-        Items: =ComboBoxSample
-        PressedColor: =RGBA(255, 255, 255, 1)
-        PressedFill: =RGBA(32, 54, 71, 1)
-        SearchItems: =Search(ComboBoxSample,ComboBox6_4.SearchText,"Value1")
-        SelectionFill: =RGBA(44, 171, 224, 1)
-        Size: =17
-        Width: =290
-        X: =782
-        Y: =79
-        ZIndex: =3
-
-    Label3_31 As label:
-        Align: =Align.Center
-        BorderColor: =RGBA(32, 54, 71, 1)
-        Color: =RGBA(18, 69, 89, 1)
-        DisabledColor: =RGBA(166, 166, 166, 1)
-        Font: =Font.'Segoe UI'
-        FontWeight: =FontWeight.Bold
-        Height: =58
-        Size: =15
-        Text: ="Comercial"
-        Width: =250
-        X: =603
-        Y: =80
-        ZIndex: =4
-
     "Gallery_status As gallery.'BrowseLayout_Vertical_OneTextVariant_ver4.0'":
         BorderColor: =RGBA(18, 69, 89, 1)
         BorderThickness: =5
@@ -125,6 +42,7 @@
             RadiusTopRight: =15
             Size: =24
             Text: =ThisItem.id
+            Visible: =false
             Width: =915
             X: =12
             Y: =9
@@ -470,6 +388,7 @@
                 AutoHeight: =true
                 Color: =RGBA(32, 54, 71, 1)
                 DisabledColor: =RGBA(166, 166, 166, 1)
+                Font: =Font.'Segoe UI'
                 Height: =48
                 Size: =21
                 Text: =Parent.DisplayName
@@ -485,6 +404,7 @@
                 Color: =RGBA(0, 0, 0, 1)
                 DisabledColor: =RGBA(166, 166, 166, 1)
                 DisplayMode: =Parent.DisplayMode
+                Font: =Font.'Segoe UI'
                 PaddingLeft: =0
                 PaddingRight: =0
                 PaddingTop: =0
@@ -493,49 +413,5 @@
                 Width: =Parent.Width - 60
                 X: =30
                 Y: =DataCardKey1.Y + DataCardKey1.Height + 5
-                ZIndex: =2
-
-        id_DataCard2 As typedDataCard.textualViewCard:
-            BorderColor: =RGBA(32, 54, 71, 1)
-            BorderStyle: =BorderStyle.Solid
-            DataField: ="id"
-            Default: =ThisItem.id
-            DisplayMode: =DisplayMode.View
-            DisplayName: =DataSourceInfo([@'POC_GESTAOCONTRATOS.status'],DataSourceInfo.DisplayName,"id")
-            Fill: =RGBA(0, 0, 0, 0)
-            Height: =40
-            Required: =false
-            Width: =908
-            X: =0
-            Y: =0
-            ZIndex: =1
-
-            DataCardKey18 As label:
-                AutoHeight: =true
-                Color: =RGBA(32, 54, 71, 1)
-                DisabledColor: =RGBA(166, 166, 166, 1)
-                Height: =48
-                Size: =21
-                Text: =Parent.DisplayName
-                Width: =Parent.Width - 60
-                Wrap: =false
-                X: =30
-                Y: =10
-                ZIndex: =1
-
-            DataCardValue18 As label:
-                AutoHeight: =true
-                BorderColor: =RGBA(32, 54, 71, 1)
-                Color: =RGBA(0, 0, 0, 1)
-                DisabledColor: =RGBA(166, 166, 166, 1)
-                DisplayMode: =Parent.DisplayMode
-                PaddingLeft: =0
-                PaddingRight: =0
-                PaddingTop: =0
-                Size: =21
-                Text: =Parent.Default
-                Width: =Parent.Width - 60
-                X: =30
-                Y: =DataCardKey18.Y + DataCardKey18.Height + 5
                 ZIndex: =2
 
