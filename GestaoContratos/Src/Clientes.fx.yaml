@@ -245,8 +245,8 @@
         Icon: =Icon.BackArrow
         OnSelect: =Navigate( Menu, ScreenTransition.Fade )
         Tooltip: ="Voltar para tela inicial"
-        X: =950
-        Y: =734
+        X: =1014
+        Y: =730
         ZIndex: =8
 
     Toggle1_4 As toggleSwitch:
