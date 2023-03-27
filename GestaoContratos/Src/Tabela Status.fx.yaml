@@ -6,7 +6,7 @@
     LoadingSpinnerColor: =RGBA(100, 118, 132, 1)
     Width: =1123
 
-    "Gallery_clientes_6 As gallery.'BrowseLayout_Vertical_OneTextVariant_ver4.0'":
+    "Gallery_status As gallery.'BrowseLayout_Vertical_OneTextVariant_ver4.0'":
         BorderColor: =RGBA(18, 69, 89, 1)
         BorderThickness: =5
         Fill: =RGBA(18, 69, 89, 0.08)
@@ -73,7 +73,7 @@
             Height: =65
             Icon: =Icon.Edit
             OnSelect: |-
-                =UpdateContext({var_cliente_editar: true});Select(Parent);EditForm(Form_tela_cliente_3)
+                =UpdateContext({var_status_editar: true});Select(Parent);EditForm(Form_status)
                 
                  
             PaddingBottom: =10
@@ -96,7 +96,7 @@
             Height: =40
             Icon: =Icon.Trash
             OnSelect: |-
-                =UpdateContext({var_cliente_excluir: true})
+                =UpdateContext({var_status_excluir: true})
             Tooltip: ="Excluir cliente"
             Width: =40
             X: =868
@@ -112,7 +112,7 @@
             Height: =40
             Icon: =Icon.View
             OnSelect: |-
-                =UpdateContext({var_cliente_exibir: true});Select(Parent);EditForm(Form_tela_cliente_3)
+                =UpdateContext({var_status_exibir: true});Select(Parent);EditForm(Form_status)
             Tooltip: ="Exibir detalhes do cliente"
             Width: =40
             X: =735
@@ -220,7 +220,7 @@
         BorderThickness: =5
         Fill: =RGBA(18, 69, 89, 1)
         Height: =225
-        Visible: =var_cliente_excluir
+        Visible: =var_status_excluir
         X: =330
         Y: =350
         ZIndex: =12
@@ -232,7 +232,7 @@
             DisabledColor: =RGBA(244, 244, 244, 1)
             Icon: =Icon.CancelBadge
             OnSelect: |-
-                =UpdateContext({var_cliente_excluir: false})
+                =UpdateContext({var_status_excluir: false})
             X: =293
             Y: =138
             ZIndex: =1
@@ -244,7 +244,7 @@
             DisabledColor: =RGBA(244, 244, 244, 1)
             Icon: =Icon.CheckBadge
             OnSelect: |-
-                =Remove('POC_GESTAOCONTRATOS.status',Gallery_clientes_6.Selected);NewForm(Form_tela_cliente_3);UpdateContext({var_cliente_excluir: false})
+                =Remove('POC_GESTAOCONTRATOS.status',Gallery_status.Selected);NewForm(Form_status);UpdateContext({var_status_excluir: false})
             X: =154
             Y: =138
             ZIndex: =2
@@ -278,20 +278,20 @@
         RadiusTopRight: =20
         Size: =24
         Text: =""
-        Visible: =var_cliente_editar || var_cliente_exibir
+        Visible: =var_status_editar || var_status_exibir
         Width: =956
         X: =132
         Y: =70
         ZIndex: =13
 
-    Form_tela_cliente_3 As form:
+    Form_status As form:
         BorderColor: =RGBA(32, 54, 71, 1)
-        DataSource: ='POC_GESTAOCONTRATOS.objeto'
+        DataSource: ='POC_GESTAOCONTRATOS.status'
         DefaultMode: =FormMode.New
         Height: =636
-        Item: =Gallery_clientes_6.Selected
+        Item: =Gallery_status.Selected
         OnSuccess: =Notify("Status salvo com sucesso!",NotificationType.Success)
-        Visible: =var_cliente_editar || var_cliente_exibir
+        Visible: =var_status_editar || var_status_exibir
         Width: =877
         X: =164
         Y: =79
@@ -398,15 +398,15 @@
         Height: =57
         Icon: =Icon.BackArrow
         OnSelect: |-
-            =UpdateContext({var_cliente_editar: false,var_cliente_exibir: false})
+            =UpdateContext({var_status_editar: false,var_status_exibir: false})
         Tooltip: ="Voltar para tela de clientes"
-        Visible: =var_cliente_editar || var_cliente_exibir
+        Visible: =var_status_editar || var_status_exibir
         Width: =61
         X: =951
         Y: =629
         ZIndex: =15
 
-    Button1_novo_cliente_5 As button:
+    Button1_novo_status As button:
         Color: =RGBA(247, 248, 250, 1)
         DisabledBorderColor: =RGBA(18, 69, 89, 0.07)
         DisabledColor: =RGBA(166, 166, 166, 1)
@@ -417,20 +417,20 @@
         Height: =53
         HoverColor: =RGBA(255, 255, 255, 1)
         HoverFill: =ColorFade(RGBA(44,171,224, 0.9), -20%)
-        OnSelect: =NewForm(Form_tela_cliente_3)
+        OnSelect: =NewForm(Form_status)
         RadiusBottomLeft: =100
         RadiusBottomRight: =100
         RadiusTopLeft: =100
         RadiusTopRight: =100
         Size: =19
         Text: ="Novo"
-        Visible: =var_cliente_editar
+        Visible: =var_status_editar
         Width: =135
         X: =798
         Y: =631
         ZIndex: =16
 
-    Button_salva_cliente_5 As button:
+    Button_salva_status As button:
         Color: =RGBA(247, 248, 250, 1)
         DisabledBorderColor: =RGBA(166, 166, 166, 1)
         DisabledColor: =RGBA(166, 166, 166, 1)
@@ -441,14 +441,14 @@
         Height: =53
         HoverColor: =RGBA(255, 255, 255, 1)
         HoverFill: =
-        OnSelect: =SubmitForm(Form_tela_cliente_3);NewForm(Form_tela_cliente_3)
+        OnSelect: =SubmitForm(Form_status);NewForm(Form_status)
         RadiusBottomLeft: =100
         RadiusBottomRight: =100
         RadiusTopLeft: =100
         RadiusTopRight: =100
         Size: =19
         Text: ="Salvar"
-        Visible: =var_cliente_editar
+        Visible: =var_status_editar
         Width: =135
         X: =647
         Y: =631

@@ -808,19 +808,19 @@
             {
               "logicalLocations": [
                 {
-                  "fullyQualifiedName": "'Tabela Objeto'.Gallery_clientes_3.Icon2_6.AccessibleLabel"
+                  "fullyQualifiedName": "'Tabela Objeto'.Gallery_objeto.Icon2_6.AccessibleLabel"
                 }
               ],
               "physicalLocation": {
                 "address": {
-                  "fullyQualifiedName": "'Tabela Objeto'.Gallery_clientes_3.Icon2_6.AccessibleLabel",
+                  "fullyQualifiedName": "'Tabela Objeto'.Gallery_objeto.Icon2_6.AccessibleLabel",
                   "relativeAddress": 0
                 }
               },
               "properties": {
                 "member": "AccessibleLabel",
                 "module": "Tabela Objeto",
-                "type": "'Tabela Objeto'.Gallery_clientes_3.Icon2_6"
+                "type": "'Tabela Objeto'.Gallery_objeto.Icon2_6"
               }
             }
           ],
@@ -838,19 +838,19 @@
             {
               "logicalLocations": [
                 {
-                  "fullyQualifiedName": "'Tabela Objeto'.Gallery_clientes_3.TabIndex"
+                  "fullyQualifiedName": "'Tabela Objeto'.Gallery_objeto.TabIndex"
                 }
               ],
               "physicalLocation": {
                 "address": {
-                  "fullyQualifiedName": "'Tabela Objeto'.Gallery_clientes_3.TabIndex",
+                  "fullyQualifiedName": "'Tabela Objeto'.Gallery_objeto.TabIndex",
                   "relativeAddress": 0
                 }
               },
               "properties": {
                 "member": "TabIndex",
                 "module": "Tabela Objeto",
-                "type": "'Tabela Objeto'.Gallery_clientes_3"
+                "type": "'Tabela Objeto'.Gallery_objeto"
               }
             }
           ],
@@ -898,19 +898,19 @@
             {
               "logicalLocations": [
                 {
-                  "fullyQualifiedName": "'Tabela Objeto'.Gallery_clientes_3.Icon2_7.FocusedBorderThickness"
+                  "fullyQualifiedName": "'Tabela Objeto'.Gallery_objeto.Icon2_7.FocusedBorderThickness"
                 }
               ],
               "physicalLocation": {
                 "address": {
-                  "fullyQualifiedName": "'Tabela Objeto'.Gallery_clientes_3.Icon2_7.FocusedBorderThickness",
+                  "fullyQualifiedName": "'Tabela Objeto'.Gallery_objeto.Icon2_7.FocusedBorderThickness",
                   "relativeAddress": 0
                 }
               },
               "properties": {
                 "member": "FocusedBorderThickness",
                 "module": "Tabela Objeto",
-                "type": "'Tabela Objeto'.Gallery_clientes_3.Icon2_7"
+                "type": "'Tabela Objeto'.Gallery_objeto.Icon2_7"
               }
             }
           ],
@@ -928,19 +928,19 @@
             {
               "logicalLocations": [
                 {
-                  "fullyQualifiedName": "'Tabela Objeto'.Gallery_clientes_3.Icon2_7.TabIndex"
+                  "fullyQualifiedName": "'Tabela Objeto'.Gallery_objeto.Icon2_7.TabIndex"
                 }
               ],
               "physicalLocation": {
                 "address": {
-                  "fullyQualifiedName": "'Tabela Objeto'.Gallery_clientes_3.Icon2_7.TabIndex",
+                  "fullyQualifiedName": "'Tabela Objeto'.Gallery_objeto.Icon2_7.TabIndex",
                   "relativeAddress": 0
                 }
               },
               "properties": {
                 "member": "TabIndex",
                 "module": "Tabela Objeto",
-                "type": "'Tabela Objeto'.Gallery_clientes_3.Icon2_7"
+                "type": "'Tabela Objeto'.Gallery_objeto.Icon2_7"
               }
             }
           ],
@@ -958,19 +958,19 @@
             {
               "logicalLocations": [
                 {
-                  "fullyQualifiedName": "'Tabela Objeto'.Gallery_clientes_3.Icon2_7.AccessibleLabel"
+                  "fullyQualifiedName": "'Tabela Objeto'.Gallery_objeto.Icon2_7.AccessibleLabel"
                 }
               ],
               "physicalLocation": {
                 "address": {
-                  "fullyQualifiedName": "'Tabela Objeto'.Gallery_clientes_3.Icon2_7.AccessibleLabel",
+                  "fullyQualifiedName": "'Tabela Objeto'.Gallery_objeto.Icon2_7.AccessibleLabel",
                   "relativeAddress": 0
                 }
               },
               "properties": {
                 "member": "AccessibleLabel",
                 "module": "Tabela Objeto",
-                "type": "'Tabela Objeto'.Gallery_clientes_3.Icon2_7"
+                "type": "'Tabela Objeto'.Gallery_objeto.Icon2_7"
               }
             }
           ],
@@ -988,19 +988,19 @@
             {
               "logicalLocations": [
                 {
-                  "fullyQualifiedName": "'Tabela Objeto'.Gallery_clientes_3.Icon2_6.FocusedBorderThickness"
+                  "fullyQualifiedName": "'Tabela Objeto'.Gallery_objeto.Icon2_6.FocusedBorderThickness"
                 }
               ],
               "physicalLocation": {
                 "address": {
-                  "fullyQualifiedName": "'Tabela Objeto'.Gallery_clientes_3.Icon2_6.FocusedBorderThickness",
+                  "fullyQualifiedName": "'Tabela Objeto'.Gallery_objeto.Icon2_6.FocusedBorderThickness",
                   "relativeAddress": 0
                 }
               },
               "properties": {
                 "member": "FocusedBorderThickness",
                 "module": "Tabela Objeto",
-                "type": "'Tabela Objeto'.Gallery_clientes_3.Icon2_6"
+                "type": "'Tabela Objeto'.Gallery_objeto.Icon2_6"
               }
             }
           ],
@@ -1018,19 +1018,19 @@
             {
               "logicalLocations": [
                 {
-                  "fullyQualifiedName": "'Tabela Objeto'.Gallery_clientes_3.Icon2_6.TabIndex"
+                  "fullyQualifiedName": "'Tabela Objeto'.Gallery_objeto.Icon2_6.TabIndex"
                 }
               ],
               "physicalLocation": {
                 "address": {
-                  "fullyQualifiedName": "'Tabela Objeto'.Gallery_clientes_3.Icon2_6.TabIndex",
+                  "fullyQualifiedName": "'Tabela Objeto'.Gallery_objeto.Icon2_6.TabIndex",
                   "relativeAddress": 0
                 }
               },
               "properties": {
                 "member": "TabIndex",
                 "module": "Tabela Objeto",
-                "type": "'Tabela Objeto'.Gallery_clientes_3.Icon2_6"
+                "type": "'Tabela Objeto'.Gallery_objeto.Icon2_6"
               }
             }
           ],
@@ -1048,19 +1048,19 @@
             {
               "logicalLocations": [
                 {
-                  "fullyQualifiedName": "'Tabela Objeto'.Gallery_clientes_3.AccessibleLabel"
+                  "fullyQualifiedName": "'Tabela Objeto'.Gallery_objeto.AccessibleLabel"
                 }
               ],
               "physicalLocation": {
                 "address": {
-                  "fullyQualifiedName": "'Tabela Objeto'.Gallery_clientes_3.AccessibleLabel",
+                  "fullyQualifiedName": "'Tabela Objeto'.Gallery_objeto.AccessibleLabel",
                   "relativeAddress": 0
                 }
               },
               "properties": {
                 "member": "AccessibleLabel",
                 "module": "Tabela Objeto",
-                "type": "'Tabela Objeto'.Gallery_clientes_3"
+                "type": "'Tabela Objeto'.Gallery_objeto"
               }
             }
           ],
@@ -1168,169 +1168,19 @@
             {
               "logicalLocations": [
                 {
-                  "fullyQualifiedName": "'Tabela Objeto'.ComboBox6_1.AccessibleLabel"
+                  "fullyQualifiedName": "'Tabela Objeto'.Form_objeto.tipo_DataCard2.DataCardValue17.AccessibleLabel"
                 }
               ],
               "physicalLocation": {
                 "address": {
-                  "fullyQualifiedName": "'Tabela Objeto'.ComboBox6_1.AccessibleLabel",
+                  "fullyQualifiedName": "'Tabela Objeto'.Form_objeto.tipo_DataCard2.DataCardValue17.AccessibleLabel",
                   "relativeAddress": 0
                 }
               },
               "properties": {
                 "member": "AccessibleLabel",
                 "module": "Tabela Objeto",
-                "type": "'Tabela Objeto'.ComboBox6_1"
-              }
-            }
-          ],
-          "message": {
-            "id": "issue"
-          },
-          "properties": {
-            "level": "Medium"
-          },
-          "ruleId": "acc-AccessibleLabelNeeded",
-          "ruleIndex": 7
-        },
-        {
-          "locations": [
-            {
-              "logicalLocations": [
-                {
-                  "fullyQualifiedName": "'Tabela Objeto'.ComboBox6_4.AccessibleLabel"
-                }
-              ],
-              "physicalLocation": {
-                "address": {
-                  "fullyQualifiedName": "'Tabela Objeto'.ComboBox6_4.AccessibleLabel",
-                  "relativeAddress": 0
-                }
-              },
-              "properties": {
-                "member": "AccessibleLabel",
-                "module": "Tabela Objeto",
-                "type": "'Tabela Objeto'.ComboBox6_4"
-              }
-            }
-          ],
-          "message": {
-            "id": "issue"
-          },
-          "properties": {
-            "level": "Medium"
-          },
-          "ruleId": "acc-AccessibleLabelNeeded",
-          "ruleIndex": 7
-        },
-        {
-          "locations": [
-            {
-              "logicalLocations": [
-                {
-                  "fullyQualifiedName": "'Tabela Objeto'.Form_tela_cliente_2.cliente_com_projeto_ativo_DataCard1_1.DataCardValue5_1.AccessibleLabel"
-                }
-              ],
-              "physicalLocation": {
-                "address": {
-                  "fullyQualifiedName": "'Tabela Objeto'.Form_tela_cliente_2.cliente_com_projeto_ativo_DataCard1_1.DataCardValue5_1.AccessibleLabel",
-                  "relativeAddress": 0
-                }
-              },
-              "properties": {
-                "member": "AccessibleLabel",
-                "module": "Tabela Objeto",
-                "type": "'Tabela Objeto'.Form_tela_cliente_2.cliente_com_projeto_ativo_DataCard1_1.DataCardValue5_1"
-              }
-            }
-          ],
-          "message": {
-            "id": "issue"
-          },
-          "properties": {
-            "level": "Medium"
-          },
-          "ruleId": "acc-AccessibleLabelNeeded",
-          "ruleIndex": 7
-        },
-        {
-          "locations": [
-            {
-              "logicalLocations": [
-                {
-                  "fullyQualifiedName": "'Tabela Objeto'.Form_tela_cliente_2.email_cliente_DataCard1_1.DataCardValue6_1.AccessibleLabel"
-                }
-              ],
-              "physicalLocation": {
-                "address": {
-                  "fullyQualifiedName": "'Tabela Objeto'.Form_tela_cliente_2.email_cliente_DataCard1_1.DataCardValue6_1.AccessibleLabel",
-                  "relativeAddress": 0
-                }
-              },
-              "properties": {
-                "member": "AccessibleLabel",
-                "module": "Tabela Objeto",
-                "type": "'Tabela Objeto'.Form_tela_cliente_2.email_cliente_DataCard1_1.DataCardValue6_1"
-              }
-            }
-          ],
-          "message": {
-            "id": "issue"
-          },
-          "properties": {
-            "level": "Medium"
-          },
-          "ruleId": "acc-AccessibleLabelNeeded",
-          "ruleIndex": 7
-        },
-        {
-          "locations": [
-            {
-              "logicalLocations": [
-                {
-                  "fullyQualifiedName": "'Tabela Objeto'.Form_tela_cliente_2.ass_nome_responsavel_DataCard2_1.DataCardValue3_1.AccessibleLabel"
-                }
-              ],
-              "physicalLocation": {
-                "address": {
-                  "fullyQualifiedName": "'Tabela Objeto'.Form_tela_cliente_2.ass_nome_responsavel_DataCard2_1.DataCardValue3_1.AccessibleLabel",
-                  "relativeAddress": 0
-                }
-              },
-              "properties": {
-                "member": "AccessibleLabel",
-                "module": "Tabela Objeto",
-                "type": "'Tabela Objeto'.Form_tela_cliente_2.ass_nome_responsavel_DataCard2_1.DataCardValue3_1"
-              }
-            }
-          ],
-          "message": {
-            "id": "issue"
-          },
-          "properties": {
-            "level": "Medium"
-          },
-          "ruleId": "acc-AccessibleLabelNeeded",
-          "ruleIndex": 7
-        },
-        {
-          "locations": [
-            {
-              "logicalLocations": [
-                {
-                  "fullyQualifiedName": "'Tabela Objeto'.Form_tela_cliente_2.nome_empresa_DataCard1_1.DataCardValue2_1.AccessibleLabel"
-                }
-              ],
-              "physicalLocation": {
-                "address": {
-                  "fullyQualifiedName": "'Tabela Objeto'.Form_tela_cliente_2.nome_empresa_DataCard1_1.DataCardValue2_1.AccessibleLabel",
-                  "relativeAddress": 0
-                }
-              },
-              "properties": {
-                "member": "AccessibleLabel",
-                "module": "Tabela Objeto",
-                "type": "'Tabela Objeto'.Form_tela_cliente_2.nome_empresa_DataCard1_1.DataCardValue2_1"
+                "type": "'Tabela Objeto'.Form_objeto.tipo_DataCard2.DataCardValue17"
               }
             }
           ],
@@ -2128,19 +1978,19 @@
             {
               "logicalLocations": [
                 {
-                  "fullyQualifiedName": "'Tabela Status'.Gallery_clientes_6.Icon2_14.TabIndex"
+                  "fullyQualifiedName": "'Tabela Status'.Gallery_status.Icon2_14.TabIndex"
                 }
               ],
               "physicalLocation": {
                 "address": {
-                  "fullyQualifiedName": "'Tabela Status'.Gallery_clientes_6.Icon2_14.TabIndex",
+                  "fullyQualifiedName": "'Tabela Status'.Gallery_status.Icon2_14.TabIndex",
                   "relativeAddress": 0
                 }
               },
               "properties": {
                 "member": "TabIndex",
                 "module": "Tabela Status",
-                "type": "'Tabela Status'.Gallery_clientes_6.Icon2_14"
+                "type": "'Tabela Status'.Gallery_status.Icon2_14"
               }
             }
           ],
@@ -2158,19 +2008,19 @@
             {
               "logicalLocations": [
                 {
-                  "fullyQualifiedName": "'Tabela Status'.Gallery_clientes_6.Icon2_14.AccessibleLabel"
+                  "fullyQualifiedName": "'Tabela Status'.Gallery_status.Icon2_14.AccessibleLabel"
                 }
               ],
               "physicalLocation": {
                 "address": {
-                  "fullyQualifiedName": "'Tabela Status'.Gallery_clientes_6.Icon2_14.AccessibleLabel",
+                  "fullyQualifiedName": "'Tabela Status'.Gallery_status.Icon2_14.AccessibleLabel",
                   "relativeAddress": 0
                 }
               },
               "properties": {
                 "member": "AccessibleLabel",
                 "module": "Tabela Status",
-                "type": "'Tabela Status'.Gallery_clientes_6.Icon2_14"
+                "type": "'Tabela Status'.Gallery_status.Icon2_14"
               }
             }
           ],
@@ -2188,19 +2038,19 @@
             {
               "logicalLocations": [
                 {
-                  "fullyQualifiedName": "'Tabela Status'.Gallery_clientes_6.Icon2_8.FocusedBorderThickness"
+                  "fullyQualifiedName": "'Tabela Status'.Gallery_status.Icon2_8.FocusedBorderThickness"
                 }
               ],
               "physicalLocation": {
                 "address": {
-                  "fullyQualifiedName": "'Tabela Status'.Gallery_clientes_6.Icon2_8.FocusedBorderThickness",
+                  "fullyQualifiedName": "'Tabela Status'.Gallery_status.Icon2_8.FocusedBorderThickness",
                   "relativeAddress": 0
                 }
               },
               "properties": {
                 "member": "FocusedBorderThickness",
                 "module": "Tabela Status",
-                "type": "'Tabela Status'.Gallery_clientes_6.Icon2_8"
+                "type": "'Tabela Status'.Gallery_status.Icon2_8"
               }
             }
           ],
@@ -2248,19 +2098,19 @@
             {
               "logicalLocations": [
                 {
-                  "fullyQualifiedName": "'Tabela Status'.Gallery_clientes_6.Icon2_8.TabIndex"
+                  "fullyQualifiedName": "'Tabela Status'.Gallery_status.Icon2_8.TabIndex"
                 }
               ],
               "physicalLocation": {
                 "address": {
-                  "fullyQualifiedName": "'Tabela Status'.Gallery_clientes_6.Icon2_8.TabIndex",
+                  "fullyQualifiedName": "'Tabela Status'.Gallery_status.Icon2_8.TabIndex",
                   "relativeAddress": 0
                 }
               },
               "properties": {
                 "member": "TabIndex",
                 "module": "Tabela Status",
-                "type": "'Tabela Status'.Gallery_clientes_6.Icon2_8"
+                "type": "'Tabela Status'.Gallery_status.Icon2_8"
               }
             }
           ],
@@ -2278,19 +2128,19 @@
             {
               "logicalLocations": [
                 {
-                  "fullyQualifiedName": "'Tabela Status'.Gallery_clientes_6.Icon2_8.AccessibleLabel"
+                  "fullyQualifiedName": "'Tabela Status'.Gallery_status.Icon2_8.AccessibleLabel"
                 }
               ],
               "physicalLocation": {
                 "address": {
-                  "fullyQualifiedName": "'Tabela Status'.Gallery_clientes_6.Icon2_8.AccessibleLabel",
+                  "fullyQualifiedName": "'Tabela Status'.Gallery_status.Icon2_8.AccessibleLabel",
                   "relativeAddress": 0
                 }
               },
               "properties": {
                 "member": "AccessibleLabel",
                 "module": "Tabela Status",
-                "type": "'Tabela Status'.Gallery_clientes_6.Icon2_8"
+                "type": "'Tabela Status'.Gallery_status.Icon2_8"
               }
             }
           ],
@@ -2308,19 +2158,19 @@
             {
               "logicalLocations": [
                 {
-                  "fullyQualifiedName": "'Tabela Status'.Gallery_clientes_6.TabIndex"
+                  "fullyQualifiedName": "'Tabela Status'.Gallery_status.TabIndex"
                 }
               ],
               "physicalLocation": {
                 "address": {
-                  "fullyQualifiedName": "'Tabela Status'.Gallery_clientes_6.TabIndex",
+                  "fullyQualifiedName": "'Tabela Status'.Gallery_status.TabIndex",
                   "relativeAddress": 0
                 }
               },
               "properties": {
                 "member": "TabIndex",
                 "module": "Tabela Status",
-                "type": "'Tabela Status'.Gallery_clientes_6"
+                "type": "'Tabela Status'.Gallery_status"
               }
             }
           ],
@@ -2338,19 +2188,19 @@
             {
               "logicalLocations": [
                 {
-                  "fullyQualifiedName": "'Tabela Status'.Gallery_clientes_6.AccessibleLabel"
+                  "fullyQualifiedName": "'Tabela Status'.Gallery_status.AccessibleLabel"
                 }
               ],
               "physicalLocation": {
                 "address": {
-                  "fullyQualifiedName": "'Tabela Status'.Gallery_clientes_6.AccessibleLabel",
+                  "fullyQualifiedName": "'Tabela Status'.Gallery_status.AccessibleLabel",
                   "relativeAddress": 0
                 }
               },
               "properties": {
                 "member": "AccessibleLabel",
                 "module": "Tabela Status",
-                "type": "'Tabela Status'.Gallery_clientes_6"
+                "type": "'Tabela Status'.Gallery_status"
               }
             }
           ],
@@ -2428,19 +2278,19 @@
             {
               "logicalLocations": [
                 {
-                  "fullyQualifiedName": "'Tabela Status'.Form_tela_cliente_3.tipo_DataCard1.DataCardValue1.AccessibleLabel"
+                  "fullyQualifiedName": "'Tabela Status'.Form_status.tipo_DataCard1.DataCardValue1.AccessibleLabel"
                 }
               ],
               "physicalLocation": {
                 "address": {
-                  "fullyQualifiedName": "'Tabela Status'.Form_tela_cliente_3.tipo_DataCard1.DataCardValue1.AccessibleLabel",
+                  "fullyQualifiedName": "'Tabela Status'.Form_status.tipo_DataCard1.DataCardValue1.AccessibleLabel",
                   "relativeAddress": 0
                 }
               },
               "properties": {
                 "member": "AccessibleLabel",
                 "module": "Tabela Status",
-                "type": "'Tabela Status'.Form_tela_cliente_3.tipo_DataCard1.DataCardValue1"
+                "type": "'Tabela Status'.Form_status.tipo_DataCard1.DataCardValue1"
               }
             }
           ],
@@ -7977,19 +7827,19 @@
             {
               "logicalLocations": [
                 {
-                  "fullyQualifiedName": "'Tabela Status'.Gallery_clientes_6.Icon2_14.FocusedBorderThickness"
+                  "fullyQualifiedName": "'Tabela Status'.Gallery_status.Icon2_14.FocusedBorderThickness"
                 }
               ],
               "physicalLocation": {
                 "address": {
-                  "fullyQualifiedName": "'Tabela Status'.Gallery_clientes_6.Icon2_14.FocusedBorderThickness",
+                  "fullyQualifiedName": "'Tabela Status'.Gallery_status.Icon2_14.FocusedBorderThickness",
                   "relativeAddress": 0
                 }
               },
               "properties": {
                 "member": "FocusedBorderThickness",
                 "module": "Tabela Status",
-                "type": "'Tabela Status'.Gallery_clientes_6.Icon2_14"
+                "type": "'Tabela Status'.Gallery_status.Icon2_14"
               }
             }
           ],

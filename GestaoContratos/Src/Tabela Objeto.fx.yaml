@@ -6,108 +6,20 @@
     LoadingSpinnerColor: =RGBA(100, 118, 132, 1)
     Width: =1123
 
-    ComboBox6_4 As combobox:
-        BorderColor: =RGBA(18, 69, 89, 1)
-        ChevronBackground: =RGBA(44, 171, 224, 1)
-        ChevronDisabledBackground: =RGBA(166, 166, 166, 1)
-        ChevronDisabledFill: =RGBA(244, 244, 244, 1)
-        ChevronHoverBackground: =ColorFade(RGBA(100, 118, 132, 1), -20%)
-        ChevronHoverFill: =RGBA(255, 255, 255, 1)
-        Color: =RGBA(18, 69, 89, 1)
-        DisabledBorderColor: =RGBA(166, 166, 166, 1)
-        DisabledColor: =RGBA(166, 166, 166, 1)
-        DisabledFill: =RGBA(244, 244, 244, 1)
-        DisplayFields: =["tipo"]
-        Font: =Font.'Segoe UI'
-        Height: =50
-        HoverColor: =RGBA(0, 0, 0, 1)
-        HoverFill: =RGBA(44,171,224, 0.3)
-        InputTextPlaceholder: ="Localizar status"
-        Items: ='POC_GESTAOCONTRATOS.status'
-        PressedColor: =RGBA(44, 171, 224, 1)
-        PressedFill: =RGBA(44, 171, 224, 1)
-        SearchFields: =["tipo"]
-        SearchItems: =Search('POC_GESTAOCONTRATOS.status',ComboBox6_4.SearchText,"tipo")
-        SelectionFill: =RGBA(44, 171, 224, 1)
-        Size: =17
-        Width: =290
-        X: =318
-        Y: =79
-        ZIndex: =1
-
-    Label3_31 As label:
-        Align: =Align.Center
-        BorderColor: =RGBA(32, 54, 71, 1)
-        Color: =RGBA(18, 69, 89, 1)
-        DisabledColor: =RGBA(166, 166, 166, 1)
-        Font: =Font.'Segoe UI'
-        FontWeight: =FontWeight.Bold
-        Height: =58
-        Size: =15
-        Text: ="Status do projeto"
-        Width: =250
-        X: =103
-        Y: =80
-        ZIndex: =2
-
-    ComboBox6_1 As combobox:
-        BorderColor: =RGBA(18, 69, 89, 1)
-        ChevronBackground: =RGBA(44, 171, 224, 1)
-        ChevronDisabledBackground: =RGBA(166, 166, 166, 1)
-        ChevronDisabledFill: =RGBA(244, 244, 244, 1)
-        ChevronHoverBackground: =ColorFade(RGBA(100, 118, 132, 1), -20%)
-        ChevronHoverFill: =RGBA(255, 255, 255, 1)
-        Color: =RGBA(18, 69, 89, 1)
-        DisabledBorderColor: =RGBA(166, 166, 166, 1)
-        DisabledColor: =RGBA(166, 166, 166, 1)
-        DisabledFill: =RGBA(244, 244, 244, 1)
-        DisplayFields: =["nome_comercial"]
-        Font: =Font.'Segoe UI'
-        Height: =50
-        HoverColor: =RGBA(0, 0, 0, 1)
-        HoverFill: =RGBA(44,171,224, 0.3)
-        InputTextPlaceholder: ="Localizar comercial"
-        Items: ='POC_GESTAOCONTRATOS.comercial'
-        PressedColor: =RGBA(255, 255, 255, 1)
-        PressedFill: =RGBA(32, 54, 71, 1)
-        SearchFields: =["nome_comercial"]
-        SearchItems: =Search('POC_GESTAOCONTRATOS.comercial',ComboBox6_1.SearchText,"nome_comercial")
-        SelectionFill: =RGBA(44, 171, 224, 1)
-        Size: =17
-        Width: =290
-        X: =782
-        Y: =79
-        ZIndex: =3
-
-    Label3_18 As label:
-        Align: =Align.Center
-        BorderColor: =RGBA(32, 54, 71, 1)
-        Color: =RGBA(18, 69, 89, 1)
-        DisabledColor: =RGBA(166, 166, 166, 1)
-        Font: =Font.'Segoe UI'
-        FontWeight: =FontWeight.Bold
-        Height: =58
-        Size: =15
-        Text: ="Comercial"
-        Width: =250
-        X: =603
-        Y: =80
-        ZIndex: =4
-
-    "Gallery_clientes_3 As gallery.'BrowseLayout_Vertical_OneTextVariant_ver4.0'":
+    "Gallery_objeto As gallery.'BrowseLayout_Vertical_OneTextVariant_ver4.0'":
         BorderColor: =RGBA(18, 69, 89, 1)
         BorderThickness: =5
         Fill: =RGBA(18, 69, 89, 0.08)
-        Height: =484
+        Height: =532
         Items: |
-            =SortByColumns(Search('POC_GESTAOCONTRATOS.cliente',Text_busca_3.Text, "nome_empresa"),"nome_empresa",SortOrder.Ascending)
+            =SortByColumns(Search('POC_GESTAOCONTRATOS.objeto',Text_busca_3.Text, "tipo"),"tipo",SortOrder.Ascending)
         Layout: =Layout.Vertical
         ShowScrollbar: =false
         TemplatePadding: =0
         TemplateSize: =89
         Width: =937
         X: =137
-        Y: =231
+        Y: =182
         ZIndex: =5
 
         Button2_4 As button:
@@ -145,7 +57,7 @@
             PaddingLeft: =0
             PaddingRight: =0
             PaddingTop: =0
-            Text: =ThisItem.nome_empresa   
+            Text: =ThisItem.tipo
             VerticalAlign: =VerticalAlign.Top
             Width: =370
             X: =21
@@ -161,7 +73,7 @@
             Height: =65
             Icon: =Icon.Edit
             OnSelect: |-
-                =UpdateContext({var_cliente_editar: true});Select(Parent);EditForm(Form_tela_cliente_2)
+                =UpdateContext({var_objeto_editar: true});Select(Parent);EditForm(Form_objeto)
                 
                  
             PaddingBottom: =10
@@ -169,7 +81,7 @@
             PaddingRight: =10
             PaddingTop: =10
             TabIndex: =0
-            Tooltip: ="Editar e criar novo cliente"
+            Tooltip: ="Editar e criar novo objeto"
             Width: =60
             X: =796
             Y: =16
@@ -184,7 +96,7 @@
             Height: =40
             Icon: =Icon.Trash
             OnSelect: |-
-                =UpdateContext({var_cliente_excluir: true})
+                =UpdateContext({var_objeto_excluir: true})
             Tooltip: ="Excluir cliente"
             Width: =40
             X: =868
@@ -200,8 +112,8 @@
             Height: =40
             Icon: =Icon.View
             OnSelect: |-
-                =UpdateContext({var_cliente_exibir: true});Select(Parent);EditForm(Form_tela_cliente_2)
-            Tooltip: ="Exibir detalhes do cliente"
+                =UpdateContext({var_objeto_exibir: true});Select(Parent);EditForm(Form_objeto)
+            Tooltip: ="Exibir detalhes do objeto"
             Width: =40
             X: =735
             Y: =29
@@ -287,7 +199,7 @@
         Size: =20
         Width: =937
         X: =137
-        Y: =164
+        Y: =101
         ZIndex: =10
 
     Icon1_3 As icon.ZoomIn:
@@ -300,7 +212,7 @@
         OnSelect: =Set(VarBusca,!VarBusca)
         Width: =50
         X: =1024
-        Y: =164
+        Y: =101
         ZIndex: =11
 
     Container2_3 As groupContainer.manualLayoutContainer:
@@ -308,7 +220,7 @@
         BorderThickness: =5
         Fill: =RGBA(18, 69, 89, 1)
         Height: =225
-        Visible: =var_cliente_excluir
+        Visible: =var_objeto_excluir
         X: =330
         Y: =350
         ZIndex: =12
@@ -320,7 +232,7 @@
             DisabledColor: =RGBA(244, 244, 244, 1)
             Icon: =Icon.CancelBadge
             OnSelect: |-
-                =UpdateContext({var_cliente_excluir: false})
+                =UpdateContext({var_objeto_excluir: false})
             X: =293
             Y: =138
             ZIndex: =1
@@ -332,7 +244,7 @@
             DisabledColor: =RGBA(244, 244, 244, 1)
             Icon: =Icon.CheckBadge
             OnSelect: |-
-                =Remove('POC_GESTAOCONTRATOS.cliente',Gallery_clientes_3.Selected);NewForm(Form_tela_cliente_2);UpdateContext({var_cliente_excluir: false})
+                =Remove('POC_GESTAOCONTRATOS.objeto',Gallery_objeto.Selected);NewForm(Form_objeto);UpdateContext({var_objeto_excluir: false})
             X: =154
             Y: =138
             ZIndex: =2
@@ -346,7 +258,7 @@
             FontWeight: =FontWeight.Bold
             Height: =70
             Size: =19
-            Text: ="Deseja excluir o cliente selecionado?"
+            Text: ="Deseja excluir o objeto selecionado?"
             Width: =500
             Y: =40
             ZIndex: =4
@@ -366,89 +278,58 @@
         RadiusTopRight: =20
         Size: =24
         Text: =""
-        Visible: =var_cliente_editar || var_cliente_exibir
+        Visible: =var_objeto_editar || var_objeto_exibir
         Width: =956
         X: =132
         Y: =70
         ZIndex: =13
 
-    Form_tela_cliente_2 As form:
+    Form_objeto As form:
         BorderColor: =RGBA(32, 54, 71, 1)
-        DataSource: ='POC_GESTAOCONTRATOS.cliente'   
+        DataSource: ='POC_GESTAOCONTRATOS.objeto'
         DefaultMode: =FormMode.New
         Height: =636
-        Item: =Gallery_clientes_3.Selected
-        OnSuccess: =Notify("Cliente salvo com sucesso!",NotificationType.Success)
-        Visible: =var_cliente_editar || var_cliente_exibir
-        Width: =917
-        X: =164
+        Item: =Gallery_objeto.Selected
+        OnSuccess: =Notify("Objeto salvo com sucesso!",NotificationType.Success)
+        Visible: =var_objeto_editar || var_objeto_exibir
+        Width: =944
+        X: =137
         Y: =79
         ZIndex: =14
 
-        nome_empresa_DataCard1_1 As typedDataCard.textualEditCard:
+        tipo_DataCard2 As typedDataCard.textualEditCard:
             BorderColor: =RGBA(32, 54, 71, 1)
             BorderStyle: =BorderStyle.Solid
-            DataField: ="nome_empresa"
-            Default: =ThisItem.nome_empresa
+            DataField: ="tipo"
+            Default: =ThisItem.tipo
             DisplayMode: =Parent.DisplayMode
-            DisplayName: =DataSourceInfo([@'POC_GESTAOCONTRATOS.cliente'],DataSourceInfo.DisplayName,"nome_empresa")
+            DisplayName: =DataSourceInfo([@'POC_GESTAOCONTRATOS.objeto'],DataSourceInfo.DisplayName,"tipo")
             Fill: =RGBA(0, 0, 0, 0)
-            Height: =100
-            MaxLength: =DataSourceInfo([@'POC_GESTAOCONTRATOS.cliente'], DataSourceInfo.MaxLength, "nome_empresa")
+            Height: =50
+            MaxLength: =DataSourceInfo([@'POC_GESTAOCONTRATOS.objeto'], DataSourceInfo.MaxLength, "tipo")
             Required: =false
-            Update: =DataCardValue2_1.Text
-            Width: =917
+            Update: =DataCardValue17.Text
+            Width: =944
             X: =0
             Y: =0
             ZIndex: =1
 
-            DataCardKey2_1 As label:
+            DataCardKey17 As label:
                 AutoHeight: =true
                 Color: =RGBA(247, 248, 250, 1)
                 DisabledColor: =RGBA(166, 166, 166, 1)
+                Font: =Font.'Segoe UI'
                 FontWeight: =FontWeight.Bold
                 Height: =48
                 Size: =17
-                Text: ="Nome"
+                Text: ="Tipo"
                 Width: =Parent.Width - 60
                 Wrap: =false
                 X: =30
                 Y: =10
                 ZIndex: =1
 
-            ErrorMessage2_1 As label:
-                AutoHeight: =true
-                Color: =RGBA(168, 0, 0, 1)
-                DisabledColor: =RGBA(166, 166, 166, 1)
-                FontWeight: =FontWeight.Semibold
-                Height: =10
-                Live: =Live.Assertive
-                PaddingBottom: =0
-                PaddingLeft: =0
-                PaddingRight: =0
-                PaddingTop: =0
-                Size: =24
-                Text: =Parent.Error
-                Visible: =Parent.DisplayMode=DisplayMode.Edit
-                Width: =Parent.Width - 60
-                X: =30
-                Y: =DataCardValue2_1.Y + DataCardValue2_1.Height
-                ZIndex: =2
-
-            StarVisible2_1 As label:
-                Align: =Align.Center
-                Color: =RGBA(32, 54, 71, 1)
-                DisabledColor: =RGBA(166, 166, 166, 1)
-                Height: =DataCardKey2_1.Height
-                Size: =21
-                Text: ="*"
-                Visible: =And(Parent.Required, Parent.DisplayMode=DisplayMode.Edit)
-                Width: =30
-                Wrap: =false
-                Y: =DataCardKey2_1.Y
-                ZIndex: =3
-
-            DataCardValue2_1 As text:
+            DataCardValue17 As text:
                 BorderColor: =If(IsBlank(Parent.Error), Parent.BorderColor, Color.Red)
                 BorderThickness: =2
                 Color: =RGBA(0, 0, 0, 1)
@@ -463,7 +344,7 @@
                 Height: =50
                 HoverBorderColor: =RGBA(44, 171, 224, 1)
                 HoverColor: =RGBA(0, 0, 0, 1)
-                HoverFill: =RGBA(247,248,250, 0.95)
+                HoverFill: =RGBA(247, 248, 250, 0.94)
                 MaxLength: =Parent.MaxLength
                 PaddingLeft: =5
                 RadiusBottomLeft: =0
@@ -471,73 +352,13 @@
                 RadiusTopLeft: =0
                 RadiusTopRight: =0
                 Size: =17
-                Tooltip: ="Nome empresa"
+                Tooltip: =Parent.DisplayName
                 Width: =Parent.Width - 60
                 X: =30
-                Y: =DataCardKey2_1.Y + DataCardKey2_1.Height + 5
-                ZIndex: =4
-
-        ass_nome_responsavel_DataCard2_1 As typedDataCard.textualEditCard:
-            BorderColor: =RGBA(32, 54, 71, 1)
-            BorderStyle: =BorderStyle.Solid
-            DataField: ="Comercial"
-            Default: =ThisItem.ass_nome_responsavel
-            DisplayMode: =Parent.DisplayMode
-            DisplayName: =DataSourceInfo([@'POC_GESTAOCONTRATOS.cliente'],DataSourceInfo.DisplayName,"ass_nome_responsavel")
-            Fill: =RGBA(0, 0, 0, 0)
-            Height: =100
-            MaxLength: =DataSourceInfo([@'POC_GESTAOCONTRATOS.cliente'], DataSourceInfo.MaxLength, "ass_nome_responsavel")
-            Required: =false
-            Update: =DataCardValue3_1.Text
-            Width: =917
-            X: =0
-            Y: =1
-            ZIndex: =1
-
-            DataCardKey3_1 As label:
-                AutoHeight: =true
-                Color: =RGBA(247, 248, 250, 1)
-                DisabledColor: =RGBA(247, 248, 250, 1)
-                FontWeight: =FontWeight.Bold
-                Height: =48
-                Size: =17
-                Text: ="Comercial"
-                Width: =Parent.Width - 60
-                Wrap: =false
-                X: =30
-                Y: =10
-                ZIndex: =1
-
-            DataCardValue3_1 As text:
-                BorderColor: =If(IsBlank(Parent.Error), Parent.BorderColor, Color.Red)
-                BorderThickness: =2
-                Color: =RGBA(0, 0, 0, 1)
-                Default: =Parent.Default
-                DelayOutput: =true
-                DisabledBorderColor: =RGBA(166, 166, 166, 1)
-                DisabledColor: =RGBA(166, 166, 166, 1)
-                DisabledFill: =RGBA(244, 244, 244, 1)
-                DisplayMode: =Parent.DisplayMode
-                FocusedBorderThickness: =4
-                Font: =Font.'Segoe UI'
-                Height: =50
-                HoverBorderColor: =RGBA(44, 171, 224, 1)
-                HoverColor: =RGBA(0, 0, 0, 1)
-                HoverFill: =RGBA(247,248,250, 0.95)
-                MaxLength: =Parent.MaxLength
-                PaddingLeft: =5
-                RadiusBottomLeft: =0
-                RadiusBottomRight: =0
-                RadiusTopLeft: =0
-                RadiusTopRight: =0
-                Size: =17
-                Tooltip: ="Comercial responsável"
-                Width: =Parent.Width - 60
-                X: =30
-                Y: =DataCardKey3_1.Y + DataCardKey3_1.Height + 5
+                Y: =DataCardKey17.Y + DataCardKey17.Height + 5
                 ZIndex: =2
 
-            ErrorMessage3_1 As label:
+            ErrorMessage7 As label:
                 AutoHeight: =true
                 Color: =RGBA(168, 0, 0, 1)
                 DisabledColor: =RGBA(166, 166, 166, 1)
@@ -553,203 +374,20 @@
                 Visible: =Parent.DisplayMode=DisplayMode.Edit
                 Width: =Parent.Width - 60
                 X: =30
-                Y: =DataCardValue3_1.Y + DataCardValue3_1.Height
+                Y: =DataCardValue17.Y + DataCardValue17.Height
                 ZIndex: =3
 
-            StarVisible3_1 As label:
+            StarVisible7 As label:
                 Align: =Align.Center
                 Color: =RGBA(32, 54, 71, 1)
                 DisabledColor: =RGBA(166, 166, 166, 1)
-                Height: =DataCardKey3_1.Height
+                Height: =DataCardKey17.Height
                 Size: =21
                 Text: ="*"
                 Visible: =And(Parent.Required, Parent.DisplayMode=DisplayMode.Edit)
                 Width: =30
                 Wrap: =false
-                Y: =DataCardKey3_1.Y
-                ZIndex: =4
-
-        email_cliente_DataCard1_1 As typedDataCard.textualEditCard:
-            BorderColor: =RGBA(32, 54, 71, 1)
-            BorderStyle: =BorderStyle.Solid
-            DataField: ="email_cliente"
-            Default: =ThisItem.email_cliente
-            DisplayMode: =Parent.DisplayMode
-            DisplayName: =DataSourceInfo([@'POC_GESTAOCONTRATOS.cliente'],DataSourceInfo.DisplayName,"email_cliente")
-            Fill: =RGBA(0, 0, 0, 0)
-            Height: =50
-            MaxLength: =DataSourceInfo([@'POC_GESTAOCONTRATOS.cliente'], DataSourceInfo.MaxLength, "email_cliente")
-            Required: =false
-            Update: =DataCardValue6_1.Text
-            Width: =917
-            X: =0
-            Y: =2
-            ZIndex: =1
-
-            DataCardKey6_1 As label:
-                AutoHeight: =true
-                Color: =RGBA(247, 248, 250, 1)
-                DisabledColor: =RGBA(166, 166, 166, 1)
-                FontWeight: =FontWeight.Bold
-                Height: =48
-                Size: =17
-                Text: ="E-mail"
-                Width: =Parent.Width - 60
-                Wrap: =false
-                X: =30
-                Y: =10
-                ZIndex: =1
-
-            DataCardValue6_1 As text:
-                BorderColor: =If(IsBlank(Parent.Error), Parent.BorderColor, Color.Red)
-                BorderThickness: =2
-                Color: =RGBA(0, 0, 0, 1)
-                Default: =Parent.Default
-                DelayOutput: =true
-                DisabledBorderColor: =RGBA(166, 166, 166, 1)
-                DisabledColor: =RGBA(166, 166, 166, 1)
-                DisabledFill: =RGBA(244, 244, 244, 1)
-                DisplayMode: =Parent.DisplayMode
-                FocusedBorderThickness: =4
-                Font: =Font.'Segoe UI'
-                Height: =50
-                HoverBorderColor: =RGBA(44, 171, 224, 1)
-                HoverColor: =RGBA(0, 0, 0, 1)
-                HoverFill: =RGBA(247,248,250, 0.95)
-                MaxLength: =Parent.MaxLength
-                PaddingLeft: =5
-                RadiusBottomLeft: =0
-                RadiusBottomRight: =0
-                RadiusTopLeft: =0
-                RadiusTopRight: =0
-                Size: =17
-                Tooltip: ="E-mail"
-                Width: =Parent.Width - 60
-                X: =30
-                Y: =DataCardKey6_1.Y + DataCardKey6_1.Height + 5
-                ZIndex: =2
-
-            ErrorMessage6_1 As label:
-                AutoHeight: =true
-                Color: =RGBA(168, 0, 0, 1)
-                DisabledColor: =RGBA(166, 166, 166, 1)
-                FontWeight: =FontWeight.Semibold
-                Height: =10
-                Live: =Live.Assertive
-                PaddingBottom: =0
-                PaddingLeft: =0
-                PaddingRight: =0
-                PaddingTop: =0
-                Size: =24
-                Text: =Parent.Error
-                Visible: =Parent.DisplayMode=DisplayMode.Edit
-                Width: =Parent.Width - 60
-                X: =30
-                Y: =DataCardValue6_1.Y + DataCardValue6_1.Height
-                ZIndex: =3
-
-            StarVisible6_1 As label:
-                Align: =Align.Center
-                Color: =RGBA(32, 54, 71, 1)
-                DisabledColor: =RGBA(166, 166, 166, 1)
-                Height: =DataCardKey6_1.Height
-                Size: =21
-                Text: ="*"
-                Visible: =And(Parent.Required, Parent.DisplayMode=DisplayMode.Edit)
-                Width: =30
-                Wrap: =false
-                Y: =DataCardKey6_1.Y
-                ZIndex: =4
-
-        cliente_com_projeto_ativo_DataCard1_1 As typedDataCard.textualEditCard:
-            BorderColor: =RGBA(32, 54, 71, 1)
-            BorderStyle: =BorderStyle.Solid
-            DataField: ="cliente_com_projeto_ativo"
-            Default: =ThisItem.cliente_com_projeto_ativo
-            DisplayMode: =Parent.DisplayMode
-            DisplayName: =DataSourceInfo([@'POC_GESTAOCONTRATOS.cliente'],DataSourceInfo.DisplayName,"cliente_com_projeto_ativo")
-            Fill: =RGBA(0, 0, 0, 0)
-            Height: =48
-            MaxLength: =DataSourceInfo([@'POC_GESTAOCONTRATOS.cliente'], DataSourceInfo.MaxLength, "cliente_com_projeto_ativo")
-            Required: =false
-            Update: =DataCardValue5_1.Text
-            Width: =917
-            X: =0
-            Y: =3
-            ZIndex: =1
-
-            DataCardKey5_1 As label:
-                AutoHeight: =true
-                Color: =RGBA(247, 248, 250, 1)
-                DisabledColor: =RGBA(166, 166, 166, 1)
-                FontWeight: =FontWeight.Bold
-                Height: =48
-                Size: =17
-                Text: ="Status do projeto"
-                Width: =327
-                Wrap: =false
-                X: =30
-                ZIndex: =1
-
-            DataCardValue5_1 As text:
-                BorderColor: =If(IsBlank(Parent.Error), Parent.BorderColor, Color.Red)
-                BorderThickness: =2
-                Color: =RGBA(0, 0, 0, 1)
-                Default: =Parent.Default
-                DelayOutput: =true
-                DisabledBorderColor: =RGBA(166, 166, 166, 1)
-                DisabledColor: =RGBA(166, 166, 166, 1)
-                DisabledFill: =RGBA(244, 244, 244, 1)
-                DisplayMode: =Parent.DisplayMode
-                FocusedBorderThickness: =4
-                Font: =Font.'Segoe UI'
-                Height: =55
-                HoverBorderColor: =RGBA(44, 171, 224, 1)
-                HoverColor: =RGBA(0, 0, 0, 1)
-                HoverFill: =RGBA(247,248,250, 0.95)
-                MaxLength: =Parent.MaxLength
-                PaddingLeft: =5
-                RadiusBottomLeft: =0
-                RadiusBottomRight: =0
-                RadiusTopLeft: =0
-                RadiusTopRight: =0
-                Size: =17
-                Tooltip: ="Projeto ativo"
-                Width: =358
-                X: =30
-                Y: =50
-                ZIndex: =2
-
-            ErrorMessage5_1 As label:
-                AutoHeight: =true
-                Color: =RGBA(168, 0, 0, 1)
-                DisabledColor: =RGBA(166, 166, 166, 1)
-                FontWeight: =FontWeight.Semibold
-                Height: =10
-                Live: =Live.Assertive
-                PaddingBottom: =0
-                PaddingLeft: =0
-                PaddingRight: =0
-                PaddingTop: =0
-                Size: =24
-                Text: =Parent.Error
-                Visible: =Parent.DisplayMode=DisplayMode.Edit
-                Width: =Parent.Width - 60
-                X: =30
-                Y: =DataCardValue5_1.Y + DataCardValue5_1.Height
-                ZIndex: =3
-
-            StarVisible5_1 As label:
-                Align: =Align.Center
-                Color: =RGBA(32, 54, 71, 1)
-                DisabledColor: =RGBA(166, 166, 166, 1)
-                Height: =DataCardKey5_1.Height
-                Size: =21
-                Text: ="*"
-                Visible: =And(Parent.Required, Parent.DisplayMode=DisplayMode.Edit)
-                Width: =30
-                Wrap: =false
-                Y: =DataCardKey5_1.Y
+                Y: =DataCardKey17.Y
                 ZIndex: =4
 
     Icon6_4 As icon.Add:
@@ -760,15 +398,15 @@
         Height: =57
         Icon: =Icon.BackArrow
         OnSelect: |-
-            =UpdateContext({var_cliente_editar: false,var_cliente_exibir: false})
+            =UpdateContext({var_objeto_editar: false,var_objeto_exibir: false})
         Tooltip: ="Voltar para tela de clientes"
-        Visible: =var_cliente_editar || var_cliente_exibir
+        Visible: =var_objeto_editar || var_objeto_exibir
         Width: =61
         X: =951
         Y: =629
         ZIndex: =15
 
-    Button1_novo_cliente_4 As button:
+    Button1_novo_objeto As button:
         Color: =RGBA(247, 248, 250, 1)
         DisabledBorderColor: =RGBA(18, 69, 89, 0.07)
         DisabledColor: =RGBA(166, 166, 166, 1)
@@ -779,20 +417,20 @@
         Height: =53
         HoverColor: =RGBA(255, 255, 255, 1)
         HoverFill: =ColorFade(RGBA(44,171,224, 0.9), -20%)
-        OnSelect: =NewForm(Form_tela_cliente_2)
+        OnSelect: =NewForm(Form_objeto)
         RadiusBottomLeft: =100
         RadiusBottomRight: =100
         RadiusTopLeft: =100
         RadiusTopRight: =100
         Size: =19
         Text: ="Novo"
-        Visible: =var_cliente_editar
+        Visible: =var_objeto_editar
         Width: =135
         X: =798
         Y: =631
         ZIndex: =16
 
-    Button_salva_cliente_4 As button:
+    Button_salva_objeto As button:
         Color: =RGBA(247, 248, 250, 1)
         DisabledBorderColor: =RGBA(166, 166, 166, 1)
         DisabledColor: =RGBA(166, 166, 166, 1)
@@ -803,14 +441,14 @@
         Height: =53
         HoverColor: =RGBA(255, 255, 255, 1)
         HoverFill: =
-        OnSelect: =SubmitForm(Form_tela_cliente_2);NewForm(Form_tela_cliente_2)
+        OnSelect: =SubmitForm(Form_objeto);NewForm(Form_objeto)
         RadiusBottomLeft: =100
         RadiusBottomRight: =100
         RadiusTopLeft: =100
         RadiusTopRight: =100
         Size: =19
         Text: ="Salvar"
-        Visible: =var_cliente_editar
+        Visible: =var_objeto_editar
         Width: =135
         X: =647
         Y: =631
@@ -819,6 +457,6 @@
     cMenu_3 As cMenu:
         Height: =715
         X: =10
-        Y: =79
+        Y: =86
         ZIndex: =18
 
