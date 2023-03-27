@@ -31,7 +31,7 @@
         Text: ="Vigência "
         Width: =160
         X: =625
-        Y: =100
+        Y: =91
         ZIndex: =2
 
     ComboBox7_1 As combobox:
@@ -46,6 +46,7 @@
         DisabledColor: =RGBA(166, 166, 166, 1)
         DisabledFill: =RGBA(244, 244, 244, 1)
         DisplayFields: =["tipo"]
+        Font: =Font.'Segoe UI'
         Height: =50
         HoverColor: =RGBA(0, 0, 0, 1)
         HoverFill: =RGBA(44,171,224, 0.3)
@@ -56,7 +57,7 @@
         SearchFields: =["tipo"]
         SearchItems: =Search('POC_GESTAOCONTRATOS.status',ComboBox7_1.SearchText,"tipo")
         SelectionFill: =RGBA(44, 171, 224, 1)
-        Size: =21
+        Size: =17
         Width: =331
         X: =244
         Y: =156
@@ -74,6 +75,7 @@
         DisabledColor: =RGBA(166, 166, 166, 1)
         DisabledFill: =RGBA(244, 244, 244, 1)
         DisplayFields: =["prazocontrato"]
+        Font: =Font.'Segoe UI'
         Height: =50
         HoverColor: =RGBA(0, 0, 0, 1)
         HoverFill: =RGBA(44,171,224, 0.3)
@@ -84,10 +86,10 @@
         SearchFields: =["prazocontrato"]
         SearchItems: =Search('POC_GESTAOCONTRATOS.vigencia',ComboBox7.SearchText,"prazocontrato")
         SelectionFill: =RGBA(44, 171, 224, 1)
-        Size: =21
+        Size: =17
         Width: =331
         X: =739
-        Y: =100
+        Y: =91
         ZIndex: =4
 
     Label3_22 As label:
@@ -116,6 +118,7 @@
         DisabledColor: =RGBA(166, 166, 166, 1)
         DisabledFill: =RGBA(244, 244, 244, 1)
         DisplayFields: =["tipo"]
+        Font: =Font.'Segoe UI'
         Height: =50
         HoverColor: =RGBA(0, 0, 0, 1)
         HoverFill: =RGBA(44,171,224, 0.3)
@@ -126,7 +129,7 @@
         SearchFields: =["tipo"]
         SearchItems: =Search('POC_GESTAOCONTRATOS.objeto',ComboBox7_2.SearchText,"tipo")
         SelectionFill: =RGBA(44, 171, 224, 1)
-        Size: =21
+        Size: =17
         Width: =331
         X: =243
         Y: =91
