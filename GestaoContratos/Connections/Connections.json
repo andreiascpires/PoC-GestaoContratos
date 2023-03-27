@@ -40,6 +40,9 @@
           },
           "POC_GESTAOCONTRATOS.status": {
             "tableName": "[POC_GESTAOCONTRATOS].[status]"
+          },
+          "POC_GESTAOCONTRATOS.vigencia": {
+            "tableName": "[POC_GESTAOCONTRATOS].[vigencia]"
           }
         }
       }
@@ -52,7 +55,8 @@
       "POC_GESTAOCONTRATOS.anexo",
       "POC_GESTAOCONTRATOS.status",
       "POC_GESTAOCONTRATOS.objeto",
-      "POC_GESTAOCONTRATOS.comercial"
+      "POC_GESTAOCONTRATOS.comercial",
+      "POC_GESTAOCONTRATOS.vigencia"
     ],
     "dependencies": {},
     "dependents": [],

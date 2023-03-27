@@ -8,74 +8,82 @@
 
     Label3_21 As label:
         BorderColor: =RGBA(32, 54, 71, 1)
-        Color: =RGBA(253, 207, 111, 1)
+        Color: =RGBA(18, 69, 89, 1)
         DisabledColor: =RGBA(166, 166, 166, 1)
         Font: =Font.'Segoe UI'
         FontWeight: =FontWeight.Bold
         Height: =51
-        Size: =21
+        Size: =15
         Text: ="Objeto"
         Width: =160
-        X: =73
-        Y: =155
+        X: =82
+        Y: =92
         ZIndex: =1
 
     Label3_20 As label:
         BorderColor: =RGBA(32, 54, 71, 1)
-        Color: =RGBA(253, 207, 111, 1)
+        Color: =RGBA(18, 69, 89, 1)
         DisabledColor: =RGBA(166, 166, 166, 1)
         Font: =Font.'Segoe UI'
         FontWeight: =FontWeight.Bold
         Height: =51
-        Size: =21
+        Size: =15
         Text: ="Vigência "
         Width: =160
-        X: =607
+        X: =625
         Y: =91
         ZIndex: =2
 
     ComboBox7_1 As combobox:
         BorderColor: =RGBA(32, 54, 71, 1)
-        ChevronBackground: =RGBA(100, 118, 132, 1)
+        ChevronBackground: =RGBA(44, 171, 224, 1)
         ChevronDisabledBackground: =RGBA(166, 166, 166, 1)
         ChevronDisabledFill: =RGBA(244, 244, 244, 1)
         ChevronHoverBackground: =ColorFade(RGBA(100, 118, 132, 1), -20%)
         ChevronHoverFill: =RGBA(255, 255, 255, 1)
+        Color: =RGBA(18, 69, 89, 1)
         DisabledBorderColor: =RGBA(166, 166, 166, 1)
         DisabledColor: =RGBA(166, 166, 166, 1)
         DisabledFill: =RGBA(244, 244, 244, 1)
-        Height: =58
+        DisplayFields: =["tipo"]
+        Height: =50
         HoverColor: =RGBA(0, 0, 0, 1)
-        HoverFill: =RGBA(205, 209, 213, 1)
-        Items: =ComboBoxSample
+        HoverFill: =RGBA(44,171,224, 0.3)
+        InputTextPlaceholder: ="Localizar status"
+        Items: ='POC_GESTAOCONTRATOS.status'
         PressedColor: =RGBA(255, 255, 255, 1)
         PressedFill: =RGBA(32, 54, 71, 1)
-        SearchItems: =Search(ComboBoxSample,ComboBox7_1.SearchText,"Value1")
-        SelectionFill: =RGBA(100, 118, 132, 1)
+        SearchFields: =["tipo"]
+        SearchItems: =Search('POC_GESTAOCONTRATOS.status',ComboBox7_1.SearchText,"tipo")
+        SelectionFill: =RGBA(44, 171, 224, 1)
         Size: =21
         Width: =331
-        X: =739
+        X: =181
         Y: =156
         ZIndex: =3
 
     ComboBox7 As combobox:
         BorderColor: =RGBA(32, 54, 71, 1)
-        ChevronBackground: =RGBA(100, 118, 132, 1)
+        ChevronBackground: =RGBA(44, 171, 224, 1)
         ChevronDisabledBackground: =RGBA(166, 166, 166, 1)
         ChevronDisabledFill: =RGBA(244, 244, 244, 1)
         ChevronHoverBackground: =ColorFade(RGBA(100, 118, 132, 1), -20%)
         ChevronHoverFill: =RGBA(255, 255, 255, 1)
+        Color: =RGBA(18, 69, 89, 1)
         DisabledBorderColor: =RGBA(166, 166, 166, 1)
         DisabledColor: =RGBA(166, 166, 166, 1)
         DisabledFill: =RGBA(244, 244, 244, 1)
-        Height: =58
+        DisplayFields: =["prazocontrato"]
+        Height: =50
         HoverColor: =RGBA(0, 0, 0, 1)
-        HoverFill: =RGBA(205, 209, 213, 1)
-        Items: =ComboBoxSample
+        HoverFill: =RGBA(44,171,224, 0.3)
+        InputTextPlaceholder: ="Localizar vigência"
+        Items: ='POC_GESTAOCONTRATOS.vigencia'
         PressedColor: =RGBA(255, 255, 255, 1)
         PressedFill: =RGBA(32, 54, 71, 1)
-        SearchItems: =Search(ComboBoxSample,ComboBox7.SearchText,"Value1")
-        SelectionFill: =RGBA(100, 118, 132, 1)
+        SearchFields: =["prazocontrato"]
+        SearchItems: =Search('POC_GESTAOCONTRATOS.vigencia',ComboBox7.SearchText,"prazocontrato")
+        SelectionFill: =RGBA(44, 171, 224, 1)
         Size: =21
         Width: =331
         X: =739
@@ -84,40 +92,44 @@
 
     Label3_22 As label:
         BorderColor: =RGBA(32, 54, 71, 1)
-        Color: =RGBA(253, 207, 111, 1)
+        Color: =RGBA(18, 69, 89, 1)
         DisabledColor: =RGBA(166, 166, 166, 1)
         Font: =Font.'Segoe UI'
         FontWeight: =FontWeight.Bold
         Height: =51
-        Size: =21
+        Size: =15
         Text: ="Status"
         Width: =160
-        X: =607
+        X: =85
         Y: =154
         ZIndex: =5
 
     ComboBox7_2 As combobox:
         BorderColor: =RGBA(32, 54, 71, 1)
-        ChevronBackground: =RGBA(100, 118, 132, 1)
+        ChevronBackground: =RGBA(44, 171, 224, 1)
         ChevronDisabledBackground: =RGBA(166, 166, 166, 1)
         ChevronDisabledFill: =RGBA(244, 244, 244, 1)
         ChevronHoverBackground: =ColorFade(RGBA(100, 118, 132, 1), -20%)
         ChevronHoverFill: =RGBA(255, 255, 255, 1)
+        Color: =RGBA(18, 69, 89, 1)
         DisabledBorderColor: =RGBA(166, 166, 166, 1)
         DisabledColor: =RGBA(166, 166, 166, 1)
         DisabledFill: =RGBA(244, 244, 244, 1)
-        Height: =58
+        DisplayFields: =["tipo"]
+        Height: =50
         HoverColor: =RGBA(0, 0, 0, 1)
-        HoverFill: =RGBA(205, 209, 213, 1)
-        Items: =ComboBoxSample
+        HoverFill: =RGBA(44,171,224, 0.3)
+        InputTextPlaceholder: ="Localizar objeto"
+        Items: ='POC_GESTAOCONTRATOS.objeto'
         PressedColor: =RGBA(255, 255, 255, 1)
         PressedFill: =RGBA(32, 54, 71, 1)
-        SearchItems: =Search(ComboBoxSample,ComboBox7_2.SearchText,"Value1")
-        SelectionFill: =RGBA(100, 118, 132, 1)
+        SearchFields: =["tipo"]
+        SearchItems: =Search('POC_GESTAOCONTRATOS.objeto',ComboBox7_2.SearchText,"tipo")
+        SelectionFill: =RGBA(44, 171, 224, 1)
         Size: =21
         Width: =331
-        X: =189
-        Y: =154
+        X: =180
+        Y: =91
         ZIndex: =6
 
     "Gallery_clientes_5 As gallery.'BrowseLayout_Vertical_OneTextVariant_ver4.0'":
@@ -131,8 +143,8 @@
         ShowScrollbar: =false
         TemplatePadding: =0
         TemplateSize: =89
-        Width: =1045
-        X: =38
+        Width: =1000
+        X: =83
         Y: =285
         ZIndex: =7
 
@@ -197,7 +209,7 @@
             TabIndex: =0
             Tooltip: ="Editar contrato"
             Width: =60
-            X: =891
+            X: =855
             Y: =16
             ZIndex: =3
 
@@ -214,7 +226,7 @@
                 =UpdateContext({var_cliente_excluir: true})
             Tooltip: ="Excluir contrato"
             Width: =40
-            X: =980
+            X: =942
             Y: =29
             ZIndex: =5
 
@@ -231,7 +243,7 @@
                 =UpdateContext({var_cliente_exibir: true});Select(Parent);EditForm(Form_tela_contrato)
             Tooltip: ="Exibir detalhes do contrato"
             Width: =40
-            X: =825
+            X: =789
             Y: =29
             ZIndex: =6
 
@@ -247,7 +259,7 @@
             OnSelect: =
             Tooltip: ="Anexar documento"
             Width: =40
-            X: =744
+            X: =715
             Y: =31
             ZIndex: =7
 
@@ -263,7 +275,7 @@
             OnSelect: =
             Tooltip: ="Baixar anexos"
             Width: =40
-            X: =665
+            X: =638
             Y: =31
             ZIndex: =8
 
@@ -300,19 +312,19 @@
                 =UpdateContext({var_ver_anexo: true})
             Tooltip: ="Visualizar anexos"
             Width: =40
-            X: =600
+            X: =564
             Y: =32
             ZIndex: =12
 
     Label1_9 As label:
         Align: =Align.Center
         BorderColor: =RGBA(32, 54, 71, 1)
-        Color: =RGBA(253, 207, 111, 1)
+        Color: =RGBA(18, 69, 89, 1)
         DisabledColor: =RGBA(166, 166, 166, 1)
         Font: =Font.'Segoe UI'
         FontWeight: =FontWeight.Bold
         Height: =70
-        Size: =32
+        Size: =25
         Text: =App.ActiveScreen.Name
         Width: =560
         X: =464
@@ -360,34 +372,6 @@
         Y: =490
         ZIndex: =11
 
-    Label3_19 As label:
-        BorderColor: =RGBA(32, 54, 71, 1)
-        Color: =RGBA(253, 207, 111, 1)
-        DisabledColor: =RGBA(166, 166, 166, 1)
-        Font: =Font.'Segoe UI'
-        FontWeight: =FontWeight.Bold
-        Height: =58
-        Size: =21
-        Text: ="Contrato assinado"
-        Width: =250
-        X: =177
-        Y: =84
-        ZIndex: =12
-
-    Toggle1_25 As toggleSwitch:
-        BorderColor: =RGBA(32, 54, 71, 1)
-        Color: =RGBA(0, 0, 0, 1)
-        FalseFill: =RGBA(100, 118, 132, 1)
-        HandleFill: =RGBA(255, 255, 255, 1)
-        Height: =46
-        ShowLabel: =false
-        Size: =21
-        TrueFill: =RGBA(253, 207, 111, 1)
-        Width: =225
-        X: =83
-        Y: =91
-        ZIndex: =13
-
     Text_busca_5 As text:
         BorderColor: =RGBA(32, 54, 71, 1)
         BorderThickness: =2
@@ -398,7 +382,7 @@
         DisabledFill: =RGBA(244, 244, 244, 1)
         FocusedBorderThickness: =4
         Font: =Font.'Segoe UI'
-        Height: =53
+        Height: =51
         HintText: ="Pesquisar"
         HoverBorderColor: =RGBA(32, 54, 71, 1)
         HoverColor: =RGBA(0, 0, 0, 1)
@@ -409,9 +393,9 @@
         RadiusTopLeft: =10
         RadiusTopRight: =10
         Size: =20
-        Width: =1047
-        X: =38
-        Y: =222
+        Width: =1002
+        X: =83
+        Y: =224
         ZIndex: =14
 
     Icon1_5 As icon.ZoomIn:
