@@ -998,7 +998,7 @@
         ZIndex: =21
 
     "Gallery_anexo As gallery.'BrowseLayout_Vertical_ThreeTextVariant_ver4.0'":
-        BorderColor: =RGBA(100, 118, 132, 1)
+        BorderColor: =RGBA(44, 171, 224, 1)
         BorderThickness: =5
         Fill: =RGBA(230, 230, 230, 1)
         Height: =530
