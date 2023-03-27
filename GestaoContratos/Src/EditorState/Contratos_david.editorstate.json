@@ -8013,7 +8013,8 @@
         "Y",
         "Width",
         "Height",
-        "ZIndex"
+        "ZIndex",
+        "Default"
       ],
       "GalleryTemplateChildName": "galleryTemplate8",
       "HasDynamicProperties": false,
@@ -8037,6 +8038,11 @@
         {
           "Category": "Data",
           "PropertyName": "WrapCount",
+          "RuleProviderType": "Unknown"
+        },
+        {
+          "Category": "Data",
+          "PropertyName": "Default",
           "RuleProviderType": "Unknown"
         },
         {
