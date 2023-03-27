@@ -2468,7 +2468,7 @@
       "LayoutName": "",
       "MetaDataIDKey": "",
       "Name": "ComboBox7",
-      "ParentIndex": 8,
+      "ParentIndex": 6,
       "PersistMetaDataIDKey": false,
       "Properties": [
         {
@@ -8866,7 +8866,7 @@
       "LayoutName": "",
       "MetaDataIDKey": "",
       "Name": "Gallery_anexo",
-      "ParentIndex": 5,
+      "ParentIndex": 7,
       "PersistMetaDataIDKey": false,
       "Properties": [
         {
@@ -12247,7 +12247,7 @@
       "LayoutName": "",
       "MetaDataIDKey": "",
       "Name": "Label3_20",
-      "ParentIndex": 7,
+      "ParentIndex": 5,
       "PersistMetaDataIDKey": false,
       "Properties": [
         {
@@ -12544,7 +12544,7 @@
       "LayoutName": "",
       "MetaDataIDKey": "",
       "Name": "Label3_21",
-      "ParentIndex": 6,
+      "ParentIndex": 8,
       "PersistMetaDataIDKey": false,
       "Properties": [
         {
