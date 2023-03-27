@@ -379,6 +379,7 @@
         DisabledBorderColor: =RGBA(166, 166, 166, 1)
         DisabledColor: =RGBA(166, 166, 166, 1)
         DisabledFill: =RGBA(244, 244, 244, 1)
+        Fill: =RGBA(44, 171, 224, 0.03)
         FocusedBorderThickness: =4
         Font: =Font.'Segoe UI'
         Height: =50
