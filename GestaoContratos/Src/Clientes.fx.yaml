@@ -703,7 +703,7 @@
                 DisplayMode: =Parent.DisplayMode
                 FocusedBorderThickness: =4
                 Font: =Font.'Segoe UI'
-                Height: =55
+                Height: =50
                 HoverBorderColor: =RGBA(44, 171, 224, 1)
                 HoverColor: =RGBA(0, 0, 0, 1)
                 HoverFill: =RGBA(247,248,250, 0.95)

@@ -81,7 +81,7 @@
             PaddingRight: =10
             PaddingTop: =10
             TabIndex: =0
-            Tooltip: ="Editar e criar novo cliente"
+            Tooltip: ="Editar e criar novo status"
             Width: =60
             X: =796
             Y: =16
@@ -97,7 +97,7 @@
             Icon: =Icon.Trash
             OnSelect: |-
                 =UpdateContext({var_status_excluir: true})
-            Tooltip: ="Excluir cliente"
+            Tooltip: ="Excluir status"
             Width: =40
             X: =868
             Y: =29
@@ -113,7 +113,7 @@
             Icon: =Icon.View
             OnSelect: |-
                 =UpdateContext({var_status_exibir: true});Select(Parent);EditForm(Form_status)
-            Tooltip: ="Exibir detalhes do cliente"
+            Tooltip: ="Exibir detalhes do status"
             Width: =40
             X: =735
             Y: =29
@@ -157,8 +157,8 @@
         Icon: =Icon.BackArrow
         OnSelect: =Navigate( Menu, ScreenTransition.Fade )
         Tooltip: ="Voltar para tela inicial"
-        X: =1014
-        Y: =727
+        X: =1013
+        Y: =732
         ZIndex: =8
 
     Toggle1_24 As toggleSwitch:
@@ -402,8 +402,8 @@
         Tooltip: ="Voltar para tela de clientes"
         Visible: =var_status_editar || var_status_exibir
         Width: =61
-        X: =951
-        Y: =629
+        X: =1010
+        Y: =635
         ZIndex: =15
 
     Button1_novo_status As button:
@@ -426,8 +426,8 @@
         Text: ="Novo"
         Visible: =var_status_editar
         Width: =135
-        X: =798
-        Y: =631
+        X: =854
+        Y: =635
         ZIndex: =16
 
     Button_salva_status As button:
@@ -450,8 +450,8 @@
         Text: ="Salvar"
         Visible: =var_status_editar
         Width: =135
-        X: =647
-        Y: =631
+        X: =700
+        Y: =635
         ZIndex: =17
 
     cMenu_4 As cMenu:

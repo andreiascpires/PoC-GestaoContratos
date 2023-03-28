@@ -135,7 +135,7 @@
         Y: =91
         ZIndex: =6
 
-    "Gallery_clientes_5 As gallery.'BrowseLayout_Vertical_OneTextVariant_ver4.0'":
+    "Gallery_contratos As gallery.'BrowseLayout_Vertical_OneTextVariant_ver4.0'":
         BorderColor: =RGBA(18, 69, 89, 1)
         BorderThickness: =5
         Fill: =RGBA(18, 69, 89, 0.08)
@@ -203,7 +203,7 @@
             Height: =65
             Icon: =Icon.Edit
             OnSelect: |-
-                =UpdateContext({var_cliente_editar: true});Select(Parent);EditForm(Form_tela_contrato)
+                =UpdateContext({var_contrato_editar: true});Select(Parent);EditForm(Form_tela_contrato)
                 
                  
             PaddingBottom: =10
@@ -226,7 +226,7 @@
             Height: =40
             Icon: =Icon.Trash
             OnSelect: |-
-                =UpdateContext({var_cliente_excluir: true})
+                =UpdateContext({var_contrato_excluir: true})
             Tooltip: ="Excluir contrato"
             Width: =40
             X: =879
@@ -243,7 +243,7 @@
             Icon: =Icon.View
             OnSelect: |-
                 =UpdateContext({var_cliente_exibir: true});Select(Parent);EditForm(Form_tela_contrato)
-            Tooltip: ="Exibir detalhes do contrato"
+            Tooltip: ="Exibir dados do anexo"
             Width: =40
             X: =744
             Y: =29
@@ -288,12 +288,12 @@
             OnSelect: |
                 =Blob.CreateFile(
                     "poc-gestaocontratos",
-                    Gallery_clientes_5.Selected.nome_docs & "_" & anexos_docs.FileName,
+                    Gallery_contratos.Selected.nome_docs & "_" & anexos_docs.FileName,
                     anexos_docs.Media
                 );
             Size: =25
             Text: =""
-            Tooltip: ="Adicionar anexos"
+            Tooltip: ="Visualizar dados"
             Width: =56
             X: =736
             Y: =31
@@ -309,7 +309,7 @@
             Icon: =Icon.Document
             OnSelect: |-
                 =UpdateContext({var_ver_anexo: true})
-            Tooltip: ="Visualizar anexos"
+            Tooltip: ="Visualizar arquivo"
             Width: =40
             X: =519
             Y: =32
@@ -440,7 +440,7 @@
             DisabledColor: =RGBA(244, 244, 244, 1)
             Icon: =Icon.CheckBadge
             OnSelect: |-
-                =Remove('POC_GESTAOCONTRATOS.contrato',Gallery_clientes_5.Selected);NewForm(Form_tela_contrato);UpdateContext({var_cliente_excluir: false})
+                =Remove('POC_GESTAOCONTRATOS.contrato',Gallery_contratos.Selected);NewForm(Form_tela_contrato);UpdateContext({var_cliente_excluir: false})
             X: =154
             Y: =138
             ZIndex: =2
@@ -473,7 +473,7 @@
         RadiusTopRight: =20
         Size: =24
         Text: =""
-        Visible: =var_cliente_editar || var_cliente_exibir || var_ver_anexo
+        Visible: =var_contrato_editar || var_cliente_exibir || var_ver_anexo
         Width: =956
         X: =133
         Y: =70
@@ -484,9 +484,9 @@
         DataSource: ='POC_GESTAOCONTRATOS.contrato'
         DefaultMode: =FormMode.New
         Height: =636
-        Item: =Gallery_clientes_5.Selected
-        OnSuccess: =Notify("Cliente salvo com sucesso!",NotificationType.Success)
-        Visible: =var_cliente_editar || var_cliente_exibir
+        Item: =Gallery_contratos.Selected
+        OnSuccess: =Notify("Contrato salvo com sucesso!",NotificationType.Success)
+        Visible: =var_contrato_editar || var_cliente_exibir
         Width: =1020
         X: =103
         Y: =4
@@ -945,15 +945,15 @@
         Height: =56
         Icon: =Icon.BackArrow
         OnSelect: |-
-            =UpdateContext({var_cliente_editar: false,var_cliente_exibir: false,var_ver_anexo: false})
+            =UpdateContext({var_contrato_editar: false,var_cliente_exibir: false,var_ver_anexo: false})
         Tooltip: ="Voltar para tela de contratos"
-        Visible: =var_cliente_editar || var_cliente_exibir || var_ver_anexo
+        Visible: =var_contrato_editar || var_cliente_exibir || var_ver_anexo
         Width: =61
         X: =1005
         Y: =629
         ZIndex: =19
 
-    Button1_novo_cliente_2 As button:
+    Button1_novo_contrato As button:
         Color: =RGBA(247, 248, 250, 1)
         DisabledBorderColor: =RGBA(166, 166, 166, 1)
         DisabledColor: =RGBA(166, 166, 166, 1)
@@ -971,13 +971,13 @@
         RadiusTopRight: =100
         Size: =19
         Text: ="Novo"
-        Visible: =var_cliente_editar
+        Visible: =var_contrato_editar
         Width: =135
-        X: =798
-        Y: =631
+        X: =823
+        Y: =630
         ZIndex: =20
 
-    Button_salva_cliente_2 As button:
+    Button_salva_contrato As button:
         Color: =RGBA(247, 248, 250, 1)
         DisabledBorderColor: =RGBA(18, 69, 89, 0.06)
         DisabledColor: =RGBA(166, 166, 166, 1)
@@ -995,10 +995,10 @@
         RadiusTopRight: =100
         Size: =19
         Text: ="Salvar"
-        Visible: =var_cliente_editar
+        Visible: =var_contrato_editar
         Width: =135
-        X: =647
-        Y: =631
+        X: =672
+        Y: =630
         ZIndex: =21
 
     "Gallery_anexo As gallery.'BrowseLayout_Vertical_ThreeTextVariant_ver4.0'":
@@ -1114,7 +1114,7 @@
             PaddingRight: =10
             PaddingTop: =10
             TabIndex: =0
-            Tooltip: ="Detalhes do anexo"
+            Tooltip: ="Ver documento"
             Width: =60
             X: =864
             Y: =65

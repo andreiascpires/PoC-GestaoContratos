@@ -157,8 +157,8 @@
         Icon: =Icon.BackArrow
         OnSelect: =Navigate( Menu, ScreenTransition.Fade )
         Tooltip: ="Voltar para tela inicial"
-        X: =1014
-        Y: =725
+        X: =1010
+        Y: =732
         ZIndex: =8
 
     Toggle1_15 As toggleSwitch:
@@ -402,8 +402,8 @@
         Tooltip: ="Voltar para tela de clientes"
         Visible: =var_objeto_editar || var_objeto_exibir
         Width: =61
-        X: =951
-        Y: =629
+        X: =1007
+        Y: =640
         ZIndex: =15
 
     Button1_novo_objeto As button:
