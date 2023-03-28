@@ -97,7 +97,7 @@
             Icon: =Icon.Trash
             OnSelect: |-
                 =UpdateContext({var_objeto_excluir: true})
-            Tooltip: ="Excluir cliente"
+            Tooltip: ="Excluir objeto"
             Width: =40
             X: =868
             Y: =29
