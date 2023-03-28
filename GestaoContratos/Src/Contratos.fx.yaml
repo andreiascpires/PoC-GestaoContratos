@@ -240,10 +240,10 @@
             DisabledColor: =RGBA(244, 244, 244, 1)
             FocusedBorderThickness: =0
             Height: =40
-            Icon: =Icon.View
+            Icon: =Icon.AddDocument
             OnSelect: |-
                 =UpdateContext({var_cliente_exibir: true});Select(Parent);EditForm(Form_tela_contrato)
-            Tooltip: ="Exibir dados do anexo"
+            Tooltip: ="Anexar documento"
             Width: =40
             X: =744
             Y: =29
@@ -256,9 +256,9 @@
             DisabledColor: =RGBA(244, 244, 244, 1)
             FocusedBorderThickness: =0
             Height: =40
-            Icon: =Icon.AddDocument
+            Icon: =Icon.View
             OnSelect: =
-            Tooltip: ="Anexar documento"
+            Tooltip: ="Visualizar dados"
             Width: =40
             X: =670
             Y: =31

@@ -246,7 +246,7 @@
         OnSelect: =Navigate( Menu, ScreenTransition.Fade )
         Tooltip: ="Voltar para tela inicial"
         X: =1014
-        Y: =730
+        Y: =732
         ZIndex: =8
 
     Toggle1_4 As toggleSwitch:
@@ -685,7 +685,7 @@
                 FontWeight: =FontWeight.Bold
                 Height: =48
                 Size: =17
-                Text: ="Status do projeto"
+                Text: ="Projeto Ativo"
                 Width: =327
                 Wrap: =false
                 X: =30
@@ -752,6 +752,97 @@
                 Y: =DataCardKey5.Y
                 ZIndex: =4
 
+        total_finalizado_DataCard1 As typedDataCard.numberEditCard:
+            BorderColor: =RGBA(32, 54, 71, 1)
+            BorderStyle: =BorderStyle.Solid
+            DataField: ="total_finalizado"
+            Default: =ThisItem.total_finalizado
+            DisplayMode: =Parent.DisplayMode
+            DisplayName: =DataSourceInfo([@'POC_GESTAOCONTRATOS.cliente'],DataSourceInfo.DisplayName,"total_finalizado")
+            Fill: =RGBA(0, 0, 0, 0)
+            Height: =50
+            Required: =false
+            Update: =Value(DataCardValue18.Text)
+            Width: =917
+            X: =0
+            Y: =4
+            ZIndex: =1
+
+            DataCardKey18 As label:
+                AutoHeight: =true
+                Color: =RGBA(247, 248, 250, 1)
+                DisabledColor: =RGBA(166, 166, 166, 1)
+                Font: =Font.'Segoe UI'
+                FontWeight: =FontWeight.Bold
+                Height: =48
+                Size: =17
+                Text: ="Total de projetos finalizados"
+                Width: =Parent.Width - 60
+                Wrap: =false
+                X: =30
+                Y: =10
+                ZIndex: =1
+
+            DataCardValue18 As text:
+                BorderColor: =If(IsBlank(Parent.Error), Parent.BorderColor, Color.Red)
+                BorderThickness: =2
+                Color: =RGBA(0, 0, 0, 1)
+                Default: =Parent.Default
+                DelayOutput: =true
+                DisabledBorderColor: =RGBA(166, 166, 166, 1)
+                DisabledColor: =RGBA(166, 166, 166, 1)
+                DisabledFill: =RGBA(244, 244, 244, 1)
+                DisplayMode: =Parent.DisplayMode
+                FocusedBorderThickness: =4
+                Format: =TextFormat.Number
+                Height: =50
+                HoverBorderColor: =RGBA(32, 54, 71, 1)
+                HoverColor: =RGBA(0, 0, 0, 1)
+                HoverFill: =RGBA(205, 209, 213, 1)
+                PaddingLeft: =5
+                RadiusBottomLeft: =0
+                RadiusBottomRight: =0
+                RadiusTopLeft: =0
+                RadiusTopRight: =0
+                Size: =21
+                Tooltip: =Parent.DisplayName
+                Width: =363
+                X: =30
+                Y: =DataCardKey18.Y + DataCardKey18.Height + 5
+                ZIndex: =2
+
+            ErrorMessage18 As label:
+                AutoHeight: =true
+                Color: =RGBA(168, 0, 0, 1)
+                DisabledColor: =RGBA(166, 166, 166, 1)
+                FontWeight: =FontWeight.Semibold
+                Height: =10
+                Live: =Live.Assertive
+                PaddingBottom: =0
+                PaddingLeft: =0
+                PaddingRight: =0
+                PaddingTop: =0
+                Size: =24
+                Text: =Parent.Error
+                Visible: =Parent.DisplayMode=DisplayMode.Edit
+                Width: =Parent.Width - 60
+                X: =30
+                Y: =DataCardValue18.Y + DataCardValue18.Height
+                ZIndex: =3
+
+            StarVisible18 As label:
+                Align: =Align.Center
+                Color: =RGBA(32, 54, 71, 1)
+                DisabledColor: =RGBA(166, 166, 166, 1)
+                Height: =DataCardKey18.Height
+                Size: =21
+                Text: ="*"
+                Visible: =And(Parent.Required, Parent.DisplayMode=DisplayMode.Edit)
+                Width: =30
+                Wrap: =false
+                Y: =DataCardKey18.Y
+                ZIndex: =4
+
     Icon6 As icon.Add:
         BorderColor: =RGBA(32, 54, 71, 1)
         Color: =RGBA(44, 171, 224, 1)
@@ -764,7 +855,7 @@
         Tooltip: ="Voltar para tela de clientes"
         Visible: =var_cliente_editar || var_cliente_exibir
         Width: =61
-        X: =951
+        X: =1008
         Y: =629
         ZIndex: =15
 
