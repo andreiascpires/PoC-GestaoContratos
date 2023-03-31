@@ -6,6 +6,104 @@
     LoadingSpinnerColor: =RGBA(100, 118, 132, 1)
     Width: =1123
 
+    "Gallery_clientes_3 As gallery.'BrowseLayout_Vertical_ThreeTextVariant_ver4.0'":
+        BorderColor: =RGBA(18, 69, 89, 1)
+        BorderThickness: =5
+        Fill: =RGBA(18, 69, 89, 0.08)
+        Height: =508
+        Items: |
+            =SortByColumns(Search('POC_GESTAOCONTRATOS.contratos_clientes',Text_busca_8.Text, "nome_cliente"),"nome_cliente",SortOrder.Ascending)
+        Layout: =Layout.Vertical
+        ShowScrollbar: =false
+        TemplatePadding: =0
+        TemplateSize: =Min(168, Self.Height - 60)
+        Width: =499
+        X: =164
+        Y: =178
+        ZIndex: =1
+
+        Title6 As label:
+            Color: =RGBA(18, 69, 89, 1)
+            DisabledColor: =RGBA(166, 166, 166, 1)
+            Font: =Font.'Segoe UI'
+            FontWeight: =FontWeight.Bold
+            Height: =Self.Size * 1.8
+            OnSelect: =Select(Parent)
+            PaddingBottom: =0
+            PaddingLeft: =0
+            PaddingRight: =0
+            PaddingTop: =0
+            Size: =20
+            Text: =ThisItem.nome_cliente
+            VerticalAlign: =VerticalAlign.Top
+            Width: =Parent.TemplateWidth - 104
+            X: =32
+            Y: =40
+            ZIndex: =1
+
+        Subtitle5 As label:
+            Color: =RGBA(0, 0, 0, 1)
+            DisabledColor: =RGBA(166, 166, 166, 1)
+            Font: =Font.'Segoe UI'
+            Height: =Self.Size * 1.8
+            OnSelect: =Select(Parent)
+            PaddingBottom: =0
+            PaddingLeft: =0
+            PaddingRight: =0
+            PaddingTop: =0
+            Text: =ThisItem.data_inicio
+            VerticalAlign: =VerticalAlign.Top
+            Width: =Parent.TemplateWidth - 104
+            X: =32
+            Y: =Title6.Y + Title6.Height + 2
+            ZIndex: =2
+
+        Body1 As label:
+            Color: =RGBA(0, 0, 0, 1)
+            DisabledColor: =RGBA(166, 166, 166, 1)
+            Font: =Font.'Segoe UI'
+            Height: =Self.Size * 4
+            OnSelect: =Select(Parent)
+            PaddingBottom: =0
+            PaddingLeft: =0
+            PaddingRight: =0
+            PaddingTop: =0
+            Text: =ThisItem.data_fim
+            VerticalAlign: =VerticalAlign.Top
+            Width: =Parent.TemplateWidth - 104
+            X: =32
+            Y: =Subtitle5.Y + Subtitle5.Height + 4
+            ZIndex: =3
+
+        NextArrow4 As icon.ChevronRight:
+            AccessibleLabel: =Self.Tooltip
+            BorderColor: =RGBA(32, 54, 71, 1)
+            Color: =RGBA(32, 54, 71, 1)
+            DisabledBorderColor: =RGBA(166, 166, 166, 1)
+            DisabledColor: =RGBA(244, 244, 244, 1)
+            Height: =60
+            Icon: =Icon.ChevronRight
+            OnSelect: =Select(Parent)
+            PaddingBottom: =10
+            PaddingLeft: =10
+            PaddingRight: =10
+            PaddingTop: =10
+            TabIndex: =0
+            Tooltip: ="Exibir detalhes do item"
+            Width: =60
+            X: =Parent.TemplateWidth - Self.Width - 5
+            Y: =(Parent.TemplateHeight / 2) - (Self.Height / 2)
+            ZIndex: =4
+
+        Separator4 As rectangle:
+            BorderColor: =RGBA(32, 54, 71, 1)
+            Fill: =RGBA(32, 54, 71, 1)
+            Height: =1
+            OnSelect: =Select(Parent)
+            Width: =Parent.TemplateWidth
+            Y: =Parent.TemplateHeight - 1
+            ZIndex: =5
+
     Label3_31 As label:
         Align: =Align.Center
         BorderColor: =RGBA(32, 54, 71, 1)
@@ -20,80 +118,6 @@
         X: =103
         Y: =80
         ZIndex: =2
-
-    "Gallery_clientes_3 As gallery.'BrowseLayout_Vertical_OneTextVariant_ver4.0'":
-        BorderColor: =RGBA(18, 69, 89, 1)
-        BorderThickness: =5
-        Fill: =RGBA(18, 69, 89, 0.08)
-        Height: =492
-        Items: |
-            =SortByColumns(Search('POC_GESTAOCONTRATOS.cliente',Text_busca_8.Text, "nome_empresa"),"nome_empresa",SortOrder.Ascending)
-        Layout: =Layout.Vertical
-        ShowScrollbar: =false
-        TemplatePadding: =0
-        TemplateSize: =36
-        Width: =298
-        X: =164
-        Y: =192
-        ZIndex: =5
-
-        Button2_10 As button:
-            BorderColor: =ColorFade(Self.Fill, 17%)
-            BorderThickness: =5
-            Color: =RGBA(28, 84, 108, 1)
-            DisabledBorderColor: =RGBA(166, 166, 166, 0)
-            DisabledColor: =RGBA(166, 166, 166, 1)
-            DisabledFill: =RGBA(244, 244, 244, 1)
-            DisplayMode: =DisplayMode.View
-            Fill: =RGBA(44, 171, 224, 0.09)
-            FontWeight: =FontWeight.Semibold
-            Height: =80
-            HoverBorderColor: =ColorFade(Self.BorderColor, 70%)
-            HoverColor: =RGBA(255, 255, 255, 1)
-            HoverFill: =ColorFade(RGBA(100, 118, 132, 1), -80%)
-            RadiusBottomLeft: =15
-            RadiusBottomRight: =15
-            RadiusTopLeft: =15
-            RadiusTopRight: =15
-            Size: =24
-            Text: =""
-            Width: =915
-            X: =12
-            Y: =9
-            ZIndex: =1
-
-        Title2_7 As label:
-            Color: =RGBA(18, 69, 89, 1)
-            DisabledColor: =RGBA(166, 166, 166, 1)
-            FontWeight: =FontWeight.Semibold
-            Height: =45
-            OnSelect: =Select(Parent)
-            PaddingBottom: =0
-            PaddingLeft: =0
-            PaddingRight: =0
-            PaddingTop: =0
-            Text: =ThisItem.nome_empresa   
-            VerticalAlign: =VerticalAlign.Top
-            Width: =370
-            X: =21
-            Y: =40
-            ZIndex: =2
-
-        Icon2_15 As icon.Add:
-            BorderColor: =RGBA(32, 54, 71, 1)
-            Color: =RGBA(18, 69, 89, 1)
-            DisabledBorderColor: =RGBA(166, 166, 166, 1)
-            DisabledColor: =RGBA(244, 244, 244, 1)
-            FocusedBorderThickness: =0
-            Height: =40
-            Icon: =Icon.View
-            OnSelect: |-
-                =UpdateContext({var_cliente_exibir: true});Select(Parent);EditForm(Form_tela_cliente_2)
-            Tooltip: ="Exibir detalhes do cliente"
-            Width: =40
-            X: =230
-            Y: =29
-            ZIndex: =6
 
     Label1_13 As label:
         Align: =Align.Center
@@ -815,15 +839,15 @@
         BorderColor: =RGBA(18, 69, 89, 1)
         BorderThickness: =5
         Fill: =RGBA(18, 69, 89, 0.08)
-        Height: =494
+        Height: =508
         Items: ='POC_GESTAOCONTRATOS.comercial'
         Layout: =Layout.Vertical
         ShowScrollbar: =false
         TemplatePadding: =0
         TemplateSize: =89
-        Width: =209
-        X: =502
-        Y: =192
+        Width: =288
+        X: =720
+        Y: =178
         ZIndex: =20
 
         Button2_11 As button:
@@ -863,60 +887,5 @@
             VerticalAlign: =VerticalAlign.Top
             Width: =252
             Y: =17
-            ZIndex: =2
-
-    "Gallery_clientes_6 As gallery.'BrowseLayout_Vertical_OneTextVariant_ver4.0'":
-        BorderColor: =RGBA(18, 69, 89, 1)
-        BorderThickness: =5
-        Fill: =RGBA(18, 69, 89, 0.08)
-        Height: =494
-        Items: ='POC_GESTAOCONTRATOS.contrato'
-        Layout: =Layout.Vertical
-        ShowScrollbar: =false
-        TemplatePadding: =0
-        TemplateSize: =89
-        Width: =167
-        X: =766
-        Y: =192
-        ZIndex: =21
-
-        Button2_12 As button:
-            BorderColor: =ColorFade(Self.Fill, 17%)
-            BorderThickness: =5
-            Color: =RGBA(28, 84, 108, 1)
-            DisabledBorderColor: =RGBA(166, 166, 166, 0)
-            DisabledColor: =RGBA(166, 166, 166, 1)
-            DisabledFill: =RGBA(244, 244, 244, 1)
-            DisplayMode: =DisplayMode.View
-            Fill: =RGBA(44, 171, 224, 0.09)
-            FontWeight: =FontWeight.Semibold
-            Height: =68
-            HoverBorderColor: =ColorFade(Self.BorderColor, 70%)
-            HoverColor: =RGBA(255, 255, 255, 1)
-            HoverFill: =ColorFade(RGBA(100, 118, 132, 1), -80%)
-            RadiusBottomLeft: =15
-            RadiusBottomRight: =15
-            RadiusTopLeft: =15
-            RadiusTopRight: =15
-            Size: =24
-            Text: =""
-            Width: =243
-            Y: =12
-            ZIndex: =1
-
-        Title2_9 As label:
-            Color: =RGBA(18, 69, 89, 1)
-            DisabledColor: =RGBA(166, 166, 166, 1)
-            FontWeight: =FontWeight.Semibold
-            Height: =45
-            OnSelect: =Select(Parent)
-            PaddingBottom: =0
-            PaddingLeft: =0
-            PaddingRight: =0
-            PaddingTop: =0
-            Text: =ThisItem.data_inicio
-            VerticalAlign: =VerticalAlign.Top
-            Width: =243
-            Y: =44
             ZIndex: =2
 
