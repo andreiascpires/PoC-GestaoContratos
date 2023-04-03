@@ -45,7 +45,7 @@
             Color: =RGBA(0, 0, 0, 1)
             DisabledColor: =RGBA(166, 166, 166, 1)
             Font: =Font.'Segoe UI'
-            Height: =Self.Size * 1.8
+            Height: =27
             OnSelect: =Select(Parent)
             PaddingBottom: =0
             PaddingLeft: =0
@@ -53,16 +53,16 @@
             PaddingTop: =0
             Text: =ThisItem.data_inicio
             VerticalAlign: =VerticalAlign.Top
-            Width: =Parent.TemplateWidth - 104
-            X: =32
-            Y: =Title6.Y + Title6.Height + 2
+            Width: =310
+            X: =33
+            Y: =76
             ZIndex: =2
 
         Body1 As label:
             Color: =RGBA(0, 0, 0, 1)
             DisabledColor: =RGBA(166, 166, 166, 1)
             Font: =Font.'Segoe UI'
-            Height: =Self.Size * 4
+            Height: =60
             OnSelect: =Select(Parent)
             PaddingBottom: =0
             PaddingLeft: =0
@@ -70,9 +70,9 @@
             PaddingTop: =0
             Text: =ThisItem.data_fim
             VerticalAlign: =VerticalAlign.Top
-            Width: =Parent.TemplateWidth - 104
-            X: =32
-            Y: =Subtitle5.Y + Subtitle5.Height + 4
+            Width: =310
+            X: =33
+            Y: =103
             ZIndex: =3
 
         NextArrow4 As icon.ChevronRight:
@@ -257,8 +257,8 @@
         ShowScrollbar: =false
         TemplatePadding: =0
         TemplateSize: =89
-        Width: =269
-        X: =738
+        Width: =331
+        X: =725
         Y: =178
         ZIndex: =20
 
@@ -282,7 +282,7 @@
             RadiusTopRight: =15
             Size: =24
             Text: =""
-            Width: =235
+            Width: =300
             X: =15
             ZIndex: =1
 
