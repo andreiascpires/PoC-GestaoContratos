@@ -5697,19 +5697,19 @@
             {
               "logicalLocations": [
                 {
-                  "fullyQualifiedName": "Tela_Extra_Gabriel.Dropdown2.AccessibleLabel"
+                  "fullyQualifiedName": "'Histórico Comercial'.Dropdown2.AccessibleLabel"
                 }
               ],
               "physicalLocation": {
                 "address": {
-                  "fullyQualifiedName": "Tela_Extra_Gabriel.Dropdown2.AccessibleLabel",
+                  "fullyQualifiedName": "'Histórico Comercial'.Dropdown2.AccessibleLabel",
                   "relativeAddress": 0
                 }
               },
               "properties": {
                 "member": "AccessibleLabel",
-                "module": "Tela_Extra_Gabriel",
-                "type": "Tela_Extra_Gabriel.Dropdown2"
+                "module": "Histórico Comercial",
+                "type": "'Histórico Comercial'.Dropdown2"
               }
             }
           ],
@@ -5727,19 +5727,19 @@
             {
               "logicalLocations": [
                 {
-                  "fullyQualifiedName": "Tela_Extra_Gabriel.Text_busca_8.AccessibleLabel"
+                  "fullyQualifiedName": "'Histórico Comercial'.Text_busca_8.AccessibleLabel"
                 }
               ],
               "physicalLocation": {
                 "address": {
-                  "fullyQualifiedName": "Tela_Extra_Gabriel.Text_busca_8.AccessibleLabel",
+                  "fullyQualifiedName": "'Histórico Comercial'.Text_busca_8.AccessibleLabel",
                   "relativeAddress": 0
                 }
               },
               "properties": {
                 "member": "AccessibleLabel",
-                "module": "Tela_Extra_Gabriel",
-                "type": "Tela_Extra_Gabriel.Text_busca_8"
+                "module": "Histórico Comercial",
+                "type": "'Histórico Comercial'.Text_busca_8"
               }
             }
           ],
@@ -5757,19 +5757,19 @@
             {
               "logicalLocations": [
                 {
-                  "fullyQualifiedName": "Tela_Extra_Gabriel.Gallery_clientes_3.AccessibleLabel"
+                  "fullyQualifiedName": "'Histórico Comercial'.Gallery_clientes_3.AccessibleLabel"
                 }
               ],
               "physicalLocation": {
                 "address": {
-                  "fullyQualifiedName": "Tela_Extra_Gabriel.Gallery_clientes_3.AccessibleLabel",
+                  "fullyQualifiedName": "'Histórico Comercial'.Gallery_clientes_3.AccessibleLabel",
                   "relativeAddress": 0
                 }
               },
               "properties": {
                 "member": "AccessibleLabel",
-                "module": "Tela_Extra_Gabriel",
-                "type": "Tela_Extra_Gabriel.Gallery_clientes_3"
+                "module": "Histórico Comercial",
+                "type": "'Histórico Comercial'.Gallery_clientes_3"
               }
             }
           ],
@@ -5787,19 +5787,19 @@
             {
               "logicalLocations": [
                 {
-                  "fullyQualifiedName": "Tela_Extra_Gabriel.Gallery_clientes_3.TabIndex"
+                  "fullyQualifiedName": "'Histórico Comercial'.Gallery_clientes_3.TabIndex"
                 }
               ],
               "physicalLocation": {
                 "address": {
-                  "fullyQualifiedName": "Tela_Extra_Gabriel.Gallery_clientes_3.TabIndex",
+                  "fullyQualifiedName": "'Histórico Comercial'.Gallery_clientes_3.TabIndex",
                   "relativeAddress": 0
                 }
               },
               "properties": {
                 "member": "TabIndex",
-                "module": "Tela_Extra_Gabriel",
-                "type": "Tela_Extra_Gabriel.Gallery_clientes_3"
+                "module": "Histórico Comercial",
+                "type": "'Histórico Comercial'.Gallery_clientes_3"
               }
             }
           ],
@@ -5817,19 +5817,19 @@
             {
               "logicalLocations": [
                 {
-                  "fullyQualifiedName": "Tela_Extra_Gabriel.Gallery_clientes_5.AccessibleLabel"
+                  "fullyQualifiedName": "'Histórico Comercial'.Gallery_clientes_5.AccessibleLabel"
                 }
               ],
               "physicalLocation": {
                 "address": {
-                  "fullyQualifiedName": "Tela_Extra_Gabriel.Gallery_clientes_5.AccessibleLabel",
+                  "fullyQualifiedName": "'Histórico Comercial'.Gallery_clientes_5.AccessibleLabel",
                   "relativeAddress": 0
                 }
               },
               "properties": {
                 "member": "AccessibleLabel",
-                "module": "Tela_Extra_Gabriel",
-                "type": "Tela_Extra_Gabriel.Gallery_clientes_5"
+                "module": "Histórico Comercial",
+                "type": "'Histórico Comercial'.Gallery_clientes_5"
               }
             }
           ],
@@ -5847,19 +5847,19 @@
             {
               "logicalLocations": [
                 {
-                  "fullyQualifiedName": "Tela_Extra_Gabriel.Gallery_clientes_5.TabIndex"
+                  "fullyQualifiedName": "'Histórico Comercial'.Gallery_clientes_5.TabIndex"
                 }
               ],
               "physicalLocation": {
                 "address": {
-                  "fullyQualifiedName": "Tela_Extra_Gabriel.Gallery_clientes_5.TabIndex",
+                  "fullyQualifiedName": "'Histórico Comercial'.Gallery_clientes_5.TabIndex",
                   "relativeAddress": 0
                 }
               },
               "properties": {
                 "member": "TabIndex",
-                "module": "Tela_Extra_Gabriel",
-                "type": "Tela_Extra_Gabriel.Gallery_clientes_5"
+                "module": "Histórico Comercial",
+                "type": "'Histórico Comercial'.Gallery_clientes_5"
               }
             }
           ],
@@ -5877,19 +5877,19 @@
             {
               "logicalLocations": [
                 {
-                  "fullyQualifiedName": "Tela_Extra_Gabriel.Toggle1_25.ShowLabel"
+                  "fullyQualifiedName": "'Histórico Comercial'.Toggle1_25.ShowLabel"
                 }
               ],
               "physicalLocation": {
                 "address": {
-                  "fullyQualifiedName": "Tela_Extra_Gabriel.Toggle1_25.ShowLabel",
+                  "fullyQualifiedName": "'Histórico Comercial'.Toggle1_25.ShowLabel",
                   "relativeAddress": 0
                 }
               },
               "properties": {
                 "member": "ShowLabel",
-                "module": "Tela_Extra_Gabriel",
-                "type": "Tela_Extra_Gabriel.Toggle1_25"
+                "module": "Histórico Comercial",
+                "type": "'Histórico Comercial'.Toggle1_25"
               }
             }
           ],
@@ -5907,19 +5907,19 @@
             {
               "logicalLocations": [
                 {
-                  "fullyQualifiedName": "Tela_Extra_Gabriel.Toggle1_25.AccessibleLabel"
+                  "fullyQualifiedName": "'Histórico Comercial'.Toggle1_25.AccessibleLabel"
                 }
               ],
               "physicalLocation": {
                 "address": {
-                  "fullyQualifiedName": "Tela_Extra_Gabriel.Toggle1_25.AccessibleLabel",
+                  "fullyQualifiedName": "'Histórico Comercial'.Toggle1_25.AccessibleLabel",
                   "relativeAddress": 0
                 }
               },
               "properties": {
                 "member": "AccessibleLabel",
-                "module": "Tela_Extra_Gabriel",
-                "type": "Tela_Extra_Gabriel.Toggle1_25"
+                "module": "Histórico Comercial",
+                "type": "'Histórico Comercial'.Toggle1_25"
               }
             }
           ],
@@ -5937,19 +5937,19 @@
             {
               "logicalLocations": [
                 {
-                  "fullyQualifiedName": "Tela_Extra_Gabriel.Icon6_6.AccessibleLabel"
+                  "fullyQualifiedName": "'Histórico Comercial'.Icon6_6.AccessibleLabel"
                 }
               ],
               "physicalLocation": {
                 "address": {
-                  "fullyQualifiedName": "Tela_Extra_Gabriel.Icon6_6.AccessibleLabel",
+                  "fullyQualifiedName": "'Histórico Comercial'.Icon6_6.AccessibleLabel",
                   "relativeAddress": 0
                 }
               },
               "properties": {
                 "member": "AccessibleLabel",
-                "module": "Tela_Extra_Gabriel",
-                "type": "Tela_Extra_Gabriel.Icon6_6"
+                "module": "Histórico Comercial",
+                "type": "'Histórico Comercial'.Icon6_6"
               }
             }
           ],
@@ -5967,19 +5967,19 @@
             {
               "logicalLocations": [
                 {
-                  "fullyQualifiedName": "Tela_Extra_Gabriel.Icon6_6.TabIndex"
+                  "fullyQualifiedName": "'Histórico Comercial'.Icon6_6.TabIndex"
                 }
               ],
               "physicalLocation": {
                 "address": {
-                  "fullyQualifiedName": "Tela_Extra_Gabriel.Icon6_6.TabIndex",
+                  "fullyQualifiedName": "'Histórico Comercial'.Icon6_6.TabIndex",
                   "relativeAddress": 0
                 }
               },
               "properties": {
                 "member": "TabIndex",
-                "module": "Tela_Extra_Gabriel",
-                "type": "Tela_Extra_Gabriel.Icon6_6"
+                "module": "Histórico Comercial",
+                "type": "'Histórico Comercial'.Icon6_6"
               }
             }
           ],
@@ -5997,19 +5997,19 @@
             {
               "logicalLocations": [
                 {
-                  "fullyQualifiedName": "Tela_Extra_Gabriel.Icon4_10.AccessibleLabel"
+                  "fullyQualifiedName": "'Histórico Comercial'.Icon4_10.AccessibleLabel"
                 }
               ],
               "physicalLocation": {
                 "address": {
-                  "fullyQualifiedName": "Tela_Extra_Gabriel.Icon4_10.AccessibleLabel",
+                  "fullyQualifiedName": "'Histórico Comercial'.Icon4_10.AccessibleLabel",
                   "relativeAddress": 0
                 }
               },
               "properties": {
                 "member": "AccessibleLabel",
-                "module": "Tela_Extra_Gabriel",
-                "type": "Tela_Extra_Gabriel.Icon4_10"
+                "module": "Histórico Comercial",
+                "type": "'Histórico Comercial'.Icon4_10"
               }
             }
           ],
@@ -6027,19 +6027,19 @@
             {
               "logicalLocations": [
                 {
-                  "fullyQualifiedName": "Tela_Extra_Gabriel.Icon4_10.TabIndex"
+                  "fullyQualifiedName": "'Histórico Comercial'.Icon4_10.TabIndex"
                 }
               ],
               "physicalLocation": {
                 "address": {
-                  "fullyQualifiedName": "Tela_Extra_Gabriel.Icon4_10.TabIndex",
+                  "fullyQualifiedName": "'Histórico Comercial'.Icon4_10.TabIndex",
                   "relativeAddress": 0
                 }
               },
               "properties": {
                 "member": "TabIndex",
-                "module": "Tela_Extra_Gabriel",
-                "type": "Tela_Extra_Gabriel.Icon4_10"
+                "module": "Histórico Comercial",
+                "type": "'Histórico Comercial'.Icon4_10"
               }
             }
           ],
