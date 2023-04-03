@@ -115,8 +115,8 @@
         Size: =15
         Text: ="Status do projeto"
         Width: =250
-        X: =103
-        Y: =80
+        X: =121
+        Y: =89
         ZIndex: =2
 
     Label1_13 As label:
@@ -221,7 +221,7 @@
     cMenu_6 As cMenu:
         Height: =715
         X: =10
-        Y: =79
+        Y: =86
         ZIndex: =18
 
     Dropdown2 As dropdown:
@@ -243,8 +243,8 @@
         SelectionFill: =RGBA(100, 118, 132, 1)
         Size: =21
         Width: =273
-        X: =330
-        Y: =83
+        X: =348
+        Y: =92
         ZIndex: =19
 
     "Gallery_clientes_5 As gallery.'BrowseLayout_Vertical_OneTextVariant_ver4.0'":
