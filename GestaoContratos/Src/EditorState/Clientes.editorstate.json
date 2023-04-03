@@ -1884,7 +1884,7 @@
       },
       "MetaDataIDKey": "",
       "Name": "cMenu_2",
-      "ParentIndex": 7,
+      "ParentIndex": 2,
       "PersistMetaDataIDKey": false,
       "Properties": [
         {
@@ -2062,7 +2062,7 @@
       "LayoutName": "",
       "MetaDataIDKey": "",
       "Name": "ComboBox6",
-      "ParentIndex": 4,
+      "ParentIndex": 5,
       "PersistMetaDataIDKey": false,
       "Properties": [
         {
@@ -2467,7 +2467,7 @@
       "LayoutName": "",
       "MetaDataIDKey": "",
       "Name": "ComboBox6_3",
-      "ParentIndex": 3,
+      "ParentIndex": 4,
       "PersistMetaDataIDKey": false,
       "Properties": [
         {
@@ -7748,7 +7748,7 @@
       "LayoutName": "vertical",
       "MetaDataIDKey": "",
       "Name": "Form_tela_cliente",
-      "ParentIndex": 2,
+      "ParentIndex": 3,
       "PersistMetaDataIDKey": false,
       "Properties": [
         {
@@ -10316,7 +10316,7 @@
       "LayoutName": "",
       "MetaDataIDKey": "",
       "Name": "Label3_16",
-      "ParentIndex": 6,
+      "ParentIndex": 7,
       "PersistMetaDataIDKey": false,
       "Properties": [
         {
@@ -10620,7 +10620,7 @@
       "LayoutName": "",
       "MetaDataIDKey": "",
       "Name": "Label3_30",
-      "ParentIndex": 5,
+      "ParentIndex": 6,
       "PersistMetaDataIDKey": false,
       "Properties": [
         {
