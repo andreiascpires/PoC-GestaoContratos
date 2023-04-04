@@ -1,7 +1,7 @@
 [
   {
     "ApiId": "/providers/microsoft.powerapps/apis/shared_azureblob",
-    "Name": "Blob",
+    "Name": "ArmazenamentodeBlobdoAzure",
     "ServiceKind": "ConnectedWadl",
     "Type": "ServiceInfo"
   }

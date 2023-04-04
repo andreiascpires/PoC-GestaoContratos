@@ -1,4 +1,20 @@
 {
+  "1709df10-588a-4021-8e68-9742dfff764d": {
+    "connectionParameters": {},
+    "connectionRef": {
+      "authenticationType": "tokenBasedAuth",
+      "displayName": "Armazenamento de Blob do Azure",
+      "iconUri": "https://connectoricons-prod.azureedge.net/releases/v1.0.1623/1.0.1623.3210/azureblob/icon.png",
+      "id": "/providers/microsoft.powerapps/apis/shared_azureblob"
+    },
+    "datasets": {},
+    "dataSources": [
+      "ArmazenamentodeBlobdoAzure"
+    ],
+    "dependencies": {},
+    "dependents": [],
+    "id": "1709df10-588a-4021-8e68-9742dfff764d"
+  },
   "a5003758-43b4-4648-9544-ef35d7890bb6": {
     "connectionParameters": {
       "database": "db-fab-projetos",
@@ -61,21 +77,5 @@
     "dependencies": {},
     "dependents": [],
     "id": "a5003758-43b4-4648-9544-ef35d7890bb6"
-  },
-  "d45965b5-eec5-4751-89c4-1eced94e7ae2": {
-    "connectionParameters": {},
-    "connectionRef": {
-      "authenticationType": "tokenBasedAuth",
-      "displayName": "Armazenamento de Blob do Azure",
-      "iconUri": "https://connectoricons-prod.azureedge.net/u/laborbol/releases/ase-v3-99-la-only-no-gov/1.0.1622.3206/azureblob/icon.png",
-      "id": "/providers/microsoft.powerapps/apis/shared_azureblob"
-    },
-    "datasets": {},
-    "dataSources": [
-      "Blob"
-    ],
-    "dependencies": {},
-    "dependents": [],
-    "id": "d45965b5-eec5-4751-89c4-1eced94e7ae2"
   }
 }
