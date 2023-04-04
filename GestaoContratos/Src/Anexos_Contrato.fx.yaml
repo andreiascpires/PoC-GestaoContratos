@@ -1,4 +1,4 @@
-"Contratos_1 As screen.'printableLayout_A4Landscape_ver1.0'":
+"Anexos_Contrato As screen.'printableLayout_A4Landscape_ver1.0'":
     BackgroundImage: =telas
     Fill: =RGBA(255, 255, 255, 1)  
     Height: =794
@@ -68,7 +68,7 @@
             DisabledColor: =RGBA(244, 244, 244, 1)
             Height: =50
             Icon: =Icon.Download
-            OnSelect: =
+            OnSelect: =Launch(ArmazenamentodeBlobdoAzure.CreateShareLinkByPathV2("datalakefabdeprojetos", ThisItem.Path).WebUrl)
             Width: =49
             X: =343
             Y: =18
