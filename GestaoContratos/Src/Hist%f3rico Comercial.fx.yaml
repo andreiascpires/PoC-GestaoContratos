@@ -219,8 +219,9 @@
         ZIndex: =15
 
     cMenu_6 As cMenu:
-        Height: =715
-        X: =10
+        Height: =702
+        Width: =98
+        X: =11
         Y: =86
         ZIndex: =18
 
@@ -234,6 +235,7 @@
         DisabledBorderColor: =RGBA(166, 166, 166, 1)
         DisabledColor: =RGBA(166, 166, 166, 1)
         DisabledFill: =RGBA(244, 244, 244, 1)
+        Font: =Font.'Segoe UI'
         Height: =46
         HoverColor: =RGBA(0, 0, 0, 1)
         HoverFill: =RGBA(205, 209, 213, 1)
@@ -241,7 +243,7 @@
         PressedColor: =RGBA(255, 255, 255, 1)
         PressedFill: =RGBA(32, 54, 71, 1)
         SelectionFill: =RGBA(100, 118, 132, 1)
-        Size: =21
+        Size: =17
         Width: =273
         X: =348
         Y: =92

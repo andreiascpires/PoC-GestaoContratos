@@ -25,27 +25,34 @@ App As appinfo:
                 tela: Contratos,
                 icone: Icon.Document
             },
+             {
+                id: 'Histórico Comercial'.Name,
+                MenuId: 4,
+                tela: 'Histórico Comercial',
+                icone: Icon.LogJournal
+            },
+            
             {
                 id: 'Tabela Objeto'.Name,
-                MenuId: 4,
+                MenuId: 5,
                 tela: 'Tabela Objeto',
                 icone: Icon.Folder
             },
             {
                 id: 'Tabela Status'.Name,
-                MenuId: 5,
+                MenuId: 6,
                 tela: 'Tabela Status',
                 icone: Icon.Tag
             },
             {
                 id: 'Controle Clientes'.Name,
-                MenuId: 6,
+                MenuId: 7,
                 tela: 'Controle Clientes',
-                icone: Icon.LogJournal
+                icone: Icon.Person
             },
             {
                 id: 'Controle Financeiro'.Name,
-                MenuId: 7,
+                MenuId: 8,
                 tela: 'Controle Financeiro',
                 icone: Icon.Money
             }
