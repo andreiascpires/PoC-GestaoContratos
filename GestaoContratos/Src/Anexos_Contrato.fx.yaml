@@ -1,0 +1,8 @@
+"Anexos_Contrato As screen.'printableLayout_A4Landscape_ver1.0'":
+    BackgroundImage: =telas
+    Fill: =RGBA(255, 255, 255, 1)  
+    Height: =794
+    ImagePosition: =ImagePosition.Stretch
+    LoadingSpinnerColor: =RGBA(100, 118, 132, 1)
+    Width: =1123
+
