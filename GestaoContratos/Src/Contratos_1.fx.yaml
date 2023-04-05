@@ -74,8 +74,8 @@
                 ArmazenamentodeBlobdoAzure.ListFolderV4("datalakefabdeprojetos", Gallery3.Selected.Id).value ; 
                  Notify("Delete com succeso", NotificationType.Success)
             Width: =34
-            X: =377
-            Y: =10
+            X: =369
+            Y: =14
             ZIndex: =4
 
         Icon13 As icon.Download:
@@ -181,6 +181,7 @@
                 OnSelect: =Select(Parent)
                 Size: =25
                 Text: =""
+                Tooltip: ="Visualizar dados"
                 Width: =45
                 X: =214
                 Y: =18
@@ -195,8 +196,8 @@
             Icon: =Icon.Send
             OnSelect: =ArmazenamentodeBlobdoAzure.CreateFileV2("datalakefabdeprojetos",  Concatenate( "poc-gestaocontratos\", Gallery3.Selected.DisplayName ) , AddMediaButton1.FileName, UploadedImage1.Image); Notify("Upload com succeso", NotificationType.Success)
             Width: =45
-            X: =300
-            Y: =19
+            X: =301
+            Y: =12
             ZIndex: =7
 
     Label3_27 As label:

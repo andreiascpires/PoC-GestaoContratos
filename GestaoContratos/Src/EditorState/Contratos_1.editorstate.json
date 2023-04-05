@@ -41,6 +41,14 @@
           "InvariantPropertyName": "Text",
           "IsLockable": false,
           "NameMapSourceSchema": "?"
+        },
+        {
+          "AFDDataSourceName": "",
+          "AutoRuleBindingEnabled": false,
+          "AutoRuleBindingString": "\"\"",
+          "InvariantPropertyName": "Tooltip",
+          "IsLockable": false,
+          "NameMapSourceSchema": "?"
         }
       ],
       "HasDynamicProperties": false,
@@ -53,12 +61,17 @@
       "LayoutName": "",
       "MetaDataIDKey": "%AddMedia.ID%",
       "Name": "AddMediaButton1",
-      "ParentIndex": 3,
+      "ParentIndex": 4,
       "PersistMetaDataIDKey": false,
       "Properties": [
         {
           "Category": "Data",
           "PropertyName": "Text",
+          "RuleProviderType": "Unknown"
+        },
+        {
+          "Category": "Data",
+          "PropertyName": "Tooltip",
           "RuleProviderType": "Unknown"
         },
         {
@@ -3383,7 +3396,7 @@
       "LayoutName": "",
       "MetaDataIDKey": "",
       "Name": "Icon10",
-      "ParentIndex": 5,
+      "ParentIndex": 2,
       "PersistMetaDataIDKey": false,
       "Properties": [
         {
@@ -3555,7 +3568,7 @@
       "LayoutName": "",
       "MetaDataIDKey": "",
       "Name": "Icon11",
-      "ParentIndex": 1,
+      "ParentIndex": 2,
       "PersistMetaDataIDKey": false,
       "Properties": [
         {
@@ -3727,7 +3740,7 @@
       "LayoutName": "",
       "MetaDataIDKey": "",
       "Name": "Icon13",
-      "ParentIndex": 2,
+      "ParentIndex": 1,
       "PersistMetaDataIDKey": false,
       "Properties": [
         {
@@ -7440,7 +7453,7 @@
       "LayoutName": "",
       "MetaDataIDKey": "%TemplateBrowseGalleryTitle.ID%",
       "Name": "Title7",
-      "ParentIndex": 4,
+      "ParentIndex": 5,
       "PersistMetaDataIDKey": false,
       "Properties": [
         {
@@ -8084,7 +8097,7 @@
       "LayoutName": "",
       "MetaDataIDKey": "%Image.ID%",
       "Name": "UploadedImage1",
-      "ParentIndex": 2,
+      "ParentIndex": 3,
       "PersistMetaDataIDKey": false,
       "Properties": [
         {
