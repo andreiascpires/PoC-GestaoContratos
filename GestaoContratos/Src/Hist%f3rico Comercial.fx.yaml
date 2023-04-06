@@ -254,7 +254,7 @@
         BorderThickness: =5
         Fill: =RGBA(18, 69, 89, 0.08)
         Height: =508
-        Items: ='POC_GESTAOCONTRATOS.comercial'
+        Items: =Filter('POC_GESTAOCONTRATOS.comercial', nome_comercial = Gallery_clientes_3.Selected.comercial)
         Layout: =Layout.Vertical
         ShowScrollbar: =false
         TemplatePadding: =0
