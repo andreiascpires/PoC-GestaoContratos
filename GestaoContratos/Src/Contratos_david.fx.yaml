@@ -955,10 +955,17 @@
         DelayItemLoading: =true
         Height: =417
         Items: |-
-            =If(IsBlank(ComboBox7_3.Selected.objeto), 
-            'POC_GESTAOCONTRATOS.contrato', Filter('POC_GESTAOCONTRATOS.contrato', objeto in ComboBox7_3.SelectedItems.objeto))
+            =Filter(
+                'POC_GESTAOCONTRATOS.contrato',
+                Or(
+                    IsBlank(ComboBox7_3.SelectedItems),
+                    IsEmpty(ComboBox7_3.SelectedItems),
+                    objeto in ComboBox7_3.Selected.objeto
+                )
+            )
         Layout: =Layout.Vertical
         LoadingSpinner: =LoadingSpinner.Data
+        OnSelect: =true
         TemplateSize: =395
         Width: =1043
         X: =38
