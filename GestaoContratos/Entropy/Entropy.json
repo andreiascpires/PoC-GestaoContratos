@@ -529,7 +529,7 @@
   },
   "FunctionParamsInvariantScripts": {},
   "FunctionParamsInvariantScriptsOnInstances": {},
-  "HeaderLastSavedDateTimeUTC": "04/06/2023 12:09:45",
+  "HeaderLastSavedDateTimeUTC": "04/06/2023 12:40:18",
   "IsLegacyComponentAllowGlobalScopeCase": false,
   "LocalConnectionIDReferences": {
     "1709df10-588a-4021-8e68-9742dfff764d": "\"/providers/microsoft.powerapps/apis/shared_azureblob/connections/9eb62bb8e766477ba68e17a652d2074c\"",
@@ -1128,8 +1128,8 @@
   "PCFDynamicSchemaForIRRetrievalEntry": {},
   "PCFTemplateEntry": {},
   "PublishOrderIndices": {
-    "AddMediaButton1": 173,
-    "AddMediaWithImage1": 171,
+    "AddMediaButton1": 172,
+    "AddMediaWithImage1": 174,
     "Anexos": 97,
     "Anexos_Contrato": 7,
     "anexos_docs": 152,
@@ -1617,7 +1617,7 @@
     "Title5": 135,
     "Title5_1": 253,
     "Title6": 87,
-    "Title7": 174,
+    "Title7": 173,
     "Title8": 180,
     "Toggle1_1": 470,
     "Toggle1_10": 352,
@@ -1647,7 +1647,7 @@
     "Toggle1_8": 464,
     "Toggle1_9": 348,
     "total_finalizado_DataCard1": 51,
-    "UploadedImage1": 172,
+    "UploadedImage1": 171,
     "valor_contrato_DataCard1": 111,
     "valor_contrato_DataCard1_1": 268
   },
@@ -1688,7 +1688,7 @@
       "typedDataCard": 29
     },
     "DeserializationLoadTime": 4.10029,
-    "ErrorCount": 29
+    "ErrorCount": 30
   },
   "WasLocalDatabaseReferencesEmpty": true
 }

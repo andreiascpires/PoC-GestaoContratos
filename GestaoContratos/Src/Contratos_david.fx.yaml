@@ -954,7 +954,9 @@
         BorderColor: =RGBA(32, 54, 71, 1)
         DelayItemLoading: =true
         Height: =417
-        Items: ='POC_GESTAOCONTRATOS.contrato'
+        Items: |-
+            =If(IsBlank(ComboBox7_3.Selected.objeto), 
+            'POC_GESTAOCONTRATOS.contrato', Filter('POC_GESTAOCONTRATOS.contrato', objeto in ComboBox7_3.SelectedItems.objeto))
         Layout: =Layout.Vertical
         LoadingSpinner: =LoadingSpinner.Data
         TemplateSize: =395
