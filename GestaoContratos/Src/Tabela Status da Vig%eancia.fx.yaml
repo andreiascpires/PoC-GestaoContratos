@@ -1,4 +1,4 @@
-"'Tabela Status' As screen.'printableLayout_A4Landscape_ver1.0'":
+"'Tabela Status da Vigência' As screen.'printableLayout_A4Landscape_ver1.0'":
     BackgroundImage: =telas
     Fill: =RGBA(255, 255, 255, 0.1)  
     Height: =794

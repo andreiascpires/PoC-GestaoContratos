@@ -39,9 +39,9 @@ App As appinfo:
                 icone: Icon.Folder
             },
             {
-                id: 'Tabela Status'.Name,
+                id: 'Tabela Status da Vigência'.Name,
                 MenuId: 6,
-                tela: 'Tabela Status',
+                tela: 'Tabela Status da Vigência',
                 icone: Icon.Tag
             },
             {

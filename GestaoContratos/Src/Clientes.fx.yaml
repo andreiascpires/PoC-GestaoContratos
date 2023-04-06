@@ -30,8 +30,8 @@
         SearchItems: =Search('POC_GESTAOCONTRATOS.status',ComboBox6_3.SearchText,"tipo")
         SelectionFill: =RGBA(44, 171, 224, 1)
         Size: =17
-        Width: =290
-        X: =318
+        Width: =270
+        X: =321
         Y: =79
         ZIndex: =1
 
@@ -44,7 +44,7 @@
         FontWeight: =FontWeight.Bold
         Height: =58
         Size: =15
-        Text: ="Status do projeto"
+        Text: ="Status da Vigência"
         Width: =250
         X: =103
         Y: =80
@@ -74,8 +74,8 @@
         SearchItems: =Search('POC_GESTAOCONTRATOS.comercial',ComboBox6.SearchText,"nome_comercial")
         SelectionFill: =RGBA(44, 171, 224, 1)
         Size: =17
-        Width: =290
-        X: =782
+        Width: =270
+        X: =800
         Y: =79
         ZIndex: =3
 
@@ -90,7 +90,7 @@
         Size: =15
         Text: ="Comercial"
         Width: =250
-        X: =603
+        X: =621
         Y: =80
         ZIndex: =4
 

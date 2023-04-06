@@ -2603,36 +2603,6 @@
             {
               "logicalLocations": [
                 {
-                  "fullyQualifiedName": "Contratos.ComboBox7.AccessibleLabel"
-                }
-              ],
-              "physicalLocation": {
-                "address": {
-                  "fullyQualifiedName": "Contratos.ComboBox7.AccessibleLabel",
-                  "relativeAddress": 0
-                }
-              },
-              "properties": {
-                "member": "AccessibleLabel",
-                "module": "Contratos",
-                "type": "Contratos.ComboBox7"
-              }
-            }
-          ],
-          "message": {
-            "id": "issue"
-          },
-          "properties": {
-            "level": "Medium"
-          },
-          "ruleId": "acc-AccessibleLabelNeeded",
-          "ruleIndex": 9
-        },
-        {
-          "locations": [
-            {
-              "logicalLocations": [
-                {
                   "fullyQualifiedName": "Contratos.Gallery_anexo.AccessibleLabel"
                 }
               ],
@@ -8572,19 +8542,19 @@
             {
               "logicalLocations": [
                 {
-                  "fullyQualifiedName": "'Tabela Status'.Form_status.tipo_DataCard1.DataCardValue1.AccessibleLabel"
+                  "fullyQualifiedName": "'Tabela Status da Vigência'.Form_status.tipo_DataCard1.DataCardValue1.AccessibleLabel"
                 }
               ],
               "physicalLocation": {
                 "address": {
-                  "fullyQualifiedName": "'Tabela Status'.Form_status.tipo_DataCard1.DataCardValue1.AccessibleLabel",
+                  "fullyQualifiedName": "'Tabela Status da Vigência'.Form_status.tipo_DataCard1.DataCardValue1.AccessibleLabel",
                   "relativeAddress": 0
                 }
               },
               "properties": {
                 "member": "AccessibleLabel",
-                "module": "Tabela Status",
-                "type": "'Tabela Status'.Form_status.tipo_DataCard1.DataCardValue1"
+                "module": "Tabela Status da Vigência",
+                "type": "'Tabela Status da Vigência'.Form_status.tipo_DataCard1.DataCardValue1"
               }
             }
           ],
@@ -8602,19 +8572,19 @@
             {
               "logicalLocations": [
                 {
-                  "fullyQualifiedName": "'Tabela Status'.Text_busca_7.AccessibleLabel"
+                  "fullyQualifiedName": "'Tabela Status da Vigência'.Text_busca_7.AccessibleLabel"
                 }
               ],
               "physicalLocation": {
                 "address": {
-                  "fullyQualifiedName": "'Tabela Status'.Text_busca_7.AccessibleLabel",
+                  "fullyQualifiedName": "'Tabela Status da Vigência'.Text_busca_7.AccessibleLabel",
                   "relativeAddress": 0
                 }
               },
               "properties": {
                 "member": "AccessibleLabel",
-                "module": "Tabela Status",
-                "type": "'Tabela Status'.Text_busca_7"
+                "module": "Tabela Status da Vigência",
+                "type": "'Tabela Status da Vigência'.Text_busca_7"
               }
             }
           ],
@@ -8632,19 +8602,19 @@
             {
               "logicalLocations": [
                 {
-                  "fullyQualifiedName": "'Tabela Status'.Icon1_7.AccessibleLabel"
+                  "fullyQualifiedName": "'Tabela Status da Vigência'.Icon1_7.AccessibleLabel"
                 }
               ],
               "physicalLocation": {
                 "address": {
-                  "fullyQualifiedName": "'Tabela Status'.Icon1_7.AccessibleLabel",
+                  "fullyQualifiedName": "'Tabela Status da Vigência'.Icon1_7.AccessibleLabel",
                   "relativeAddress": 0
                 }
               },
               "properties": {
                 "member": "AccessibleLabel",
-                "module": "Tabela Status",
-                "type": "'Tabela Status'.Icon1_7"
+                "module": "Tabela Status da Vigência",
+                "type": "'Tabela Status da Vigência'.Icon1_7"
               }
             }
           ],
@@ -8662,19 +8632,19 @@
             {
               "logicalLocations": [
                 {
-                  "fullyQualifiedName": "'Tabela Status'.Icon1_7.TabIndex"
+                  "fullyQualifiedName": "'Tabela Status da Vigência'.Icon1_7.TabIndex"
                 }
               ],
               "physicalLocation": {
                 "address": {
-                  "fullyQualifiedName": "'Tabela Status'.Icon1_7.TabIndex",
+                  "fullyQualifiedName": "'Tabela Status da Vigência'.Icon1_7.TabIndex",
                   "relativeAddress": 0
                 }
               },
               "properties": {
                 "member": "TabIndex",
-                "module": "Tabela Status",
-                "type": "'Tabela Status'.Icon1_7"
+                "module": "Tabela Status da Vigência",
+                "type": "'Tabela Status da Vigência'.Icon1_7"
               }
             }
           ],
@@ -8692,19 +8662,19 @@
             {
               "logicalLocations": [
                 {
-                  "fullyQualifiedName": "'Tabela Status'.Gallery_status.AccessibleLabel"
+                  "fullyQualifiedName": "'Tabela Status da Vigência'.Gallery_status.AccessibleLabel"
                 }
               ],
               "physicalLocation": {
                 "address": {
-                  "fullyQualifiedName": "'Tabela Status'.Gallery_status.AccessibleLabel",
+                  "fullyQualifiedName": "'Tabela Status da Vigência'.Gallery_status.AccessibleLabel",
                   "relativeAddress": 0
                 }
               },
               "properties": {
                 "member": "AccessibleLabel",
-                "module": "Tabela Status",
-                "type": "'Tabela Status'.Gallery_status"
+                "module": "Tabela Status da Vigência",
+                "type": "'Tabela Status da Vigência'.Gallery_status"
               }
             }
           ],
@@ -8722,19 +8692,19 @@
             {
               "logicalLocations": [
                 {
-                  "fullyQualifiedName": "'Tabela Status'.Gallery_status.TabIndex"
+                  "fullyQualifiedName": "'Tabela Status da Vigência'.Gallery_status.TabIndex"
                 }
               ],
               "physicalLocation": {
                 "address": {
-                  "fullyQualifiedName": "'Tabela Status'.Gallery_status.TabIndex",
+                  "fullyQualifiedName": "'Tabela Status da Vigência'.Gallery_status.TabIndex",
                   "relativeAddress": 0
                 }
               },
               "properties": {
                 "member": "TabIndex",
-                "module": "Tabela Status",
-                "type": "'Tabela Status'.Gallery_status"
+                "module": "Tabela Status da Vigência",
+                "type": "'Tabela Status da Vigência'.Gallery_status"
               }
             }
           ],
@@ -8752,19 +8722,19 @@
             {
               "logicalLocations": [
                 {
-                  "fullyQualifiedName": "'Tabela Status'.Gallery_status.Icon2_8.AccessibleLabel"
+                  "fullyQualifiedName": "'Tabela Status da Vigência'.Gallery_status.Icon2_8.AccessibleLabel"
                 }
               ],
               "physicalLocation": {
                 "address": {
-                  "fullyQualifiedName": "'Tabela Status'.Gallery_status.Icon2_8.AccessibleLabel",
+                  "fullyQualifiedName": "'Tabela Status da Vigência'.Gallery_status.Icon2_8.AccessibleLabel",
                   "relativeAddress": 0
                 }
               },
               "properties": {
                 "member": "AccessibleLabel",
-                "module": "Tabela Status",
-                "type": "'Tabela Status'.Gallery_status.Icon2_8"
+                "module": "Tabela Status da Vigência",
+                "type": "'Tabela Status da Vigência'.Gallery_status.Icon2_8"
               }
             }
           ],
@@ -8782,19 +8752,19 @@
             {
               "logicalLocations": [
                 {
-                  "fullyQualifiedName": "'Tabela Status'.Gallery_status.Icon2_8.TabIndex"
+                  "fullyQualifiedName": "'Tabela Status da Vigência'.Gallery_status.Icon2_8.TabIndex"
                 }
               ],
               "physicalLocation": {
                 "address": {
-                  "fullyQualifiedName": "'Tabela Status'.Gallery_status.Icon2_8.TabIndex",
+                  "fullyQualifiedName": "'Tabela Status da Vigência'.Gallery_status.Icon2_8.TabIndex",
                   "relativeAddress": 0
                 }
               },
               "properties": {
                 "member": "TabIndex",
-                "module": "Tabela Status",
-                "type": "'Tabela Status'.Gallery_status.Icon2_8"
+                "module": "Tabela Status da Vigência",
+                "type": "'Tabela Status da Vigência'.Gallery_status.Icon2_8"
               }
             }
           ],
@@ -8812,19 +8782,19 @@
             {
               "logicalLocations": [
                 {
-                  "fullyQualifiedName": "'Tabela Status'.Gallery_status.Icon2_8.FocusedBorderThickness"
+                  "fullyQualifiedName": "'Tabela Status da Vigência'.Gallery_status.Icon2_8.FocusedBorderThickness"
                 }
               ],
               "physicalLocation": {
                 "address": {
-                  "fullyQualifiedName": "'Tabela Status'.Gallery_status.Icon2_8.FocusedBorderThickness",
+                  "fullyQualifiedName": "'Tabela Status da Vigência'.Gallery_status.Icon2_8.FocusedBorderThickness",
                   "relativeAddress": 0
                 }
               },
               "properties": {
                 "member": "FocusedBorderThickness",
-                "module": "Tabela Status",
-                "type": "'Tabela Status'.Gallery_status.Icon2_8"
+                "module": "Tabela Status da Vigência",
+                "type": "'Tabela Status da Vigência'.Gallery_status.Icon2_8"
               }
             }
           ],
@@ -8842,19 +8812,19 @@
             {
               "logicalLocations": [
                 {
-                  "fullyQualifiedName": "'Tabela Status'.Gallery_status.Icon2_14.AccessibleLabel"
+                  "fullyQualifiedName": "'Tabela Status da Vigência'.Gallery_status.Icon2_14.AccessibleLabel"
                 }
               ],
               "physicalLocation": {
                 "address": {
-                  "fullyQualifiedName": "'Tabela Status'.Gallery_status.Icon2_14.AccessibleLabel",
+                  "fullyQualifiedName": "'Tabela Status da Vigência'.Gallery_status.Icon2_14.AccessibleLabel",
                   "relativeAddress": 0
                 }
               },
               "properties": {
                 "member": "AccessibleLabel",
-                "module": "Tabela Status",
-                "type": "'Tabela Status'.Gallery_status.Icon2_14"
+                "module": "Tabela Status da Vigência",
+                "type": "'Tabela Status da Vigência'.Gallery_status.Icon2_14"
               }
             }
           ],
@@ -8872,19 +8842,19 @@
             {
               "logicalLocations": [
                 {
-                  "fullyQualifiedName": "'Tabela Status'.Gallery_status.Icon2_14.TabIndex"
+                  "fullyQualifiedName": "'Tabela Status da Vigência'.Gallery_status.Icon2_14.TabIndex"
                 }
               ],
               "physicalLocation": {
                 "address": {
-                  "fullyQualifiedName": "'Tabela Status'.Gallery_status.Icon2_14.TabIndex",
+                  "fullyQualifiedName": "'Tabela Status da Vigência'.Gallery_status.Icon2_14.TabIndex",
                   "relativeAddress": 0
                 }
               },
               "properties": {
                 "member": "TabIndex",
-                "module": "Tabela Status",
-                "type": "'Tabela Status'.Gallery_status.Icon2_14"
+                "module": "Tabela Status da Vigência",
+                "type": "'Tabela Status da Vigência'.Gallery_status.Icon2_14"
               }
             }
           ],
@@ -8902,19 +8872,19 @@
             {
               "logicalLocations": [
                 {
-                  "fullyQualifiedName": "'Tabela Status'.Gallery_status.Icon2_14.FocusedBorderThickness"
+                  "fullyQualifiedName": "'Tabela Status da Vigência'.Gallery_status.Icon2_14.FocusedBorderThickness"
                 }
               ],
               "physicalLocation": {
                 "address": {
-                  "fullyQualifiedName": "'Tabela Status'.Gallery_status.Icon2_14.FocusedBorderThickness",
+                  "fullyQualifiedName": "'Tabela Status da Vigência'.Gallery_status.Icon2_14.FocusedBorderThickness",
                   "relativeAddress": 0
                 }
               },
               "properties": {
                 "member": "FocusedBorderThickness",
-                "module": "Tabela Status",
-                "type": "'Tabela Status'.Gallery_status.Icon2_14"
+                "module": "Tabela Status da Vigência",
+                "type": "'Tabela Status da Vigência'.Gallery_status.Icon2_14"
               }
             }
           ],
@@ -8932,19 +8902,19 @@
             {
               "logicalLocations": [
                 {
-                  "fullyQualifiedName": "'Tabela Status'.Container2_7.Icon5_14.AccessibleLabel"
+                  "fullyQualifiedName": "'Tabela Status da Vigência'.Container2_7.Icon5_14.AccessibleLabel"
                 }
               ],
               "physicalLocation": {
                 "address": {
-                  "fullyQualifiedName": "'Tabela Status'.Container2_7.Icon5_14.AccessibleLabel",
+                  "fullyQualifiedName": "'Tabela Status da Vigência'.Container2_7.Icon5_14.AccessibleLabel",
                   "relativeAddress": 0
                 }
               },
               "properties": {
                 "member": "AccessibleLabel",
-                "module": "Tabela Status",
-                "type": "'Tabela Status'.Container2_7.Icon5_14"
+                "module": "Tabela Status da Vigência",
+                "type": "'Tabela Status da Vigência'.Container2_7.Icon5_14"
               }
             }
           ],
@@ -8962,19 +8932,19 @@
             {
               "logicalLocations": [
                 {
-                  "fullyQualifiedName": "'Tabela Status'.Container2_7.Icon5_14.TabIndex"
+                  "fullyQualifiedName": "'Tabela Status da Vigência'.Container2_7.Icon5_14.TabIndex"
                 }
               ],
               "physicalLocation": {
                 "address": {
-                  "fullyQualifiedName": "'Tabela Status'.Container2_7.Icon5_14.TabIndex",
+                  "fullyQualifiedName": "'Tabela Status da Vigência'.Container2_7.Icon5_14.TabIndex",
                   "relativeAddress": 0
                 }
               },
               "properties": {
                 "member": "TabIndex",
-                "module": "Tabela Status",
-                "type": "'Tabela Status'.Container2_7.Icon5_14"
+                "module": "Tabela Status da Vigência",
+                "type": "'Tabela Status da Vigência'.Container2_7.Icon5_14"
               }
             }
           ],
@@ -8992,19 +8962,19 @@
             {
               "logicalLocations": [
                 {
-                  "fullyQualifiedName": "'Tabela Status'.Container2_7.Icon5_15.AccessibleLabel"
+                  "fullyQualifiedName": "'Tabela Status da Vigência'.Container2_7.Icon5_15.AccessibleLabel"
                 }
               ],
               "physicalLocation": {
                 "address": {
-                  "fullyQualifiedName": "'Tabela Status'.Container2_7.Icon5_15.AccessibleLabel",
+                  "fullyQualifiedName": "'Tabela Status da Vigência'.Container2_7.Icon5_15.AccessibleLabel",
                   "relativeAddress": 0
                 }
               },
               "properties": {
                 "member": "AccessibleLabel",
-                "module": "Tabela Status",
-                "type": "'Tabela Status'.Container2_7.Icon5_15"
+                "module": "Tabela Status da Vigência",
+                "type": "'Tabela Status da Vigência'.Container2_7.Icon5_15"
               }
             }
           ],
@@ -9022,19 +8992,19 @@
             {
               "logicalLocations": [
                 {
-                  "fullyQualifiedName": "'Tabela Status'.Container2_7.Icon5_15.TabIndex"
+                  "fullyQualifiedName": "'Tabela Status da Vigência'.Container2_7.Icon5_15.TabIndex"
                 }
               ],
               "physicalLocation": {
                 "address": {
-                  "fullyQualifiedName": "'Tabela Status'.Container2_7.Icon5_15.TabIndex",
+                  "fullyQualifiedName": "'Tabela Status da Vigência'.Container2_7.Icon5_15.TabIndex",
                   "relativeAddress": 0
                 }
               },
               "properties": {
                 "member": "TabIndex",
-                "module": "Tabela Status",
-                "type": "'Tabela Status'.Container2_7.Icon5_15"
+                "module": "Tabela Status da Vigência",
+                "type": "'Tabela Status da Vigência'.Container2_7.Icon5_15"
               }
             }
           ],
@@ -9052,19 +9022,19 @@
             {
               "logicalLocations": [
                 {
-                  "fullyQualifiedName": "'Tabela Status'.Toggle1_24.ShowLabel"
+                  "fullyQualifiedName": "'Tabela Status da Vigência'.Toggle1_24.ShowLabel"
                 }
               ],
               "physicalLocation": {
                 "address": {
-                  "fullyQualifiedName": "'Tabela Status'.Toggle1_24.ShowLabel",
+                  "fullyQualifiedName": "'Tabela Status da Vigência'.Toggle1_24.ShowLabel",
                   "relativeAddress": 0
                 }
               },
               "properties": {
                 "member": "ShowLabel",
-                "module": "Tabela Status",
-                "type": "'Tabela Status'.Toggle1_24"
+                "module": "Tabela Status da Vigência",
+                "type": "'Tabela Status da Vigência'.Toggle1_24"
               }
             }
           ],
@@ -9082,19 +9052,19 @@
             {
               "logicalLocations": [
                 {
-                  "fullyQualifiedName": "'Tabela Status'.Toggle1_24.AccessibleLabel"
+                  "fullyQualifiedName": "'Tabela Status da Vigência'.Toggle1_24.AccessibleLabel"
                 }
               ],
               "physicalLocation": {
                 "address": {
-                  "fullyQualifiedName": "'Tabela Status'.Toggle1_24.AccessibleLabel",
+                  "fullyQualifiedName": "'Tabela Status da Vigência'.Toggle1_24.AccessibleLabel",
                   "relativeAddress": 0
                 }
               },
               "properties": {
                 "member": "AccessibleLabel",
-                "module": "Tabela Status",
-                "type": "'Tabela Status'.Toggle1_24"
+                "module": "Tabela Status da Vigência",
+                "type": "'Tabela Status da Vigência'.Toggle1_24"
               }
             }
           ],
@@ -9112,19 +9082,19 @@
             {
               "logicalLocations": [
                 {
-                  "fullyQualifiedName": "'Tabela Status'.Icon6_5.AccessibleLabel"
+                  "fullyQualifiedName": "'Tabela Status da Vigência'.Icon6_5.AccessibleLabel"
                 }
               ],
               "physicalLocation": {
                 "address": {
-                  "fullyQualifiedName": "'Tabela Status'.Icon6_5.AccessibleLabel",
+                  "fullyQualifiedName": "'Tabela Status da Vigência'.Icon6_5.AccessibleLabel",
                   "relativeAddress": 0
                 }
               },
               "properties": {
                 "member": "AccessibleLabel",
-                "module": "Tabela Status",
-                "type": "'Tabela Status'.Icon6_5"
+                "module": "Tabela Status da Vigência",
+                "type": "'Tabela Status da Vigência'.Icon6_5"
               }
             }
           ],
@@ -9142,19 +9112,19 @@
             {
               "logicalLocations": [
                 {
-                  "fullyQualifiedName": "'Tabela Status'.Icon6_5.TabIndex"
+                  "fullyQualifiedName": "'Tabela Status da Vigência'.Icon6_5.TabIndex"
                 }
               ],
               "physicalLocation": {
                 "address": {
-                  "fullyQualifiedName": "'Tabela Status'.Icon6_5.TabIndex",
+                  "fullyQualifiedName": "'Tabela Status da Vigência'.Icon6_5.TabIndex",
                   "relativeAddress": 0
                 }
               },
               "properties": {
                 "member": "TabIndex",
-                "module": "Tabela Status",
-                "type": "'Tabela Status'.Icon6_5"
+                "module": "Tabela Status da Vigência",
+                "type": "'Tabela Status da Vigência'.Icon6_5"
               }
             }
           ],
@@ -9172,19 +9142,19 @@
             {
               "logicalLocations": [
                 {
-                  "fullyQualifiedName": "'Tabela Status'.Icon4_9.AccessibleLabel"
+                  "fullyQualifiedName": "'Tabela Status da Vigência'.Icon4_9.AccessibleLabel"
                 }
               ],
               "physicalLocation": {
                 "address": {
-                  "fullyQualifiedName": "'Tabela Status'.Icon4_9.AccessibleLabel",
+                  "fullyQualifiedName": "'Tabela Status da Vigência'.Icon4_9.AccessibleLabel",
                   "relativeAddress": 0
                 }
               },
               "properties": {
                 "member": "AccessibleLabel",
-                "module": "Tabela Status",
-                "type": "'Tabela Status'.Icon4_9"
+                "module": "Tabela Status da Vigência",
+                "type": "'Tabela Status da Vigência'.Icon4_9"
               }
             }
           ],
@@ -9202,19 +9172,19 @@
             {
               "logicalLocations": [
                 {
-                  "fullyQualifiedName": "'Tabela Status'.Icon4_9.TabIndex"
+                  "fullyQualifiedName": "'Tabela Status da Vigência'.Icon4_9.TabIndex"
                 }
               ],
               "physicalLocation": {
                 "address": {
-                  "fullyQualifiedName": "'Tabela Status'.Icon4_9.TabIndex",
+                  "fullyQualifiedName": "'Tabela Status da Vigência'.Icon4_9.TabIndex",
                   "relativeAddress": 0
                 }
               },
               "properties": {
                 "member": "TabIndex",
-                "module": "Tabela Status",
-                "type": "'Tabela Status'.Icon4_9"
+                "module": "Tabela Status da Vigência",
+                "type": "'Tabela Status da Vigência'.Icon4_9"
               }
             }
           ],
