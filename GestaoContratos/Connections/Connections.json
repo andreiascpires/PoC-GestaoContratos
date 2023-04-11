@@ -1,6 +1,5 @@
 {
   "1709df10-588a-4021-8e68-9742dfff764d": {
-    "connectionParameters": {},
     "connectionRef": {
       "authenticationType": "tokenBasedAuth",
       "displayName": "Armazenamento de Blob do Azure",
@@ -16,11 +15,6 @@
     "id": "1709df10-588a-4021-8e68-9742dfff764d"
   },
   "a5003758-43b4-4648-9544-ef35d7890bb6": {
-    "connectionParameters": {
-      "database": "db-fab-projetos",
-      "server": "srv-fab-projetos.database.windows.net",
-      "sku": "Enterprise"
-    },
     "connectionRef": {
       "apiTier": "Premium",
       "displayName": "SQL Server",
@@ -76,6 +70,9 @@
     ],
     "dependencies": {},
     "dependents": [],
+    "endpoints": [
+      "srv-fab-projetos.database.windows.net,db-fab-projetos"
+    ],
     "id": "a5003758-43b4-4648-9544-ef35d7890bb6"
   }
 }

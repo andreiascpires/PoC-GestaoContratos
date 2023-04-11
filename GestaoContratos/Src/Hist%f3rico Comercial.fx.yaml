@@ -113,7 +113,7 @@
         FontWeight: =FontWeight.Bold
         Height: =58
         Size: =15
-        Text: ="Status do projeto"
+        Text: ="Status da vigência"
         Width: =250
         X: =121
         Y: =89
