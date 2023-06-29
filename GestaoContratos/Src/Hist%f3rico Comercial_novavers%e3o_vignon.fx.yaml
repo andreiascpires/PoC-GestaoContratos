@@ -1,0 +1,307 @@
+"'Histórico Comercial_novaversão_vignon' As screen.'printableLayout_A4Landscape_ver1.0'":
+    BackgroundImage: =telas
+    Fill: =RGBA(255, 255, 255, 0.1)  
+    Height: =794
+    ImagePosition: =ImagePosition.Stretch
+    LoadingSpinnerColor: =RGBA(100, 118, 132, 1)
+    Width: =1123
+
+    "Gallery_clientes_7 As gallery.'BrowseLayout_Vertical_ThreeTextVariant_ver4.0'":
+        BorderColor: =RGBA(18, 69, 89, 1)
+        BorderThickness: =5
+        Fill: =RGBA(18, 69, 89, 0.08)
+        Height: =508
+        Items: |
+            =SortByColumns(Search('POC_GESTAOCONTRATOS.contratos_clientes',Text_busca_10.Text, "nome_cliente"),"nome_cliente",SortOrder.Ascending)
+        Layout: =Layout.Vertical
+        ShowScrollbar: =false
+        TemplatePadding: =0
+        TemplateSize: =Min(168, Self.Height - 60)
+        Width: =469
+        X: =164
+        Y: =178
+        ZIndex: =1
+
+        Title6_1 As label:
+            Color: =RGBA(18, 69, 89, 1)
+            DisabledColor: =RGBA(166, 166, 166, 1)
+            Font: =Font.'Segoe UI'
+            FontWeight: =FontWeight.Bold
+            Height: =Self.Size * 1.8
+            OnSelect: =Select(Parent)
+            PaddingBottom: =0
+            PaddingLeft: =0
+            PaddingRight: =0
+            PaddingTop: =0
+            Size: =17
+            Text: =ThisItem.nome_cliente
+            VerticalAlign: =VerticalAlign.Top
+            Width: =Parent.TemplateWidth - 104
+            X: =32
+            Y: =40
+            ZIndex: =1
+
+        Subtitle5_1 As label:
+            Color: =RGBA(0, 0, 0, 1)
+            DisabledColor: =RGBA(166, 166, 166, 1)
+            Font: =Font.'Segoe UI'
+            Height: =27
+            OnSelect: =Select(Parent)
+            PaddingBottom: =0
+            PaddingLeft: =0
+            PaddingRight: =0
+            PaddingTop: =0
+            Text: =ThisItem.data_inicio
+            VerticalAlign: =VerticalAlign.Top
+            Width: =310
+            X: =33
+            Y: =76
+            ZIndex: =2
+
+        Body1_1 As label:
+            Color: =RGBA(0, 0, 0, 1)
+            DisabledColor: =RGBA(166, 166, 166, 1)
+            Font: =Font.'Segoe UI'
+            Height: =60
+            OnSelect: =Select(Parent)
+            PaddingBottom: =0
+            PaddingLeft: =0
+            PaddingRight: =0
+            PaddingTop: =0
+            Text: =ThisItem.data_fim
+            VerticalAlign: =VerticalAlign.Top
+            Width: =310
+            X: =33
+            Y: =103
+            ZIndex: =3
+
+        NextArrow4_1 As icon.ChevronRight:
+            AccessibleLabel: =Self.Tooltip
+            BorderColor: =RGBA(32, 54, 71, 1)
+            Color: =RGBA(32, 54, 71, 1)
+            DisabledBorderColor: =RGBA(166, 166, 166, 1)
+            DisabledColor: =RGBA(244, 244, 244, 1)
+            Height: =60
+            Icon: =Icon.View
+            OnSelect: =Select(Parent)
+            PaddingBottom: =10
+            PaddingLeft: =10
+            PaddingRight: =10
+            PaddingTop: =10
+            TabIndex: =0
+            Tooltip: ="Exibir detalhes do item"
+            Width: =60
+            X: =Parent.TemplateWidth - Self.Width - 5
+            Y: =(Parent.TemplateHeight / 2) - (Self.Height / 2)
+            ZIndex: =4
+
+        Separator4_1 As rectangle:
+            BorderColor: =RGBA(32, 54, 71, 1)
+            Fill: =RGBA(32, 54, 71, 1)
+            Height: =1
+            OnSelect: =Select(Parent)
+            Width: =Parent.TemplateWidth
+            Y: =Parent.TemplateHeight - 1
+            ZIndex: =5
+
+    Label3_33 As label:
+        Align: =Align.Center
+        BorderColor: =RGBA(32, 54, 71, 1)
+        Color: =RGBA(18, 69, 89, 1)
+        DisabledColor: =RGBA(166, 166, 166, 1)
+        Font: =Font.'Segoe UI'
+        FontWeight: =FontWeight.Bold
+        Height: =58
+        Size: =15
+        Text: ="Status da vigência"
+        Width: =250
+        X: =121
+        Y: =89
+        ZIndex: =2
+
+    Label1_16 As label:
+        Align: =Align.Center
+        BorderColor: =RGBA(32, 54, 71, 1)
+        Color: =RGBA(18, 69, 89, 1)
+        DisabledColor: =RGBA(166, 166, 166, 1)
+        Font: =Font.'Segoe UI'
+        FontWeight: =FontWeight.Bold
+        Height: =70
+        Size: =25
+        Text: =App.ActiveScreen.Name
+        Width: =560
+        X: =330
+        Y: =9
+        ZIndex: =6
+
+    Label2_27 As label:
+        BorderColor: =RGBA(32, 54, 71, 1)
+        Color: =RGBA(253, 207, 111, 1)
+        DisabledColor: =RGBA(166, 166, 166, 1)
+        Font: =Font.'Segoe UI'
+        FontWeight: =FontWeight.Bold
+        Height: =60
+        Size: =25
+        Text: =""
+        Width: =174
+        X: =563
+        Y: =320
+        ZIndex: =7
+
+    Icon4_13 As icon.ChevronRight:
+        BorderColor: =RGBA(32, 54, 71, 1)
+        Color: =RGBA(18, 69, 89, 1)
+        DisabledBorderColor: =RGBA(166, 166, 166, 1)
+        DisabledColor: =RGBA(244, 244, 244, 1)
+        Height: =56
+        Icon: =Icon.BackArrow
+        OnSelect: =Navigate( Menu, ScreenTransition.Fade )
+        Tooltip: ="Voltar para tela inicial"
+        X: =1014
+        Y: =732
+        ZIndex: =8
+
+    Toggle1_29 As toggleSwitch:
+        BorderColor: =RGBA(32, 54, 71, 1)
+        Color: =RGBA(0, 0, 0, 1)
+        FalseFill: =RGBA(253, 207, 111, 1)
+        HandleFill: =RGBA(255, 255, 255, 1)
+        Height: =0
+        ShowLabel: =false
+        Size: =21
+        TrueFill: =RGBA(100, 118, 132, 1)
+        Width: =175
+        X: =408
+        Y: =490
+        ZIndex: =9
+
+    Text_busca_10 As text:
+        BorderColor: =RGBA(18, 69, 89, 1)
+        BorderThickness: =2
+        Color: =RGBA(18, 69, 89, 1)
+        Default: =""
+        DisabledBorderColor: =RGBA(166, 166, 166, 1)
+        DisabledColor: =RGBA(166, 166, 166, 1)
+        DisabledFill: =RGBA(244, 244, 244, 1)
+        Fill: =RGBA(44, 171, 224, 0.04)
+        FocusedBorderThickness: =4
+        Font: =Font.'Segoe UI'
+        Height: =0
+        HintText: ="Pesquisar"
+        HoverBorderColor: =RGBA(32, 54, 71, 1)
+        HoverColor: =RGBA(0, 0, 0, 1)
+        HoverFill: =RGBA(44,171,224, 0.25)
+        Italic: =true
+        RadiusBottomLeft: =10
+        RadiusBottomRight: =10
+        RadiusTopLeft: =10
+        RadiusTopRight: =10
+        Size: =20
+        Width: =0
+        X: =1074
+        Y: =164
+        ZIndex: =10
+
+    Icon6_9 As icon.Add:
+        BorderColor: =RGBA(32, 54, 71, 1)
+        Color: =RGBA(44, 171, 224, 1)
+        DisabledBorderColor: =RGBA(166, 166, 166, 1)
+        DisabledColor: =RGBA(244, 244, 244, 1)
+        Height: =57
+        Icon: =Icon.BackArrow
+        OnSelect: |-
+            =UpdateContext({var_cliente_editar: false,var_cliente_exibir: false})
+        Tooltip: ="Voltar para tela de clientes"
+        Visible: =var_cliente_editar || var_cliente_exibir
+        Width: =61
+        X: =1008
+        Y: =629
+        ZIndex: =15
+
+    cMenu_9 As cMenu:
+        Height: =702
+        Width: =98
+        X: =11
+        Y: =86
+        ZIndex: =18
+
+    Dropdown2_1 As dropdown:
+        BorderColor: =RGBA(32, 54, 71, 1)
+        ChevronBackground: =RGBA(100, 118, 132, 1)
+        ChevronDisabledBackground: =RGBA(166, 166, 166, 1)
+        ChevronDisabledFill: =RGBA(244, 244, 244, 1)
+        ChevronHoverBackground: =ColorFade(RGBA(100, 118, 132, 1), -20%)
+        ChevronHoverFill: =RGBA(255, 255, 255, 1)
+        DisabledBorderColor: =RGBA(166, 166, 166, 1)
+        DisabledColor: =RGBA(166, 166, 166, 1)
+        DisabledFill: =RGBA(244, 244, 244, 1)
+        Font: =Font.'Segoe UI'
+        Height: =46
+        HoverColor: =RGBA(0, 0, 0, 1)
+        HoverFill: =RGBA(205, 209, 213, 1)
+        Items: ='POC_GESTAOCONTRATOS.status'
+        PressedColor: =RGBA(255, 255, 255, 1)
+        PressedFill: =RGBA(32, 54, 71, 1)
+        SelectionFill: =RGBA(100, 118, 132, 1)
+        Size: =17
+        Width: =273
+        X: =348
+        Y: =92
+        ZIndex: =19
+
+    "Gallery_clientes_8 As gallery.'BrowseLayout_Vertical_OneTextVariant_ver4.0'":
+        BorderColor: =RGBA(18, 69, 89, 1)
+        BorderThickness: =5
+        Fill: =RGBA(18, 69, 89, 0.08)
+        Height: =508
+        Items: =Filter('POC_GESTAOCONTRATOS.comercial', nome_comercial = Gallery_clientes_7.Selected.comercial)
+        Layout: =Layout.Vertical
+        ShowScrollbar: =false
+        TemplatePadding: =0
+        TemplateSize: =89
+        Width: =331
+        X: =725
+        Y: =178
+        ZIndex: =20
+
+        Button2_12 As button:
+            BorderColor: =ColorFade(Self.Fill, 17%)
+            BorderThickness: =5
+            Color: =RGBA(28, 84, 108, 1)
+            DisabledBorderColor: =RGBA(166, 166, 166, 0)
+            DisabledColor: =RGBA(166, 166, 166, 1)
+            DisabledFill: =RGBA(244, 244, 244, 1)
+            DisplayMode: =DisplayMode.View
+            Fill: =RGBA(44, 171, 224, 0.09)
+            FontWeight: =FontWeight.Semibold
+            Height: =80
+            HoverBorderColor: =ColorFade(Self.BorderColor, 70%)
+            HoverColor: =RGBA(255, 255, 255, 1)
+            HoverFill: =ColorFade(RGBA(100, 118, 132, 1), -80%)
+            RadiusBottomLeft: =15
+            RadiusBottomRight: =15
+            RadiusTopLeft: =15
+            RadiusTopRight: =15
+            Size: =24
+            Text: =""
+            Width: =300
+            X: =15
+            ZIndex: =1
+
+        Title2_9 As label:
+            Color: =RGBA(18, 69, 89, 1)
+            DisabledColor: =RGBA(166, 166, 166, 1)
+            FontWeight: =FontWeight.Semibold
+            Height: =41
+            OnSelect: =Select(Parent)
+            PaddingBottom: =0
+            PaddingLeft: =0
+            PaddingRight: =0
+            PaddingTop: =0
+            Text: =ThisItem.nome_comercial   
+            VerticalAlign: =VerticalAlign.Top
+            Width: =220
+            X: =30
+            Y: =21
+            ZIndex: =2
+
