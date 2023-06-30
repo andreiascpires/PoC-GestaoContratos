@@ -1,0 +1,193 @@
+"'Historico Comercial Nova Versão' As screen":
+    Fill: =RGBA(242, 244, 245, 1)
+    LoadingSpinnerColor: =RGBA(100, 118, 132, 1)
+
+    Button6 As button:
+        DisabledBorderColor: =RGBA(166, 166, 166, 1)
+        DisabledColor: =RGBA(166, 166, 166, 1)
+        DisabledFill: =RGBA(244, 244, 244, 1)
+        Fill: =RGBA(213, 213, 213, 1)
+        FontWeight: =FontWeight.Semibold
+        Height: =311
+        HoverColor: =RGBA(255, 255, 255, 1)
+        HoverFill: =ColorFade(RGBA(100, 118, 132, 1), -20%)
+        Size: =24
+        Text: =""
+        Width: =443
+        X: =637
+        Y: =258
+        ZIndex: =1
+
+    "Gallery6_1 As gallery.'BrowseLayout_Vertical_OneTextVariant_ver5.0'":
+        BorderColor: =RGBA(32, 54, 71, 1)
+        DelayItemLoading: =true
+        Fill: =RGBA(213, 213, 213, 1)
+        Height: =311
+        Items: =Filter('POC_GESTAOCONTRATOS.comercial', nome_comercial = Gallery6.Selected.comercial)
+        Layout: =Layout.Vertical
+        LoadingSpinner: =LoadingSpinner.Data
+        TemplatePadding: =0
+        TemplateSize: =80
+        Width: =443
+        X: =637
+        Y: =258
+        ZIndex: =2
+
+        Button5 As button:
+            DisabledBorderColor: =RGBA(166, 166, 166, 1)
+            DisabledColor: =RGBA(166, 166, 166, 1)
+            DisabledFill: =RGBA(244, 244, 244, 1)
+            Fill: =RGBA(255, 255, 255, 1)
+            FontWeight: =FontWeight.Semibold
+            Height: =73
+            HoverColor: =RGBA(255, 255, 255, 1)
+            HoverFill: =ColorFade(RGBA(100, 118, 132, 1), -20%)
+            OnSelect: =Select(Parent)
+            Size: =24
+            Text: =""
+            Width: =410
+            X: =16
+            Y: =7
+            ZIndex: =1
+
+        Title12 As label:
+            Color: =RGBA(50, 49, 48, 1)
+            DisabledColor: =RGBA(166, 166, 166, 1)
+            FontWeight: =If(ThisItem.IsSelected, FontWeight.Semibold, FontWeight.Normal)
+            Height: =Self.Size * 1.8
+            OnSelect: =Select(Parent)
+            PaddingBottom: =0
+            PaddingLeft: =0
+            PaddingRight: =0
+            PaddingTop: =0
+            Text: =ThisItem.nome_comercial
+            VerticalAlign: =VerticalAlign.Top
+            Width: =Parent.TemplateWidth - 86
+            X: =57
+            Y: =33
+            ZIndex: =2
+
+    "Gallery6 As gallery.'BrowseLayout_Vertical_ThreeTextVariant_ver5.0'":
+        BorderColor: =RGBA(32, 54, 71, 1)
+        DelayItemLoading: =true
+        Height: =311
+        Items: |
+            =SortByColumns(Search('POC_GESTAOCONTRATOS.contratos_clientes',Text_busca_8.Text, "nome_cliente"),"nome_cliente",SortOrder.Ascending)
+        Layout: =Layout.Vertical
+        LoadingSpinner: =LoadingSpinner.Data
+        TemplatePadding: =0
+        TemplateSize: =116
+        Width: =541
+        X: =40
+        Y: =258
+        ZIndex: =3
+
+        Button3 As button:
+            DisabledBorderColor: =RGBA(166, 166, 166, 1)
+            DisabledColor: =RGBA(166, 166, 166, 1)
+            DisabledFill: =RGBA(244, 244, 244, 1)
+            Fill: =RGBA(255, 255, 255, 1)
+            FontWeight: =FontWeight.Semibold
+            Height: =92
+            HoverColor: =RGBA(255, 255, 255, 1)
+            HoverFill: =ColorFade(RGBA(100, 118, 132, 1), -20%)
+            OnSelect: =Select(Parent)
+            Size: =24
+            Text: =""
+            Width: =519
+            Y: =9
+            ZIndex: =1
+
+        Title10 As label:
+            Color: =RGBA(50, 49, 48, 1)
+            DisabledColor: =RGBA(166, 166, 166, 1)
+            FontWeight: =If(ThisItem.IsSelected, FontWeight.Semibold, FontWeight.Normal)
+            Height: =Self.Size * 1.8
+            OnSelect: =Select(Parent)
+            PaddingBottom: =0
+            PaddingLeft: =0
+            PaddingRight: =0
+            PaddingTop: =0
+            Text: =ThisItem.nome_cliente
+            VerticalAlign: =VerticalAlign.Top
+            Width: =Parent.TemplateWidth - 86
+            X: =16
+            Y: =(Parent.TemplateHeight - (Self.Size*1.8 + Subtitle7.Size*1.8 + 2 + Body3.Size*1.8)) / 2
+            ZIndex: =2
+
+        Subtitle7 As label:
+            Color: =RGBA(0, 0, 0, 1)
+            DisabledColor: =RGBA(166, 166, 166, 1)
+            FontWeight: =If(ThisItem.IsSelected, FontWeight.Semibold, FontWeight.Normal)
+            Height: =Self.Size * 1.8
+            OnSelect: =Select(Parent)
+            PaddingBottom: =0
+            PaddingLeft: =0
+            PaddingRight: =0
+            PaddingTop: =0
+            Size: =12
+            Text: =ThisItem.data_inicio
+            VerticalAlign: =VerticalAlign.Top
+            Width: =Title10.Width
+            X: =Title10.X
+            Y: =Title10.Y + Title10.Height
+            ZIndex: =3
+
+        Body3 As label:
+            Color: =RGBA(0, 0, 0, 1)
+            DisabledColor: =RGBA(166, 166, 166, 1)
+            FontWeight: =If(ThisItem.IsSelected, FontWeight.Semibold, FontWeight.Normal)
+            Height: =Self.Size * 1.8
+            OnSelect: =Select(Parent)
+            PaddingBottom: =0
+            PaddingLeft: =0
+            PaddingRight: =0
+            PaddingTop: =0
+            Size: =12
+            Text: =ThisItem.data_fim
+            VerticalAlign: =VerticalAlign.Top
+            Width: =Title10.Width
+            X: =Title10.X
+            Y: =Subtitle7.Y + Subtitle7.Height
+            ZIndex: =4
+
+    ComboBox1 As combobox:
+        BorderColor: =RGBA(32, 54, 71, 1)
+        BorderStyle: =BorderStyle.None
+        ChevronBackground: =RGBA(44, 171, 224, 1)
+        ChevronDisabledBackground: =RGBA(166, 166, 166, 1)
+        ChevronDisabledFill: =RGBA(244, 244, 244, 1)
+        ChevronHoverBackground: =ColorFade(RGBA(100, 118, 132, 1), -20%)
+        ChevronHoverFill: =RGBA(255, 255, 255, 1)
+        DisabledBorderColor: =RGBA(166, 166, 166, 1)
+        DisabledColor: =RGBA(166, 166, 166, 1)
+        DisabledFill: =RGBA(244, 244, 244, 1)
+        DisplayFields: =["tipo"]
+        Height: =56
+        HoverColor: =RGBA(0, 0, 0, 1)
+        HoverFill: =RGBA(205, 209, 213, 1)
+        InputTextPlaceholder: ="Localizar status"
+        Items: ='POC_GESTAOCONTRATOS.status'
+        PressedColor: =RGBA(255, 255, 255, 1)
+        PressedFill: =RGBA(32, 54, 71, 1)
+        SearchFields: =["tipo"]
+        SearchItems: =Search('POC_GESTAOCONTRATOS.status',ComboBox1.SearchText,"tipo")
+        SelectionFill: =RGBA(44, 171, 224, 1)
+        Size: =21
+        Width: =475
+        X: =40
+        Y: =201
+        ZIndex: =4
+
+    Label3_33 As label:
+        BorderColor: =RGBA(32, 54, 71, 1)
+        Color: =RGBA(0, 0, 0, 1)
+        DisabledColor: =RGBA(166, 166, 166, 1)
+        Height: =56
+        Size: =15
+        Text: ="Status da vigência"
+        Width: =200
+        X: =40
+        Y: =155
+        ZIndex: =5
+

@@ -14,7 +14,7 @@
         FontWeight: =FontWeight.Bold
         Height: =51
         Size: =15
-        Text: ="Objeto"
+        Text: ="Categoria"
         Width: =160
         X: =145
         Y: =92
@@ -79,7 +79,7 @@
         Height: =50
         HoverColor: =RGBA(0, 0, 0, 1)
         HoverFill: =RGBA(44,171,224, 0.3)
-        InputTextPlaceholder: ="Localizar objeto"
+        InputTextPlaceholder: ="Localizar categoria"
         Items: ='POC_GESTAOCONTRATOS.objeto'
         PressedColor: =RGBA(255, 255, 255, 1)
         PressedFill: =RGBA(32, 54, 71, 1)
@@ -88,8 +88,8 @@
         SelectionFill: =RGBA(44, 171, 224, 1)
         Size: =17
         Width: =270
-        X: =220
-        Y: =91
+        X: =256
+        Y: =93
         ZIndex: =6
 
     "Gallery_contratos_1 As gallery.'BrowseLayout_Vertical_OneTextVariant_ver4.0'":
