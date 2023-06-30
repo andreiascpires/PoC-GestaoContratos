@@ -98,7 +98,7 @@
       "zeroalltabindexes": false
     },
     "Author": "",
-    "BindingErrorCount": 29,
+    "BindingErrorCount": 30,
     "ContainsThirdPartyPcfControls": false,
     "DefaultConnectedDataSourceMaxGetRowsCount": 500,
     "DocumentAppType": "Phone",
@@ -139,6 +139,7 @@
     "Histórico Comercial",
     "Histórico Comercial_novaversão_vignon",
     "Contratos",
+    "Contratos_novaversao_David",
     "Anexos",
     "Anexos_Contrato",
     "Tabela Status da Vigência",
@@ -154,7 +155,6 @@
     "cadastro_cliente",
     "consulta_cliente",
     "sandbox_blob",
-    "Screen1",
-    "Screen2"
+    "Screen1"
   ]
 }
