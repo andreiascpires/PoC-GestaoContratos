@@ -98,7 +98,7 @@
       "zeroalltabindexes": false
     },
     "Author": "",
-    "BindingErrorCount": 30,
+    "BindingErrorCount": 31,
     "ContainsThirdPartyPcfControls": false,
     "DefaultConnectedDataSourceMaxGetRowsCount": 500,
     "DocumentAppType": "Phone",
@@ -140,6 +140,7 @@
     "Historico Comercial Nova Versão",
     "Contratos",
     "Contratos_novaversao_David",
+    "Screen2",
     "Anexos",
     "Anexos_Contrato",
     "Tabela Status da Vigência",

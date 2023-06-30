@@ -96,7 +96,7 @@
         BorderColor: =RGBA(18, 69, 89, 1)
         BorderThickness: =5
         Fill: =RGBA(18, 69, 89, 0.08)
-        Height: =430
+        Height: =418
         Items: |
             =SortByColumns(Search('POC_GESTAOCONTRATOS.contrato',Text_busca_13.Text, "nome_docs"),"nome_docs",SortOrder.Ascending)
         Layout: =Layout.Vertical
@@ -105,7 +105,7 @@
         TemplateSize: =89
         Width: =932
         X: =133
-        Y: =285
+        Y: =297
         ZIndex: =7
 
         Button2_16 As button:
@@ -351,7 +351,7 @@
         RadiusTopRight: =10
         Size: =20
         Width: =937
-        X: =133
+        X: =130
         Y: =224
         ZIndex: =14
 
@@ -1076,10 +1076,4 @@
             X: =864
             Y: =65
             ZIndex: =5
-
-    cMenu_12 As cMenu:
-        Height: =708
-        X: =10
-        Y: =86
-        ZIndex: =23
 
