@@ -6,3 +6,48 @@ cMenu_NovoLayout As CanvasComponent:
     Y: =0
     ZIndex: =1
 
+    Rectangle1 As rectangle:
+        BorderColor: =RGBA(32, 54, 71, 1)
+        Fill: =RGBA(44, 171, 224, 1)
+        Height: =123
+        Width: =640
+        ZIndex: =1
+
+    Label5 As label:
+        BorderColor: =RGBA(32, 54, 71, 1)
+        Color: =RGBA(247, 248, 250, 1)
+        DisabledColor: =RGBA(166, 166, 166, 1)
+        FontWeight: =FontWeight.Bold
+        Height: =70
+        Size: =21
+        Text: ="GESTÃO DE CONTRATOS"
+        Width: =560
+        X: =80
+        ZIndex: =2
+
+    Icon7 As icon.History:
+        BorderColor: =RGBA(32, 54, 71, 1)
+        Color: =RGBA(247, 248, 250, 1)
+        DisabledBorderColor: =RGBA(166, 166, 166, 1)
+        DisabledColor: =RGBA(244, 244, 244, 1)
+        Icon: =Icon.Tablet
+        X: =16
+        Y: =6
+        ZIndex: =3
+
+    Button7 As button:
+        BorderStyle: =BorderStyle.None
+        DisabledBorderColor: =RGBA(166, 166, 166, 1)
+        DisabledColor: =RGBA(166, 166, 166, 1)
+        DisabledFill: =RGBA(244, 244, 244, 1)
+        Fill: =RGBA(44, 171, 224, 1)
+        FontWeight: =FontWeight.Bold
+        Height: =53
+        HoverColor: =RGBA(255, 255, 255, 1)
+        HoverFill: =ColorFade(RGBA(100, 118, 132, 1), -20%)
+        Size: =17
+        Text: ="CLIENTES"
+        Width: =128
+        Y: =70
+        ZIndex: =4
+
