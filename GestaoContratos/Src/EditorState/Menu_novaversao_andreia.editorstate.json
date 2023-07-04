@@ -1,25 +1,11 @@
 {
   "ControlStates": {
-    "cMenu_9": {
+    "cMenu_NovoLayout_1": {
       "AllowAccessToGlobals": true,
       "ControlPropertyState": [
         "Fill",
-        {
-          "AFDDataSourceName": "",
-          "AutoRuleBindingEnabled": false,
-          "AutoRuleBindingString": "",
-          "InvariantPropertyName": "Height",
-          "IsLockable": false,
-          "NameMapSourceSchema": "?"
-        },
-        {
-          "AFDDataSourceName": "",
-          "AutoRuleBindingEnabled": false,
-          "AutoRuleBindingString": "",
-          "InvariantPropertyName": "Width",
-          "IsLockable": false,
-          "NameMapSourceSchema": "?"
-        },
+        "Height",
+        "Width",
         "X",
         "Y",
         "ZIndex"
@@ -33,13 +19,13 @@
       "IsLocked": false,
       "LayoutName": "",
       "Metadata": {
-        "AllowAccessToGlobals": true,
+        "AllowAccessToGlobals": false,
         "AllowCustomization": true,
         "Description": ""
       },
       "MetaDataIDKey": "",
-      "Name": "cMenu_9",
-      "ParentIndex": 2,
+      "Name": "cMenu_NovoLayout_1",
+      "ParentIndex": 1,
       "PersistMetaDataIDKey": false,
       "Properties": [
         {
@@ -189,7 +175,7 @@
       "LayoutName": "",
       "MetaDataIDKey": "",
       "Name": "Image1_3",
-      "ParentIndex": 1,
+      "ParentIndex": 2,
       "PersistMetaDataIDKey": false,
       "Properties": [
         {
@@ -363,7 +349,14 @@
           "IsLockable": false,
           "NameMapSourceSchema": "?"
         },
-        "DisabledColor",
+        {
+          "AFDDataSourceName": "",
+          "AutoRuleBindingEnabled": false,
+          "AutoRuleBindingString": "",
+          "InvariantPropertyName": "DisabledColor",
+          "IsLockable": false,
+          "NameMapSourceSchema": "?"
+        },
         "PressedColor",
         "HoverColor",
         "BorderColor",
