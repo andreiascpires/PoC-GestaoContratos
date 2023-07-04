@@ -53,7 +53,14 @@
           "IsLockable": false,
           "NameMapSourceSchema": "?"
         },
-        "HoverFill",
+        {
+          "AFDDataSourceName": "",
+          "AutoRuleBindingEnabled": false,
+          "AutoRuleBindingString": "ColorFade(RGBA(100, 118, 132, 1), -20%)",
+          "InvariantPropertyName": "HoverFill",
+          "IsLockable": false,
+          "NameMapSourceSchema": "?"
+        },
         "Font",
         {
           "AFDDataSourceName": "",

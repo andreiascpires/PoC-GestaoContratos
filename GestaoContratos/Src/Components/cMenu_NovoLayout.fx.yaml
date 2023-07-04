@@ -44,7 +44,7 @@ cMenu_NovoLayout As CanvasComponent:
         FontWeight: =FontWeight.Bold
         Height: =53
         HoverColor: =RGBA(255, 255, 255, 1)
-        HoverFill: =ColorFade(RGBA(100, 118, 132, 1), -20%)
+        HoverFill: =RGBA(247, 248, 250, 1)   
         PressedColor: |
             =RGBA(44, 171, 224, 1)
         PressedFill: =RGBA(44, 171, 224, 1)

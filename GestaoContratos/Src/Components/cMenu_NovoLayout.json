@@ -757,7 +757,14 @@
             "IsLockable": false,
             "NameMapSourceSchema": "?"
           },
-          "HoverFill",
+          {
+            "AFDDataSourceName": "",
+            "AutoRuleBindingEnabled": false,
+            "AutoRuleBindingString": "ColorFade(RGBA(100, 118, 132, 1), -20%)",
+            "InvariantPropertyName": "HoverFill",
+            "IsLockable": false,
+            "NameMapSourceSchema": "?"
+          },
           "Font",
           {
             "AFDDataSourceName": "",
@@ -927,7 +934,7 @@
           },
           {
             "Category": "Design",
-            "InvariantScript": "ColorFade(RGBA(100, 118, 132, 1), -20%)",
+            "InvariantScript": "RGBA(247, 248, 250, 1)   ",
             "Property": "HoverFill",
             "RuleProviderType": "Unknown"
           },
@@ -1078,7 +1085,7 @@
       "Y",
       "ZIndex"
     ],
-    "LastModifiedTimestamp": "638240814857027419",
+    "LastModifiedTimestamp": "638240817019899315",
     "Name": "cMenu_NovoLayout",
     "Rules": [
       {
@@ -1137,7 +1144,7 @@
   "IsPcfControl": false,
   "IsPremiumPcfControl": false,
   "IsWidgetTemplate": false,
-  "LastModifiedTimestamp": "638240814857027419",
+  "LastModifiedTimestamp": "638240817019899315",
   "Name": "d0177c42b2804e9584a40ba10d004b68",
   "OverridableProperties": {},
   "Version": "638240780665295092"
