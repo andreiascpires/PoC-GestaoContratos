@@ -157,7 +157,7 @@
         DisabledColor: =RGBA(244, 244, 244, 1)
         Height: =56
         Icon: =Icon.BackArrow
-        OnSelect: =Navigate( Menu_1, ScreenTransition.Fade )
+        OnSelect: =Navigate( Menu_novaversao_andreia, ScreenTransition.Fade )
         Tooltip: ="Voltar para tela inicial"
         X: =950
         Y: =734

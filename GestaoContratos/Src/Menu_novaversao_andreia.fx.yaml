@@ -1,0 +1,44 @@
+"Menu_novaversao_andreia As screen.'printableLayout_A4Landscape_ver1.0'":
+    BackgroundImage: =novo_layout_menu
+    Fill: =RGBA(255, 255, 255, 0)
+    Height: =794
+    ImagePosition: =ImagePosition.Stretch
+    LoadingSpinnerColor: =RGBA(100, 118, 132, 1)
+    Width: =1123
+
+    Label4_3 As label:
+        BorderColor: =RGBA(32, 54, 71, 1)
+        Color: =RGBA(21, 43, 58, 1)
+        DisabledColor: =RGBA(166, 166, 166, 1)
+        Font: =Font.'Segoe UI'
+        FontWeight: =FontWeight.Bold
+        Height: =51
+        Size: =13
+        Text: = "Olá, " & varUsuario.FullName 
+        Width: =304
+        X: =719
+        ZIndex: =2
+
+    Image1_3 As image:
+        BorderColor: =RGBA(44, 171, 224, 1)
+        BorderThickness: =2
+        DisabledBorderColor: =RGBA(166, 166, 166, 1)
+        DisabledFill: =RGBA(244, 244, 244, 1)
+        Height: =50
+        Image: =varUsuario.Image
+        RadiusBottomLeft: =300
+        RadiusBottomRight: =300
+        RadiusTopLeft: =300
+        RadiusTopRight: =300
+        Width: =50
+        X: =991
+        Y: =3
+        ZIndex: =3
+
+    cMenu_9 As cMenu:
+        Height: =704
+        Width: =98
+        X: =10
+        Y: =90
+        ZIndex: =4
+
