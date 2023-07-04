@@ -1,7 +1,7 @@
 cMenu_NovoLayout As CanvasComponent:
     Fill: =RGBA(0, 0, 0, 0)
     Height: =640
-    Width: =1200
+    Width: =1120
     X: =0
     Y: =0
     ZIndex: =1
@@ -10,7 +10,7 @@ cMenu_NovoLayout As CanvasComponent:
         BorderColor: =RGBA(32, 54, 71, 1)
         Fill: =RGBA(44, 171, 224, 1)
         Height: =123
-        Width: =1200
+        Width: =1120
         ZIndex: =1
 
     Label5 As label:
@@ -133,7 +133,7 @@ cMenu_NovoLayout As CanvasComponent:
         DisabledColor: =RGBA(244, 244, 244, 1)
         Icon: =Icon.Trending
         Width: =60
-        X: =1058
+        X: =1030
         Y: =60
         ZIndex: =8
 

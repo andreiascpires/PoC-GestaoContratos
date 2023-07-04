@@ -137,7 +137,7 @@
           },
           {
             "Category": "Design",
-            "InvariantScript": "1058",
+            "InvariantScript": "1030",
             "Property": "X",
             "RuleProviderType": "Unknown"
           },
@@ -341,7 +341,7 @@
           },
           {
             "Category": "Design",
-            "InvariantScript": "1200",
+            "InvariantScript": "1120",
             "Property": "Width",
             "RuleProviderType": "Unknown"
           },
@@ -2465,7 +2465,7 @@
       "Y",
       "ZIndex"
     ],
-    "LastModifiedTimestamp": "638240821349250879",
+    "LastModifiedTimestamp": "638240822198570371",
     "Name": "cMenu_NovoLayout",
     "Rules": [
       {
@@ -2488,7 +2488,7 @@
       },
       {
         "Category": "Design",
-        "InvariantScript": "1200",
+        "InvariantScript": "1120",
         "Property": "Width",
         "RuleProviderType": "System"
       },
@@ -2524,7 +2524,7 @@
   "IsPcfControl": false,
   "IsPremiumPcfControl": false,
   "IsWidgetTemplate": false,
-  "LastModifiedTimestamp": "638240821349250879",
+  "LastModifiedTimestamp": "638240822198570371",
   "Name": "d0177c42b2804e9584a40ba10d004b68",
   "OverridableProperties": {},
   "Version": "638240780665295092"
