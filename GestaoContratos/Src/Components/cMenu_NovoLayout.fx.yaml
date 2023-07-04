@@ -1,7 +1,7 @@
 cMenu_NovoLayout As CanvasComponent:
     Fill: =RGBA(0, 0, 0, 0)
     Height: =640
-    Width: =1120
+    Width: =1123
     X: =0
     Y: =0
     ZIndex: =1
@@ -10,52 +10,22 @@ cMenu_NovoLayout As CanvasComponent:
         BorderColor: =RGBA(32, 54, 71, 1)
         Fill: =RGBA(44, 171, 224, 1)
         Height: =123
-        Width: =1120
+        Width: =1123
         ZIndex: =1
 
     Label5 As label:
         BorderColor: =RGBA(32, 54, 71, 1)
         Color: =RGBA(247, 248, 250, 1)
         DisabledColor: =RGBA(166, 166, 166, 1)
+        Font: =Font.Arial
         FontWeight: =FontWeight.Bold
-        Height: =70
+        Height: =66
         Size: =21
         Text: ="GESTÃO DE CONTRATOS"
         Width: =560
-        X: =80
+        X: =108
+        Y: =5
         ZIndex: =2
-
-    Icon7 As icon.History:
-        BorderColor: =RGBA(32, 54, 71, 1)
-        Color: =RGBA(247, 248, 250, 1)
-        DisabledBorderColor: =RGBA(166, 166, 166, 1)
-        DisabledColor: =RGBA(244, 244, 244, 1)
-        Icon: =Icon.Tablet
-        X: =16
-        Y: =6
-        ZIndex: =3
-
-    Button7 As button:
-        BorderStyle: =BorderStyle.None
-        DisabledBorderColor: =RGBA(166, 166, 166, 1)
-        DisabledColor: =RGBA(166, 166, 166, 1)
-        DisabledFill: =RGBA(244, 244, 244, 1)
-        Fill: =RGBA(44, 171, 224, 1)
-        FontWeight: =FontWeight.Bold
-        Height: =53
-        HoverColor: =RGBA(44, 171, 224, 1)
-        HoverFill: =RGBA(247, 248, 250, 1)   
-        PressedColor: =RGBA(44, 171, 224, 1)
-        PressedFill: =RGBA(44, 171, 224, 1)
-        RadiusBottomLeft: =3
-        RadiusBottomRight: =3
-        RadiusTopLeft: =3
-        RadiusTopRight: =3
-        Size: =17
-        Text: ="CLIENTES"
-        Width: =128
-        Y: =70
-        ZIndex: =4
 
     Button7_1 As button:
         BorderStyle: =BorderStyle.None
@@ -63,8 +33,9 @@ cMenu_NovoLayout As CanvasComponent:
         DisabledColor: =RGBA(166, 166, 166, 1)
         DisabledFill: =RGBA(244, 244, 244, 1)
         Fill: =RGBA(44, 171, 224, 1)
+        Font: =Font.Arial
         FontWeight: =FontWeight.Bold
-        Height: =53
+        Height: =50
         HoverColor: =RGBA(44, 171, 224, 1)
         HoverFill: =RGBA(247, 248, 250, 1)   
         PressedColor: =RGBA(44, 171, 224, 1)
@@ -73,12 +44,12 @@ cMenu_NovoLayout As CanvasComponent:
         RadiusBottomRight: =3
         RadiusTopLeft: =3
         RadiusTopRight: =3
-        Size: =17
+        Size: =16
         Text: ="CONTRATOS"
         Width: =169
-        X: =190
-        Y: =70
-        ZIndex: =5
+        X: =176
+        Y: =72
+        ZIndex: =3
 
     Button7_2 As button:
         BorderStyle: =BorderStyle.None
@@ -86,8 +57,9 @@ cMenu_NovoLayout As CanvasComponent:
         DisabledColor: =RGBA(166, 166, 166, 1)
         DisabledFill: =RGBA(244, 244, 244, 1)
         Fill: =RGBA(44, 171, 224, 1)
+        Font: =Font.Arial
         FontWeight: =FontWeight.Bold
-        Height: =53
+        Height: =50
         HoverColor: =RGBA(44, 171, 224, 1)
         HoverFill: =RGBA(247, 248, 250, 1)   
         PressedColor: =RGBA(44, 171, 224, 1)
@@ -96,12 +68,12 @@ cMenu_NovoLayout As CanvasComponent:
         RadiusBottomRight: =3
         RadiusTopLeft: =3
         RadiusTopRight: =3
-        Size: =17
+        Size: =16
         Text: ="HISTÓRICO COMERCIAL"
         Width: =277
-        X: =412
-        Y: =70
-        ZIndex: =6
+        X: =363
+        Y: =72
+        ZIndex: =4
 
     Button7_3 As button:
         BorderStyle: =BorderStyle.None
@@ -109,8 +81,9 @@ cMenu_NovoLayout As CanvasComponent:
         DisabledColor: =RGBA(166, 166, 166, 1)
         DisabledFill: =RGBA(244, 244, 244, 1)
         Fill: =RGBA(44, 171, 224, 1)
+        Font: =Font.Arial
         FontWeight: =FontWeight.Bold
-        Height: =53
+        Height: =50
         HoverColor: =RGBA(44, 171, 224, 1)
         HoverFill: =RGBA(247, 248, 250, 1)   
         PressedColor: =RGBA(44, 171, 224, 1)
@@ -119,21 +92,79 @@ cMenu_NovoLayout As CanvasComponent:
         RadiusBottomRight: =3
         RadiusTopLeft: =3
         RadiusTopRight: =3
-        Size: =17
+        Size: =16
         Text: ="CATEGORIAS E STATUS"
         Width: =275
-        X: =724
-        Y: =70
-        ZIndex: =7
+        X: =647
+        Y: =72
+        ZIndex: =5
 
-    Icon8 As icon.History:
+    Icon18 As icon.AddUser:
         BorderColor: =RGBA(32, 54, 71, 1)
         Color: =RGBA(247, 248, 250, 1)
         DisabledBorderColor: =RGBA(166, 166, 166, 1)
         DisabledColor: =RGBA(244, 244, 244, 1)
+        Height: =45
+        HoverColor: |
+            =RGBA(44, 171, 224, 1)
+        HoverFill: |
+            =RGBA(247, 248, 250, 1)  
         Icon: =Icon.Trending
         Width: =60
-        X: =1030
-        Y: =60
+        X: =948
+        Y: =75
+        ZIndex: =6
+
+    UploadedImage2 As image:
+        BorderColor: =RGBA(32, 54, 71, 1)
+        DisabledBorderColor: =RGBA(166, 166, 166, 1)
+        DisabledFill: =RGBA(244, 244, 244, 1)
+        Height: =AddMediaButton2.Height
+        Image: =If(IsBlank(AddMediaButton2.Media), SampleImage, AddMediaButton2.Media)
+        ImagePosition: =ImagePosition.Fill
+        Width: =AddMediaButton2.Width
+        X: =AddMediaButton2.X
+        Y: =AddMediaButton2.Y
+        ZIndex: =7
+
+    Image10 As image:
+        BorderColor: =RGBA(32, 54, 71, 1)
+        DisabledBorderColor: =RGBA(166, 166, 166, 1)
+        DisabledFill: =RGBA(244, 244, 244, 1)
+        Height: =105
+        Image: ='10_1'
+        Width: =123
+        X: =8
         ZIndex: =8
+
+    Rectangle2 As rectangle:
+        BorderColor: =RGBA(32, 54, 71, 1)
+        Fill: =RGBA(44, 171, 224, 1)
+        Height: =30
+        Y: =57
+        ZIndex: =9
+
+    Button7 As button:
+        BorderStyle: =BorderStyle.None
+        DisabledBorderColor: =RGBA(166, 166, 166, 1)
+        DisabledColor: =RGBA(166, 166, 166, 1)
+        DisabledFill: =RGBA(244, 244, 244, 1)
+        Fill: =RGBA(44, 171, 224, 1)
+        Font: =Font.Arial
+        FontWeight: =FontWeight.Bold
+        Height: =50
+        HoverColor: =RGBA(44, 171, 224, 1)
+        HoverFill: =RGBA(247, 248, 250, 1)   
+        PressedColor: =RGBA(44, 171, 224, 1)
+        PressedFill: =RGBA(44, 171, 224, 1)
+        RadiusBottomLeft: =4
+        RadiusBottomRight: =4
+        RadiusTopLeft: =4
+        RadiusTopRight: =4
+        Size: =16
+        Text: ="CLIENTES"
+        Width: =128
+        X: =35
+        Y: =72
+        ZIndex: =10
 

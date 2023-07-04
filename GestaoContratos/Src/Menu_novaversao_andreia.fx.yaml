@@ -8,12 +8,12 @@
 
     cMenu_NovoLayout_1 As cMenu_NovoLayout:
         Height: =121
-        Width: =1123
 
     Label4_3 As label:
         BorderColor: =RGBA(32, 54, 71, 1)
         Color: =RGBA(247, 248, 250, 1)
         DisabledColor: =RGBA(247, 248, 250, 1)
+        Font: =Font.Arial
         FontWeight: =FontWeight.Bold
         Height: =51
         Size: =15
