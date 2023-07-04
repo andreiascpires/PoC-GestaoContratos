@@ -51,7 +51,7 @@
         "Name": "Rectangle1",
         "Parent": "cMenu_NovoLayout",
         "PersistMetaDataIDKey": false,
-        "PublishOrderIndex": 631,
+        "PublishOrderIndex": 630,
         "Rules": [
           {
             "Category": "Design",
@@ -214,7 +214,7 @@
         "Name": "UploadedImage2",
         "Parent": "cMenu_NovoLayout",
         "PersistMetaDataIDKey": false,
-        "PublishOrderIndex": 632,
+        "PublishOrderIndex": 631,
         "Rules": [
           {
             "Category": "Data",
@@ -461,7 +461,7 @@
         "Name": "Image10",
         "Parent": "cMenu_NovoLayout",
         "PersistMetaDataIDKey": false,
-        "PublishOrderIndex": 633,
+        "PublishOrderIndex": 632,
         "Rules": [
           {
             "Category": "Data",
@@ -753,7 +753,7 @@
         "Name": "Label5",
         "Parent": "cMenu_NovoLayout",
         "PersistMetaDataIDKey": false,
-        "PublishOrderIndex": 634,
+        "PublishOrderIndex": 633,
         "Rules": [
           {
             "Category": "Data",
@@ -1060,7 +1060,7 @@
         "Name": "Rectangle2",
         "Parent": "cMenu_NovoLayout",
         "PersistMetaDataIDKey": false,
-        "PublishOrderIndex": 635,
+        "PublishOrderIndex": 634,
         "Rules": [
           {
             "Category": "Design",
@@ -1334,7 +1334,7 @@
         "Name": "Button7",
         "Parent": "cMenu_NovoLayout",
         "PersistMetaDataIDKey": false,
-        "PublishOrderIndex": 636,
+        "PublishOrderIndex": 635,
         "Rules": [
           {
             "Category": "Data",
@@ -1464,7 +1464,7 @@
           },
           {
             "Category": "Design",
-            "InvariantScript": "72",
+            "InvariantScript": "73.1",
             "Property": "Y",
             "RuleProviderType": "Unknown"
           },
@@ -1728,7 +1728,7 @@
         "Name": "Button7_1",
         "Parent": "cMenu_NovoLayout",
         "PersistMetaDataIDKey": false,
-        "PublishOrderIndex": 637,
+        "PublishOrderIndex": 636,
         "Rules": [
           {
             "Category": "Data",
@@ -1858,7 +1858,7 @@
           },
           {
             "Category": "Design",
-            "InvariantScript": "72",
+            "InvariantScript": "73.1",
             "Property": "Y",
             "RuleProviderType": "Unknown"
           },
@@ -2122,7 +2122,7 @@
         "Name": "Button7_2",
         "Parent": "cMenu_NovoLayout",
         "PersistMetaDataIDKey": false,
-        "PublishOrderIndex": 638,
+        "PublishOrderIndex": 637,
         "Rules": [
           {
             "Category": "Data",
@@ -2252,7 +2252,7 @@
           },
           {
             "Category": "Design",
-            "InvariantScript": "72",
+            "InvariantScript": "73.1",
             "Property": "Y",
             "RuleProviderType": "Unknown"
           },
@@ -2516,7 +2516,7 @@
         "Name": "Button7_3",
         "Parent": "cMenu_NovoLayout",
         "PersistMetaDataIDKey": false,
-        "PublishOrderIndex": 639,
+        "PublishOrderIndex": 638,
         "Rules": [
           {
             "Category": "Data",
@@ -2646,7 +2646,7 @@
           },
           {
             "Category": "Design",
-            "InvariantScript": "72",
+            "InvariantScript": "73.1",
             "Property": "Y",
             "RuleProviderType": "Unknown"
           },
@@ -2835,7 +2835,7 @@
         "Name": "Icon18",
         "Parent": "cMenu_NovoLayout",
         "PersistMetaDataIDKey": false,
-        "PublishOrderIndex": 640,
+        "PublishOrderIndex": 639,
         "Rules": [
           {
             "Category": "Design",
@@ -2905,7 +2905,7 @@
           },
           {
             "Category": "Design",
-            "InvariantScript": "75",
+            "InvariantScript": "73.1",
             "Property": "Y",
             "RuleProviderType": "Unknown"
           },
@@ -3008,7 +3008,7 @@
       "Y",
       "ZIndex"
     ],
-    "LastModifiedTimestamp": "638240943914298968",
+    "LastModifiedTimestamp": "638241040097469461",
     "Name": "cMenu_NovoLayout",
     "Rules": [
       {
@@ -3067,7 +3067,7 @@
   "IsPcfControl": false,
   "IsPremiumPcfControl": false,
   "IsWidgetTemplate": false,
-  "LastModifiedTimestamp": "638240943914298968",
+  "LastModifiedTimestamp": "638241040097469461",
   "Name": "d0177c42b2804e9584a40ba10d004b68",
   "OverridableProperties": {},
   "Version": "638240780665295092"
