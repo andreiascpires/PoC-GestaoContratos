@@ -22,7 +22,7 @@ novo_contrato As screen:
         Size: =21
         Width: =560
         X: =264
-        Y: =75
+        Y: =62
         ZIndex: =1
 
     Dropdown3 As dropdown:
@@ -69,7 +69,7 @@ novo_contrato As screen:
         Size: =21
         Width: =270
         X: =264
-        Y: =270
+        Y: =283
         ZIndex: =3
 
     TextInput4_1 As text:
@@ -92,7 +92,7 @@ novo_contrato As screen:
         Size: =21
         Width: =270
         X: =554
-        Y: =270
+        Y: =283
         ZIndex: =4
 
     DatePicker1 As datepicker:
@@ -109,7 +109,7 @@ novo_contrato As screen:
         Size: =24
         Width: =270
         X: =264
-        Y: =359
+        Y: =385
         ZIndex: =5
 
     DatePicker2 As datepicker:
@@ -126,7 +126,7 @@ novo_contrato As screen:
         Size: =24
         Width: =270
         X: =554
-        Y: =359
+        Y: =385
         ZIndex: =6
 
     Button12 As button:
@@ -142,7 +142,7 @@ novo_contrato As screen:
         Text: ="ANEXAR ARQUIVO"
         Width: =500
         X: =294
-        Y: =448
+        Y: =474
         ZIndex: =7
 
     Button13 As button:
@@ -158,7 +158,7 @@ novo_contrato As screen:
         Text: ="CANCELAR"
         Width: =240
         X: =294
-        Y: =529
+        Y: =555
         ZIndex: =8
 
     Button15 As button:
@@ -174,7 +174,7 @@ novo_contrato As screen:
         Text: ="SALVAR"
         Width: =240
         X: =554
-        Y: =529
+        Y: =555
         ZIndex: =9
 
     Label14 As label:
@@ -186,7 +186,7 @@ novo_contrato As screen:
         Text: ="Nome do contrato"
         Width: =290
         X: =254
-        Y: =21
+        Y: =8
         ZIndex: =10
 
     Label14_1 As label:
@@ -210,7 +210,7 @@ novo_contrato As screen:
         Text: ="Prazo contratado"
         Width: =560
         X: =254
-        Y: =217
+        Y: =230
         ZIndex: =12
 
     Label14_3 As label:
@@ -222,7 +222,7 @@ novo_contrato As screen:
         Text: ="Valor contratado"
         Width: =560
         X: =544
-        Y: =217
+        Y: =230
         ZIndex: =13
 
     Label14_4 As label:
@@ -234,7 +234,7 @@ novo_contrato As screen:
         Text: ="Data início"
         Width: =560
         X: =264
-        Y: =315
+        Y: =341
         ZIndex: =14
 
     Label14_5 As label:
@@ -246,6 +246,6 @@ novo_contrato As screen:
         Text: ="Data fim"
         Width: =560
         X: =554
-        Y: =315
+        Y: =341
         ZIndex: =15
 
