@@ -140,6 +140,7 @@
     "Historico Comercial Nova Versão",
     "Contratos",
     "Contratos_novaversao_david",
+    "novo_contrato",
     "Anexos",
     "Anexos_Contrato",
     "Tabela Status da Vigência",
@@ -154,7 +155,6 @@
     "tela_edita_contrato_gabriel",
     "cadastro_cliente",
     "consulta_cliente",
-    "sandbox_blob",
-    "Screen1"
+    "sandbox_blob"
   ]
 }
