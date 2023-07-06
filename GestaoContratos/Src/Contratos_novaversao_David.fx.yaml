@@ -32,7 +32,7 @@ Contratos_novaversao_david As screen:
         TemplateSize: =60
         Width: =491
         X: =27
-        Y: =285
+        Y: =278
         ZIndex: =2
 
         Button14 As button:
@@ -121,8 +121,8 @@ Contratos_novaversao_david As screen:
         TemplatePadding: =0
         TemplateSize: =80
         Width: =534
-        X: =556
-        Y: =215
+        X: =543
+        Y: =236
         ZIndex: =3
 
         Button16 As button:
